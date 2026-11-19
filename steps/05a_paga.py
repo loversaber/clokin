@@ -59,6 +59,45 @@ fig.colorbar(im, ax=ax, shrink=0.7, label='PAGA connectivity')
 ax.set_title(f'PAGA connectivity ({a.n_obs:,} cells, {sp["paga_neighbors"]} neighbours)', fontsize=9)
 fig.tight_layout()
 fig.savefig(out / 'paga_connectivity.pdf', metadata={'CreationDate': None})
+plt.close(fig)
+
+umap = cells.loc[keep, ['UMAP1', 'UMAP2']].values
+pos = pd.DataFrame(umap, index=a.obs_names).groupby(a.obs['pop'].values, observed=True).median().reindex(pops)
+pos.to_csv(out / 'paga_node_positions.csv')
+size = a.obs['pop'].value_counts().reindex(pops)
+colors = [cfg.get('colors', {}).get(p, '0.5') for p in pops]
+cell_col = a.obs['pop'].map(dict(zip(pops, colors))).astype(object).values
+order = np.random.default_rng(0).permutation(a.n_obs)
+thr = sp.get('paga_threshold', 0.1)
+fig, axes = plt.subplots(1, 2, figsize=(14, 6.5))
+for ax, show_cells in zip(axes, [True, False]):
+    if show_cells:
+        ax.scatter(umap[order, 0], umap[order, 1], c=cell_col[order], s=0.2, lw=0, rasterized=True)
+    for i in range(len(pops)):
+        for j in range(i + 1, len(pops)):
+            w = conn.values[i, j]
+            if w >= thr:
+                ax.plot(pos.iloc[[i, j], 0], pos.iloc[[i, j], 1], color='0.15', lw=0.5 + 5 * w, alpha=0.75, zorder=2,
+                        solid_capstyle='round')
+    node_s = 40 + 600 * np.sqrt(size / size.max())
+    ax.scatter(pos.iloc[:, 0], pos.iloc[:, 1], s=node_s, c=colors, edgecolors='0.15', lw=0.8, zorder=3)
+    if not show_cells:
+        for p, (x, y) in pos.iterrows():
+            ax.annotate(p, (x, y), xytext=(0, 3 + np.sqrt(node_s[p]) / 2), textcoords='offset points', ha='center',
+                        fontsize=7, zorder=4)
+    ax.set_xticks([])
+    ax.set_yticks([])
+    ax.set_xlabel('UMAP1')
+    ax.set_ylabel('UMAP2')
+    ax.spines[['top', 'right']].set_visible(False)
+axes[0].set_title('cells on the UMAP, PAGA graph on top', fontsize=9)
+axes[1].set_title(f'PAGA graph (edges: connectivity >= {thr}; width = connectivity; node size = cells)', fontsize=9)
+for w in [0.25, 0.5, 1.0]:
+    axes[1].plot([], [], color='0.15', lw=0.5 + 5 * w, alpha=0.75, label=f'{w}')
+axes[1].legend(title='connectivity', frameon=False, fontsize=7, title_fontsize=7, loc='lower right')
+fig.tight_layout()
+fig.savefig(out / 'paga_umap.pdf', metadata={'CreationDate': None}, dpi=300)
+plt.close(fig)
 
 top = conn.where(np.triu(np.ones(conn.shape, bool), 1)).stack().sort_values(ascending=False)
 print('strongest links:')

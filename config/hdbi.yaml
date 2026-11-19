@@ -107,5 +107,30 @@ carta:
 support:
   pca: inputs/pca_harmony.parquet         # cells x components, same cells as inputs.cells
   paga_neighbors: 15
+  paga_threshold: 0.1                     # edges drawn in the PAGA figure
   cospar_python: /rds/project/rds-SDzz0CATGms/users/ql321/tools/micromamba_envs/envs/cospar_env/bin/python
   cospar_times: [all, D10, D17]           # D3 has almost no mature cells
+
+# population colours (d_cts_colors; HSC/MPP = MPP grey)
+colors:
+  HSC/MPP: '#aaaaaa'
+  ELP: '#73ab35'
+  My-Ly progenitor: '#459488'
+  MEMP: '#ff815e'
+  GMP: '#80cbc4'
+  EoBasoMast Precursor: '#824a01'
+  Mast cell progenitor: '#ebe199'
+  Monocyte progenitor: '#7edef4'
+  Neutrophil progenitor: '#7ab9e1'
+  Megakaryocyte: '#844676'
+  CFU-E: '#d9a3cd'
+  Pro-Erythroblast: '#eeb2bf'
+  Basophilic Erythroblast: '#f56d8a'
+  Polychromatic Erythroblast: '#e1264d'
+  Orthochromatic Erythroblast: '#961933'
+  Mast cell: '#d3bb1a'
+  Basophil: '#C45D2F'
+  Eosinophil: '#f5a311'
+  Monocyte: '#0ea3f0'
+  Neutrophil: '#000080'
+  DC: '#355314'

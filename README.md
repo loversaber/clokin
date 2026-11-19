@@ -15,7 +15,7 @@ All settings of a dataset are in one file (`config/<dataset>.yaml`); the steps r
 | `02_carta_matrix.py` | clone x fate presence, unique fate profiles | python | `carta/clone_type_mat.csv` |
 | `03_carta_sweep.py` | CARTA ILP, tree mode, k = 1..kmax (`--submit`: SLURM CPU job) | carta + Gurobi | `carta/sweep/` |
 | `04_carta_tree.py` | discrepancy D(k), elbow, potencies at every k, tree at the chosen k | python | `carta/pareto.*`, `carta/tree_k*` |
-| `05a_paga.py` | PAGA connectivity between populations (expression only) | python | `support/paga_connectivity.*` |
+| `05a_paga.py` | PAGA connectivity between populations (expression only); PAGA graph on the UMAP | python | `support/paga_connectivity.*`, `support/paga_umap.pdf` |
 | `05b_cospar.py` | CoSpar clonal fate coupling, all cells and per timepoint (starts `support.cospar_python` itself) | python + cospar_env | `support/cospar_coupling_*` |
 | 05c (to do) | one table of candidate edges with CARTA, CoSpar and PAGA evidence | python | `support/edges.csv` |
 | 06 (to do) | transition graph between populations from the curated edge table | python | `data/graph_table.csv` |
