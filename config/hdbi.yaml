@@ -142,3 +142,47 @@ colors:
   Monocyte: '#0ea3f0'
   Neutrophil: '#000080'
   DC: '#355314'
+
+# transition graph used by CLADES (step 6): source -> targets; decided from support/edges.csv (2026-11-19)
+#   = previous graph (run_CLADES_260901) - GMP->DC (0/284 GMP clones make DC) + ELP->DC (45 % of ELP clones, PAGA .61)
+#     + EoBasoMast Precursor->Mast cell progenitor (21 % of EoBaMC clones, PAGA .38; MEMP->Mast prog also kept)
+#   not added: MEMP->Pro-Erythroblast (MEMP->CFU-E PAGA .87 covers it), GMP->EoBaMC (2 % of GMP clones),
+#   PAGA-only links between committed/mature types
+graph:
+  HSC/MPP: [ELP, My-Ly progenitor, MEMP, GMP]
+  ELP: [My-Ly progenitor, DC]
+  My-Ly progenitor: [GMP, DC]
+  GMP: [Monocyte progenitor, Neutrophil progenitor]
+  MEMP: [Megakaryocyte, CFU-E, Mast cell progenitor, EoBasoMast Precursor]
+  EoBasoMast Precursor: [Mast cell progenitor, Basophil, Eosinophil]
+  Mast cell progenitor: [Mast cell]
+  Monocyte progenitor: [Monocyte]
+  Neutrophil progenitor: [Neutrophil]
+  CFU-E: [Pro-Erythroblast]
+  Pro-Erythroblast: [Basophilic Erythroblast]
+  Basophilic Erythroblast: [Polychromatic Erythroblast]
+  Polychromatic Erythroblast: [Orthochromatic Erythroblast]
+
+# CLADES (step 7): fit, then Gillespie; GPU jobs chained with SLURM
+clades:
+  code_dir: /rds/project/rds-SDzz0CATGms/users/ql321/work/larry_barcode/analysis_SLX24185_240304/big_datasets/run_CLADES_241026/clonaltrans/clonaltrans   # StatBiomed/clonaltrans a2d6013
+  python: /rds/project/rds-SDzz0CATGms/users/ql321/tools/scVI_env3/bin/python3
+  slurm_gpu_account: gottgens-sl2-gpu
+  slurm_gpu_partition: ampere
+  K_type: dynamic
+  hidden_dim: 32
+  activation: softplus
+  epochs: 2500
+  learning_rate: 1.0e-3
+  lr_milestones: [200, 400, 600, 800, 1000]
+  alphas: [1.0, 0.5, 0.5, 0.25, 0.05, 0.5]
+  ub_for_prol: 6
+  ub_for_diff: 6
+  seed: 42
+  fit_hours: 16
+  gillespie: {time_interval: 0.01, concurrent: 20, epoch: 50, t_cutoff: 1.0e-4, hours: 24}
+
+# diagnostics (step 8): rows below either threshold are labelled 'do not quote'
+diagnostics:
+  min_cells_last: 40000                   # scaled cells at the last timepoint
+  min_pops_last: 4                        # populations with cells at the last timepoint

@@ -17,11 +17,12 @@ All settings of a dataset are in one file (`config/<dataset>.yaml`); the steps r
 | `04_carta_tree.py` | discrepancy D(k), elbow, potencies at every k, tree at the chosen k | python | `carta/pareto.*`, `carta/tree_k*` |
 | `05a_paga.py` | PAGA connectivity between populations (expression only); PAGA graph on the UMAP | python | `support/paga_connectivity.*`, `support/paga_umap.pdf` |
 | `05b_cospar.py` | CoSpar clonal fate coupling, all cells and per timepoint (starts `support.cospar_python` itself) | python + cospar_env | `support/cospar_coupling_*` |
-| `05c_edges.py` | candidate edges (previous graph + PAGA links) with clonal share, PAGA and CoSpar evidence, a status, and an empty `use` column to fill in | python | `support/edges.csv`, `support/potency.csv` |
-| 06 (to do) | transition graph between populations from the curated edge table | python | `data/graph_table.csv` |
-| 07 (to do) | CLADES fit, Gillespie, bootstrap (chained SLURM GPU jobs) | CLADES (torch) | `clades/` |
-| 08 (to do) | per-meta-clone diagnostics: observed vs predicted, trust label, constraint checks | CLADES (torch, CPU) | `diagnostics/` |
-| 09 (to do) | figures | python | `figures/` |
+| `05c_edges.py` | candidate edges (previous graph + PAGA links) with clonal share, PAGA and CoSpar evidence and a status | python | `support/edges.csv`, `support/potency.csv` |
+| `05d_trees.py` | fate similarity and fate trees from CARTA (progenitor co-membership), CoSpar (clonal coupling) and PAGA (graph distance), side by side | python | `support/trees.pdf`, `support/fate_similarity_*.csv` |
+| `06_graph.py` | transition graph from the `graph` section of the config (decided from `support/edges.csv`); checks every population is reachable | python | `data/graph_table.csv`, `support/edges_used.csv` |
+| `07_clades.py` | CLADES configs and job scripts; `--submit`: fit, then Gillespie after the fit succeeds (SLURM GPU) | python | `clades/` |
+| `08_diagnostics.py` | observed vs predicted per row, trust label, rates, constraint checks, convergence; Gillespie fate probabilities and divisions (starts `clades.python` itself, CPU) | python + CLADES env | `diagnostics/` |
+| `09_figures.py` | graph on the UMAP, fit, trajectories, composition, rates, fate probabilities, divisions, convergence | python | `figures/` |
 
 ```bash
 python steps/01_inputs.py config/hdbi.yaml
@@ -30,7 +31,12 @@ python steps/03_carta_sweep.py config/hdbi.yaml --submit
 python steps/04_carta_tree.py config/hdbi.yaml        # after the sweep
 python steps/05a_paga.py config/hdbi.yaml
 python steps/05b_cospar.py config/hdbi.yaml
-python steps/05c_edges.py config/hdbi.yaml        # then fill in `use` in support/edges.csv
+python steps/05d_trees.py config/hdbi.yaml
+python steps/05c_edges.py config/hdbi.yaml        # then write the chosen edges in the `graph` section of the config
+python steps/06_graph.py config/hdbi.yaml
+python steps/07_clades.py config/hdbi.yaml --submit
+python steps/08_diagnostics.py config/hdbi.yaml   # after the fit; again after Gillespie
+python steps/09_figures.py config/hdbi.yaml
 ```
 
 ## Choices in the config
@@ -52,8 +58,25 @@ python steps/05c_edges.py config/hdbi.yaml        # then fill in `use` in suppor
 For the HDBI data these are `inputs/obs_umap.parquet` and `outputs/fig4_metaclones/Fig4_metaclone_labels.csv` of
 `hdbi_larry_atlas` and `figure1_analysis_251028/df_scf_all_neg_251116.pkl`.
 
+## Methods used (please cite)
+
+clokin organises the steps; the methods are those of the original authors.
+
+| step | method | reference |
+|---|---|---|
+| meta-clones (input) | clomet | github.com/loversaber/clomet |
+| 2–4 | CARTA, cell differentiation maps from lineage tracing | Sashittal et al., Raphael lab (full reference: TODO) |
+| 5a | PAGA | Wolf et al., Genome Biology 2019 |
+| 5b | CoSpar | Wang et al., Nature Biotechnology 2022 |
+| 7–8 | CLADES | Gao, Barile et al., Nature Communications 2025 (full reference: TODO) |
+
 ## External code
 
-- CARTA: github.com/raphael-group/CARTA, commit cd5733c9 (`scripts/larry.py`); needs Gurobi
-  (`tools.gurobi_license`).
-- CLADES: github.com/StatBiomed/clonaltrans, commit a2d6013.
+clokin does not contain these programs; it runs them from a local copy. The commit is the version used, so that
+results can be reproduced if the projects change later.
+
+- CARTA: github.com/raphael-group/CARTA, commit cd5733c9. Step 3 runs `scripts/larry.py`, an integer linear
+  program solved with Gurobi (licence: `tools.gurobi_license`).
+- CLADES: github.com/StatBiomed/clonaltrans (the CLADES code), commit a2d6013. Steps 7 and 8 run `main.py`
+  (fit) and `main_gillespie.py` (Gillespie simulations).
+- CoSpar 0.5.0 and scanpy (PAGA), installed in the environments named in the config.

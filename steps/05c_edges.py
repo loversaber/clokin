@@ -16,7 +16,7 @@ status:
   no clonal data A has fewer than min_d3_clones first-timepoint clones; PAGA only
   no support     neither
   mature-mature  both populations terminal: not a differentiation step
-writes runs/<run_name>/support/edges.csv (column `use` to fill in: 1 / 0) and potency.csv (fate output of each
+writes runs/<run_name>/support/edges.csv (column `use` is filled in by step 6) and potency.csv (fate output of each
 population's first-timepoint clones)
 """
 import sys
