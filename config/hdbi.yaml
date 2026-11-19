@@ -1,0 +1,111 @@
+# kinetree settings for the HDBI LARRY data (FL / FBM / CB, D3 / D10 / D17)
+
+run_name: hdbi_261119
+runs_dir: runs
+
+inputs:
+  cells: inputs/obs_umap.parquet          # one row per cell
+  labels: inputs/metaclone_labels.csv     # one row per clone: clone_id, meta_clone
+  scaling: inputs/scaling_factors.pkl     # experiment x timepoint factor, raw -> absolute cell number
+
+columns:
+  clone: Clone_X
+  celltype: def_lab2
+  timepoint: Timepoint
+  experiment: Donor_Tissue
+  label_clone: clone_id
+  label_group: meta_clone
+
+cell_filter:                              # keep cells where column == value
+  GlyA_Syb: GlyA-
+
+timepoints:                               # name in the cell table: day
+  D3: 3
+  D10: 10
+  D17: 17
+
+group_prefix: MTC                         # row names MTC1..MTC19, then BG
+
+# populations in model order; the first one is the root (all day-0 cells start there)
+populations:
+  HSC/MPP: [HSC1, HSC2, MPP]
+  ELP: [ELP]
+  My-Ly progenitor: [My-Ly progenitor]
+  MEMP: [MEMP]
+  GMP: [GMP]
+  EoBasoMast Precursor: [EoBasoMast Precursor]
+  Mast cell progenitor: [Mast cell progenitor]
+  Monocyte progenitor: [Monocyte progenitor]
+  Neutrophil progenitor: [neutrophil prognitor]
+  Megakaryocyte: [Megakaryocyte]
+  CFU-E: [CFU-E]
+  Pro-Erythroblast: [Pro-Erythroblast]
+  Basophilic Erythroblast: [Basophilic Erythroblast]
+  Polychromatic Erythroblast: [Polychromatic Erythroblast]
+  Orthochromatic Erythroblast: [Orthochromatic Erythroblast]
+  Mast cell: [Mast cell]
+  Basophil: [Basophil]
+  Eosinophil: [Eosinophil]
+  Monocyte: [Monocyte]
+  Neutrophil: [neutrophil]
+  DC: [Pre-cDC]
+
+terminal: [Megakaryocyte, Orthochromatic Erythroblast, Mast cell, Basophil, Eosinophil, Monocyte, Neutrophil, DC]
+early: [HSC/MPP, ELP, My-Ly progenitor, MEMP, GMP, EoBasoMast Precursor, Mast cell progenitor,
+        Monocyte progenitor, Neutrophil progenitor]
+
+# day 0: 'founders' = number of clones per group (CLADES authors, cord blood example);
+#        'd3_total' = scaled D3 cell total per group (runs 260901 / 260903)
+day0: founders
+
+# background row: all filtered cells of the scaled experiments (barcoded or not);
+# its day 0 is the number of clones with at least one filtered cell
+
+# programs and environments
+tools:
+  python: /rds/project/rds-SDzz0CATGms/users/ql321/tools/micromamba_envs/envs/rpy2_env3/bin/python
+  carta_python: /rds/project/rds-SDzz0CATGms/users/ql321/tools/micromamba_envs/envs/carta/bin/python3
+  carta_dir: /rds/project/rds-SDzz0CATGms/users/ql321/work/larry_barcode/SLX26813_250925/landscape_251007/2_fig2_analysis_251203/meta_clones_prog_260111/carta_tree_process_260723/CARTA   # raphael-group/CARTA cd5733c9
+  gurobi_license: /usr/local/Cluster-Apps/gurobi/12.0.3/linux64/licenses/gurobi.lic
+  slurm_cpu_account: gottgens-sl2-cpu
+  slurm_cpu_partition: icelake
+
+# CARTA: clone x fate presence -> progenitor potencies -> tree
+carta:
+  fates:                                  # cell type -> fate; Undifferentiated = not a fate
+    HSC1: Undifferentiated
+    HSC2: Undifferentiated
+    MPP: Undifferentiated
+    MEMP: Undifferentiated
+    GMP: Undifferentiated
+    ELP: Undifferentiated
+    My-Ly progenitor: Undifferentiated
+    EoBasoMast Precursor: Undifferentiated
+    CFU-E: Erythroid
+    Pro-Erythroblast: Erythroid
+    Basophilic Erythroblast: Erythroid
+    Polychromatic Erythroblast: Erythroid
+    Orthochromatic Erythroblast: Erythroid
+    Mast cell progenitor: Mast
+    Mast cell: Mast
+    neutrophil prognitor: Neutrophil
+    neutrophil: Neutrophil
+    Monocyte progenitor: Monocyte
+    Monocyte: Monocyte
+    Pre-cDC: DC
+    Megakaryocyte: Meg
+    Basophil: Basophil
+    Eosinophil: Eosinophil
+  clones: all                             # 'all' barcoded clones, or 'labelled' (meta-clone clones only)
+  min_cells_per_fate: 1                   # a clone has a fate if it has at least this many cells of it
+  threshold: 5                            # larry.py -t: drop fate profiles seen in fewer clones
+  kmax: 8                                 # sweep k = 1..kmax progenitors (tree mode, -r)
+  k: 7                                    # k used for the tree; 'elbow' = kneedle choice
+  short: {Erythroid: Ery, Mast: Ma, Monocyte: Mo, Neutrophil: Neu, Eosinophil: Eo, Basophil: Ba, DC: DC, Meg: Meg}
+
+# support for the tree: PAGA (expression only) and CoSpar (clonal fate coupling)
+support:
+  pca: inputs/pca_harmony.parquet         # cells x components, same cells as inputs.cells
+  paga_neighbors: 15
+  cospar_python: /rds/project/rds-SDzz0CATGms/users/ql321/tools/micromamba_envs/envs/cospar_env/bin/python
+  cospar_times: [all, D10, D17]           # D3 has almost no mature cells
