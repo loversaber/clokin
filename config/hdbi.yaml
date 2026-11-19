@@ -111,6 +111,14 @@ support:
   cospar_python: /rds/project/rds-SDzz0CATGms/users/ql321/tools/micromamba_envs/envs/cospar_env/bin/python
   cospar_times: [all, D10, D17]           # D3 has almost no mature cells
 
+# candidate edges (step 5c): previous graph + PAGA links; evidence per edge
+edges:
+  previous_graph: ../2_fig2_analysis_251203/meta_clones_prog_260111/run_CLADES_260901/data/graph_table_260901.csv
+  paga_candidate: 0.15                    # PAGA links at least this strong become candidates
+  paga_support: 0.10                      # PAGA supports an edge at least this strong
+  min_d3_clones: 20                       # source populations with fewer D3 clones have no clonal evidence
+  clonal_support: 0.05                    # share of the source's D3 clones with cells in the target at later days
+
 # population colours (d_cts_colors; HSC/MPP = MPP grey)
 colors:
   HSC/MPP: '#aaaaaa'

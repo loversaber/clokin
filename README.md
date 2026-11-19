@@ -17,7 +17,7 @@ All settings of a dataset are in one file (`config/<dataset>.yaml`); the steps r
 | `04_carta_tree.py` | discrepancy D(k), elbow, potencies at every k, tree at the chosen k | python | `carta/pareto.*`, `carta/tree_k*` |
 | `05a_paga.py` | PAGA connectivity between populations (expression only); PAGA graph on the UMAP | python | `support/paga_connectivity.*`, `support/paga_umap.pdf` |
 | `05b_cospar.py` | CoSpar clonal fate coupling, all cells and per timepoint (starts `support.cospar_python` itself) | python + cospar_env | `support/cospar_coupling_*` |
-| 05c (to do) | one table of candidate edges with CARTA, CoSpar and PAGA evidence | python | `support/edges.csv` |
+| `05c_edges.py` | candidate edges (previous graph + PAGA links) with clonal share, PAGA and CoSpar evidence, a status, and an empty `use` column to fill in | python | `support/edges.csv`, `support/potency.csv` |
 | 06 (to do) | transition graph between populations from the curated edge table | python | `data/graph_table.csv` |
 | 07 (to do) | CLADES fit, Gillespie, bootstrap (chained SLURM GPU jobs) | CLADES (torch) | `clades/` |
 | 08 (to do) | per-meta-clone diagnostics: observed vs predicted, trust label, constraint checks | CLADES (torch, CPU) | `diagnostics/` |
@@ -30,6 +30,7 @@ python steps/03_carta_sweep.py config/hdbi.yaml --submit
 python steps/04_carta_tree.py config/hdbi.yaml        # after the sweep
 python steps/05a_paga.py config/hdbi.yaml
 python steps/05b_cospar.py config/hdbi.yaml
+python steps/05c_edges.py config/hdbi.yaml        # then fill in `use` in support/edges.csv
 ```
 
 ## Choices in the config
