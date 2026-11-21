@@ -4,8 +4,10 @@
 usage: python steps/01_inputs.py config/<dataset>.yaml
 
 writes runs/<run_name>/data/:
-  kinetics.txt            (groups + BG) x (timepoints x populations), scaled cell counts
-  initial_condition.csv   day-0 cells per row (placed in the root population by CLADES)
+  kinetics.txt            (groups + BG) x (timepoints x populations), scaled cell counts; with clades.version '1.2'
+                          the day-0 block comes first (CLADES v1.2.0 reads day 0 from here)
+  initial_condition.csv   day-0 cells per row (CLADES before v1.2.0 puts them in the root population)
+  day0.csv                day-0 cells per row and population
   annotations.csv         row names (groups, BG) and population names
   counts_long.csv         the same counts as a table, plus raw cell numbers
   clades_params.json      t_observed, scaling_factor, no_proliferation_pops, no_apoptosis_pops
@@ -48,12 +50,15 @@ assert obs.sf.notna().all()
 group_of = labels.set_index(col['label_clone'])[col['label_group']].astype(str)
 obs['group'] = obs.clone.map(group_of)
 groups = sorted(group_of.unique(), key=lambda g: (len(g), g))
+if cfg.get('keep_groups'):
+    groups = [g for g in groups if g in set(map(str, cfg['keep_groups']))]
 names = [f"{cfg['group_prefix']}{g}" for g in groups] + ['BG']
 
 print(f'cells kept: {len(obs):,} of {len(cells):,} ({obs.exp.nunique()} experiments); cell types not used: {unmapped}')
 print(f'labelled clones: {len(group_of):,}, with kept cells: {obs.clone.isin(group_of.index).groupby(obs.clone).any().sum():,}')
 
-mc = obs[obs.group.notna()]
+labelled = obs[obs.group.notna()]
+mc = labelled[labelled.group.isin(groups)]
 if cfg.get('clades_rounding'):
     # as the CLADES cord blood notebook: each clone's scaled count rounded (float32), background truncated
     per_clone = mc.groupby(['group', 'clone', 'tp', 'pop']).agg(n_raw=('sf', 'size'), sf=('sf', 'first')).reset_index()
@@ -74,13 +79,36 @@ kin = (long.pivot_table(index='row', columns=['tp', 'pop'], values='n_scaled', a
        .reindex(index=names, columns=pd.MultiIndex.from_product([tps, pops])).fillna(0).round())
 np.savetxt(out / 'kinetics.txt', kin.values, fmt='%d')
 
+# day 0: founders = one cell per clone (background: all clones); all in the root population, or with
+# founders_split (CLADES v1.2.0) split over day0_populations as the row's first-timepoint cells in them
+n_founders = group_of.value_counts().reindex(groups).tolist() + [cfg.get('day0_background_founders', obs.clone.dropna().nunique())]
+day0 = pd.DataFrame(0.0, index=names, columns=pops)
 if cfg['day0'] == 'founders':
-    d0 = group_of.value_counts().reindex(groups).tolist() + [obs.clone.dropna().nunique()]
+    day0[pops[0]] = n_founders
+elif cfg['day0'] == 'founders_split':
+    d0_pops = cfg['day0_populations']
+    base = obs[obs.clone.notna()]
+    if cfg.get('day0_split_clones', 'all') == 'seen_at_all_timepoints':
+        # CLADES v1.2.0: only clones with cells at every timepoint
+        seen = base.groupby('clone').tp.nunique()
+        base = base[base.clone.isin(seen[seen == len(tps)].index)]
+    first = base[base.tp == tps[0]]
+    for name, cells_g, n in zip(names, [first[first.group == g] for g in groups] + [first], n_founders):
+        share = cells_g['pop'].value_counts().reindex(d0_pops).fillna(0)
+        if share.sum():
+            day0.loc[name, d0_pops] = np.round(share / share.sum() * n).values
+        else:
+            day0.loc[name, pops[0]] = n
 elif cfg['day0'] == 'd3_total':
-    d0 = kin[tps[0]].sum(axis=1).tolist()
+    day0[pops[0]] = kin[tps[0]].sum(axis=1).values
 else:
-    raise ValueError(f"day0 must be 'founders' or 'd3_total', not {cfg['day0']}")
-pd.DataFrame({'leiden': np.round(d0).astype(int)}).to_csv(out / 'initial_condition.csv')
+    raise ValueError(f"day0 must be 'founders', 'founders_split' or 'd3_total', not {cfg['day0']}")
+day0 = day0.round().astype(int)
+d0 = day0.sum(axis=1).tolist()
+day0.to_csv(out / 'day0.csv')
+pd.DataFrame({'leiden': d0}).to_csv(out / 'initial_condition.csv')
+if str(cfg.get('clades', {}).get('version', 'main')) == '1.2':
+    np.savetxt(out / 'kinetics.txt', np.hstack([day0.values, kin.values]), fmt='%d')
 
 n = max(len(names), len(pops))
 pd.DataFrame({'clones': names + [''] * (n - len(names)),

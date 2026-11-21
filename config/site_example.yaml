@@ -10,7 +10,9 @@ tools:
 support:
   cospar_python: /path/to/envs/cospar/bin/python     # cospar 0.5.0
 clades:
-  code_dir: /path/to/clonaltrans/clonaltrans         # github.com/StatBiomed/clonaltrans (a2d6013)
+  code_dirs:                                         # github.com/StatBiomed/clonaltrans, one folder per clades.version
+    '1.2': /path/to/clonaltrans_v1.2.0/clonaltrans    #   branch v1.2.0 (the published release)
+    main: /path/to/clonaltrans_main/clonaltrans       #   branch main (a2d6013, before v1.2.0); optional
   python: /path/to/envs/clades/bin/python            # torch (CUDA), torchdiffeq, natsort, CLADES requirements
   slurm_gpu_account: your-gpu-account
   slurm_gpu_partition: your-gpu-partition

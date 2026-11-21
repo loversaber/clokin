@@ -13,7 +13,9 @@ writes runs/<run_name>/diagnostics/:
   convergence.csv       loss terms over the epochs (from the fit log)
   fate_prob.csv         Gillespie: P(a lineage from one root cell reaches each population) per row, with trust label
                         (simulations counted once per seed, as in CLADES get_fate_prob; res_div.txt can hold duplicates)
-  divisions.csv         Gillespie: mean number of divisions from the root to reach each population
+  divisions.csv         Gillespie: mean number of divisions from the founder to reach each population
+  gillespie_starts.csv  population each simulated founder started in (CLADES v1.2.0 samples it from day 0; before:
+                        always the root)
 trust: a row is 'use' when it has at least diagnostics.min_cells_last cells in at least diagnostics.min_pops_last
 populations at the last timepoint; otherwise 'do not quote' (its rates and fate probabilities follow the penalty
 terms and the graph more than the data).
@@ -25,9 +27,10 @@ from pathlib import Path
 
 cfg_path = Path(sys.argv[1]).resolve()
 if '--json' not in sys.argv:
-    from common import load
+    from common import clades_code, load
     _, _, cfg, run = load(cfg_path)
     cfg['_run'] = str(run)
+    cfg['clades']['code_dir'] = clades_code(cfg)
     js = run / 'diagnostics' / 'config.json'
     js.parent.mkdir(parents=True, exist_ok=True)
     json.dump(cfg, open(js, 'w'))
@@ -168,16 +171,21 @@ if len(dirs) != len(rows):
     sys.exit()
 
 import pl
-fp, dv = [], []
+summary = 'dist_division_summary.txt' if str(cl.get('version', 'main')) == '1.2' else 'res_div.txt'
+fp, dv, starts = [], [], []
 for i, d in enumerate(dirs):
-    if not os.path.exists(f'{d}/res_div.txt'):
+    if not os.path.exists(f'{d}/{summary}'):
         pl.get_num_div(pops, gillespie_dir=d)
     sims = {}
-    for line in open(f'{d}/res_div.txt'):
+    for line in open(f'{d}/{summary}'):
         if line.strip():
             x = ast.literal_eval(ast.literal_eval(line))
             sims[x.pop('seed')] = x
     sims = list(sims.values())
+    for x in sims:
+        start = x.pop('init_celltype', pops[0])
+        x.setdefault(start, [0])
+        starts.append({'row': rows[i], 'start': start})
     n = len(sims)
     reach = {p: [min(s[p]) for s in sims if p in s] for p in pops}
     fp.append({'row': rows[i], 'simulations': n, **{p: round(len(reach[p]) / n, 4) for p in pops}, 'trust': trust[rows[i]]})
@@ -185,5 +193,6 @@ for i, d in enumerate(dirs):
                'trust': trust[rows[i]]})
 pd.DataFrame(fp).to_csv(out / 'fate_prob.csv', index=False)
 pd.DataFrame(dv).to_csv(out / 'divisions.csv', index=False)
-print('\nP(reach) from one root cell, terminal populations:')
+pd.crosstab(pd.DataFrame(starts).row, pd.DataFrame(starts).start).reindex(rows).to_csv(out / 'gillespie_starts.csv')
+print('\nP(reach) from one founder cell (started as in day 0), terminal populations:')
 print(pd.DataFrame(fp).set_index('row')[cfg['terminal'] + ['trust']].to_string())

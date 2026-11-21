@@ -52,6 +52,17 @@ def umap_columns(cfg):
     return list(cfg['columns'].get('umap', ['UMAP1', 'UMAP2']))
 
 
+def clades_code(cfg):
+    """CLADES code folder for clades.version ('main': the code before v1.2.0, '1.2': release v1.2.0); a site config
+    can give one `code_dir` or one per version in `code_dirs`"""
+    cl = cfg['clades']
+    return cl['code_dirs'][clades_version(cfg)] if 'code_dirs' in cl else cl['code_dir']
+
+
+def clades_version(cfg):
+    return str(cfg.get('clades', {}).get('version', 'main'))
+
+
 def population_of(cfg):
     return {ct: p for p, cts in cfg['populations'].items() for ct in cts}
 

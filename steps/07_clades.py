@@ -19,11 +19,13 @@ import sys
 from pathlib import Path
 
 
-from common import load, save_config
+from common import clades_code, clades_version, load, save_config
 
 cfg_path, repo, cfg, run = load(sys.argv[1])
 here = Path(__file__).resolve().parent
 cl = cfg['clades']
+version = clades_version(cfg)
+cl['code_dir'] = clades_code(cfg)
 data, out = run / 'data', run / 'clades'
 out.mkdir(parents=True, exist_ok=True)
 save_config(cfg, out / 'config.yaml')
@@ -43,7 +45,7 @@ json.dump({
     'root': {'level': 'INFO', 'handlers': ['console', 'info_file_handler']},
 }, open(out / 'logger_config.json', 'w'), indent=1)
 
-json.dump({
+fit = {
     'name': name,
     'logger_config_path': str(out / 'logger_config.json'),
     'system': {'gpu_id': 0, 'seed': cl['seed']},
@@ -60,14 +62,26 @@ json.dump({
                     'args': {'data_dir': str(data), 'num_populations': params['num_populations'],
                              'annots': 'annotations.csv', 'graphs': 'graph_table.csv',
                              'day_zero': 'initial_condition.csv', 'cell_counts': 'kinetics.txt'}},
-}, open(out / 'fit.json', 'w'), indent=1)
+}
+if version == '1.2':
+    fit['arch']['args']['clipping'] = cl.get('clipping', True)
+    fit['base_trainer']['log_interval'] = cl.get('log_interval', 100)
+    fit['user_trainer']['weighted_rate'] = cl.get('weighted_rate', True)
+    fit['optimizer'] = {'learning_rate': cl['learning_rate'], 'scheduler_type': cl.get('scheduler', 'AutoAdaptive'),
+                        'lr_decay': cl.get('lr_decay', 0.9), 'multistep_milestone': cl['lr_milestones']}
+    del fit['data_loader']['args']['day_zero']
+json.dump(fit, open(out / 'fit.json', 'w'), indent=1)
 
 gl = cl['gillespie']
-json.dump({
+gil = {
     'name': f'{name}_gillespie', 'logger_config_path': str(out / 'logger_config.json'), 'model_path': '',
     'time_interval': gl['time_interval'], 'concurrent': gl['concurrent'], 'epoch': gl['epoch'],
     't_cutoff': gl['t_cutoff'], 'base_trainer': {'save_dir': str(out / 'gillespie')},
-}, open(out / 'gillespie.json', 'w'), indent=1)
+}
+if version == '1.2':
+    gil['init_cluster_index'] = gl.get('init_cluster_index', 'default')
+    gil['end_time_point'] = gl.get('end_time_point', 'default')
+json.dump(gil, open(out / 'gillespie.json', 'w'), indent=1)
 
 head = f"""#!/bin/bash
 #SBATCH -A {cl['slurm_gpu_account']}

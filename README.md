@@ -105,8 +105,14 @@ with `base:`, cell selection) is in `steps/common.py`.
 
 ## Choices in the config
 
-- **day 0** (`day0`): `founders` = number of clones per meta-clone, all in the root population (as in the CLADES cord
-  blood example; the background row starts with the number of clones); `d3_total` = the scaled D3 total.
+- **CLADES version** (`clades.version`): `'1.2'` = the published release (branch v1.2.0: day 0 inside the counts,
+  adaptive learning rate, rate clipping, size-weighted background penalty, Gillespie lineages started as in day 0) or
+  `main` = the code before it (commit a2d6013: separate day-0 file, fixed learning-rate milestones).
+- **day 0** (`day0`): one founder cell per clone (the background row: all clones). `founders` puts them all in the
+  root population (CLADES before v1.2.0); `founders_split` splits them over `day0_populations` as the row's
+  first-timepoint cells in those populations (CLADES v1.2.0; `day0_split_clones: seen_at_all_timepoints` uses only
+  clones seen at every timepoint, as v1.2.0 does); `d3_total` = the scaled D3 total.
+- **keep_groups**: the meta-clones to model (default all); the background row always uses all cells.
 - **no_proliferation**: populations that may not divide in CLADES (soft penalty). As in the CLADES examples, the
   mature end populations only; precursors such as Pre-cDC (`DC`) are free.
 - **CARTA**: cell type → fate map, which clones (`all` or `labelled`), threshold (fate profiles seen in fewer clones are
