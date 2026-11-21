@@ -13,7 +13,7 @@ status:
   agree          clonal_share >= clonal_support and paga >= paga_support
   clonal only    clonal support, weak PAGA link
   paga only      PAGA support, clonal share below clonal_support
-  no clonal data A has fewer than min_d3_clones first-timepoint clones; PAGA only
+  no clonal data fewer than min_d3_clones of A's first-timepoint clones are seen again later; PAGA only
   no support     neither
   mature-mature  both populations terminal: not a differentiation step
 writes runs/<run_name>/support/edges.csv (column `use` is filled in by step 6) and potency.csv (fate output of each
@@ -46,12 +46,13 @@ c = pd.DataFrame({'clone': cells.loc[keep, col['clone']].astype(str),
 first = c[c.tp == tps[0]].groupby('pop').clone.unique()
 later = pd.crosstab(c.loc[c.tp != tps[0], 'clone'], c.loc[c.tp != tps[0], 'pop']).reindex(columns=pops, fill_value=0) > 0
 n_first = first.map(len).reindex(pops).fillna(0).astype(int)
+n_followed = first.map(lambda cl: sum(x in later.index for x in cl)).reindex(pops).fillna(0).astype(int)
 n_later = c[c.tp != tps[0]]['pop'].value_counts().reindex(pops).fillna(0).astype(int)
 
 
 def share(a, b):
     cl = [x for x in first.get(a, []) if x in later.index]
-    return later.loc[cl, b].mean() if n_first[a] >= ec['min_d3_clones'] and cl else np.nan
+    return later.loc[cl, b].mean() if n_followed[a] >= ec['min_d3_clones'] else np.nan
 
 
 fates = sorted({f for s in fate_of_pop.values() for f in s})
@@ -59,6 +60,7 @@ fate_later = pd.DataFrame({f: later[[p for p in pops if f in fate_of_pop[p]]].an
 pot = pd.DataFrame({p: fate_later.loc[[x for x in first.get(p, []) if x in fate_later.index]].mean()
                     for p in pops if n_first[p] > 0}).T
 pot.insert(0, f'clones_{tps[0]}', n_first[pot.index])
+pot.insert(1, 'seen_later', n_followed[pot.index])
 pot.round(3).to_csv(out / 'potency.csv', index_label='population')
 
 paga = pd.read_csv(out / 'paga_connectivity.csv', index_col=0)
@@ -94,7 +96,7 @@ for a, b in sorted(cand, key=lambda e: (rank[e[0]], rank[e[1]])):
     else:
         status = 'no support'
     rows.append({'source': a, 'target': b, 'in_previous_graph': int(prev.loc[a, b] == 1 if a in prev.index and b in prev.columns else 0),
-                 f'source_clones_{tps[0]}': n_first[a], 'clonal_share': round(s, 3) if not np.isnan(s) else np.nan,
+                 f'source_clones_{tps[0]}': n_first[a], 'source_clones_seen_later': n_followed[a], 'clonal_share': round(s, 3) if not np.isnan(s) else np.nan,
                  f'target_cells_after_{tps[0]}': n_later[b], 'paga': round(g, 3), 'target_fate': '+'.join(fb), 'cospar_partner': partner, 'status': status,
                  'use': ''})
 edges = pd.DataFrame(rows)

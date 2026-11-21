@@ -83,7 +83,7 @@ carta:
   min_cells_per_fate: 1
   threshold: 5
   kmax: 4
-  k: elbow
+  k: 3                                    # D(k) stops falling at k = 3 (D(3) = D(4)); the elbow is k = 2
   short: {Erythroid: Ery, Mast: Ma, Monocyte: Mo, DC: DC}
 
 support:

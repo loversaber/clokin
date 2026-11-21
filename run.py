@@ -36,7 +36,7 @@ if stage == 'tree':
     lines = [f'{py} {repo}/steps/{s}.py {cfg_path}' for s in tree_steps]
     if '--here' in sys.argv:
         for line in lines:
-            print('>>', line.split('/')[-1], flush=True)
+            print('>>', line.split()[1].split('/')[-1], flush=True)
             subprocess.run(line.split(), check=True)
         sys.exit()
     job = run / 'tree.sbatch'
