@@ -36,6 +36,7 @@ row) to check an installation.
 | `inputs/metaclone_labels.csv` | CLADES meta-clone (0-11) of the 606 clones with at least 3 GFP+ cells |
 | `inputs/scaling_factors.csv` | sequenced -> absolute cells per timepoint (factors of the CLADES notebook) |
 | `inputs/clades_graph_table.csv` | the CLADES transition graph |
+| `inputs/clades/` | the CLADES input clokin makes from these files (identical to `demo/CordBlood_Refine`); see its README |
 | `config.yaml`, `quicktest.yaml` | settings of the example and of the quick test |
 | `results/` | small outputs of the example run: CARTA (`carta/`), PAGA / CoSpar / candidate edges (`support/`), and `graph_comparison.md` |
 
