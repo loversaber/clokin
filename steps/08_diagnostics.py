@@ -172,7 +172,10 @@ if len(checks):
     print(checks.groupby(['check', 'trust']).size().to_string())
 
 gdir = glob.glob(str(run / 'clades' / 'gillespie' / 'checkpoints' / '*' / '*' / 'models'))
-dirs = sorted(glob.glob(f'{gdir[0]}/clone_*'), key=lambda x: int(x.split('_')[-1])) if gdir else []
+dirs = []
+if gdir:  # CLADES v1.2.0: one folder per row name; before: clone_<i>
+    dirs = ([f'{gdir[0]}/{r}' for r in rows if os.path.isdir(f'{gdir[0]}/{r}')] or
+            sorted(glob.glob(f'{gdir[0]}/clone_*'), key=lambda x: int(x.split('_')[-1])))
 if len(dirs) != len(rows):
     print(f'\nGillespie not complete ({len(dirs)}/{len(rows)} rows): fate probabilities skipped')
     sys.exit()
