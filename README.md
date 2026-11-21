@@ -7,20 +7,43 @@ rates of each meta-clone on that tree (CLADES, Gao, Barile et al., Nat Commun 20
 All settings of a dataset are in one file (`config/<dataset>.yaml`); the steps read only that file. Each run writes to
 `runs/<run_name>/` with a copy of the (merged) config used.
 
-## Quick start
+## Setup
 
-Everything a dataset needs is in one config file; `python` below is the environment in `tools.python`.
+1. Three Python environments: one for clokin itself (pandas, numpy, scipy, matplotlib, scanpy, anndata, pyarrow,
+   pyyaml), one for CARTA (its requirements and gurobipy, with a Gurobi licence, free for academic use), one for
+   CLADES (its requirements: PyTorch with CUDA, torchdiffeq, natsort), plus CoSpar 0.5.0 in the first or a fourth one.
+2. Copy `config/site_example.yaml` to `config/site.yaml` (not in git) and fill in the environments, the CARTA and
+   CLADES folders, the Gurobi licence and the SLURM accounts and partitions. Dataset configs start with
+   `base: <path>/config/site.yaml`.
+
+## Example: CLADES cord blood data
+
+`examples/cord_blood_clades/`: the human cord blood LARRY data published with CLADES (Gao, Barile et al., Nat Commun
+2025; figshare 10.6084/m9.figshare.27908142, CC BY 4.0), with the 12 CLADES meta-clones and the CLADES settings.
+`inputs/` (made by `prepare_input.py` from the figshare files) and `results/` are included.
 
 ```bash
-python run.py tree config/hdbi.yaml       # 1. steps 1-5 as one SLURM CPU job (about 1 h)
-                                          # 2. decide: look at runs/<run_name>/carta and support (see below), write
-                                          #    the chosen edges in the `graph` section of the config
-python run.py kinetics config/hdbi.yaml   # 3. steps 6-7: graph, CLADES fit -> Gillespie (GPU); steps 8-9 run after each
-python run.py status config/hdbi.yaml     #    jobs, STATUS.txt and which outputs exist
+python run.py tree examples/cord_blood_clades/config.yaml       # steps 1-5
+python run.py kinetics examples/cord_blood_clades/config.yaml   # graph (the CLADES one, in the config), CLADES, steps 8-9
+python run.py status examples/cord_blood_clades/config.yaml
 ```
 
-To check that everything runs (for example after changing the code or the environments), use the quick test: same
-data, small CARTA sweep, 20 epochs, 2 simulations per row (`config/hdbi_quicktest.yaml`, run `quicktest`).
+Step 1 rebuilds the CLADES cord blood input (`demo/CordBlood_Refine` in the CLADES code) exactly: all 468 cell counts,
+the day-0 numbers and the CLADES parameters (`clades_rounding: true` rounds as the CLADES notebook does).
+`examples/cord_blood_clades/quicktest.yaml` runs the whole pipeline on the example in minutes, to check an installation.
+
+## Quick start (your data)
+
+```bash
+python run.py tree config/<dataset>.yaml       # 1. steps 1-5 as one SLURM CPU job
+                                               # 2. decide: look at runs/<run_name>/carta and support (below), write
+                                               #    the chosen edges in the `graph` section of the config
+python run.py kinetics config/<dataset>.yaml   # 3. steps 6-7: graph, CLADES fit -> Gillespie (GPU); 8-9 after each
+python run.py status config/<dataset>.yaml     #    jobs, STATUS.txt and which outputs exist
+```
+
+`python` is the environment in `tools.python`. Configs and inputs of unpublished data stay out of git (`config/`
+keeps only `site_example.yaml` in git, `inputs/` only its README).
 
 ### Decision between the stages
 
@@ -47,15 +70,18 @@ the root.
 | `diagnostics/fate_prob.csv`, `divisions.csv` | Gillespie: chance to reach each population from one root cell; divisions to get there |
 | `figures/` | the same as PDFs, plus the graph on the UMAP and the trajectories |
 
+The Gillespie simulations (`clades/gillespie/`) take several GB per run (22 GB for 20 rows x 1,000 simulations).
+
 Notes on reading the results of a dataset (caveats specific to its data) can go in `notes/`, which is not in git.
 
 ## A new dataset
 
-Copy `config/hdbi.yaml` and change: `inputs` (cell table, meta-clone labels, scaling factors, PCA) and `columns`;
-`cell_filter`; `timepoints`; `populations` (cell type -> population, root first) with `terminal`,
-`no_proliferation` and `early`; `carta.fates`; `colors`; `tools` (environments, SLURM accounts); `run_name`. Start
-`graph` empty, run the tree stage, then fill it in. A variant of an existing config can start with
-`base: <config>.yaml` and list only what differs (as `hdbi_quicktest.yaml` does).
+Make the four input files described in `inputs/README.md`, copy `examples/cord_blood_clades/config.yaml` to
+`config/<dataset>.yaml` and change: `base` and `root` (or remove `root` for a config in `config/`), `run_name`,
+`inputs` and `columns`, `cell_filter`, `timepoints`, `populations` (cell type -> population, root first), `terminal`,
+`no_proliferation` and `early`, `day0`, `colors`, `carta.fates`, `edges` (`previous_graph` is optional) and
+`diagnostics`. Leave `graph` empty, run the tree stage, then fill it in. A variant of a config can start with
+`base: <config>.yaml` and list only what differs (as `quicktest.yaml` does).
 
 ## Steps
 
@@ -86,17 +112,9 @@ with `base:`, cell selection) is in `steps/common.py`.
 - **CARTA**: cell type → fate map, which clones (`all` or `labelled`), threshold (fate profiles seen in fewer clones are
   dropped), kmax, and the k of the tree (`elbow` or a number).
 
-## Inputs (`inputs/`, not in git)
+## Inputs
 
-| file | content |
-|---|---|
-| `obs_umap.parquet` | one row per cell: clone, cell type, timepoint, experiment, sort labels |
-| `metaclone_labels.csv` | one row per clone: `clone_id`, `meta_clone` (from clomet) |
-| `pca_harmony.parquet` | harmony PCA (30 components) of the same cells, same order (PAGA, CoSpar) |
-| `scaling_factors.pkl` | experiment x timepoint factor from sequenced to absolute cell number |
-
-For the HDBI data these are `inputs/obs_umap.parquet` and `outputs/fig4_metaclones/Fig4_metaclone_labels.csv` of
-`hdbi_larry_atlas` and `figure1_analysis_251028/df_scf_all_neg_251116.pkl`.
+Formats: `inputs/README.md`. Example: `examples/cord_blood_clades/inputs/`.
 
 ## Methods used (please cite)
 

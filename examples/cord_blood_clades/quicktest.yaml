@@ -1,0 +1,9 @@
+# quick end-to-end check of clokin on the example: small CARTA sweep, 20 epochs, 2 simulations per row (minutes).
+base: config.yaml
+run_name: quicktest
+carta: {kmax: 2, k: 2}
+clades:
+  epochs: 20
+  lr_milestones: [10]
+  fit_hours: 1
+  gillespie: {concurrent: 2, epoch: 1, hours: 2}

@@ -5,6 +5,7 @@ section by section (lists and values are replaced, dictionaries merged).
 """
 from pathlib import Path
 
+import pandas as pd
 import yaml
 
 missing_clone = ['nan', 'None', '']
@@ -26,16 +27,29 @@ def read_config(path):
 
 
 def load(path):
-    """config path, repo folder, merged config, run folder"""
+    """config path, root folder for the relative paths in the config, merged config, run folder
+
+    root: the folder above the config's folder (config/<dataset>.yaml -> the clokin folder), or, with `root: <path>`
+    in the config, that path relative to the config's folder (`root: .` for a self-contained example folder)
+    """
     path = Path(path).resolve()
     cfg = read_config(path)
-    repo = path.parents[1]
-    return path, repo, cfg, Path(repo / cfg['runs_dir'] / cfg['run_name'])
+    root = (path.parent / cfg['root']).resolve() if 'root' in cfg else path.parents[1]
+    return path, root, cfg, Path(root / cfg['runs_dir'] / cfg['run_name'])
 
 
 def save_config(cfg, path):
     with open(path, 'w') as f:
         yaml.safe_dump(cfg, f, sort_keys=False, allow_unicode=True)
+
+
+def read_table(path):
+    path = Path(path)
+    return pd.read_pickle(path) if path.suffix == '.pkl' else pd.read_csv(path, index_col=0)
+
+
+def umap_columns(cfg):
+    return list(cfg['columns'].get('umap', ['UMAP1', 'UMAP2']))
 
 
 def population_of(cfg):

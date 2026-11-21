@@ -22,6 +22,7 @@ from pathlib import Path
 from common import load, save_config
 
 cfg_path, repo, cfg, run = load(sys.argv[1])
+here = Path(__file__).resolve().parent
 cl = cfg['clades']
 data, out = run / 'data', run / 'clades'
 out.mkdir(parents=True, exist_ok=True)
@@ -100,8 +101,7 @@ tools = cfg['tools']
 #SBATCH -J clokin_post
 #SBATCH -t 06:00:00
 #SBATCH -o {out}/post.%j.log
-cd {repo}
-{tools['python']} steps/08_diagnostics.py {cfg_path} && {tools['python']} steps/09_figures.py {cfg_path}
+{tools['python']} {here}/08_diagnostics.py {cfg_path} && {tools['python']} {here}/09_figures.py {cfg_path}
 echo "$(date '+%Y-%m-%d %H:%M') post job $SLURM_JOB_ID ($1): steps 8-9 exit $?" >> {run}/STATUS.txt
 """)
 print(f'wrote configs and job scripts in {out}')

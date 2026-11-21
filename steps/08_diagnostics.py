@@ -24,10 +24,10 @@ import sys
 from pathlib import Path
 
 cfg_path = Path(sys.argv[1]).resolve()
-repo = cfg_path.parents[1]
 if '--json' not in sys.argv:
     from common import load
     _, _, cfg, run = load(cfg_path)
+    cfg['_run'] = str(run)
     js = run / 'diagnostics' / 'config.json'
     js.parent.mkdir(parents=True, exist_ok=True)
     json.dump(cfg, open(js, 'w'))
@@ -47,7 +47,7 @@ from scipy.stats import spearmanr
 warnings.filterwarnings('ignore')
 cfg = json.load(open(sys.argv[sys.argv.index('--json') + 1]))
 cl, dg = cfg['clades'], cfg['diagnostics']
-run = repo / cfg['runs_dir'] / cfg['run_name']
+run = Path(cfg['_run'])
 out = run / 'diagnostics'
 sys.path.insert(0, cl['code_dir'])
 os.chdir(cl['code_dir'])

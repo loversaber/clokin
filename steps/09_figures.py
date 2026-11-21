@@ -24,7 +24,7 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
 
-from common import load, population_of
+from common import load, population_of, umap_columns
 
 cfg_path, repo, cfg, run = load(sys.argv[1])
 dg, out = run / 'diagnostics', run / 'figures'
@@ -52,19 +52,20 @@ lab = {r: f"{r}{'' if trust[r] == 'use' else ' *'}" for r in rows}
 # transition graph on the PAGA layout
 pos = pd.read_csv(run / 'support' / 'paga_node_positions.csv', index_col=0)
 edges = pd.read_csv(run / 'support' / 'edges_used.csv')
-cells = pd.read_parquet(repo / cfg['inputs']['cells'], columns=['UMAP1', 'UMAP2', cfg['columns']['celltype']])
+ux, uy = umap_columns(cfg)
+cells = pd.read_parquet(repo / cfg['inputs']['cells'], columns=[ux, uy, cfg['columns']['celltype']])
 pop_of = population_of(cfg)
 cp = cells[cfg['columns']['celltype']].astype(str).map(pop_of)
 cells = cells[cp.notna()]
 sc_col = cp[cp.notna()].map(lambda p: colors.get(p, '0.8'))
 stat_col = {'agree': '#1b7837', 'paga only': '#e08214', 'no clonal data': '#4575b4', 'not a candidate': '0.4'}
 fig, ax = plt.subplots(figsize=(8, 7))
-ax.scatter(cells.UMAP1, cells.UMAP2, c=sc_col.values, s=0.1, lw=0, alpha=0.25, rasterized=True)
+ax.scatter(cells[ux], cells[uy], c=sc_col.values, s=0.1, lw=0, alpha=0.25, rasterized=True)
 for e in edges[edges.use == 1].itertuples():
     (x0, y0), (x1, y1) = pos.loc[e.source].values, pos.loc[e.target].values
     ax.annotate('', (x1, y1), (x0, y0), arrowprops=dict(arrowstyle='-|>', lw=1.6, mutation_scale=12, shrinkA=7, shrinkB=7,
                                                          color=stat_col.get(e.status, 'k')), zorder=3)
-ax.scatter(pos.UMAP1 if 'UMAP1' in pos else pos.iloc[:, 0], pos.iloc[:, 1], s=60,
+ax.scatter(pos.iloc[:, 0], pos.iloc[:, 1], s=60,
            c=[colors.get(p, '0.5') for p in pos.index], edgecolors='k', lw=0.6, zorder=4)
 for p, (x, y) in pos.iterrows():
     ax.annotate(p, (x, y), xytext=(0, 7), textcoords='offset points', ha='center', fontsize=6.5, zorder=5)

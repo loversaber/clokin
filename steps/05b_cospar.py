@@ -18,12 +18,12 @@ import numpy as np
 
 warnings.filterwarnings('ignore')
 cfg_path = Path(sys.argv[1]).resolve()
-repo = cfg_path.parents[1]
 
 if '--json' not in sys.argv:
     import pandas as pd
-    from common import load, population_of, selected
-    _, _, cfg, run = load(cfg_path)
+    from common import load, population_of, selected, umap_columns
+    _, repo, cfg, run = load(cfg_path)
+    cfg['_run'] = str(run)
     col, sp, cc = cfg['columns'], cfg['support'], cfg['carta']
     out = run / 'support'
     out.mkdir(parents=True, exist_ok=True)
@@ -39,7 +39,7 @@ if '--json' not in sys.argv:
     np.savez(out / 'cospar_input.npz',
              cell=cells.index[keep].values.astype(str),
              pca=pca.loc[keep].values.astype(np.float32),
-             emb=np.asarray(cells.loc[keep, ['UMAP1', 'UMAP2']].values if {'UMAP1', 'UMAP2'} <= set(cells.columns)
+             emb=np.asarray(cells.loc[keep, umap_columns(cfg)].values if set(umap_columns(cfg)) <= set(cells.columns)
                             else pca.loc[keep].values[:, :2], dtype=np.float32),
              clone=clones.codes, n_clones=len(clones.categories),
              time=np.asarray(cells.loc[keep, col['timepoint']].astype(str).map(cfg['timepoints']).astype(str), dtype=str),
@@ -60,7 +60,7 @@ import cospar as cs
 
 cfg = json.load(open(sys.argv[sys.argv.index('--json') + 1]))
 sp, cc = cfg['support'], cfg['carta']
-out = repo / cfg['runs_dir'] / cfg['run_name'] / 'support'
+out = Path(cfg['_run']) / 'support'
 cs.settings.data_path = str(out / 'cospar_tmp')
 cs.settings.figure_path = str(out / 'cospar_tmp')
 cs.settings.verbosity = 0

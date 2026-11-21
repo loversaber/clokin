@@ -17,7 +17,7 @@ import sys
 import numpy as np
 import pandas as pd
 
-from common import load, population_of, save_config, selected
+from common import load, population_of, read_table, save_config, selected
 
 cfg_path, repo, cfg, run = load(sys.argv[1])
 col = cfg['columns']
@@ -31,7 +31,7 @@ days = cfg['timepoints']
 
 cells = pd.read_parquet(repo / cfg['inputs']['cells'])
 labels = pd.read_csv(repo / cfg['inputs']['labels'])
-scf = pd.read_pickle(repo / cfg['inputs']['scaling'])
+scf = read_table(repo / cfg['inputs']['scaling'])
 
 obs = pd.DataFrame({
     'clone': cells[col['clone']].astype(str).replace({'nan': None, 'None': None, '': None}),
@@ -54,10 +54,18 @@ print(f'cells kept: {len(obs):,} of {len(cells):,} ({obs.exp.nunique()} experime
 print(f'labelled clones: {len(group_of):,}, with kept cells: {obs.clone.isin(group_of.index).groupby(obs.clone).any().sum():,}')
 
 mc = obs[obs.group.notna()]
-long = pd.concat([
-    mc.groupby(['group', 'tp', 'pop']).agg(n_scaled=('sf', 'sum'), n_raw=('sf', 'size')).reset_index(),
-    obs.groupby(['tp', 'pop']).agg(n_scaled=('sf', 'sum'), n_raw=('sf', 'size')).reset_index().assign(group='BG'),
-])
+if cfg.get('clades_rounding'):
+    # as the CLADES cord blood notebook: each clone's scaled count rounded (float32), background truncated
+    per_clone = mc.groupby(['group', 'clone', 'tp', 'pop']).agg(n_raw=('sf', 'size'), sf=('sf', 'first')).reset_index()
+    per_clone['n_scaled'] = np.round(per_clone.n_raw.astype(np.float32) * per_clone.sf.astype(np.float32))
+    mc_long = per_clone.groupby(['group', 'tp', 'pop'])[['n_scaled', 'n_raw']].sum().reset_index()
+    bg_long = obs.groupby(['tp', 'pop']).agg(n_raw=('sf', 'size'), sf=('sf', 'first')).reset_index()
+    bg_long['n_scaled'] = np.floor(bg_long.n_raw * bg_long.sf)
+    bg_long = bg_long.drop(columns='sf')
+else:
+    mc_long = mc.groupby(['group', 'tp', 'pop']).agg(n_scaled=('sf', 'sum'), n_raw=('sf', 'size')).reset_index()
+    bg_long = obs.groupby(['tp', 'pop']).agg(n_scaled=('sf', 'sum'), n_raw=('sf', 'size')).reset_index()
+long = pd.concat([mc_long, bg_long.assign(group='BG')])
 long['row'] = long.group.map(dict(zip(groups + ['BG'], names)))
 long.to_csv(out / 'counts_long.csv', index=False)
 

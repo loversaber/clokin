@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 import anndata as ad
 import scanpy as sc
 
-from common import load, population_of, selected
+from common import load, population_of, selected, umap_columns
 
 cfg_path, repo, cfg, run = load(sys.argv[1])
 col, sp = cfg['columns'], cfg['support']
@@ -58,7 +58,7 @@ fig.tight_layout()
 fig.savefig(out / 'paga_connectivity.pdf', metadata={'CreationDate': None})
 plt.close(fig)
 
-umap = cells.loc[keep, ['UMAP1', 'UMAP2']].values
+umap = cells.loc[keep, umap_columns(cfg)].values
 pos = pd.DataFrame(umap, index=a.obs_names).groupby(a.obs['pop'].values, observed=True).median().reindex(pops)
 pos.to_csv(out / 'paga_node_positions.csv')
 size = a.obs['pop'].value_counts().reindex(pops)
@@ -84,8 +84,8 @@ for ax, show_cells in zip(axes, [True, False]):
                         fontsize=7, zorder=4)
     ax.set_xticks([])
     ax.set_yticks([])
-    ax.set_xlabel('UMAP1')
-    ax.set_ylabel('UMAP2')
+    ax.set_xlabel(umap_columns(cfg)[0])
+    ax.set_ylabel(umap_columns(cfg)[1])
     ax.spines[['top', 'right']].set_visible(False)
 axes[0].set_title('cells on the UMAP, PAGA graph on top', fontsize=9)
 axes[1].set_title(f'PAGA graph (edges: connectivity >= {thr}; width = connectivity; node size = cells)', fontsize=9)

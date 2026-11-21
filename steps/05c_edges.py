@@ -3,7 +3,7 @@
 
 usage: python steps/05c_edges.py config/hdbi.yaml
 
-candidates: edges of edges.previous_graph + PAGA links >= edges.paga_candidate, directed from the earlier to the later
+candidates: edges of edges.previous_graph (optional) + PAGA links >= edges.paga_candidate, directed from the earlier to the later
 population in the `populations` order. Evidence for each edge A -> B:
   clonal_share   share of A's first-timepoint clones with cells in B at a later timepoint (barcoded cells);
                  low when B is rare at later timepoints (see target_cells_after_<first timepoint>)
@@ -63,7 +63,8 @@ pot.round(3).to_csv(out / 'potency.csv', index_label='population')
 
 paga = pd.read_csv(out / 'paga_connectivity.csv', index_col=0)
 cos = pd.read_csv(out / 'cospar_coupling_all.csv', index_col=0)
-prev = pd.read_csv(repo / ec['previous_graph'], index_col=0)
+prev = (pd.read_csv(repo / ec['previous_graph'], index_col=0) if ec.get('previous_graph')
+        else pd.DataFrame(0, index=pops, columns=pops))
 
 cand = {(a, b) for a in prev.index for b in prev.columns if prev.loc[a, b] == 1}
 for i, a in enumerate(pops):
