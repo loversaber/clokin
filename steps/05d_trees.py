@@ -22,13 +22,11 @@ import matplotlib.pyplot as plt
 from scipy.cluster.hierarchy import dendrogram, linkage
 from scipy.sparse.csgraph import shortest_path
 from scipy.spatial.distance import squareform
-import yaml
 
-cfg_path = Path(sys.argv[1]).resolve()
-repo = cfg_path.parents[1]
-cfg = yaml.safe_load(open(cfg_path))
+from common import load
+
+cfg_path, repo, cfg, run = load(sys.argv[1])
 cc = cfg['carta']
-run = repo / cfg['runs_dir'] / cfg['run_name']
 out = run / 'support'
 short = cc.get('short', {})
 

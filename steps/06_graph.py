@@ -11,12 +11,10 @@ import sys
 from pathlib import Path
 
 import pandas as pd
-import yaml
 
-cfg_path = Path(sys.argv[1]).resolve()
-repo = cfg_path.parents[1]
-cfg = yaml.safe_load(open(cfg_path))
-run = repo / cfg['runs_dir'] / cfg['run_name']
+from common import load
+
+cfg_path, repo, cfg, run = load(sys.argv[1])
 pops = list(cfg['populations'])
 
 g = pd.DataFrame(0, index=pops, columns=pops, dtype=int)

@@ -9,7 +9,7 @@ writes runs/<run_name>/diagnostics/:
   trajectories.csv      predicted cells per row and population every half day
   composition_last.csv  observed and predicted share of each population at the last timepoint
   rates.csv             fitted rates per row and timepoint: differentiation (source -> target) and net growth
-  checks.csv            net growth of terminal populations > 0, net loss of early populations, rates near the bound
+  checks.csv            net growth of no-proliferation populations > 0, net loss of early populations, rates near the bound
   convergence.csv       loss terms over the epochs (from the fit log)
   fate_prob.csv         Gillespie: P(a lineage from one root cell reaches each population) per row, with trust label
                         (simulations counted once per seed, as in CLADES get_fate_prob; res_div.txt can hold duplicates)
@@ -26,9 +26,9 @@ from pathlib import Path
 cfg_path = Path(sys.argv[1]).resolve()
 repo = cfg_path.parents[1]
 if '--json' not in sys.argv:
-    import yaml
-    cfg = yaml.safe_load(open(cfg_path))
-    js = repo / cfg['runs_dir'] / cfg['run_name'] / 'diagnostics' / 'config.json'
+    from common import load
+    _, _, cfg, run = load(cfg_path)
+    js = run / 'diagnostics' / 'config.json'
     js.parent.mkdir(parents=True, exist_ok=True)
     json.dump(cfg, open(js, 'w'))
     py = cfg['clades']['python']
@@ -111,7 +111,7 @@ pd.DataFrame(comp).to_csv(out / 'composition_last.csv', index=False)
 
 graph = pd.read_csv(run / 'data' / 'graph_table.csv', index_col=0).loc[pops, pops].values
 rates, checks = [], []
-term, early = set(cfg['terminal']), set(cfg['early'])
+term, early = set(cfg.get('no_proliferation', cfg['terminal'])), set(cfg['early'])
 with torch.no_grad():
     for t in days[1:]:
         k = m.get_matrix_K(K_type=cl['K_type'], eval=True, tpoint=float(t)).numpy()
@@ -126,7 +126,7 @@ rates = pd.DataFrame(rates)
 rates.to_csv(out / 'rates.csv', index=False)
 g = rates[rates.kind == 'net growth']
 for _, x in g[g.source.isin(term) & (g.rate > 0.1)].iterrows():
-    checks.append({**x[['row', 'day', 'source', 'rate']], 'check': 'terminal population grows'})
+    checks.append({**x[['row', 'day', 'source', 'rate']], 'check': 'no-proliferation population grows'})
 for _, x in g[g.source.isin(early) & (g.rate < -0.1)].iterrows():
     checks.append({**x[['row', 'day', 'source', 'rate']], 'check': 'early population shrinks'})
 dif = rates[rates.kind == 'differentiation']

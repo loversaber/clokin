@@ -13,13 +13,12 @@ import sys
 import time
 from pathlib import Path
 
-import yaml
 
-cfg_path = Path(sys.argv[1]).resolve()
-repo = cfg_path.parents[1]
-cfg = yaml.safe_load(open(cfg_path))
+from common import load
+
+cfg_path, repo, cfg, run = load(sys.argv[1])
 tools, cc = cfg['tools'], cfg['carta']
-carta = repo / cfg['runs_dir'] / cfg['run_name'] / 'carta'
+carta = run / 'carta'
 sweep = carta / 'sweep'
 sweep.mkdir(parents=True, exist_ok=True)
 

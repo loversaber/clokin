@@ -24,26 +24,22 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-import yaml
 
-cfg_path = Path(sys.argv[1]).resolve()
-repo = cfg_path.parents[1]
-cfg = yaml.safe_load(open(cfg_path))
+from common import load, population_of, selected
+
+cfg_path, repo, cfg, run = load(sys.argv[1])
 col, ec, cc = cfg['columns'], cfg['edges'], cfg['carta']
-run = repo / cfg['runs_dir'] / cfg['run_name']
 out = run / 'support'
 
 pops = list(cfg['populations'])
 rank = {p: i for i, p in enumerate(pops)}
-pop_of = {ct: p for p, cts in cfg['populations'].items() for ct in cts}
+pop_of = population_of(cfg)
 fate_of_pop = {p: {cc['fates'][ct] for ct in cts} - {'Undifferentiated'} for p, cts in cfg['populations'].items()}
 terminal = set(cfg['terminal'])
 tps = list(cfg['timepoints'])
 
 cells = pd.read_parquet(repo / cfg['inputs']['cells'])
-keep = ~cells[col['clone']].astype(str).isin(['nan', 'None', '']) & cells[col['timepoint']].astype(str).isin(tps)
-for c, v in cfg.get('cell_filter', {}).items():
-    keep &= cells[c].astype(str) == v
+keep = selected(cells, cfg, barcoded=True)
 c = pd.DataFrame({'clone': cells.loc[keep, col['clone']].astype(str),
                   'pop': cells.loc[keep, col['celltype']].astype(str).map(pop_of),
                   'tp': cells.loc[keep, col['timepoint']].astype(str)})

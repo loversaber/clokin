@@ -1,0 +1,14 @@
+# quick end-to-end test of the pipeline on the HDBI data: small CARTA sweep, 20 epochs, 2 simulations per row.
+# Finishes in well under an hour of compute; the results are only a check that every step runs, not for use.
+base: hdbi.yaml
+run_name: quicktest
+
+carta:
+  kmax: 3
+  k: 3
+
+clades:
+  epochs: 20
+  lr_milestones: [10]
+  fit_hours: 1
+  gillespie: {concurrent: 2, epoch: 1, hours: 2}

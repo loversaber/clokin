@@ -12,26 +12,21 @@ writes runs/<run_name>/data/:
 and a copy of the config in runs/<run_name>/
 """
 import json
-import shutil
 import sys
-from pathlib import Path
 
 import numpy as np
 import pandas as pd
-import yaml
 
-cfg_path = Path(sys.argv[1]).resolve()
-repo = cfg_path.parents[1]
-cfg = yaml.safe_load(open(cfg_path))
+from common import load, population_of, save_config, selected
+
+cfg_path, repo, cfg, run = load(sys.argv[1])
 col = cfg['columns']
-
-run = repo / cfg['runs_dir'] / cfg['run_name']
 out = run / 'data'
 out.mkdir(parents=True, exist_ok=True)
-shutil.copy(cfg_path, run / 'config.yaml')
+save_config(cfg, run / 'config.yaml')
 
 pops = list(cfg['populations'])
-pop_of = {ct: p for p, cts in cfg['populations'].items() for ct in cts}
+pop_of = population_of(cfg)
 days = cfg['timepoints']
 
 cells = pd.read_parquet(repo / cfg['inputs']['cells'])
@@ -44,9 +39,7 @@ obs = pd.DataFrame({
     'tp': cells[col['timepoint']].astype(str),
     'exp': cells[col['experiment']].astype(str),
 })
-keep = obs['pop'].notna() & obs.tp.isin(days) & obs.exp.isin(scf.index)
-for c, v in cfg.get('cell_filter', {}).items():
-    keep &= cells[c].astype(str) == v
+keep = selected(cells, cfg) & obs['pop'].notna() & obs.exp.isin(scf.index)
 unmapped = sorted(set(cells.loc[obs['pop'].isna(), col['celltype']].astype(str)))
 obs = obs[keep].copy()
 obs['sf'] = scf.stack().reindex(list(zip(obs.exp, obs.tp))).values
@@ -91,7 +84,7 @@ params = {
     'num_populations': len(pops),
     't_observed': [0] + [days[t] for t in tps],
     'scaling_factor': [1.0] + [round(float(scaled[t] / raw[t]), 4) for t in tps],
-    'no_proliferation_pops': [int(p in cfg['terminal']) for p in pops],
+    'no_proliferation_pops': [int(p in cfg.get('no_proliferation', cfg['terminal'])) for p in pops],
     'no_apoptosis_pops': [int(p in cfg['early']) for p in pops],
 }
 json.dump(params, open(out / 'clades_params.json', 'w'), indent=1)

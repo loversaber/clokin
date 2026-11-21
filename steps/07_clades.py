@@ -18,15 +18,14 @@ import subprocess
 import sys
 from pathlib import Path
 
-import yaml
 
-cfg_path = Path(sys.argv[1]).resolve()
-repo = cfg_path.parents[1]
-cfg = yaml.safe_load(open(cfg_path))
+from common import load, save_config
+
+cfg_path, repo, cfg, run = load(sys.argv[1])
 cl = cfg['clades']
-run = repo / cfg['runs_dir'] / cfg['run_name']
 data, out = run / 'data', run / 'clades'
 out.mkdir(parents=True, exist_ok=True)
+save_config(cfg, out / 'config.yaml')
 params = json.load(open(data / 'clades_params.json'))
 assert (data / 'graph_table.csv').exists(), 'run step 6 first'
 name = f"{cfg['run_name']}_{cl['K_type']}"

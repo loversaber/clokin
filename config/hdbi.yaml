@@ -1,6 +1,6 @@
 # kinetree settings for the HDBI LARRY data (FL / FBM / CB, D3 / D10 / D17)
 
-run_name: hdbi_261119
+run_name: hdbi_261121
 runs_dir: runs
 
 inputs:
@@ -51,6 +51,9 @@ populations:
   DC: [Pre-cDC]
 
 terminal: [Megakaryocyte, Orthochromatic Erythroblast, Mast cell, Basophil, Eosinophil, Monocyte, Neutrophil, DC]
+# populations that may not divide in CLADES (soft penalty, alphas[1]); as in the CLADES examples, mature end populations
+# only; DC (= Pre-cDC, a precursor) is free, like 'DC precursor' in the CLADES cord blood example
+no_proliferation: [Megakaryocyte, Orthochromatic Erythroblast, Mast cell, Basophil, Eosinophil, Monocyte, Neutrophil]
 early: [HSC/MPP, ELP, My-Ly progenitor, MEMP, GMP, EoBasoMast Precursor, Mast cell progenitor,
         Monocyte progenitor, Neutrophil progenitor]
 
@@ -174,7 +177,7 @@ clades:
   activation: softplus
   epochs: 2500
   learning_rate: 1.0e-3
-  lr_milestones: [200, 400, 600, 800, 1000]
+  lr_milestones: [400, 800, 1200, 1600, 2000]   # learning rate halves at each; run hdbi_261119 used [200, 400, 600, 800, 1000]
   alphas: [1.0, 0.5, 0.5, 0.25, 0.05, 0.5]
   ub_for_prol: 6
   ub_for_diff: 6

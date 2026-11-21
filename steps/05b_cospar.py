@@ -22,21 +22,18 @@ repo = cfg_path.parents[1]
 
 if '--json' not in sys.argv:
     import pandas as pd
-    import yaml
-    cfg = yaml.safe_load(open(cfg_path))
+    from common import load, population_of, selected
+    _, _, cfg, run = load(cfg_path)
     col, sp, cc = cfg['columns'], cfg['support'], cfg['carta']
-    out = repo / cfg['runs_dir'] / cfg['run_name'] / 'support'
+    out = run / 'support'
     out.mkdir(parents=True, exist_ok=True)
 
-    pop_of = {ct: p for p, cts in cfg['populations'].items() for ct in cts}
+    pop_of = population_of(cfg)
     cells = pd.read_parquet(repo / cfg['inputs']['cells'])
     pca = pd.read_parquet(repo / sp['pca'])
     assert pca.index.equals(cells.index), 'pca and cell table must have the same cells in the same order'
     ct = cells[col['celltype']].astype(str)
-    keep = ~cells[col['clone']].astype(str).isin(['nan', 'None', '']) & ct.isin(cc['fates'])
-    keep &= cells[col['timepoint']].astype(str).isin(cfg['timepoints'])
-    for c, v in cfg.get('cell_filter', {}).items():
-        keep &= cells[c].astype(str) == v
+    keep = selected(cells, cfg, barcoded=True) & ct.isin(cc['fates'])
     fate = ct[keep].map(cc['fates'])
     clones = pd.Categorical(cells.loc[keep, col['clone']].astype(str))
     np.savez(out / 'cospar_input.npz',

@@ -16,24 +16,21 @@ matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import anndata as ad
 import scanpy as sc
-import yaml
 
-cfg_path = Path(sys.argv[1]).resolve()
-repo = cfg_path.parents[1]
-cfg = yaml.safe_load(open(cfg_path))
+from common import load, population_of, selected
+
+cfg_path, repo, cfg, run = load(sys.argv[1])
 col, sp = cfg['columns'], cfg['support']
-out = repo / cfg['runs_dir'] / cfg['run_name'] / 'support'
+out = run / 'support'
 out.mkdir(parents=True, exist_ok=True)
 
 pops = list(cfg['populations'])
-pop_of = {ct: p for p, cts in cfg['populations'].items() for ct in cts}
+pop_of = population_of(cfg)
 cells = pd.read_parquet(repo / cfg['inputs']['cells'])
 pca = pd.read_parquet(repo / sp['pca'])
 assert pca.index.equals(cells.index), 'pca and cell table must have the same cells in the same order'
 
-keep = cells[col['celltype']].astype(str).map(pop_of).notna()
-for c, v in cfg.get('cell_filter', {}).items():
-    keep &= cells[c].astype(str) == v
+keep = selected(cells, cfg, timepoints=False) & cells[col['celltype']].astype(str).map(pop_of).notna()
 a = ad.AnnData(obs=pd.DataFrame({'pop': pd.Categorical(cells.loc[keep, col['celltype']].astype(str).map(pop_of),
                                                        categories=pops)}, index=cells.index[keep]))
 a.obsm['X_pca'] = pca.loc[keep].values

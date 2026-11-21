@@ -13,19 +13,16 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
-import yaml
 
-cfg_path = Path(sys.argv[1]).resolve()
-repo = cfg_path.parents[1]
-cfg = yaml.safe_load(open(cfg_path))
+from common import load, selected
+
+cfg_path, repo, cfg, run = load(sys.argv[1])
 col, cc = cfg['columns'], cfg['carta']
-out = repo / cfg['runs_dir'] / cfg['run_name'] / 'carta'
+out = run / 'carta'
 out.mkdir(parents=True, exist_ok=True)
 
 cells = pd.read_parquet(repo / cfg['inputs']['cells'])
-keep = ~cells[col['clone']].astype(str).isin(['nan', 'None', '']) & cells[col['timepoint']].astype(str).isin(cfg['timepoints'])
-for c, v in cfg.get('cell_filter', {}).items():
-    keep &= cells[c].astype(str) == v
+keep = selected(cells, cfg, barcoded=True)
 df = pd.DataFrame({'clone': cells.loc[keep, col['clone']].astype(str),
                    'fate': cells.loc[keep, col['celltype']].astype(str).map(cc['fates'])})
 missing = sorted(set(cells.loc[keep, col['celltype']].astype(str)) - set(cc['fates']))

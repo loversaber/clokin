@@ -23,12 +23,10 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_pdf import PdfPages
-import yaml
 
-cfg_path = Path(sys.argv[1]).resolve()
-repo = cfg_path.parents[1]
-cfg = yaml.safe_load(open(cfg_path))
-run = repo / cfg['runs_dir'] / cfg['run_name']
+from common import load, population_of
+
+cfg_path, repo, cfg, run = load(sys.argv[1])
 dg, out = run / 'diagnostics', run / 'figures'
 out.mkdir(parents=True, exist_ok=True)
 no_date = {'CreationDate': None}
@@ -55,7 +53,7 @@ lab = {r: f"{r}{'' if trust[r] == 'use' else ' *'}" for r in rows}
 pos = pd.read_csv(run / 'support' / 'paga_node_positions.csv', index_col=0)
 edges = pd.read_csv(run / 'support' / 'edges_used.csv')
 cells = pd.read_parquet(repo / cfg['inputs']['cells'], columns=['UMAP1', 'UMAP2', cfg['columns']['celltype']])
-pop_of = {ct: p for p, cts in cfg['populations'].items() for ct in cts}
+pop_of = population_of(cfg)
 cp = cells[cfg['columns']['celltype']].astype(str).map(pop_of)
 cells = cells[cp.notna()]
 sc_col = cp[cp.notna()].map(lambda p: colors.get(p, '0.8'))
