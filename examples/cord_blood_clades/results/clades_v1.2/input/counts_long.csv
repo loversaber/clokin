@@ -1,0 +1,190 @@
+group,tp,pop,n_scaled,n_raw,row
+0,Day10,Early Erythroid,113019.0,213,Clone 0
+0,Day10,HSC/MPP 2,531.0,1,Clone 0
+0,Day10,Late Erythroid,3186.0,6,Clone 0
+0,Day10,MEMP,11149.0,21,Clone 0
+0,Day10,Mast cell,38742.0,73,Clone 0
+0,Day10,Mid Erythroid,96574.0,182,Clone 0
+0,Day10,Mono precur,531.0,1,Clone 0
+0,Day10,Monocyte,1061.0,2,Clone 0
+0,Day10,NMP,7431.0,14,Clone 0
+0,Day17,DC precursor,1526.0,3,Clone 0
+0,Day17,Early Erythroid,161755.0,318,Clone 0
+0,Day17,Late Erythroid,75796.0,149,Clone 0
+0,Day17,MEMP,37134.0,73,Clone 0
+0,Day17,Mast cell,341312.0,671,Clone 0
+0,Day17,Mid Erythroid,372342.0,732,Clone 0
+0,Day17,Mono precur,7630.0,15,Clone 0
+0,Day17,Monocyte,63586.0,125,Clone 0
+0,Day17,NMP,25434.0,50,Clone 0
+0,Day3,HSC/MPP 1,15.0,3,Clone 0
+0,Day3,HSC/MPP 2,10.0,2,Clone 0
+0,Day3,MEMP,120.0,24,Clone 0
+0,Day3,Mast cell,35.0,7,Clone 0
+0,Day3,NMP,5.0,1,Clone 0
+1,Day10,Early Erythroid,57838.0,109,Clone 1
+1,Day10,Late Erythroid,3186.0,6,Clone 1
+1,Day10,MEMP,531.0,1,Clone 1
+1,Day10,Mast cell,10614.0,20,Clone 1
+1,Day10,Mid Erythroid,170849.0,322,Clone 1
+1,Day10,NMP,531.0,1,Clone 1
+1,Day17,Early Erythroid,4579.0,9,Clone 1
+1,Day17,Late Erythroid,13737.0,27,Clone 1
+1,Day17,Mast cell,22384.0,44,Clone 1
+1,Day17,Mid Erythroid,5088.0,10,Clone 1
+1,Day17,Monocyte,5089.0,10,Clone 1
+1,Day17,NMP,509.0,1,Clone 1
+1,Day3,Early Erythroid,5.0,1,Clone 1
+1,Day3,MEMP,140.0,28,Clone 1
+1,Day3,NMP,10.0,2,Clone 1
+10,Day10,Monocyte,7432.0,14,Clone 10
+10,Day10,NMP,2655.0,5,Clone 10
+10,Day17,Monocyte,1527.0,3,Clone 10
+10,Day3,HSC/MPP 2,60.0,12,Clone 10
+10,Day3,Mono precur,35.0,7,Clone 10
+10,Day3,NMP,170.0,34,Clone 10
+2,Day10,DC,19636.0,37,Clone 2
+2,Day10,DC precursor,27063.0,51,Clone 2
+2,Day10,HSC/MPP 2,5308.0,10,Clone 2
+2,Day10,Late Erythroid,531.0,1,Clone 2
+2,Day10,Mid Erythroid,1062.0,2,Clone 2
+2,Day10,Mono precur,3714.0,7,Clone 2
+2,Day10,Monocyte,5839.0,11,Clone 2
+2,Day10,NMP,531.0,1,Clone 2
+2,Day17,DC,77318.0,152,Clone 2
+2,Day17,DC precursor,97158.0,191,Clone 2
+2,Day17,HSC/MPP 2,47815.0,94,Clone 2
+2,Day17,Late Erythroid,7632.0,15,Clone 2
+2,Day17,MEMP,509.0,1,Clone 2
+2,Day17,Mast cell,4580.0,9,Clone 2
+2,Day17,Mid Erythroid,2545.0,5,Clone 2
+2,Day17,Mono precur,100717.0,198,Clone 2
+2,Day17,Monocyte,61043.0,120,Clone 2
+2,Day17,NMP,60023.0,118,Clone 2
+2,Day3,HSC/MPP 1,50.0,10,Clone 2
+2,Day3,HSC/MPP 2,10.0,2,Clone 2
+2,Day3,Mast cell,10.0,2,Clone 2
+3,Day10,Early Erythroid,99754.0,188,Clone 3
+3,Day10,Late Erythroid,2124.0,4,Clone 3
+3,Day10,MEMP,2655.0,5,Clone 3
+3,Day10,Mast cell,14859.0,28,Clone 3
+3,Day10,Mid Erythroid,36618.0,69,Clone 3
+3,Day17,Early Erythroid,5089.0,10,Clone 3
+3,Day17,Late Erythroid,7125.0,14,Clone 3
+3,Day17,MEMP,1526.0,3,Clone 3
+3,Day17,Mast cell,20350.0,40,Clone 3
+3,Day17,Mid Erythroid,6614.0,13,Clone 3
+3,Day17,Mono precur,509.0,1,Clone 3
+3,Day17,Monocyte,3054.0,6,Clone 3
+3,Day3,Early Erythroid,5.0,1,Clone 3
+3,Day3,MEMP,85.0,17,Clone 3
+4,Day10,HSC/MPP 2,531.0,1,Clone 4
+4,Day10,Mast cell,1592.0,3,Clone 4
+4,Day10,Mono precur,6368.0,12,Clone 4
+4,Day10,Monocyte,13801.0,26,Clone 4
+4,Day10,NMP,23351.0,44,Clone 4
+4,Day17,DC,1017.0,2,Clone 4
+4,Day17,Late Erythroid,509.0,1,Clone 4
+4,Day17,Mast cell,509.0,1,Clone 4
+4,Day17,Monocyte,74266.0,146,Clone 4
+4,Day17,NMP,3562.0,7,Clone 4
+4,Day3,Early Erythroid,5.0,1,Clone 4
+4,Day3,HSC/MPP 1,5.0,1,Clone 4
+4,Day3,HSC/MPP 2,25.0,5,Clone 4
+4,Day3,MEMP,10.0,2,Clone 4
+4,Day3,Mast cell,20.0,4,Clone 4
+4,Day3,NMP,115.0,23,Clone 4
+5,Day10,DC,6370.0,12,Clone 5
+5,Day10,DC precursor,6898.0,13,Clone 5
+5,Day10,HSC/MPP 2,531.0,1,Clone 5
+5,Day10,Mid Erythroid,531.0,1,Clone 5
+5,Day10,Mono precur,48817.0,92,Clone 5
+5,Day10,Monocyte,70572.0,133,Clone 5
+5,Day10,NMP,17513.0,33,Clone 5
+5,Day17,Mono precur,509.0,1,Clone 5
+5,Day17,Monocyte,10685.0,21,Clone 5
+5,Day17,NMP,1017.0,2,Clone 5
+5,Day3,HSC/MPP 1,50.0,10,Clone 5
+5,Day3,HSC/MPP 2,5.0,1,Clone 5
+5,Day3,NMP,45.0,9,Clone 5
+6,Day10,Mast cell,531.0,1,Clone 6
+6,Day10,Mono precur,11143.0,21,Clone 6
+6,Day10,Monocyte,22288.0,42,Clone 6
+6,Day10,NMP,36085.0,68,Clone 6
+6,Day17,DC,1017.0,2,Clone 6
+6,Day17,DC precursor,1017.0,2,Clone 6
+6,Day17,Mast cell,5596.0,11,Clone 6
+6,Day17,Mono precur,2544.0,5,Clone 6
+6,Day17,Monocyte,191256.0,376,Clone 6
+6,Day17,NMP,15769.0,31,Clone 6
+6,Day3,HSC/MPP 1,15.0,3,Clone 6
+6,Day3,HSC/MPP 2,25.0,5,Clone 6
+6,Day3,NMP,15.0,3,Clone 6
+7,Day10,DC,1592.0,3,Clone 7
+7,Day10,Early Erythroid,531.0,1,Clone 7
+7,Day10,HSC/MPP 1,531.0,1,Clone 7
+7,Day10,HSC/MPP 2,5838.0,11,Clone 7
+7,Day10,MEMP,531.0,1,Clone 7
+7,Day10,Mast cell,9552.0,18,Clone 7
+7,Day10,Mid Erythroid,531.0,1,Clone 7
+7,Day10,Mono precur,14327.0,27,Clone 7
+7,Day10,Monocyte,8491.0,16,Clone 7
+7,Day10,NMP,62082.0,117,Clone 7
+7,Day17,DC,1017.0,2,Clone 7
+7,Day17,DC precursor,509.0,1,Clone 7
+7,Day17,Early Erythroid,2543.0,5,Clone 7
+7,Day17,HSC/MPP 2,11191.0,22,Clone 7
+7,Day17,Late Erythroid,8648.0,17,Clone 7
+7,Day17,MEMP,509.0,1,Clone 7
+7,Day17,Mast cell,130216.0,256,Clone 7
+7,Day17,Mid Erythroid,62056.0,122,Clone 7
+7,Day17,Mono precur,199396.0,392,Clone 7
+7,Day17,Monocyte,1173470.0,2307,Clone 7
+7,Day17,NMP,733486.0,1442,Clone 7
+7,Day3,HSC/MPP 1,25.0,5,Clone 7
+7,Day3,HSC/MPP 2,10.0,2,Clone 7
+7,Day3,Mast cell,5.0,1,Clone 7
+8,Day10,Early Erythroid,3186.0,6,Clone 8
+8,Day10,MEMP,531.0,1,Clone 8
+8,Day10,Mast cell,21757.0,41,Clone 8
+8,Day10,Mid Erythroid,4779.0,9,Clone 8
+8,Day17,Early Erythroid,509.0,1,Clone 8
+8,Day17,Mast cell,5598.0,11,Clone 8
+8,Day17,Mid Erythroid,1018.0,2,Clone 8
+8,Day3,Early Erythroid,5.0,1,Clone 8
+8,Day3,MEMP,285.0,57,Clone 8
+8,Day3,Mast cell,40.0,8,Clone 8
+8,Day3,Monocyte,15.0,3,Clone 8
+BG,Day10,DC,57304.0,108,BG
+BG,Day10,DC precursor,79589.0,150,BG
+BG,Day10,Early Erythroid,733816.0,1383,BG
+BG,Day10,HSC/MPP 1,2122.0,4,BG
+BG,Day10,HSC/MPP 2,70569.0,133,BG
+BG,Day10,Late Erythroid,42447.0,80,BG
+BG,Day10,MEMP,41917.0,79,BG
+BG,Day10,Mast cell,396887.0,748,BG
+BG,Day10,Mid Erythroid,1069685.0,2016,BG
+BG,Day10,Mono precur,247789.0,467,BG
+BG,Day10,Monocyte,362928.0,684,BG
+BG,Day10,NMP,578351.0,1090,BG
+BG,Day17,DC,92575.0,182,BG
+BG,Day17,DC precursor,110378.0,217,BG
+BG,Day17,Early Erythroid,193798.0,381,BG
+BG,Day17,HSC/MPP 2,71720.0,141,BG
+BG,Day17,Late Erythroid,162770.0,320,BG
+BG,Day17,MEMP,43235.0,85,BG
+BG,Day17,Mast cell,680074.0,1337,BG
+BG,Day17,Mid Erythroid,532054.0,1046,BG
+BG,Day17,Mono precur,361146.0,710,BG
+BG,Day17,Monocyte,2542266.0,4998,BG
+BG,Day17,NMP,962887.0,1893,BG
+BG,Day3,DC,19.0,4,BG
+BG,Day3,DC precursor,1025.0,209,BG
+BG,Day3,Early Erythroid,1157.0,236,BG
+BG,Day3,HSC/MPP 1,5474.0,1116,BG
+BG,Day3,HSC/MPP 2,4120.0,840,BG
+BG,Day3,MEMP,7549.0,1539,BG
+BG,Day3,Mast cell,8388.0,1710,BG
+BG,Day3,Mono precur,461.0,94,BG
+BG,Day3,Monocyte,34.0,7,BG
+BG,Day3,NMP,4306.0,878,BG

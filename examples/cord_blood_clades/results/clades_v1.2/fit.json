@@ -1,0 +1,99 @@
+{
+ "name": "cord_blood_v1.2_dynamic",
+ "logger_config_path": "/rds/project/rds-SDzz0CATGms/users/ql321/work/larry_barcode/SLX26813_250925/landscape_251007/clokin/examples/cord_blood_clades/runs/cord_blood_v1.2/clades/logger_config.json",
+ "system": {
+  "gpu_id": 0,
+  "seed": 42
+ },
+ "arch": {
+  "type": "ODEBlock",
+  "args": {
+   "activation": "softplus",
+   "hidden_dim": 32,
+   "K_type": "dynamic",
+   "clipping": true
+  }
+ },
+ "base_trainer": {
+  "epochs": 1500,
+  "save_dir": "/rds/project/rds-SDzz0CATGms/users/ql321/work/larry_barcode/SLX26813_250925/landscape_251007/clokin/examples/cord_blood_clades/runs/cord_blood_v1.2/clades",
+  "verbosity": 2,
+  "log_interval": 100
+ },
+ "user_trainer": {
+  "adjoint": false,
+  "alphas": [
+   1.0,
+   0.5,
+   0.5,
+   0.25,
+   0.05,
+   0.5
+  ],
+  "no_proliferation_pops": [
+   0,
+   0,
+   0,
+   1,
+   0,
+   0,
+   1,
+   0,
+   0,
+   1,
+   0,
+   1
+  ],
+  "no_apoptosis_pops": [
+   1,
+   1,
+   1,
+   0,
+   1,
+   0,
+   0,
+   1,
+   0,
+   0,
+   0,
+   0
+  ],
+  "t_observed": [
+   0,
+   3,
+   10,
+   17
+  ],
+  "scaling_factor": [
+   1.0,
+   4.9055,
+   530.5978,
+   508.6567
+  ],
+  "ub_for_prol": 6,
+  "ub_for_diff": 6,
+  "weighted_rate": true
+ },
+ "optimizer": {
+  "learning_rate": 0.001,
+  "scheduler_type": "AutoAdaptive",
+  "lr_decay": 0.9,
+  "multistep_milestone": [
+   200,
+   400,
+   600,
+   800,
+   1000
+  ]
+ },
+ "data_loader": {
+  "type": "ClonalTransDataLoader",
+  "args": {
+   "data_dir": "/rds/project/rds-SDzz0CATGms/users/ql321/work/larry_barcode/SLX26813_250925/landscape_251007/clokin/examples/cord_blood_clades/runs/cord_blood_v1.2/data",
+   "num_populations": 12,
+   "annots": "annotations.csv",
+   "graphs": "graph_table.csv",
+   "cell_counts": "kinetics.txt"
+  }
+ }
+}

@@ -47,3 +47,12 @@ monocytes.
 ## Used for the CLADES fit
 
 The CLADES graph, unchanged, so that the example reproduces the CLADES analysis.
+
+## CLADES v1.2.0 graph
+
+The graph of CLADES v1.2.0 (`inputs/clades_graph_table_v1.2.csv`, used by `config_v1.2.yaml`) has the 13 edges above
+plus MEMP -> Mono precursor and NMP -> Mono precursor.
+
+- NMP -> Mono precursor: PAGA 0.19 (a candidate edge here), and 91 % of the NMP clones seen again have monocytes
+  (only 2 % have Mono precursor cells, which are few after day 3). It fits the NMP -> monocyte route the clones show.
+- MEMP -> Mono precursor: no support in this data (PAGA 0.009; not a candidate edge).
