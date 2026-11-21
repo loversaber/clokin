@@ -38,7 +38,7 @@ timepoints. Meta-clones 9 and 11 have no such clone, get no day-0 cells and are 
 
 - `fate_prob.csv`: share of the simulations that reach each population. Of the rows labelled "use", Clone 2 and
   Clone 7 reach all five end populations (Mast cell, Late Erythroid, NMP, Monocyte, DC) in more than half of the
-  simulations; Clone 1 and Clone 3 reach Mast cell, Late Erythroid and Monocyte but not NMP or DC; Clone 4 and
-  Clone 6 mostly NMP and Monocyte.
+  simulations; Clone 1 and Clone 3 reach Mast cell, Late Erythroid and Monocyte but not NMP or DC; Clone 4 mostly
+  NMP and Monocyte (about 0.9 each); Clone 6 every end population except Late Erythroid.
 - `divisions.csv`: mean number of divisions from the founder to the first cell of each population (0 for the
   population it starts in).
