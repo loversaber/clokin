@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Step 4: choose k and build the CARTA differentiation tree.
 
-usage: python steps/04_carta_tree.py config/hdbi.yaml
+usage: python steps/04_carta_tree.py config/<dataset>.yaml
 
 reads runs/<run_name>/carta/sweep/ (step 3) and writes to runs/<run_name>/carta/:
   pareto.csv / pareto.pdf     discrepancy D(k) = sum over profiles of clones x fates predicted but not seen;

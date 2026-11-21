@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Step 5c: candidate edges between populations, with clonal, PAGA and CoSpar evidence.
 
-usage: python steps/05c_edges.py config/hdbi.yaml
+usage: python steps/05c_edges.py config/<dataset>.yaml
 
 candidates: edges of edges.previous_graph (optional) + PAGA links >= edges.paga_candidate, directed from the earlier to the later
 population in the `populations` order. Evidence for each edge A -> B:

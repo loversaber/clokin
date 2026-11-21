@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Step 7: CLADES fit and Gillespie simulations, as two chained SLURM GPU jobs.
 
-usage: python steps/07_clades.py config/hdbi.yaml            # write configs + job scripts only
-       python steps/07_clades.py config/hdbi.yaml --submit   # and submit (Gillespie starts after the fit succeeds)
-       python steps/07_clades.py config/hdbi.yaml --post     # queue steps 8 + 9 (CPU) after the fit and after Gillespie
+usage: python steps/07_clades.py config/<dataset>.yaml            # write configs + job scripts only
+       python steps/07_clades.py config/<dataset>.yaml --submit   # and submit (Gillespie starts after the fit succeeds)
+       python steps/07_clades.py config/<dataset>.yaml --post     # queue steps 8 + 9 (CPU) after the fit and after Gillespie
                                                              # (job ids from clades/jobs.txt; with --submit, both at once)
 
 reads runs/<run_name>/data/ (steps 1 and 6) and writes runs/<run_name>/clades/:

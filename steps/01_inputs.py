@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Step 1: CLADES input files from the cell table, the meta-clone labels and the scaling factors.
 
-usage: python steps/01_inputs.py config/hdbi.yaml
+usage: python steps/01_inputs.py config/<dataset>.yaml
 
 writes runs/<run_name>/data/:
   kinetics.txt            (groups + BG) x (timepoints x populations), scaled cell counts

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Step 5a: PAGA connectivity between the populations (expression only, no clonal information).
 
-usage: python steps/05a_paga.py config/hdbi.yaml
+usage: python steps/05a_paga.py config/<dataset>.yaml
 
 cells: those kept by `cell_filter` with a population, all timepoints and experiments. Neighbours on `support.pca`.
 writes runs/<run_name>/support/paga_connectivity.csv (populations x populations) and paga_connectivity.pdf

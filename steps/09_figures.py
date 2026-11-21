@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Step 9: figures from the tables of steps 1, 5, 6 and 8.
 
-usage: python steps/09_figures.py config/hdbi.yaml
+usage: python steps/09_figures.py config/<dataset>.yaml
 
 writes runs/<run_name>/figures/ (PDF):
   graph_on_umap        transition graph used by CLADES at the PAGA node positions; edge colour = evidence status

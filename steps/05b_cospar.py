@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Step 5b: CoSpar clonal fate coupling between the CARTA fates.
 
-usage: python steps/05b_cospar.py config/hdbi.yaml
+usage: python steps/05b_cospar.py config/<dataset>.yaml
 
 part 1 (this python): barcoded cells kept by `cell_filter`; state = CARTA fate (carta.fates), or the population for
 Undifferentiated cells -> runs/<run_name>/support/cospar_input.npz

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Step 8: diagnostics of the CLADES fit (and of the Gillespie simulations when they are complete).
 
-usage: python steps/08_diagnostics.py config/hdbi.yaml   (re-runs itself with clades.python, on CPU)
+usage: python steps/08_diagnostics.py config/<dataset>.yaml   (re-runs itself with clades.python, on CPU)
 
 writes runs/<run_name>/diagnostics/:
   fit_by_row.csv        per row (meta-clone, BG): observed / predicted totals per timepoint, log2(pred/obs),

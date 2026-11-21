@@ -1,0 +1,11 @@
+k,progenitor,potency,n_fates,clones
+1,0,Monocyte+Erythroid+Mast+DC,4,262
+2,0,Erythroid+Mast,2,131
+2,1,Monocyte+Erythroid+Mast+DC,4,131
+3,0,Erythroid+Mast,2,131
+3,1,Monocyte+DC,2,45
+3,2,Monocyte+Erythroid+Mast+DC,4,86
+4,0,Erythroid+Mast,2,78
+4,1,Erythroid+Mast,2,53
+4,2,Monocyte+Erythroid+Mast+DC,4,86
+4,3,Monocyte+DC,2,45

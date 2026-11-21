@@ -1,0 +1,11 @@
+population,clones_Day3,seen_later,DC,Erythroid,Mast,Monocyte
+HSC/MPP 1,177,32,0.469,0.25,0.188,0.812
+HSC/MPP 2,107,22,0.045,0.136,0.182,0.909
+MEMP,559,98,0.0,0.704,0.653,0.092
+Mast cell,826,31,0.0,0.065,0.742,0.258
+Early Erythroid,127,23,0.0,0.522,0.522,0.13
+NMP,169,46,0.0,0.043,0.022,0.935
+Mono precur,45,0,,,,
+Monocyte,3,0,,,,
+DC precursor,48,1,1.0,0.0,0.0,0.0
+DC,2,0,,,,

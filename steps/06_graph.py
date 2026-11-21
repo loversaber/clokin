@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Step 6: transition graph for CLADES from the `graph` section of the config.
 
-usage: python steps/06_graph.py config/hdbi.yaml
+usage: python steps/06_graph.py config/<dataset>.yaml
 
 writes runs/<run_name>/data/graph_table.csv (populations x populations, 1 = source -> target) and
 support/edges_used.csv (support/edges.csv with `use` filled in, plus graph edges that were not candidates).

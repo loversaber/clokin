@@ -5,5 +5,5 @@ inputs/*
 runs/
 archive/
 notes/
-config/hdbi*.yaml
-config/site.yaml
+config/*
+!config/site_example.yaml

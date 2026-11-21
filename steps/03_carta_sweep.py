@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Step 3: CARTA ILP (tree mode) for k = 1..kmax progenitors.
 
-usage: python steps/03_carta_sweep.py config/hdbi.yaml            # run here
-       python steps/03_carta_sweep.py config/hdbi.yaml --submit   # as a SLURM CPU job
+usage: python steps/03_carta_sweep.py config/<dataset>.yaml            # run here
+       python steps/03_carta_sweep.py config/<dataset>.yaml --submit   # as a SLURM CPU job
 
 writes runs/<run_name>/carta/sweep/k<k>_{prog,assignment,labeling}.csv (larry.py output) and
 k<k>.log; a k that already has its _prog.csv is skipped, so the step can be re-run after a timeout.

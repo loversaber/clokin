@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Step 5d: fate similarity and fate trees from CARTA, CoSpar and PAGA, side by side.
 
-usage: python steps/05d_trees.py config/hdbi.yaml
+usage: python steps/05d_trees.py config/<dataset>.yaml
 
 similarity between the CARTA fates, by three methods:
   CARTA   share of the progenitors (tree at carta.k) holding one of the two fates that hold both (Jaccard)

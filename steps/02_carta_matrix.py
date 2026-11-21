@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Step 2: clone x fate matrix for CARTA.
 
-usage: python steps/02_carta_matrix.py config/hdbi.yaml
+usage: python steps/02_carta_matrix.py config/<dataset>.yaml
 
 writes runs/<run_name>/carta/:
   clone_fate_counts.csv   one row per clone: cells of each fate (and Undifferentiated)

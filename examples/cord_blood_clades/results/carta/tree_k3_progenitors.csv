@@ -1,0 +1,4 @@
+node,potency,clones,n_fates,parent,fates_attached
+P0,Monocyte+Erythroid+Mast+DC,86,4,,
+P1,Erythroid+Mast,131,2,P0,Erythroid+Mast
+P2,Monocyte+DC,45,2,P0,Monocyte+DC
