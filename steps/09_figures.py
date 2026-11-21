@@ -206,6 +206,8 @@ if len(conv):
     fig, ax = plt.subplots(figsize=(4, 3))
     for c in obs:
         ax.plot(conv.epoch, conv[c], label=f'day {c[1:]}')
+    if 'obs' in conv:  # CLADES v1.2.0: one observation loss (sum over the days); NaN epochs left as gaps
+        ax.plot(conv.epoch, conv.obs, lw=0.6, label='observation loss')
     ax.set_xlabel('epoch')
     ax.set_ylabel('loss')
     ax.legend(frameon=False)

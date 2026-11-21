@@ -147,8 +147,12 @@ conv = []
 if logs:
     txt = open(logs[-1], errors='ignore').read().replace('\r', '\n')
     for line in txt.split('\n'):
+        v12 = re.match(r'.*?Epoch: (\d+), Loss: ([-\w.]+), Obs: ([-\w.]+), Nan: (\d+)/\d+', line)
         ep = re.search(r'\|\s*(\d+)/(\d+) \[', line)
-        if ep and 'L/' in line:
+        if v12:  # CLADES v1.2.0
+            conv.append({'epoch': int(v12.group(1)), 'loss': float(v12.group(2)), 'obs': float(v12.group(3)),
+                         'nan_entries': int(v12.group(4))})
+        elif ep and 'L/' in line:
             conv.append({'epoch': int(ep.group(1)), **{a: float(b) for a, b in re.findall(r'L/(\w+) ([-\d.]+)', line)}})
 conv = pd.DataFrame(conv).drop_duplicates('epoch', keep='last')
 conv.to_csv(out / 'convergence.csv', index=False)
@@ -156,10 +160,13 @@ conv.to_csv(out / 'convergence.csv', index=False)
 pd.set_option('display.width', 250)
 print(fit.to_string(index=False))
 if len(conv):
-    obs_cols = [c for c in conv.columns if re.fullmatch(r'L\d+', c)]
-    end, ref = conv.iloc[-1], conv[conv.epoch <= 0.8 * conv.epoch.max()].iloc[-1]
+    obs_cols = [c for c in conv.columns if re.fullmatch(r'L\d+', c)] or ['obs']
+    if 'nan_entries' in conv:
+        print(f'\nepochs with a NaN loss: {conv.obs.isna().sum()} of {len(conv)} (at each log_interval CLADES v1.2.0 goes back to the best model if the loss is NaN)')
+    fin = conv.dropna(subset=obs_cols)
+    end, ref = fin.iloc[-1], fin[fin.epoch <= 0.8 * fin.epoch.max()].iloc[-1]
     print('\nloss at the end vs at 80 % of the epochs:',
-          ', '.join(f'{c} {end[c]:.1f} ({100 * (end[c] - ref[c]) / ref[c]:+.1f} %)' for c in obs_cols))
+          ', '.join(f'{c} {end[c]:.1f} ({100 * (end[c] - ref[c]) / abs(ref[c]):+.1f} %)' for c in obs_cols))
 print(f'\nchecks: {len(checks)} flags')
 if len(checks):
     print(checks.groupby(['check', 'trust']).size().to_string())
