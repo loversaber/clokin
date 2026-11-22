@@ -1,0 +1,18 @@
+source,target,in_previous_graph,source_clones_Day3,source_clones_seen_later,clonal_share,target_cells_after_Day3,paga,target_fate,cospar_partner,status,use
+HSC/MPP 1,HSC/MPP 2,1,177,32,0.188,162,0.813,,,agree,1
+HSC/MPP 1,MEMP,1,177,32,0.062,115,0.085,,,clonal only,1
+HSC/MPP 1,DC precursor,1,177,32,0.406,298,0.698,DC,Monocyte 0.020,agree,1
+HSC/MPP 1,DC,0,177,32,0.312,245,0.496,DC,Monocyte 0.020,agree,0
+HSC/MPP 2,MEMP,1,107,22,0.045,115,0.136,,,paga only,1
+HSC/MPP 2,NMP,1,107,22,0.636,2057,0.173,,,agree,1
+HSC/MPP 2,Mono precur,1,107,22,0.091,851,0.372,Monocyte,DC 0.020,agree,1
+HSC/MPP 2,DC precursor,1,107,22,0.045,298,0.722,DC,Monocyte 0.020,paga only,1
+MEMP,Mast cell,1,559,98,0.653,1391,0.175,Mast,Erythroid 0.044,agree,1
+MEMP,Early Erythroid,1,559,98,0.469,930,0.297,Erythroid,Mast 0.044,agree,1
+Early Erythroid,Mid Erythroid,1,127,23,0.261,1617,0.417,Erythroid,Mast 0.044,agree,1
+Mid Erythroid,Late Erythroid,1,0,0,,319,0.406,Erythroid,Mast 0.044,no clonal data,1
+Late Erythroid,DC,0,0,0,,245,0.152,DC,Monocyte 0.020,mature-mature,0
+NMP,Mono precur,0,169,46,0.022,851,0.185,Monocyte,DC 0.020,paga only,0
+Mono precur,Monocyte,1,45,0,,3665,0.332,Monocyte,DC 0.020,no clonal data,1
+Mono precur,DC precursor,0,45,0,,298,0.484,DC,Monocyte 0.020,no clonal data,0
+DC precursor,DC,1,48,1,,245,1.0,DC,Monocyte 0.020,no clonal data,1

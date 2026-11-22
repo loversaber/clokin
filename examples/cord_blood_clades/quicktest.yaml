@@ -1,4 +1,4 @@
-# quick end-to-end check of clokin on the example: small CARTA sweep, 20 epochs, 2 simulations per row (minutes).
+# quick end-to-end check of clokin on the example (CLADES v1.2.0, config.yaml): small CARTA sweep, 20 epochs, 2 simulations per row (minutes).
 base: config.yaml
 run_name: quicktest
 carta: {kmax: 2, k: 2}

@@ -1,0 +1,12 @@
+{
+ "name": "cord_blood_dynamic_gillespie",
+ "logger_config_path": "/rds/project/rds-SDzz0CATGms/users/ql321/work/larry_barcode/SLX26813_250925/landscape_251007/clokin/examples/cord_blood_clades/runs/cord_blood/clades/logger_config.json",
+ "model_path": "/rds/project/rds-SDzz0CATGms/users/ql321/work/larry_barcode/SLX26813_250925/landscape_251007/clokin/examples/cord_blood_clades/runs/cord_blood/clades/checkpoints/cord_blood_dynamic/1121_181548/model_last.pt",
+ "time_interval": 0.01,
+ "concurrent": 20,
+ "epoch": 50,
+ "t_cutoff": 0.0001,
+ "base_trainer": {
+  "save_dir": "/rds/project/rds-SDzz0CATGms/users/ql321/work/larry_barcode/SLX26813_250925/landscape_251007/clokin/examples/cord_blood_clades/runs/cord_blood/clades/gillespie"
+ }
+}

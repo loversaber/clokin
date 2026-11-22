@@ -1,0 +1,127 @@
+# clokin example: CLADES cord blood LARRY data (Gao, Barile et al., Nat Commun 2025), the 12 CLADES meta-clones.
+# Settings follow the CLADES cord blood run (clonaltrans config/main_dynamic_cordblood.json,
+# demo/CordBlood_Refine/prepare_input.ipynb), so step 1 rebuilds the CLADES input and the fit can be compared.
+base: ../../config/site.yaml              # computer-specific settings (copy config/site_example.yaml)
+root: .                                   # paths below are relative to this folder
+
+run_name: cord_blood
+runs_dir: runs
+
+inputs:
+  cells: inputs/cells.parquet
+  labels: inputs/metaclone_labels.csv
+  scaling: inputs/scaling_factors.csv
+
+columns:
+  clone: clone
+  celltype: celltype
+  timepoint: timepoint
+  experiment: experiment
+  label_clone: clone_id
+  label_group: meta_clone
+  umap: [UMAP1, UMAP2]
+
+cell_filter: {}                           # barcoded cells are all GFP+; the background row uses all cells, as in CLADES
+
+timepoints:
+  Day3: 3
+  Day10: 10
+  Day17: 17
+
+group_prefix: 'Clone '                    # rows Clone 0 .. Clone 11, then BG
+
+populations:                              # CLADES order; root first
+  HSC/MPP 1: [HSC/MPP 1]
+  HSC/MPP 2: [HSC/MPP 2]
+  MEMP: [MEMP]
+  Mast cell: [Mast cell]
+  Early Erythroid: [Early Erythroid]
+  Mid Erythroid: [Mid Erythroid]
+  Late Erythroid: [Late Erythroid]
+  NMP: [NMP]
+  Mono precur: [Mono precur]
+  Monocyte: [Monocyte]
+  DC precursor: [DC precursor]
+  DC: [DC]
+
+terminal: [Mast cell, Late Erythroid, NMP, Monocyte, DC]          # no outgoing edge in the CLADES graph
+no_proliferation: [Mast cell, Late Erythroid, Monocyte, DC]       # as in the CLADES config
+early: [HSC/MPP 1, HSC/MPP 2, MEMP, Early Erythroid, NMP]         # no apoptosis, as in the CLADES config
+
+day0: founders                            # = CLADES initial_condition (clones per meta-clone; BG: all clones)
+clades_rounding: true                     # round as the CLADES notebook, to rebuild its input exactly
+
+colors:
+  HSC/MPP 1: '#7f7f7f'
+  HSC/MPP 2: '#bdbdbd'
+  MEMP: '#ff815e'
+  Mast cell: '#d3bb1a'
+  Early Erythroid: '#f4a3b5'
+  Mid Erythroid: '#e1264d'
+  Late Erythroid: '#961933'
+  NMP: '#80cbc4'
+  Mono precur: '#7edef4'
+  Monocyte: '#0ea3f0'
+  DC precursor: '#73ab35'
+  DC: '#355314'
+
+carta:
+  fates:
+    HSC/MPP 1: Undifferentiated
+    HSC/MPP 2: Undifferentiated
+    MEMP: Undifferentiated
+    NMP: Undifferentiated
+    Mast cell: Mast
+    Early Erythroid: Erythroid
+    Mid Erythroid: Erythroid
+    Late Erythroid: Erythroid
+    Mono precur: Monocyte
+    Monocyte: Monocyte
+    DC precursor: DC
+    DC: DC
+  clones: all
+  min_cells_per_fate: 1
+  threshold: 5
+  kmax: 4
+  k: 3                                    # D(k) stops falling at k = 3 (D(3) = D(4)); the elbow is k = 2
+  short: {Erythroid: Ery, Mast: Ma, Monocyte: Mo, DC: DC}
+
+support:
+  pca: inputs/pca.parquet
+  paga_neighbors: 15
+  paga_threshold: 0.1
+  cospar_times: [all, Day10, Day17]
+
+edges:
+  previous_graph: inputs/clades_graph_table.csv
+  paga_candidate: 0.15
+  paga_support: 0.10
+  min_d3_clones: 20
+  clonal_support: 0.05
+
+graph:                                    # the CLADES cord blood graph
+  HSC/MPP 1: [HSC/MPP 2, MEMP, DC precursor]
+  HSC/MPP 2: [MEMP, NMP, Mono precur, DC precursor]
+  MEMP: [Mast cell, Early Erythroid]
+  Early Erythroid: [Mid Erythroid]
+  Mid Erythroid: [Late Erythroid]
+  Mono precur: [Monocyte]
+  DC precursor: [DC]
+
+clades:                                   # as in the CLADES cord blood run
+  K_type: dynamic
+  hidden_dim: 32
+  activation: softplus
+  epochs: 1500
+  learning_rate: 1.0e-3
+  lr_milestones: [200, 400, 600, 800, 1000]
+  alphas: [1.0, 0.5, 0.5, 0.25, 0.05, 0.5]
+  ub_for_prol: 6
+  ub_for_diff: 6
+  seed: 42
+  fit_hours: 6
+  gillespie: {time_interval: 0.01, concurrent: 20, epoch: 50, t_cutoff: 1.0e-4, hours: 24}
+
+diagnostics:
+  min_cells_last: 20000
+  min_pops_last: 3

@@ -76,8 +76,8 @@ Notes on reading the results of a dataset (caveats specific to its data) can go 
 
 ## A new dataset
 
-Make the four input files described in `inputs/README.md`, copy `examples/cord_blood_clades/config.yaml` to
-`config/<dataset>.yaml` and change: `base` and `root` (or remove `root` for a config in `config/`), `run_name`,
+Make the four input files described in `inputs/README.md`, copy `examples/cord_blood_clades/config_main.yaml` (the full
+settings; add the `clades` and `day0` keys of the example's `config.yaml` for CLADES v1.2.0) to `config/<dataset>.yaml` and change: `base` and `root` (or remove `root` for a config in `config/`), `run_name`,
 `inputs` and `columns`, `cell_filter`, `timepoints`, `populations` (cell type -> population, root first), `terminal`,
 `no_proliferation` and `early`, `day0`, `colors`, `carta.fates`, `edges` (`previous_graph` is optional) and
 `diagnostics`. Leave `graph` empty, run the tree stage, then fill it in. A variant of a config can start with

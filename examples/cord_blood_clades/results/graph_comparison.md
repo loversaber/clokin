@@ -1,6 +1,6 @@
 # clokin tree stage vs the CLADES cord blood graph
 
-The CLADES fit in this example uses the published CLADES graph unchanged (`graph` in `config.yaml`, from
+The CLADES fit in this example uses the published CLADES graph unchanged (`graph` in `config_main.yaml`, from
 `demo/CordBlood_Refine/graph_table.csv`). The tree stage of clokin was run on the same data to test it and to compare
 its evidence with that graph. Files: `support/edges.csv`, `support/potency.csv`, `support/trees.pdf`,
 `carta/tree_k3.pdf` (in this folder).
@@ -50,7 +50,7 @@ The CLADES graph, unchanged, so that the example reproduces the CLADES analysis.
 
 ## CLADES v1.2.0 graph
 
-The graph of CLADES v1.2.0 (`inputs/clades_graph_table_v1.2.csv`, used by `config_v1.2.yaml`) has the 13 edges above
+The graph of CLADES v1.2.0 (`inputs/clades_graph_table_v1.2.csv`, used by `config.yaml`) has the 13 edges above
 plus MEMP -> Mono precursor and NMP -> Mono precursor.
 
 - NMP -> Mono precursor: PAGA 0.19 (a candidate edge here), and 91 % of the NMP clones seen again have monocytes

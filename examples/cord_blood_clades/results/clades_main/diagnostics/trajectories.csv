@@ -1,0 +1,5461 @@
+row,day,population,predicted
+Clone 0,0.0,HSC/MPP 1,94.0
+Clone 0,0.0,HSC/MPP 2,0.0
+Clone 0,0.0,MEMP,0.0
+Clone 0,0.0,Mast cell,0.0
+Clone 0,0.0,Early Erythroid,0.0
+Clone 0,0.0,Mid Erythroid,0.0
+Clone 0,0.0,Late Erythroid,0.0
+Clone 0,0.0,NMP,0.0
+Clone 0,0.0,Mono precur,0.0
+Clone 0,0.0,Monocyte,0.0
+Clone 0,0.0,DC precursor,0.0
+Clone 0,0.0,DC,0.0
+Clone 1,0.0,HSC/MPP 1,73.0
+Clone 1,0.0,HSC/MPP 2,0.0
+Clone 1,0.0,MEMP,0.0
+Clone 1,0.0,Mast cell,0.0
+Clone 1,0.0,Early Erythroid,0.0
+Clone 1,0.0,Mid Erythroid,0.0
+Clone 1,0.0,Late Erythroid,0.0
+Clone 1,0.0,NMP,0.0
+Clone 1,0.0,Mono precur,0.0
+Clone 1,0.0,Monocyte,0.0
+Clone 1,0.0,DC precursor,0.0
+Clone 1,0.0,DC,0.0
+Clone 2,0.0,HSC/MPP 1,66.0
+Clone 2,0.0,HSC/MPP 2,0.0
+Clone 2,0.0,MEMP,0.0
+Clone 2,0.0,Mast cell,0.0
+Clone 2,0.0,Early Erythroid,0.0
+Clone 2,0.0,Mid Erythroid,0.0
+Clone 2,0.0,Late Erythroid,0.0
+Clone 2,0.0,NMP,0.0
+Clone 2,0.0,Mono precur,0.0
+Clone 2,0.0,Monocyte,0.0
+Clone 2,0.0,DC precursor,0.0
+Clone 2,0.0,DC,0.0
+Clone 3,0.0,HSC/MPP 1,66.0
+Clone 3,0.0,HSC/MPP 2,0.0
+Clone 3,0.0,MEMP,0.0
+Clone 3,0.0,Mast cell,0.0
+Clone 3,0.0,Early Erythroid,0.0
+Clone 3,0.0,Mid Erythroid,0.0
+Clone 3,0.0,Late Erythroid,0.0
+Clone 3,0.0,NMP,0.0
+Clone 3,0.0,Mono precur,0.0
+Clone 3,0.0,Monocyte,0.0
+Clone 3,0.0,DC precursor,0.0
+Clone 3,0.0,DC,0.0
+Clone 4,0.0,HSC/MPP 1,58.0
+Clone 4,0.0,HSC/MPP 2,0.0
+Clone 4,0.0,MEMP,0.0
+Clone 4,0.0,Mast cell,0.0
+Clone 4,0.0,Early Erythroid,0.0
+Clone 4,0.0,Mid Erythroid,0.0
+Clone 4,0.0,Late Erythroid,0.0
+Clone 4,0.0,NMP,0.0
+Clone 4,0.0,Mono precur,0.0
+Clone 4,0.0,Monocyte,0.0
+Clone 4,0.0,DC precursor,0.0
+Clone 4,0.0,DC,0.0
+Clone 5,0.0,HSC/MPP 1,49.0
+Clone 5,0.0,HSC/MPP 2,0.0
+Clone 5,0.0,MEMP,0.0
+Clone 5,0.0,Mast cell,0.0
+Clone 5,0.0,Early Erythroid,0.0
+Clone 5,0.0,Mid Erythroid,0.0
+Clone 5,0.0,Late Erythroid,0.0
+Clone 5,0.0,NMP,0.0
+Clone 5,0.0,Mono precur,0.0
+Clone 5,0.0,Monocyte,0.0
+Clone 5,0.0,DC precursor,0.0
+Clone 5,0.0,DC,0.0
+Clone 6,0.0,HSC/MPP 1,46.0
+Clone 6,0.0,HSC/MPP 2,0.0
+Clone 6,0.0,MEMP,0.0
+Clone 6,0.0,Mast cell,0.0
+Clone 6,0.0,Early Erythroid,0.0
+Clone 6,0.0,Mid Erythroid,0.0
+Clone 6,0.0,Late Erythroid,0.0
+Clone 6,0.0,NMP,0.0
+Clone 6,0.0,Mono precur,0.0
+Clone 6,0.0,Monocyte,0.0
+Clone 6,0.0,DC precursor,0.0
+Clone 6,0.0,DC,0.0
+Clone 7,0.0,HSC/MPP 1,44.0
+Clone 7,0.0,HSC/MPP 2,0.0
+Clone 7,0.0,MEMP,0.0
+Clone 7,0.0,Mast cell,0.0
+Clone 7,0.0,Early Erythroid,0.0
+Clone 7,0.0,Mid Erythroid,0.0
+Clone 7,0.0,Late Erythroid,0.0
+Clone 7,0.0,NMP,0.0
+Clone 7,0.0,Mono precur,0.0
+Clone 7,0.0,Monocyte,0.0
+Clone 7,0.0,DC precursor,0.0
+Clone 7,0.0,DC,0.0
+Clone 8,0.0,HSC/MPP 1,39.0
+Clone 8,0.0,HSC/MPP 2,0.0
+Clone 8,0.0,MEMP,0.0
+Clone 8,0.0,Mast cell,0.0
+Clone 8,0.0,Early Erythroid,0.0
+Clone 8,0.0,Mid Erythroid,0.0
+Clone 8,0.0,Late Erythroid,0.0
+Clone 8,0.0,NMP,0.0
+Clone 8,0.0,Mono precur,0.0
+Clone 8,0.0,Monocyte,0.0
+Clone 8,0.0,DC precursor,0.0
+Clone 8,0.0,DC,0.0
+Clone 9,0.0,HSC/MPP 1,34.0
+Clone 9,0.0,HSC/MPP 2,0.0
+Clone 9,0.0,MEMP,0.0
+Clone 9,0.0,Mast cell,0.0
+Clone 9,0.0,Early Erythroid,0.0
+Clone 9,0.0,Mid Erythroid,0.0
+Clone 9,0.0,Late Erythroid,0.0
+Clone 9,0.0,NMP,0.0
+Clone 9,0.0,Mono precur,0.0
+Clone 9,0.0,Monocyte,0.0
+Clone 9,0.0,DC precursor,0.0
+Clone 9,0.0,DC,0.0
+Clone 10,0.0,HSC/MPP 1,21.0
+Clone 10,0.0,HSC/MPP 2,0.0
+Clone 10,0.0,MEMP,0.0
+Clone 10,0.0,Mast cell,0.0
+Clone 10,0.0,Early Erythroid,0.0
+Clone 10,0.0,Mid Erythroid,0.0
+Clone 10,0.0,Late Erythroid,0.0
+Clone 10,0.0,NMP,0.0
+Clone 10,0.0,Mono precur,0.0
+Clone 10,0.0,Monocyte,0.0
+Clone 10,0.0,DC precursor,0.0
+Clone 10,0.0,DC,0.0
+Clone 11,0.0,HSC/MPP 1,16.0
+Clone 11,0.0,HSC/MPP 2,0.0
+Clone 11,0.0,MEMP,0.0
+Clone 11,0.0,Mast cell,0.0
+Clone 11,0.0,Early Erythroid,0.0
+Clone 11,0.0,Mid Erythroid,0.0
+Clone 11,0.0,Late Erythroid,0.0
+Clone 11,0.0,NMP,0.0
+Clone 11,0.0,Mono precur,0.0
+Clone 11,0.0,Monocyte,0.0
+Clone 11,0.0,DC precursor,0.0
+Clone 11,0.0,DC,0.0
+BG,0.0,HSC/MPP 1,3246.0
+BG,0.0,HSC/MPP 2,0.0
+BG,0.0,MEMP,0.0
+BG,0.0,Mast cell,0.0
+BG,0.0,Early Erythroid,0.0
+BG,0.0,Mid Erythroid,0.0
+BG,0.0,Late Erythroid,0.0
+BG,0.0,NMP,0.0
+BG,0.0,Mono precur,0.0
+BG,0.0,Monocyte,0.0
+BG,0.0,DC precursor,0.0
+BG,0.0,DC,0.0
+Clone 0,0.5,HSC/MPP 1,96.67
+Clone 0,0.5,HSC/MPP 2,7.12
+Clone 0,0.5,MEMP,7.05
+Clone 0,0.5,Mast cell,0.29
+Clone 0,0.5,Early Erythroid,0.33
+Clone 0,0.5,Mid Erythroid,0.02
+Clone 0,0.5,Late Erythroid,0.0
+Clone 0,0.5,NMP,0.1
+Clone 0,0.5,Mono precur,0.03
+Clone 0,0.5,Monocyte,0.0
+Clone 0,0.5,DC precursor,5.13
+Clone 0,0.5,DC,0.0
+Clone 1,0.5,HSC/MPP 1,68.06
+Clone 1,0.5,HSC/MPP 2,3.8
+Clone 1,0.5,MEMP,2.38
+Clone 1,0.5,Mast cell,0.06
+Clone 1,0.5,Early Erythroid,0.18
+Clone 1,0.5,Mid Erythroid,0.01
+Clone 1,0.5,Late Erythroid,0.0
+Clone 1,0.5,NMP,0.02
+Clone 1,0.5,Mono precur,0.04
+Clone 1,0.5,Monocyte,0.0
+Clone 1,0.5,DC precursor,0.01
+Clone 1,0.5,DC,0.0
+Clone 2,0.5,HSC/MPP 1,72.6
+Clone 2,0.5,HSC/MPP 2,4.51
+Clone 2,0.5,MEMP,5.6
+Clone 2,0.5,Mast cell,0.55
+Clone 2,0.5,Early Erythroid,0.13
+Clone 2,0.5,Mid Erythroid,0.01
+Clone 2,0.5,Late Erythroid,0.0
+Clone 2,0.5,NMP,0.0
+Clone 2,0.5,Mono precur,0.06
+Clone 2,0.5,Monocyte,0.0
+Clone 2,0.5,DC precursor,1.98
+Clone 2,0.5,DC,0.08
+Clone 3,0.5,HSC/MPP 1,63.11
+Clone 3,0.5,HSC/MPP 2,1.19
+Clone 3,0.5,MEMP,2.28
+Clone 3,0.5,Mast cell,0.11
+Clone 3,0.5,Early Erythroid,0.17
+Clone 3,0.5,Mid Erythroid,0.0
+Clone 3,0.5,Late Erythroid,0.0
+Clone 3,0.5,NMP,0.0
+Clone 3,0.5,Mono precur,0.01
+Clone 3,0.5,Monocyte,0.0
+Clone 3,0.5,DC precursor,0.0
+Clone 3,0.5,DC,0.0
+Clone 4,0.5,HSC/MPP 1,46.62
+Clone 4,0.5,HSC/MPP 2,6.28
+Clone 4,0.5,MEMP,8.87
+Clone 4,0.5,Mast cell,1.0
+Clone 4,0.5,Early Erythroid,0.09
+Clone 4,0.5,Mid Erythroid,0.0
+Clone 4,0.5,Late Erythroid,0.0
+Clone 4,0.5,NMP,1.09
+Clone 4,0.5,Mono precur,0.25
+Clone 4,0.5,Monocyte,0.02
+Clone 4,0.5,DC precursor,0.01
+Clone 4,0.5,DC,0.0
+Clone 5,0.5,HSC/MPP 1,49.81
+Clone 5,0.5,HSC/MPP 2,1.71
+Clone 5,0.5,MEMP,1.27
+Clone 5,0.5,Mast cell,0.03
+Clone 5,0.5,Early Erythroid,0.01
+Clone 5,0.5,Mid Erythroid,0.0
+Clone 5,0.5,Late Erythroid,0.0
+Clone 5,0.5,NMP,0.05
+Clone 5,0.5,Mono precur,0.09
+Clone 5,0.5,Monocyte,0.0
+Clone 5,0.5,DC precursor,1.1
+Clone 5,0.5,DC,0.03
+Clone 6,0.5,HSC/MPP 1,44.95
+Clone 6,0.5,HSC/MPP 2,4.27
+Clone 6,0.5,MEMP,3.88
+Clone 6,0.5,Mast cell,0.2
+Clone 6,0.5,Early Erythroid,0.0
+Clone 6,0.5,Mid Erythroid,0.0
+Clone 6,0.5,Late Erythroid,0.0
+Clone 6,0.5,NMP,0.35
+Clone 6,0.5,Mono precur,0.15
+Clone 6,0.5,Monocyte,0.01
+Clone 6,0.5,DC precursor,0.02
+Clone 6,0.5,DC,0.0
+Clone 7,0.5,HSC/MPP 1,50.57
+Clone 7,0.5,HSC/MPP 2,6.42
+Clone 7,0.5,MEMP,3.94
+Clone 7,0.5,Mast cell,0.35
+Clone 7,0.5,Early Erythroid,0.02
+Clone 7,0.5,Mid Erythroid,0.0
+Clone 7,0.5,Late Erythroid,0.0
+Clone 7,0.5,NMP,0.27
+Clone 7,0.5,Mono precur,0.25
+Clone 7,0.5,Monocyte,0.01
+Clone 7,0.5,DC precursor,0.03
+Clone 7,0.5,DC,0.0
+Clone 8,0.5,HSC/MPP 1,32.19
+Clone 8,0.5,HSC/MPP 2,5.16
+Clone 8,0.5,MEMP,2.05
+Clone 8,0.5,Mast cell,0.23
+Clone 8,0.5,Early Erythroid,0.01
+Clone 8,0.5,Mid Erythroid,0.0
+Clone 8,0.5,Late Erythroid,0.0
+Clone 8,0.5,NMP,0.0
+Clone 8,0.5,Mono precur,0.23
+Clone 8,0.5,Monocyte,0.01
+Clone 8,0.5,DC precursor,0.01
+Clone 8,0.5,DC,0.0
+Clone 9,0.5,HSC/MPP 1,76.8
+Clone 9,0.5,HSC/MPP 2,28.11
+Clone 9,0.5,MEMP,9.07
+Clone 9,0.5,Mast cell,1.29
+Clone 9,0.5,Early Erythroid,0.0
+Clone 9,0.5,Mid Erythroid,0.0
+Clone 9,0.5,Late Erythroid,0.0
+Clone 9,0.5,NMP,0.0
+Clone 9,0.5,Mono precur,0.0
+Clone 9,0.5,Monocyte,0.0
+Clone 9,0.5,DC precursor,0.0
+Clone 9,0.5,DC,0.0
+Clone 10,0.5,HSC/MPP 1,20.19
+Clone 10,0.5,HSC/MPP 2,4.96
+Clone 10,0.5,MEMP,0.13
+Clone 10,0.5,Mast cell,0.0
+Clone 10,0.5,Early Erythroid,0.0
+Clone 10,0.5,Mid Erythroid,0.0
+Clone 10,0.5,Late Erythroid,0.0
+Clone 10,0.5,NMP,0.59
+Clone 10,0.5,Mono precur,0.01
+Clone 10,0.5,Monocyte,0.0
+Clone 10,0.5,DC precursor,0.0
+Clone 10,0.5,DC,0.0
+Clone 11,0.5,HSC/MPP 1,13.07
+Clone 11,0.5,HSC/MPP 2,0.01
+Clone 11,0.5,MEMP,5.31
+Clone 11,0.5,Mast cell,0.01
+Clone 11,0.5,Early Erythroid,0.56
+Clone 11,0.5,Mid Erythroid,0.0
+Clone 11,0.5,Late Erythroid,0.0
+Clone 11,0.5,NMP,0.0
+Clone 11,0.5,Mono precur,0.0
+Clone 11,0.5,Monocyte,0.0
+Clone 11,0.5,DC precursor,0.11
+Clone 11,0.5,DC,0.0
+BG,0.5,HSC/MPP 1,3357.78
+BG,0.5,HSC/MPP 2,327.2
+BG,0.5,MEMP,460.31
+BG,0.5,Mast cell,76.24
+BG,0.5,Early Erythroid,9.0
+BG,0.5,Mid Erythroid,0.64
+BG,0.5,Late Erythroid,0.0
+BG,0.5,NMP,11.99
+BG,0.5,Mono precur,6.6
+BG,0.5,Monocyte,0.21
+BG,0.5,DC precursor,43.16
+BG,0.5,DC,1.0
+Clone 0,1.0,HSC/MPP 1,101.44
+Clone 0,1.0,HSC/MPP 2,16.1
+Clone 0,1.0,MEMP,18.06
+Clone 0,1.0,Mast cell,1.33
+Clone 0,1.0,Early Erythroid,1.67
+Clone 0,1.0,Mid Erythroid,0.14
+Clone 0,1.0,Late Erythroid,0.0
+Clone 0,1.0,NMP,0.42
+Clone 0,1.0,Mono precur,0.13
+Clone 0,1.0,Monocyte,0.01
+Clone 0,1.0,DC precursor,10.31
+Clone 0,1.0,DC,0.0
+Clone 1,1.0,HSC/MPP 1,63.71
+Clone 1,1.0,HSC/MPP 2,8.42
+Clone 1,1.0,MEMP,6.03
+Clone 1,1.0,Mast cell,0.28
+Clone 1,1.0,Early Erythroid,0.95
+Clone 1,1.0,Mid Erythroid,0.08
+Clone 1,1.0,Late Erythroid,0.0
+Clone 1,1.0,NMP,0.08
+Clone 1,1.0,Mono precur,0.18
+Clone 1,1.0,Monocyte,0.0
+Clone 1,1.0,DC precursor,0.02
+Clone 1,1.0,DC,0.0
+Clone 2,1.0,HSC/MPP 1,80.47
+Clone 2,1.0,HSC/MPP 2,11.32
+Clone 2,1.0,MEMP,10.87
+Clone 2,1.0,Mast cell,2.13
+Clone 2,1.0,Early Erythroid,0.51
+Clone 2,1.0,Mid Erythroid,0.05
+Clone 2,1.0,Late Erythroid,0.0
+Clone 2,1.0,NMP,0.02
+Clone 2,1.0,Mono precur,0.29
+Clone 2,1.0,Monocyte,0.01
+Clone 2,1.0,DC precursor,5.16
+Clone 2,1.0,DC,0.37
+Clone 3,1.0,HSC/MPP 1,60.44
+Clone 3,1.0,HSC/MPP 2,2.6
+Clone 3,1.0,MEMP,5.34
+Clone 3,1.0,Mast cell,0.45
+Clone 3,1.0,Early Erythroid,0.82
+Clone 3,1.0,Mid Erythroid,0.04
+Clone 3,1.0,Late Erythroid,0.0
+Clone 3,1.0,NMP,0.0
+Clone 3,1.0,Mono precur,0.04
+Clone 3,1.0,Monocyte,0.0
+Clone 3,1.0,DC precursor,0.01
+Clone 3,1.0,DC,0.0
+Clone 4,1.0,HSC/MPP 1,37.87
+Clone 4,1.0,HSC/MPP 2,11.88
+Clone 4,1.0,MEMP,14.59
+Clone 4,1.0,Mast cell,3.5
+Clone 4,1.0,Early Erythroid,0.37
+Clone 4,1.0,Mid Erythroid,0.03
+Clone 4,1.0,Late Erythroid,0.0
+Clone 4,1.0,NMP,4.18
+Clone 4,1.0,Mono precur,1.01
+Clone 4,1.0,Monocyte,0.14
+Clone 4,1.0,DC precursor,0.03
+Clone 4,1.0,DC,0.0
+Clone 5,1.0,HSC/MPP 1,50.93
+Clone 5,1.0,HSC/MPP 2,4.06
+Clone 5,1.0,MEMP,2.45
+Clone 5,1.0,Mast cell,0.13
+Clone 5,1.0,Early Erythroid,0.04
+Clone 5,1.0,Mid Erythroid,0.0
+Clone 5,1.0,Late Erythroid,0.0
+Clone 5,1.0,NMP,0.24
+Clone 5,1.0,Mono precur,0.43
+Clone 5,1.0,Monocyte,0.03
+Clone 5,1.0,DC precursor,2.26
+Clone 5,1.0,DC,0.12
+Clone 6,1.0,HSC/MPP 1,44.56
+Clone 6,1.0,HSC/MPP 2,9.47
+Clone 6,1.0,MEMP,7.25
+Clone 6,1.0,Mast cell,0.74
+Clone 6,1.0,Early Erythroid,0.0
+Clone 6,1.0,Mid Erythroid,0.0
+Clone 6,1.0,Late Erythroid,0.0
+Clone 6,1.0,NMP,1.44
+Clone 6,1.0,Mono precur,0.67
+Clone 6,1.0,Monocyte,0.06
+Clone 6,1.0,DC precursor,0.04
+Clone 6,1.0,DC,0.0
+Clone 7,1.0,HSC/MPP 1,58.8
+Clone 7,1.0,HSC/MPP 2,15.41
+Clone 7,1.0,MEMP,9.75
+Clone 7,1.0,Mast cell,1.65
+Clone 7,1.0,Early Erythroid,0.09
+Clone 7,1.0,Mid Erythroid,0.01
+Clone 7,1.0,Late Erythroid,0.0
+Clone 7,1.0,NMP,1.34
+Clone 7,1.0,Mono precur,1.27
+Clone 7,1.0,Monocyte,0.1
+Clone 7,1.0,DC precursor,0.12
+Clone 7,1.0,DC,0.01
+Clone 8,1.0,HSC/MPP 1,26.26
+Clone 8,1.0,HSC/MPP 2,9.26
+Clone 8,1.0,MEMP,5.41
+Clone 8,1.0,Mast cell,0.96
+Clone 8,1.0,Early Erythroid,0.05
+Clone 8,1.0,Mid Erythroid,0.01
+Clone 8,1.0,Late Erythroid,0.0
+Clone 8,1.0,NMP,0.0
+Clone 8,1.0,Mono precur,0.96
+Clone 8,1.0,Monocyte,0.13
+Clone 8,1.0,DC precursor,0.02
+Clone 8,1.0,DC,0.0
+Clone 9,1.0,HSC/MPP 1,62.15
+Clone 9,1.0,HSC/MPP 2,118.0
+Clone 9,1.0,MEMP,93.5
+Clone 9,1.0,Mast cell,42.43
+Clone 9,1.0,Early Erythroid,0.24
+Clone 9,1.0,Mid Erythroid,0.0
+Clone 9,1.0,Late Erythroid,0.0
+Clone 9,1.0,NMP,0.0
+Clone 9,1.0,Mono precur,0.0
+Clone 9,1.0,Monocyte,0.0
+Clone 9,1.0,DC precursor,0.0
+Clone 9,1.0,DC,0.0
+Clone 10,1.0,HSC/MPP 1,18.3
+Clone 10,1.0,HSC/MPP 2,11.14
+Clone 10,1.0,MEMP,0.21
+Clone 10,1.0,Mast cell,0.01
+Clone 10,1.0,Early Erythroid,0.0
+Clone 10,1.0,Mid Erythroid,0.0
+Clone 10,1.0,Late Erythroid,0.0
+Clone 10,1.0,NMP,3.48
+Clone 10,1.0,Mono precur,0.06
+Clone 10,1.0,Monocyte,0.0
+Clone 10,1.0,DC precursor,0.0
+Clone 10,1.0,DC,0.0
+Clone 11,1.0,HSC/MPP 1,9.19
+Clone 11,1.0,HSC/MPP 2,0.06
+Clone 11,1.0,MEMP,12.82
+Clone 11,1.0,Mast cell,0.03
+Clone 11,1.0,Early Erythroid,4.2
+Clone 11,1.0,Mid Erythroid,0.16
+Clone 11,1.0,Late Erythroid,0.01
+Clone 11,1.0,NMP,0.0
+Clone 11,1.0,Mono precur,0.0
+Clone 11,1.0,Monocyte,0.0
+Clone 11,1.0,DC precursor,0.14
+Clone 11,1.0,DC,0.0
+BG,1.0,HSC/MPP 1,3578.53
+BG,1.0,HSC/MPP 2,777.45
+BG,1.0,MEMP,1057.21
+BG,1.0,Mast cell,328.81
+BG,1.0,Early Erythroid,46.24
+BG,1.0,Mid Erythroid,5.65
+BG,1.0,Late Erythroid,0.06
+BG,1.0,NMP,57.97
+BG,1.0,Mono precur,32.61
+BG,1.0,Monocyte,2.13
+BG,1.0,DC precursor,108.11
+BG,1.0,DC,4.5
+Clone 0,1.5,HSC/MPP 1,108.89
+Clone 0,1.5,HSC/MPP 2,28.36
+Clone 0,1.5,MEMP,36.14
+Clone 0,1.5,Mast cell,3.5
+Clone 0,1.5,Early Erythroid,4.87
+Clone 0,1.5,Mid Erythroid,0.52
+Clone 0,1.5,Late Erythroid,0.01
+Clone 0,1.5,NMP,1.06
+Clone 0,1.5,Mono precur,0.35
+Clone 0,1.5,Monocyte,0.04
+Clone 0,1.5,DC precursor,15.69
+Clone 0,1.5,DC,0.0
+Clone 1,1.5,HSC/MPP 1,59.93
+Clone 1,1.5,HSC/MPP 2,14.73
+Clone 1,1.5,MEMP,11.78
+Clone 1,1.5,Mast cell,0.7
+Clone 1,1.5,Early Erythroid,2.84
+Clone 1,1.5,Mid Erythroid,0.27
+Clone 1,1.5,Late Erythroid,0.0
+Clone 1,1.5,NMP,0.2
+Clone 1,1.5,Mono precur,0.42
+Clone 1,1.5,Monocyte,0.01
+Clone 1,1.5,DC precursor,0.03
+Clone 1,1.5,DC,0.0
+Clone 2,1.5,HSC/MPP 1,89.75
+Clone 2,1.5,HSC/MPP 2,21.73
+Clone 2,1.5,MEMP,16.07
+Clone 2,1.5,Mast cell,4.73
+Clone 2,1.5,Early Erythroid,1.19
+Clone 2,1.5,Mid Erythroid,0.17
+Clone 2,1.5,Late Erythroid,0.01
+Clone 2,1.5,NMP,0.06
+Clone 2,1.5,Mono precur,0.84
+Clone 2,1.5,Monocyte,0.03
+Clone 2,1.5,DC precursor,10.3
+Clone 2,1.5,DC,0.96
+Clone 3,1.5,HSC/MPP 1,57.99
+Clone 3,1.5,HSC/MPP 2,4.38
+Clone 3,1.5,MEMP,9.78
+Clone 3,1.5,Mast cell,1.1
+Clone 3,1.5,Early Erythroid,2.26
+Clone 3,1.5,Mid Erythroid,0.13
+Clone 3,1.5,Late Erythroid,0.0
+Clone 3,1.5,NMP,0.0
+Clone 3,1.5,Mono precur,0.08
+Clone 3,1.5,Monocyte,0.0
+Clone 3,1.5,DC precursor,0.01
+Clone 3,1.5,DC,0.0
+Clone 4,1.5,HSC/MPP 1,31.31
+Clone 4,1.5,HSC/MPP 2,18.02
+Clone 4,1.5,MEMP,18.21
+Clone 4,1.5,Mast cell,6.9
+Clone 4,1.5,Early Erythroid,0.83
+Clone 4,1.5,Mid Erythroid,0.08
+Clone 4,1.5,Late Erythroid,0.0
+Clone 4,1.5,NMP,9.29
+Clone 4,1.5,Mono precur,2.44
+Clone 4,1.5,Monocyte,0.46
+Clone 4,1.5,DC precursor,0.07
+Clone 4,1.5,DC,0.0
+Clone 5,1.5,HSC/MPP 1,52.45
+Clone 5,1.5,HSC/MPP 2,7.5
+Clone 5,1.5,MEMP,3.55
+Clone 5,1.5,Mast cell,0.28
+Clone 5,1.5,Early Erythroid,0.1
+Clone 5,1.5,Mid Erythroid,0.0
+Clone 5,1.5,Late Erythroid,0.0
+Clone 5,1.5,NMP,0.59
+Clone 5,1.5,Mono precur,1.22
+Clone 5,1.5,Monocyte,0.1
+Clone 5,1.5,DC precursor,3.55
+Clone 5,1.5,DC,0.25
+Clone 6,1.5,HSC/MPP 1,44.9
+Clone 6,1.5,HSC/MPP 2,16.41
+Clone 6,1.5,MEMP,10.25
+Clone 6,1.5,Mast cell,1.53
+Clone 6,1.5,Early Erythroid,0.0
+Clone 6,1.5,Mid Erythroid,0.0
+Clone 6,1.5,Late Erythroid,0.0
+Clone 6,1.5,NMP,3.38
+Clone 6,1.5,Mono precur,1.78
+Clone 6,1.5,Monocyte,0.23
+Clone 6,1.5,DC precursor,0.07
+Clone 6,1.5,DC,0.0
+Clone 7,1.5,HSC/MPP 1,69.19
+Clone 7,1.5,HSC/MPP 2,28.16
+Clone 7,1.5,MEMP,18.41
+Clone 7,1.5,Mast cell,4.4
+Clone 7,1.5,Early Erythroid,0.26
+Clone 7,1.5,Mid Erythroid,0.05
+Clone 7,1.5,Late Erythroid,0.0
+Clone 7,1.5,NMP,3.76
+Clone 7,1.5,Mono precur,3.63
+Clone 7,1.5,Monocyte,0.44
+Clone 7,1.5,DC precursor,0.28
+Clone 7,1.5,DC,0.04
+Clone 8,1.5,HSC/MPP 1,20.99
+Clone 8,1.5,HSC/MPP 2,12.28
+Clone 8,1.5,MEMP,13.61
+Clone 8,1.5,Mast cell,2.54
+Clone 8,1.5,Early Erythroid,0.14
+Clone 8,1.5,Mid Erythroid,0.02
+Clone 8,1.5,Late Erythroid,0.0
+Clone 8,1.5,NMP,0.0
+Clone 8,1.5,Mono precur,2.29
+Clone 8,1.5,Monocyte,0.58
+Clone 8,1.5,DC precursor,0.02
+Clone 8,1.5,DC,0.0
+Clone 9,1.5,HSC/MPP 1,14.43
+Clone 9,1.5,HSC/MPP 2,75.21
+Clone 9,1.5,MEMP,128.51
+Clone 9,1.5,Mast cell,237.8
+Clone 9,1.5,Early Erythroid,0.77
+Clone 9,1.5,Mid Erythroid,0.03
+Clone 9,1.5,Late Erythroid,0.0
+Clone 9,1.5,NMP,0.0
+Clone 9,1.5,Mono precur,0.0
+Clone 9,1.5,Monocyte,0.0
+Clone 9,1.5,DC precursor,0.01
+Clone 9,1.5,DC,0.0
+Clone 10,1.5,HSC/MPP 1,15.0
+Clone 10,1.5,HSC/MPP 2,19.46
+Clone 10,1.5,MEMP,0.27
+Clone 10,1.5,Mast cell,0.03
+Clone 10,1.5,Early Erythroid,0.0
+Clone 10,1.5,Mid Erythroid,0.0
+Clone 10,1.5,Late Erythroid,0.0
+Clone 10,1.5,NMP,12.47
+Clone 10,1.5,Mono precur,0.26
+Clone 10,1.5,Monocyte,0.02
+Clone 10,1.5,DC precursor,0.01
+Clone 10,1.5,DC,0.0
+Clone 11,1.5,HSC/MPP 1,5.91
+Clone 11,1.5,HSC/MPP 2,0.1
+Clone 11,1.5,MEMP,22.22
+Clone 11,1.5,Mast cell,0.08
+Clone 11,1.5,Early Erythroid,16.21
+Clone 11,1.5,Mid Erythroid,0.74
+Clone 11,1.5,Late Erythroid,0.06
+Clone 11,1.5,NMP,0.0
+Clone 11,1.5,Mono precur,0.0
+Clone 11,1.5,Monocyte,0.0
+Clone 11,1.5,DC precursor,0.18
+Clone 11,1.5,DC,0.01
+BG,1.5,HSC/MPP 1,3934.1
+BG,1.5,HSC/MPP 2,1456.31
+BG,1.5,MEMP,1925.62
+BG,1.5,Mast cell,825.69
+BG,1.5,Early Erythroid,144.6
+BG,1.5,Mid Erythroid,22.41
+BG,1.5,Late Erythroid,0.3
+BG,1.5,NMP,164.57
+BG,1.5,Mono precur,95.49
+BG,1.5,Monocyte,9.44
+BG,1.5,DC precursor,209.09
+BG,1.5,DC,11.64
+Clone 0,2.0,HSC/MPP 1,119.82
+Clone 0,2.0,HSC/MPP 2,46.42
+Clone 0,2.0,MEMP,67.6
+Clone 0,2.0,Mast cell,7.53
+Clone 0,2.0,Early Erythroid,11.81
+Clone 0,2.0,Mid Erythroid,1.44
+Clone 0,2.0,Late Erythroid,0.03
+Clone 0,2.0,NMP,2.17
+Clone 0,2.0,Mono precur,0.84
+Clone 0,2.0,Monocyte,0.1
+Clone 0,2.0,DC precursor,21.48
+Clone 0,2.0,DC,0.0
+Clone 1,2.0,HSC/MPP 1,56.7
+Clone 1,2.0,HSC/MPP 2,24.87
+Clone 1,2.0,MEMP,21.7
+Clone 1,2.0,Mast cell,1.42
+Clone 1,2.0,Early Erythroid,7.22
+Clone 1,2.0,Mid Erythroid,0.71
+Clone 1,2.0,Late Erythroid,0.0
+Clone 1,2.0,NMP,0.37
+Clone 1,2.0,Mono precur,0.79
+Clone 1,2.0,Monocyte,0.03
+Clone 1,2.0,DC precursor,0.04
+Clone 1,2.0,DC,0.0
+Clone 2,2.0,HSC/MPP 1,100.55
+Clone 2,2.0,HSC/MPP 2,37.86
+Clone 2,2.0,MEMP,21.44
+Clone 2,2.0,Mast cell,8.47
+Clone 2,2.0,Early Erythroid,2.23
+Clone 2,2.0,Mid Erythroid,0.45
+Clone 2,2.0,Late Erythroid,0.03
+Clone 2,2.0,NMP,0.14
+Clone 2,2.0,Mono precur,1.98
+Clone 2,2.0,Monocyte,0.1
+Clone 2,2.0,DC precursor,18.66
+Clone 2,2.0,DC,2.07
+Clone 3,2.0,HSC/MPP 1,55.75
+Clone 3,2.0,HSC/MPP 2,6.73
+Clone 3,2.0,MEMP,16.91
+Clone 3,2.0,Mast cell,2.17
+Clone 3,2.0,Early Erythroid,5.18
+Clone 3,2.0,Mid Erythroid,0.32
+Clone 3,2.0,Late Erythroid,0.0
+Clone 3,2.0,NMP,0.0
+Clone 3,2.0,Mono precur,0.15
+Clone 3,2.0,Monocyte,0.0
+Clone 3,2.0,DC precursor,0.02
+Clone 3,2.0,DC,0.0
+Clone 4,2.0,HSC/MPP 1,26.54
+Clone 4,2.0,HSC/MPP 2,26.78
+Clone 4,2.0,MEMP,20.59
+Clone 4,2.0,Mast cell,10.8
+Clone 4,2.0,Early Erythroid,1.51
+Clone 4,2.0,Mid Erythroid,0.18
+Clone 4,2.0,Late Erythroid,0.01
+Clone 4,2.0,NMP,16.98
+Clone 4,2.0,Mono precur,5.07
+Clone 4,2.0,Monocyte,1.14
+Clone 4,2.0,DC precursor,0.12
+Clone 4,2.0,DC,0.01
+Clone 5,2.0,HSC/MPP 1,54.49
+Clone 5,2.0,HSC/MPP 2,12.93
+Clone 5,2.0,MEMP,4.6
+Clone 5,2.0,Mast cell,0.47
+Clone 5,2.0,Early Erythroid,0.19
+Clone 5,2.0,Mid Erythroid,0.01
+Clone 5,2.0,Late Erythroid,0.0
+Clone 5,2.0,NMP,1.19
+Clone 5,2.0,Mono precur,2.9
+Clone 5,2.0,Monocyte,0.25
+Clone 5,2.0,DC precursor,5.07
+Clone 5,2.0,DC,0.41
+Clone 6,2.0,HSC/MPP 1,46.06
+Clone 6,2.0,HSC/MPP 2,26.53
+Clone 6,2.0,MEMP,13.04
+Clone 6,2.0,Mast cell,2.54
+Clone 6,2.0,Early Erythroid,0.0
+Clone 6,2.0,Mid Erythroid,0.0
+Clone 6,2.0,Late Erythroid,0.0
+Clone 6,2.0,NMP,6.43
+Clone 6,2.0,Mono precur,3.89
+Clone 6,2.0,Monocyte,0.59
+Clone 6,2.0,DC precursor,0.1
+Clone 6,2.0,DC,0.0
+Clone 7,2.0,HSC/MPP 1,82.39
+Clone 7,2.0,HSC/MPP 2,46.36
+Clone 7,2.0,MEMP,31.42
+Clone 7,2.0,Mast cell,9.35
+Clone 7,2.0,Early Erythroid,0.56
+Clone 7,2.0,Mid Erythroid,0.14
+Clone 7,2.0,Late Erythroid,0.0
+Clone 7,2.0,NMP,8.49
+Clone 7,2.0,Mono precur,8.33
+Clone 7,2.0,Monocyte,1.33
+Clone 7,2.0,DC precursor,0.55
+Clone 7,2.0,DC,0.09
+Clone 8,2.0,HSC/MPP 1,16.49
+Clone 8,2.0,HSC/MPP 2,14.27
+Clone 8,2.0,MEMP,39.72
+Clone 8,2.0,Mast cell,7.12
+Clone 8,2.0,Early Erythroid,0.5
+Clone 8,2.0,Mid Erythroid,0.07
+Clone 8,2.0,Late Erythroid,0.0
+Clone 8,2.0,NMP,0.0
+Clone 8,2.0,Mono precur,3.93
+Clone 8,2.0,Monocyte,1.55
+Clone 8,2.0,DC precursor,0.02
+Clone 8,2.0,DC,0.0
+Clone 9,2.0,HSC/MPP 1,9.59
+Clone 9,2.0,HSC/MPP 2,51.81
+Clone 9,2.0,MEMP,92.89
+Clone 9,2.0,Mast cell,357.44
+Clone 9,2.0,Early Erythroid,2.46
+Clone 9,2.0,Mid Erythroid,0.17
+Clone 9,2.0,Late Erythroid,0.0
+Clone 9,2.0,NMP,0.0
+Clone 9,2.0,Mono precur,0.0
+Clone 9,2.0,Monocyte,0.0
+Clone 9,2.0,DC precursor,0.01
+Clone 9,2.0,DC,0.0
+Clone 10,2.0,HSC/MPP 1,11.53
+Clone 10,2.0,HSC/MPP 2,31.04
+Clone 10,2.0,MEMP,0.35
+Clone 10,2.0,Mast cell,0.05
+Clone 10,2.0,Early Erythroid,0.0
+Clone 10,2.0,Mid Erythroid,0.0
+Clone 10,2.0,Late Erythroid,0.0
+Clone 10,2.0,NMP,33.9
+Clone 10,2.0,Mono precur,1.38
+Clone 10,2.0,Monocyte,0.09
+Clone 10,2.0,DC precursor,0.01
+Clone 10,2.0,DC,0.0
+Clone 11,2.0,HSC/MPP 1,4.0
+Clone 11,2.0,HSC/MPP 2,0.1
+Clone 11,2.0,MEMP,33.7
+Clone 11,2.0,Mast cell,0.13
+Clone 11,2.0,Early Erythroid,44.96
+Clone 11,2.0,Mid Erythroid,0.87
+Clone 11,2.0,Late Erythroid,0.15
+Clone 11,2.0,NMP,0.0
+Clone 11,2.0,Mono precur,0.0
+Clone 11,2.0,Monocyte,0.0
+Clone 11,2.0,DC precursor,0.23
+Clone 11,2.0,DC,0.01
+BG,2.0,HSC/MPP 1,4454.67
+BG,2.0,HSC/MPP 2,2541.13
+BG,2.0,MEMP,3285.39
+BG,2.0,Mast cell,1695.37
+BG,2.0,Early Erythroid,384.97
+BG,2.0,Mid Erythroid,66.56
+BG,2.0,Late Erythroid,0.95
+BG,2.0,NMP,383.71
+BG,2.0,Mono precur,231.94
+BG,2.0,Monocyte,30.65
+BG,2.0,DC precursor,370.37
+BG,2.0,DC,24.38
+Clone 0,2.5,HSC/MPP 1,134.99
+Clone 0,2.5,HSC/MPP 2,74.72
+Clone 0,2.5,MEMP,125.41
+Clone 0,2.5,Mast cell,14.96
+Clone 0,2.5,Early Erythroid,26.69
+Clone 0,2.5,Mid Erythroid,3.51
+Clone 0,2.5,Late Erythroid,0.07
+Clone 0,2.5,NMP,4.07
+Clone 0,2.5,Mono precur,1.87
+Clone 0,2.5,Monocyte,0.24
+Clone 0,2.5,DC precursor,28.04
+Clone 0,2.5,DC,0.0
+Clone 1,2.5,HSC/MPP 1,53.93
+Clone 1,2.5,HSC/MPP 2,44.89
+Clone 1,2.5,MEMP,41.61
+Clone 1,2.5,Mast cell,2.62
+Clone 1,2.5,Early Erythroid,18.24
+Clone 1,2.5,Mid Erythroid,1.6
+Clone 1,2.5,Late Erythroid,0.0
+Clone 1,2.5,NMP,0.64
+Clone 1,2.5,Mono precur,1.39
+Clone 1,2.5,Monocyte,0.05
+Clone 1,2.5,DC precursor,0.04
+Clone 1,2.5,DC,0.0
+Clone 2,2.5,HSC/MPP 1,112.81
+Clone 2,2.5,HSC/MPP 2,63.03
+Clone 2,2.5,MEMP,27.21
+Clone 2,2.5,Mast cell,13.6
+Clone 2,2.5,Early Erythroid,3.76
+Clone 2,2.5,Mid Erythroid,1.02
+Clone 2,2.5,Late Erythroid,0.08
+Clone 2,2.5,NMP,0.31
+Clone 2,2.5,Mono precur,4.22
+Clone 2,2.5,Monocyte,0.26
+Clone 2,2.5,DC precursor,32.43
+Clone 2,2.5,DC,4.09
+Clone 3,2.5,HSC/MPP 1,53.69
+Clone 3,2.5,HSC/MPP 2,10.16
+Clone 3,2.5,MEMP,30.18
+Clone 3,2.5,Mast cell,3.92
+Clone 3,2.5,Early Erythroid,11.22
+Clone 3,2.5,Mid Erythroid,0.66
+Clone 3,2.5,Late Erythroid,0.01
+Clone 3,2.5,NMP,0.0
+Clone 3,2.5,Mono precur,0.25
+Clone 3,2.5,Monocyte,0.01
+Clone 3,2.5,DC precursor,0.02
+Clone 3,2.5,DC,0.0
+Clone 4,2.5,HSC/MPP 1,23.14
+Clone 4,2.5,HSC/MPP 2,41.65
+Clone 4,2.5,MEMP,22.42
+Clone 4,2.5,Mast cell,14.98
+Clone 4,2.5,Early Erythroid,2.49
+Clone 4,2.5,Mid Erythroid,0.33
+Clone 4,2.5,Late Erythroid,0.02
+Clone 4,2.5,NMP,28.66
+Clone 4,2.5,Mono precur,10.2
+Clone 4,2.5,Monocyte,2.46
+Clone 4,2.5,DC precursor,0.2
+Clone 4,2.5,DC,0.02
+Clone 5,2.5,HSC/MPP 1,57.32
+Clone 5,2.5,HSC/MPP 2,22.46
+Clone 5,2.5,MEMP,5.61
+Clone 5,2.5,Mast cell,0.7
+Clone 5,2.5,Early Erythroid,0.34
+Clone 5,2.5,Mid Erythroid,0.02
+Clone 5,2.5,Late Erythroid,0.0
+Clone 5,2.5,NMP,2.17
+Clone 5,2.5,Mono precur,6.46
+Clone 5,2.5,Monocyte,0.57
+Clone 5,2.5,DC precursor,7.01
+Clone 5,2.5,DC,0.59
+Clone 6,2.5,HSC/MPP 1,48.15
+Clone 6,2.5,HSC/MPP 2,42.56
+Clone 6,2.5,MEMP,15.77
+Clone 6,2.5,Mast cell,3.73
+Clone 6,2.5,Early Erythroid,0.0
+Clone 6,2.5,Mid Erythroid,0.0
+Clone 6,2.5,Late Erythroid,0.0
+Clone 6,2.5,NMP,11.14
+Clone 6,2.5,Mono precur,7.93
+Clone 6,2.5,Monocyte,1.32
+Clone 6,2.5,DC precursor,0.15
+Clone 6,2.5,DC,0.0
+Clone 7,2.5,HSC/MPP 1,99.12
+Clone 7,2.5,HSC/MPP 2,72.47
+Clone 7,2.5,MEMP,51.04
+Clone 7,2.5,Mast cell,17.73
+Clone 7,2.5,Early Erythroid,1.1
+Clone 7,2.5,Mid Erythroid,0.34
+Clone 7,2.5,Late Erythroid,0.01
+Clone 7,2.5,NMP,17.04
+Clone 7,2.5,Mono precur,17.07
+Clone 7,2.5,Monocyte,3.35
+Clone 7,2.5,DC precursor,0.98
+Clone 7,2.5,DC,0.18
+Clone 8,2.5,HSC/MPP 1,13.12
+Clone 8,2.5,HSC/MPP 2,15.64
+Clone 8,2.5,MEMP,105.07
+Clone 8,2.5,Mast cell,22.68
+Clone 8,2.5,Early Erythroid,2.07
+Clone 8,2.5,Mid Erythroid,0.29
+Clone 8,2.5,Late Erythroid,0.0
+Clone 8,2.5,NMP,0.0
+Clone 8,2.5,Mono precur,5.15
+Clone 8,2.5,Monocyte,2.61
+Clone 8,2.5,DC precursor,0.03
+Clone 8,2.5,DC,0.0
+Clone 9,2.5,HSC/MPP 1,8.4
+Clone 9,2.5,HSC/MPP 2,40.18
+Clone 9,2.5,MEMP,67.32
+Clone 9,2.5,Mast cell,427.63
+Clone 9,2.5,Early Erythroid,4.32
+Clone 9,2.5,Mid Erythroid,0.5
+Clone 9,2.5,Late Erythroid,0.0
+Clone 9,2.5,NMP,0.0
+Clone 9,2.5,Mono precur,0.0
+Clone 9,2.5,Monocyte,0.0
+Clone 9,2.5,DC precursor,0.01
+Clone 9,2.5,DC,0.0
+Clone 10,2.5,HSC/MPP 1,8.84
+Clone 10,2.5,HSC/MPP 2,46.85
+Clone 10,2.5,MEMP,0.46
+Clone 10,2.5,Mast cell,0.08
+Clone 10,2.5,Early Erythroid,0.0
+Clone 10,2.5,Mid Erythroid,0.0
+Clone 10,2.5,Late Erythroid,0.0
+Clone 10,2.5,NMP,74.66
+Clone 10,2.5,Mono precur,7.41
+Clone 10,2.5,Monocyte,0.52
+Clone 10,2.5,DC precursor,0.02
+Clone 10,2.5,DC,0.0
+Clone 11,2.5,HSC/MPP 1,2.88
+Clone 11,2.5,HSC/MPP 2,0.1
+Clone 11,2.5,MEMP,47.68
+Clone 11,2.5,Mast cell,0.64
+Clone 11,2.5,Early Erythroid,101.91
+Clone 11,2.5,Mid Erythroid,0.69
+Clone 11,2.5,Late Erythroid,0.2
+Clone 11,2.5,NMP,0.0
+Clone 11,2.5,Mono precur,0.0
+Clone 11,2.5,Monocyte,0.0
+Clone 11,2.5,DC precursor,0.29
+Clone 11,2.5,DC,0.02
+BG,2.5,HSC/MPP 1,5160.05
+BG,2.5,HSC/MPP 2,4307.55
+BG,2.5,MEMP,5467.02
+BG,2.5,Mast cell,3156.2
+BG,2.5,Early Erythroid,954.22
+BG,2.5,Mid Erythroid,173.77
+BG,2.5,Late Erythroid,2.51
+BG,2.5,NMP,808.89
+BG,2.5,Mono precur,513.61
+BG,2.5,Monocyte,84.64
+BG,2.5,DC precursor,630.63
+BG,2.5,DC,45.99
+Clone 0,3.0,HSC/MPP 1,154.36
+Clone 0,3.0,HSC/MPP 2,119.95
+Clone 0,3.0,MEMP,233.99
+Clone 0,3.0,Mast cell,29.19
+Clone 0,3.0,Early Erythroid,58.73
+Clone 0,3.0,Mid Erythroid,8.14
+Clone 0,3.0,Late Erythroid,0.17
+Clone 0,3.0,NMP,7.39
+Clone 0,3.0,Mono precur,4.07
+Clone 0,3.0,Monocyte,0.56
+Clone 0,3.0,DC precursor,35.9
+Clone 0,3.0,DC,0.0
+Clone 1,3.0,HSC/MPP 1,51.31
+Clone 1,3.0,HSC/MPP 2,90.01
+Clone 1,3.0,MEMP,87.31
+Clone 1,3.0,Mast cell,4.98
+Clone 1,3.0,Early Erythroid,49.75
+Clone 1,3.0,Mid Erythroid,3.83
+Clone 1,3.0,Late Erythroid,0.01
+Clone 1,3.0,NMP,1.14
+Clone 1,3.0,Mono precur,2.52
+Clone 1,3.0,Monocyte,0.09
+Clone 1,3.0,DC precursor,0.05
+Clone 1,3.0,DC,0.0
+Clone 2,3.0,HSC/MPP 1,126.07
+Clone 2,3.0,HSC/MPP 2,102.33
+Clone 2,3.0,MEMP,33.57
+Clone 2,3.0,Mast cell,20.6
+Clone 2,3.0,Early Erythroid,5.94
+Clone 2,3.0,Mid Erythroid,2.12
+Clone 2,3.0,Late Erythroid,0.19
+Clone 2,3.0,NMP,0.64
+Clone 2,3.0,Mono precur,8.52
+Clone 2,3.0,Monocyte,0.61
+Clone 2,3.0,DC precursor,55.41
+Clone 2,3.0,DC,7.79
+Clone 3,3.0,HSC/MPP 1,51.75
+Clone 3,3.0,HSC/MPP 2,15.85
+Clone 3,3.0,MEMP,59.74
+Clone 3,3.0,Mast cell,7.09
+Clone 3,3.0,Early Erythroid,25.21
+Clone 3,3.0,Mid Erythroid,1.29
+Clone 3,3.0,Late Erythroid,0.01
+Clone 3,3.0,NMP,0.0
+Clone 3,3.0,Mono precur,0.39
+Clone 3,3.0,Monocyte,0.02
+Clone 3,3.0,DC precursor,0.02
+Clone 3,3.0,DC,0.0
+Clone 4,3.0,HSC/MPP 1,20.62
+Clone 4,3.0,HSC/MPP 2,67.83
+Clone 4,3.0,MEMP,24.13
+Clone 4,3.0,Mast cell,19.39
+Clone 4,3.0,Early Erythroid,3.9
+Clone 4,3.0,Mid Erythroid,0.55
+Clone 4,3.0,Late Erythroid,0.04
+Clone 4,3.0,NMP,47.05
+Clone 4,3.0,Mono precur,20.46
+Clone 4,3.0,Monocyte,5.04
+Clone 4,3.0,DC precursor,0.38
+Clone 4,3.0,DC,0.03
+Clone 5,3.0,HSC/MPP 1,61.39
+Clone 5,3.0,HSC/MPP 2,41.78
+Clone 5,3.0,MEMP,6.62
+Clone 5,3.0,Mast cell,0.96
+Clone 5,3.0,Early Erythroid,0.56
+Clone 5,3.0,Mid Erythroid,0.04
+Clone 5,3.0,Late Erythroid,0.0
+Clone 5,3.0,NMP,3.9
+Clone 5,3.0,Mono precur,14.63
+Clone 5,3.0,Monocyte,1.2
+Clone 5,3.0,DC precursor,9.79
+Clone 5,3.0,DC,0.79
+Clone 6,3.0,HSC/MPP 1,51.17
+Clone 6,3.0,HSC/MPP 2,69.34
+Clone 6,3.0,MEMP,18.64
+Clone 6,3.0,Mast cell,5.14
+Clone 6,3.0,Early Erythroid,0.0
+Clone 6,3.0,Mid Erythroid,0.0
+Clone 6,3.0,Late Erythroid,0.0
+Clone 6,3.0,NMP,18.68
+Clone 6,3.0,Mono precur,15.81
+Clone 6,3.0,Monocyte,2.76
+Clone 6,3.0,DC precursor,0.23
+Clone 6,3.0,DC,0.01
+Clone 7,3.0,HSC/MPP 1,120.22
+Clone 7,3.0,HSC/MPP 2,109.96
+Clone 7,3.0,MEMP,80.63
+Clone 7,3.0,Mast cell,31.44
+Clone 7,3.0,Early Erythroid,2.02
+Clone 7,3.0,Mid Erythroid,0.75
+Clone 7,3.0,Late Erythroid,0.02
+Clone 7,3.0,NMP,31.9
+Clone 7,3.0,Mono precur,32.66
+Clone 7,3.0,Monocyte,7.59
+Clone 7,3.0,DC precursor,1.63
+Clone 7,3.0,DC,0.35
+Clone 8,3.0,HSC/MPP 1,10.53
+Clone 8,3.0,HSC/MPP 2,16.64
+Clone 8,3.0,MEMP,238.6
+Clone 8,3.0,Mast cell,64.94
+Clone 8,3.0,Early Erythroid,7.58
+Clone 8,3.0,Mid Erythroid,1.24
+Clone 8,3.0,Late Erythroid,0.0
+Clone 8,3.0,NMP,0.0
+Clone 8,3.0,Mono precur,6.05
+Clone 8,3.0,Monocyte,3.63
+Clone 8,3.0,DC precursor,0.05
+Clone 8,3.0,DC,0.0
+Clone 9,3.0,HSC/MPP 1,8.06
+Clone 9,3.0,HSC/MPP 2,32.87
+Clone 9,3.0,MEMP,50.1
+Clone 9,3.0,Mast cell,474.2
+Clone 9,3.0,Early Erythroid,5.9
+Clone 9,3.0,Mid Erythroid,0.97
+Clone 9,3.0,Late Erythroid,0.01
+Clone 9,3.0,NMP,0.0
+Clone 9,3.0,Mono precur,0.0
+Clone 9,3.0,Monocyte,0.0
+Clone 9,3.0,DC precursor,0.01
+Clone 9,3.0,DC,0.0
+Clone 10,3.0,HSC/MPP 1,6.67
+Clone 10,3.0,HSC/MPP 2,67.83
+Clone 10,3.0,MEMP,0.6
+Clone 10,3.0,Mast cell,0.12
+Clone 10,3.0,Early Erythroid,0.0
+Clone 10,3.0,Mid Erythroid,0.0
+Clone 10,3.0,Late Erythroid,0.0
+Clone 10,3.0,NMP,146.89
+Clone 10,3.0,Mono precur,38.77
+Clone 10,3.0,Monocyte,3.17
+Clone 10,3.0,DC precursor,0.05
+Clone 10,3.0,DC,0.0
+Clone 11,3.0,HSC/MPP 1,2.17
+Clone 11,3.0,HSC/MPP 2,0.1
+Clone 11,3.0,MEMP,64.44
+Clone 11,3.0,Mast cell,2.07
+Clone 11,3.0,Early Erythroid,202.18
+Clone 11,3.0,Mid Erythroid,2.34
+Clone 11,3.0,Late Erythroid,0.3
+Clone 11,3.0,NMP,0.0
+Clone 11,3.0,Mono precur,0.0
+Clone 11,3.0,Monocyte,0.0
+Clone 11,3.0,DC precursor,0.36
+Clone 11,3.0,DC,0.03
+BG,3.0,HSC/MPP 1,6050.96
+BG,3.0,HSC/MPP 2,7150.46
+BG,3.0,MEMP,8920.95
+BG,3.0,Mast cell,5557.6
+BG,3.0,Early Erythroid,2254.91
+BG,3.0,Mid Erythroid,424.79
+BG,3.0,Late Erythroid,6.16
+BG,3.0,NMP,1597.34
+BG,3.0,Mono precur,1070.47
+BG,3.0,Monocyte,210.78
+BG,3.0,DC precursor,1048.68
+BG,3.0,DC,81.91
+Clone 0,3.5,HSC/MPP 1,176.56
+Clone 0,3.5,HSC/MPP 2,190.37
+Clone 0,3.5,MEMP,433.9
+Clone 0,3.5,Mast cell,57.42
+Clone 0,3.5,Early Erythroid,126.64
+Clone 0,3.5,Mid Erythroid,18.82
+Clone 0,3.5,Late Erythroid,0.4
+Clone 0,3.5,NMP,13.22
+Clone 0,3.5,Mono precur,8.67
+Clone 0,3.5,Monocyte,1.3
+Clone 0,3.5,DC precursor,45.68
+Clone 0,3.5,DC,0.0
+Clone 1,3.5,HSC/MPP 1,48.49
+Clone 1,3.5,HSC/MPP 2,187.84
+Clone 1,3.5,MEMP,192.79
+Clone 1,3.5,Mast cell,10.73
+Clone 1,3.5,Early Erythroid,141.3
+Clone 1,3.5,Mid Erythroid,11.21
+Clone 1,3.5,Late Erythroid,0.02
+Clone 1,3.5,NMP,2.3
+Clone 1,3.5,Mono precur,5.18
+Clone 1,3.5,Monocyte,0.18
+Clone 1,3.5,DC precursor,0.05
+Clone 1,3.5,DC,0.0
+Clone 2,3.5,HSC/MPP 1,139.24
+Clone 2,3.5,HSC/MPP 2,162.7
+Clone 2,3.5,MEMP,40.6
+Clone 2,3.5,Mast cell,30.16
+Clone 2,3.5,Early Erythroid,8.96
+Clone 2,3.5,Mid Erythroid,4.15
+Clone 2,3.5,Late Erythroid,0.46
+Clone 2,3.5,NMP,1.28
+Clone 2,3.5,Mono precur,16.61
+Clone 2,3.5,Monocyte,1.39
+Clone 2,3.5,DC precursor,93.81
+Clone 2,3.5,DC,14.77
+Clone 3,3.5,HSC/MPP 1,49.72
+Clone 3,3.5,HSC/MPP 2,25.82
+Clone 3,3.5,MEMP,130.54
+Clone 3,3.5,Mast cell,14.34
+Clone 3,3.5,Early Erythroid,61.3
+Clone 3,3.5,Mid Erythroid,2.94
+Clone 3,3.5,Late Erythroid,0.02
+Clone 3,3.5,NMP,0.0
+Clone 3,3.5,Mono precur,0.64
+Clone 3,3.5,Monocyte,0.03
+Clone 3,3.5,DC precursor,0.02
+Clone 3,3.5,DC,0.0
+Clone 4,3.5,HSC/MPP 1,18.56
+Clone 4,3.5,HSC/MPP 2,112.75
+Clone 4,3.5,MEMP,26.03
+Clone 4,3.5,Mast cell,24.09
+Clone 4,3.5,Early Erythroid,5.92
+Clone 4,3.5,Mid Erythroid,0.88
+Clone 4,3.5,Late Erythroid,0.07
+Clone 4,3.5,NMP,77.11
+Clone 4,3.5,Mono precur,40.72
+Clone 4,3.5,Monocyte,10.19
+Clone 4,3.5,DC precursor,0.73
+Clone 4,3.5,DC,0.06
+Clone 5,3.5,HSC/MPP 1,67.19
+Clone 5,3.5,HSC/MPP 2,87.26
+Clone 5,3.5,MEMP,7.74
+Clone 5,3.5,Mast cell,1.26
+Clone 5,3.5,Early Erythroid,0.93
+Clone 5,3.5,Mid Erythroid,0.06
+Clone 5,3.5,Late Erythroid,0.0
+Clone 5,3.5,NMP,7.35
+Clone 5,3.5,Mono precur,36.05
+Clone 5,3.5,Monocyte,2.66
+Clone 5,3.5,DC precursor,14.76
+Clone 5,3.5,DC,1.06
+Clone 6,3.5,HSC/MPP 1,54.92
+Clone 6,3.5,HSC/MPP 2,114.7
+Clone 6,3.5,MEMP,21.9
+Clone 6,3.5,Mast cell,6.83
+Clone 6,3.5,Early Erythroid,0.0
+Clone 6,3.5,Mid Erythroid,0.0
+Clone 6,3.5,Late Erythroid,0.0
+Clone 6,3.5,NMP,31.4
+Clone 6,3.5,Mono precur,31.37
+Clone 6,3.5,Monocyte,5.68
+Clone 6,3.5,DC precursor,0.36
+Clone 6,3.5,DC,0.01
+Clone 7,3.5,HSC/MPP 1,146.59
+Clone 7,3.5,HSC/MPP 2,163.51
+Clone 7,3.5,MEMP,125.01
+Clone 7,3.5,Mast cell,53.42
+Clone 7,3.5,Early Erythroid,3.54
+Clone 7,3.5,Mid Erythroid,1.55
+Clone 7,3.5,Late Erythroid,0.04
+Clone 7,3.5,NMP,57.03
+Clone 7,3.5,Mono precur,59.74
+Clone 7,3.5,Monocyte,16.02
+Clone 7,3.5,DC precursor,2.62
+Clone 7,3.5,DC,0.62
+Clone 8,3.5,HSC/MPP 1,8.45
+Clone 8,3.5,HSC/MPP 2,17.34
+Clone 8,3.5,MEMP,490.16
+Clone 8,3.5,Mast cell,162.05
+Clone 8,3.5,Early Erythroid,23.08
+Clone 8,3.5,Mid Erythroid,4.5
+Clone 8,3.5,Late Erythroid,0.0
+Clone 8,3.5,NMP,0.0
+Clone 8,3.5,Mono precur,6.76
+Clone 8,3.5,Monocyte,4.64
+Clone 8,3.5,DC precursor,0.07
+Clone 8,3.5,DC,0.0
+Clone 9,3.5,HSC/MPP 1,8.08
+Clone 9,3.5,HSC/MPP 2,27.8
+Clone 9,3.5,MEMP,38.32
+Clone 9,3.5,Mast cell,507.34
+Clone 9,3.5,Early Erythroid,7.19
+Clone 9,3.5,Mid Erythroid,1.53
+Clone 9,3.5,Late Erythroid,0.02
+Clone 9,3.5,NMP,0.0
+Clone 9,3.5,Mono precur,0.0
+Clone 9,3.5,Monocyte,0.0
+Clone 9,3.5,DC precursor,0.01
+Clone 9,3.5,DC,0.0
+Clone 10,3.5,HSC/MPP 1,4.64
+Clone 10,3.5,HSC/MPP 2,91.38
+Clone 10,3.5,MEMP,0.77
+Clone 10,3.5,Mast cell,0.2
+Clone 10,3.5,Early Erythroid,0.0
+Clone 10,3.5,Mid Erythroid,0.0
+Clone 10,3.5,Late Erythroid,0.0
+Clone 10,3.5,NMP,268.8
+Clone 10,3.5,Mono precur,198.66
+Clone 10,3.5,Monocyte,23.91
+Clone 10,3.5,DC precursor,0.29
+Clone 10,3.5,DC,0.0
+Clone 11,3.5,HSC/MPP 1,1.68
+Clone 11,3.5,HSC/MPP 2,0.1
+Clone 11,3.5,MEMP,84.29
+Clone 11,3.5,Mast cell,4.87
+Clone 11,3.5,Early Erythroid,366.19
+Clone 11,3.5,Mid Erythroid,10.04
+Clone 11,3.5,Late Erythroid,0.88
+Clone 11,3.5,NMP,0.0
+Clone 11,3.5,Mono precur,0.0
+Clone 11,3.5,Monocyte,0.0
+Clone 11,3.5,DC precursor,0.42
+Clone 11,3.5,DC,0.04
+BG,3.5,HSC/MPP 1,7111.94
+BG,3.5,HSC/MPP 2,11611.07
+BG,3.5,MEMP,14221.13
+BG,3.5,Mast cell,9441.46
+BG,3.5,Early Erythroid,5104.55
+BG,3.5,Mid Erythroid,997.51
+BG,3.5,Late Erythroid,14.73
+BG,3.5,NMP,3004.04
+BG,3.5,Mono precur,2126.59
+BG,3.5,Monocyte,487.26
+BG,3.5,DC precursor,1713.32
+BG,3.5,DC,141.27
+Clone 0,4.0,HSC/MPP 1,199.64
+Clone 0,4.0,HSC/MPP 2,295.06
+Clone 0,4.0,MEMP,787.36
+Clone 0,4.0,Mast cell,113.65
+Clone 0,4.0,Early Erythroid,265.65
+Clone 0,4.0,Mid Erythroid,43.34
+Clone 0,4.0,Late Erythroid,0.99
+Clone 0,4.0,NMP,23.4
+Clone 0,4.0,Mono precur,17.89
+Clone 0,4.0,Monocyte,2.97
+Clone 0,4.0,DC precursor,57.99
+Clone 0,4.0,DC,0.0
+Clone 1,4.0,HSC/MPP 1,45.35
+Clone 1,4.0,HSC/MPP 2,382.99
+Clone 1,4.0,MEMP,425.75
+Clone 1,4.0,Mast cell,25.78
+Clone 1,4.0,Early Erythroid,394.75
+Clone 1,4.0,Mid Erythroid,36.29
+Clone 1,4.0,Late Erythroid,0.06
+Clone 1,4.0,NMP,5.1
+Clone 1,4.0,Mono precur,11.67
+Clone 1,4.0,Monocyte,0.4
+Clone 1,4.0,DC precursor,0.06
+Clone 1,4.0,DC,0.0
+Clone 2,4.0,HSC/MPP 1,150.74
+Clone 2,4.0,HSC/MPP 2,252.28
+Clone 2,4.0,MEMP,48.15
+Clone 2,4.0,Mast cell,43.0
+Clone 2,4.0,Early Erythroid,12.97
+Clone 2,4.0,Mid Erythroid,7.69
+Clone 2,4.0,Late Erythroid,1.02
+Clone 2,4.0,NMP,2.49
+Clone 2,4.0,Mono precur,31.35
+Clone 2,4.0,Monocyte,3.07
+Clone 2,4.0,DC precursor,156.76
+Clone 2,4.0,DC,27.86
+Clone 3,4.0,HSC/MPP 1,47.49
+Clone 3,4.0,HSC/MPP 2,42.17
+Clone 3,4.0,MEMP,285.84
+Clone 3,4.0,Mast cell,33.09
+Clone 3,4.0,Early Erythroid,153.32
+Clone 3,4.0,Mid Erythroid,8.06
+Clone 3,4.0,Late Erythroid,0.05
+Clone 3,4.0,NMP,0.0
+Clone 3,4.0,Mono precur,1.12
+Clone 3,4.0,Monocyte,0.05
+Clone 3,4.0,DC precursor,0.03
+Clone 3,4.0,DC,0.0
+Clone 4,4.0,HSC/MPP 1,16.7
+Clone 4,4.0,HSC/MPP 2,187.62
+Clone 4,4.0,MEMP,28.5
+Clone 4,4.0,Mast cell,29.24
+Clone 4,4.0,Early Erythroid,8.81
+Clone 4,4.0,Mid Erythroid,1.39
+Clone 4,4.0,Late Erythroid,0.12
+Clone 4,4.0,NMP,127.47
+Clone 4,4.0,Mono precur,79.91
+Clone 4,4.0,Monocyte,20.56
+Clone 4,4.0,DC precursor,1.43
+Clone 4,4.0,DC,0.11
+Clone 5,4.0,HSC/MPP 1,74.33
+Clone 5,4.0,HSC/MPP 2,196.42
+Clone 5,4.0,MEMP,9.1
+Clone 5,4.0,Mast cell,1.63
+Clone 5,4.0,Early Erythroid,1.57
+Clone 5,4.0,Mid Erythroid,0.1
+Clone 5,4.0,Late Erythroid,0.0
+Clone 5,4.0,NMP,15.72
+Clone 5,4.0,Mono precur,95.67
+Clone 5,4.0,Monocyte,6.99
+Clone 5,4.0,DC precursor,26.22
+Clone 5,4.0,DC,1.65
+Clone 6,4.0,HSC/MPP 1,59.05
+Clone 6,4.0,HSC/MPP 2,190.41
+Clone 6,4.0,MEMP,25.87
+Clone 6,4.0,Mast cell,8.92
+Clone 6,4.0,Early Erythroid,0.0
+Clone 6,4.0,Mid Erythroid,0.0
+Clone 6,4.0,Late Erythroid,0.0
+Clone 6,4.0,NMP,53.64
+Clone 6,4.0,Mono precur,61.82
+Clone 6,4.0,Monocyte,11.68
+Clone 6,4.0,DC precursor,0.59
+Clone 6,4.0,DC,0.02
+Clone 7,4.0,HSC/MPP 1,179.14
+Clone 7,4.0,HSC/MPP 2,239.35
+Clone 7,4.0,MEMP,190.94
+Clone 7,4.0,Mast cell,88.26
+Clone 7,4.0,Early Erythroid,6.02
+Clone 7,4.0,Mid Erythroid,3.05
+Clone 7,4.0,Late Erythroid,0.08
+Clone 7,4.0,NMP,98.68
+Clone 7,4.0,Mono precur,105.69
+Clone 7,4.0,Monocyte,32.12
+Clone 7,4.0,DC precursor,4.09
+Clone 7,4.0,DC,1.06
+Clone 8,4.0,HSC/MPP 1,6.77
+Clone 8,4.0,HSC/MPP 2,17.81
+Clone 8,4.0,MEMP,935.05
+Clone 8,4.0,Mast cell,363.81
+Clone 8,4.0,Early Erythroid,60.74
+Clone 8,4.0,Mid Erythroid,13.88
+Clone 8,4.0,Late Erythroid,0.0
+Clone 8,4.0,NMP,0.0
+Clone 8,4.0,Mono precur,7.32
+Clone 8,4.0,Monocyte,5.67
+Clone 8,4.0,DC precursor,0.09
+Clone 8,4.0,DC,0.0
+Clone 9,4.0,HSC/MPP 1,8.31
+Clone 9,4.0,HSC/MPP 2,24.14
+Clone 9,4.0,MEMP,30.13
+Clone 9,4.0,Mast cell,532.07
+Clone 9,4.0,Early Erythroid,8.25
+Clone 9,4.0,Mid Erythroid,2.13
+Clone 9,4.0,Late Erythroid,0.04
+Clone 9,4.0,NMP,0.0
+Clone 9,4.0,Mono precur,0.0
+Clone 9,4.0,Monocyte,0.0
+Clone 9,4.0,DC precursor,0.01
+Clone 9,4.0,DC,0.0
+Clone 10,4.0,HSC/MPP 1,2.9
+Clone 10,4.0,HSC/MPP 2,103.32
+Clone 10,4.0,MEMP,0.92
+Clone 10,4.0,Mast cell,0.35
+Clone 10,4.0,Early Erythroid,0.0
+Clone 10,4.0,Mid Erythroid,0.0
+Clone 10,4.0,Late Erythroid,0.0
+Clone 10,4.0,NMP,428.64
+Clone 10,4.0,Mono precur,720.04
+Clone 10,4.0,Monocyte,158.63
+Clone 10,4.0,DC precursor,1.23
+Clone 10,4.0,DC,0.0
+Clone 11,4.0,HSC/MPP 1,1.31
+Clone 11,4.0,HSC/MPP 2,0.1
+Clone 11,4.0,MEMP,107.5
+Clone 11,4.0,Mast cell,9.58
+Clone 11,4.0,Early Erythroid,620.02
+Clone 11,4.0,Mid Erythroid,31.19
+Clone 11,4.0,Late Erythroid,2.97
+Clone 11,4.0,NMP,0.0
+Clone 11,4.0,Mono precur,0.0
+Clone 11,4.0,Monocyte,0.0
+Clone 11,4.0,DC precursor,0.47
+Clone 11,4.0,DC,0.06
+BG,4.0,HSC/MPP 1,8310.26
+BG,4.0,HSC/MPP 2,18391.12
+BG,4.0,MEMP,22029.77
+BG,4.0,Mast cell,15623.62
+BG,4.0,Early Erythroid,11067.44
+BG,4.0,Mid Erythroid,2271.97
+BG,4.0,Late Erythroid,34.81
+BG,4.0,NMP,5432.15
+BG,4.0,Mono precur,4052.38
+BG,4.0,Monocyte,1063.79
+BG,4.0,DC precursor,2757.45
+BG,4.0,DC,239.42
+Clone 0,4.5,HSC/MPP 1,221.76
+Clone 0,4.5,HSC/MPP 2,443.82
+Clone 0,4.5,MEMP,1386.58
+Clone 0,4.5,Mast cell,223.44
+Clone 0,4.5,Early Erythroid,538.94
+Clone 0,4.5,Mid Erythroid,98.19
+Clone 0,4.5,Late Erythroid,2.48
+Clone 0,4.5,NMP,40.71
+Clone 0,4.5,Mono precur,35.51
+Clone 0,4.5,Monocyte,6.66
+Clone 0,4.5,DC precursor,73.37
+Clone 0,4.5,DC,0.0
+Clone 1,4.5,HSC/MPP 1,41.87
+Clone 1,4.5,HSC/MPP 2,739.95
+Clone 1,4.5,MEMP,914.07
+Clone 1,4.5,Mast cell,65.01
+Clone 1,4.5,Early Erythroid,1054.93
+Clone 1,4.5,Mid Erythroid,118.15
+Clone 1,4.5,Late Erythroid,0.23
+Clone 1,4.5,NMP,11.7
+Clone 1,4.5,Mono precur,26.96
+Clone 1,4.5,Monocyte,1.01
+Clone 1,4.5,DC precursor,0.07
+Clone 1,4.5,DC,0.0
+Clone 2,4.5,HSC/MPP 1,159.17
+Clone 2,4.5,HSC/MPP 2,379.71
+Clone 2,4.5,MEMP,55.84
+Clone 2,4.5,Mast cell,59.71
+Clone 2,4.5,Early Erythroid,18.02
+Clone 2,4.5,Mid Erythroid,13.52
+Clone 2,4.5,Late Erythroid,2.14
+Clone 2,4.5,NMP,4.69
+Clone 2,4.5,Mono precur,57.04
+Clone 2,4.5,Monocyte,6.49
+Clone 2,4.5,DC precursor,256.57
+Clone 2,4.5,DC,51.7
+Clone 3,4.5,HSC/MPP 1,45.07
+Clone 3,4.5,HSC/MPP 2,67.54
+Clone 3,4.5,MEMP,597.09
+Clone 3,4.5,Mast cell,79.45
+Clone 3,4.5,Early Erythroid,375.96
+Clone 3,4.5,Mid Erythroid,22.92
+Clone 3,4.5,Late Erythroid,0.17
+Clone 3,4.5,NMP,0.0
+Clone 3,4.5,Mono precur,2.01
+Clone 3,4.5,Monocyte,0.09
+Clone 3,4.5,DC precursor,0.03
+Clone 3,4.5,DC,0.0
+Clone 4,4.5,HSC/MPP 1,14.93
+Clone 4,4.5,HSC/MPP 2,308.97
+Clone 4,4.5,MEMP,32.18
+Clone 4,4.5,Mast cell,35.12
+Clone 4,4.5,Early Erythroid,12.89
+Clone 4,4.5,Mid Erythroid,2.15
+Clone 4,4.5,Late Erythroid,0.21
+Clone 4,4.5,NMP,212.71
+Clone 4,4.5,Mono precur,154.04
+Clone 4,4.5,Monocyte,41.43
+Clone 4,4.5,DC precursor,2.78
+Clone 4,4.5,DC,0.22
+Clone 5,4.5,HSC/MPP 1,81.69
+Clone 5,4.5,HSC/MPP 2,436.25
+Clone 5,4.5,MEMP,10.81
+Clone 5,4.5,Mast cell,2.14
+Clone 5,4.5,Early Erythroid,2.58
+Clone 5,4.5,Mid Erythroid,0.19
+Clone 5,4.5,Late Erythroid,0.0
+Clone 5,4.5,NMP,37.3
+Clone 5,4.5,Mono precur,254.95
+Clone 5,4.5,Monocyte,20.74
+Clone 5,4.5,DC precursor,55.16
+Clone 5,4.5,DC,3.28
+Clone 6,4.5,HSC/MPP 1,63.26
+Clone 6,4.5,HSC/MPP 2,314.09
+Clone 6,4.5,MEMP,31.04
+Clone 6,4.5,Mast cell,11.56
+Clone 6,4.5,Early Erythroid,0.0
+Clone 6,4.5,Mid Erythroid,0.0
+Clone 6,4.5,Late Erythroid,0.0
+Clone 6,4.5,NMP,92.93
+Clone 6,4.5,Mono precur,120.48
+Clone 6,4.5,Monocyte,24.08
+Clone 6,4.5,DC precursor,1.02
+Clone 6,4.5,DC,0.03
+Clone 7,4.5,HSC/MPP 1,218.65
+Clone 7,4.5,HSC/MPP 2,345.39
+Clone 7,4.5,MEMP,287.52
+Clone 7,4.5,Mast cell,142.9
+Clone 7,4.5,Early Erythroid,9.97
+Clone 7,4.5,Mid Erythroid,5.78
+Clone 7,4.5,Late Erythroid,0.17
+Clone 7,4.5,NMP,166.49
+Clone 7,4.5,Mono precur,182.02
+Clone 7,4.5,Monocyte,62.0
+Clone 7,4.5,DC precursor,6.26
+Clone 7,4.5,DC,1.75
+Clone 8,4.5,HSC/MPP 1,5.4
+Clone 8,4.5,HSC/MPP 2,18.09
+Clone 8,4.5,MEMP,1672.1
+Clone 8,4.5,Mast cell,753.63
+Clone 8,4.5,Early Erythroid,142.92
+Clone 8,4.5,Mid Erythroid,37.62
+Clone 8,4.5,Late Erythroid,0.0
+Clone 8,4.5,NMP,0.0
+Clone 8,4.5,Mono precur,7.75
+Clone 8,4.5,Monocyte,6.69
+Clone 8,4.5,DC precursor,0.12
+Clone 8,4.5,DC,0.0
+Clone 9,4.5,HSC/MPP 1,8.66
+Clone 9,4.5,HSC/MPP 2,21.44
+Clone 9,4.5,MEMP,24.36
+Clone 9,4.5,Mast cell,551.25
+Clone 9,4.5,Early Erythroid,9.13
+Clone 9,4.5,Mid Erythroid,2.76
+Clone 9,4.5,Late Erythroid,0.07
+Clone 9,4.5,NMP,0.0
+Clone 9,4.5,Mono precur,0.0
+Clone 9,4.5,Monocyte,0.0
+Clone 9,4.5,DC precursor,0.01
+Clone 9,4.5,DC,0.0
+Clone 10,4.5,HSC/MPP 1,1.82
+Clone 10,4.5,HSC/MPP 2,101.03
+Clone 10,4.5,MEMP,0.97
+Clone 10,4.5,Mast cell,0.54
+Clone 10,4.5,Early Erythroid,0.0
+Clone 10,4.5,Mid Erythroid,0.0
+Clone 10,4.5,Late Erythroid,0.0
+Clone 10,4.5,NMP,583.31
+Clone 10,4.5,Mono precur,1572.59
+Clone 10,4.5,Monocyte,568.12
+Clone 10,4.5,DC precursor,2.86
+Clone 10,4.5,DC,0.0
+Clone 11,4.5,HSC/MPP 1,1.03
+Clone 11,4.5,HSC/MPP 2,0.1
+Clone 11,4.5,MEMP,134.19
+Clone 11,4.5,Mast cell,16.9
+Clone 11,4.5,Early Erythroid,993.86
+Clone 11,4.5,Mid Erythroid,78.27
+Clone 11,4.5,Late Erythroid,8.62
+Clone 11,4.5,NMP,0.0
+Clone 11,4.5,Mono precur,0.0
+Clone 11,4.5,Monocyte,0.0
+Clone 11,4.5,DC precursor,0.53
+Clone 11,4.5,DC,0.08
+BG,4.5,HSC/MPP 1,9581.14
+BG,4.5,HSC/MPP 2,28276.94
+BG,4.5,MEMP,32919.08
+BG,4.5,Mast cell,25266.65
+BG,4.5,Early Erythroid,22876.38
+BG,4.5,Mid Erythroid,5027.66
+BG,4.5,Late Erythroid,81.84
+BG,4.5,NMP,9489.1
+BG,4.5,Mono precur,7421.03
+BG,4.5,Monocyte,2214.8
+BG,4.5,DC precursor,4371.02
+BG,4.5,DC,402.08
+Clone 0,5.0,HSC/MPP 1,241.28
+Clone 0,5.0,HSC/MPP 2,646.52
+Clone 0,5.0,MEMP,2362.36
+Clone 0,5.0,Mast cell,431.38
+Clone 0,5.0,Early Erythroid,1054.54
+Clone 0,5.0,Mid Erythroid,216.53
+Clone 0,5.0,Late Erythroid,6.11
+Clone 0,5.0,NMP,69.33
+Clone 0,5.0,Mono precur,67.76
+Clone 0,5.0,Monocyte,14.51
+Clone 0,5.0,DC precursor,92.35
+Clone 0,5.0,DC,0.0
+Clone 1,5.0,HSC/MPP 1,38.05
+Clone 1,5.0,HSC/MPP 2,1323.15
+Clone 1,5.0,MEMP,1863.38
+Clone 1,5.0,Mast cell,163.81
+Clone 1,5.0,Early Erythroid,2643.23
+Clone 1,5.0,Mid Erythroid,370.94
+Clone 1,5.0,Late Erythroid,0.87
+Clone 1,5.0,NMP,26.4
+Clone 1,5.0,Mono precur,60.77
+Clone 1,5.0,Monocyte,2.69
+Clone 1,5.0,DC precursor,0.07
+Clone 1,5.0,DC,0.0
+Clone 2,5.0,HSC/MPP 1,163.84
+Clone 2,5.0,HSC/MPP 2,554.11
+Clone 2,5.0,MEMP,63.26
+Clone 2,5.0,Mast cell,80.55
+Clone 2,5.0,Early Erythroid,24.04
+Clone 2,5.0,Mid Erythroid,22.56
+Clone 2,5.0,Late Erythroid,4.23
+Clone 2,5.0,NMP,8.56
+Clone 2,5.0,Mono precur,99.72
+Clone 2,5.0,Monocyte,13.11
+Clone 2,5.0,DC precursor,408.92
+Clone 2,5.0,DC,93.17
+Clone 3,5.0,HSC/MPP 1,42.48
+Clone 3,5.0,HSC/MPP 2,105.64
+Clone 3,5.0,MEMP,1175.84
+Clone 3,5.0,Mast cell,186.18
+Clone 3,5.0,Early Erythroid,885.78
+Clone 3,5.0,Mid Erythroid,63.26
+Clone 3,5.0,Late Erythroid,0.54
+Clone 3,5.0,NMP,0.0
+Clone 3,5.0,Mono precur,3.6
+Clone 3,5.0,Monocyte,0.19
+Clone 3,5.0,DC precursor,0.03
+Clone 3,5.0,DC,0.0
+Clone 4,5.0,HSC/MPP 1,13.2
+Clone 4,5.0,HSC/MPP 2,499.46
+Clone 4,5.0,MEMP,38.14
+Clone 4,5.0,Mast cell,42.19
+Clone 4,5.0,Early Erythroid,18.58
+Clone 4,5.0,Mid Erythroid,3.3
+Clone 4,5.0,Late Erythroid,0.34
+Clone 4,5.0,NMP,356.84
+Clone 4,5.0,Mono precur,291.03
+Clone 4,5.0,Monocyte,83.05
+Clone 4,5.0,DC precursor,5.3
+Clone 4,5.0,DC,0.43
+Clone 5,5.0,HSC/MPP 1,88.6
+Clone 5,5.0,HSC/MPP 2,921.98
+Clone 5,5.0,MEMP,12.9
+Clone 5,5.0,Mast cell,2.82
+Clone 5,5.0,Early Erythroid,4.12
+Clone 5,5.0,Mid Erythroid,0.34
+Clone 5,5.0,Late Erythroid,0.0
+Clone 5,5.0,NMP,90.51
+Clone 5,5.0,Mono precur,656.96
+Clone 5,5.0,Monocyte,61.9
+Clone 5,5.0,DC precursor,125.4
+Clone 5,5.0,DC,7.81
+Clone 6,5.0,HSC/MPP 1,67.29
+Clone 6,5.0,HSC/MPP 2,512.18
+Clone 6,5.0,MEMP,38.25
+Clone 6,5.0,Mast cell,15.0
+Clone 6,5.0,Early Erythroid,0.0
+Clone 6,5.0,Mid Erythroid,0.0
+Clone 6,5.0,Late Erythroid,0.0
+Clone 6,5.0,NMP,162.09
+Clone 6,5.0,Mono precur,231.55
+Clone 6,5.0,Monocyte,49.55
+Clone 6,5.0,DC precursor,1.83
+Clone 6,5.0,DC,0.06
+Clone 7,5.0,HSC/MPP 1,265.71
+Clone 7,5.0,HSC/MPP 2,491.32
+Clone 7,5.0,MEMP,426.52
+Clone 7,5.0,Mast cell,227.77
+Clone 7,5.0,Early Erythroid,16.15
+Clone 7,5.0,Mid Erythroid,10.63
+Clone 7,5.0,Late Erythroid,0.34
+Clone 7,5.0,NMP,275.11
+Clone 7,5.0,Mono precur,306.15
+Clone 7,5.0,Monocyte,116.15
+Clone 7,5.0,DC precursor,9.43
+Clone 7,5.0,DC,2.84
+Clone 8,5.0,HSC/MPP 1,4.29
+Clone 8,5.0,HSC/MPP 2,18.23
+Clone 8,5.0,MEMP,2801.92
+Clone 8,5.0,Mast cell,1461.04
+Clone 8,5.0,Early Erythroid,306.34
+Clone 8,5.0,Mid Erythroid,92.26
+Clone 8,5.0,Late Erythroid,0.0
+Clone 8,5.0,NMP,0.0
+Clone 8,5.0,Mono precur,8.05
+Clone 8,5.0,Monocyte,7.68
+Clone 8,5.0,DC precursor,0.16
+Clone 8,5.0,DC,0.0
+Clone 9,5.0,HSC/MPP 1,9.13
+Clone 9,5.0,HSC/MPP 2,19.46
+Clone 9,5.0,MEMP,20.27
+Clone 9,5.0,Mast cell,566.65
+Clone 9,5.0,Early Erythroid,9.88
+Clone 9,5.0,Mid Erythroid,3.38
+Clone 9,5.0,Late Erythroid,0.1
+Clone 9,5.0,NMP,0.0
+Clone 9,5.0,Mono precur,0.0
+Clone 9,5.0,Monocyte,0.0
+Clone 9,5.0,DC precursor,0.01
+Clone 9,5.0,DC,0.0
+Clone 10,5.0,HSC/MPP 1,1.2
+Clone 10,5.0,HSC/MPP 2,92.34
+Clone 10,5.0,MEMP,0.95
+Clone 10,5.0,Mast cell,0.74
+Clone 10,5.0,Early Erythroid,0.0
+Clone 10,5.0,Mid Erythroid,0.0
+Clone 10,5.0,Late Erythroid,0.0
+Clone 10,5.0,NMP,716.52
+Clone 10,5.0,Mono precur,2449.6
+Clone 10,5.0,Monocyte,1310.3
+Clone 10,5.0,DC precursor,4.78
+Clone 10,5.0,DC,0.0
+Clone 11,5.0,HSC/MPP 1,0.81
+Clone 11,5.0,HSC/MPP 2,0.1
+Clone 11,5.0,MEMP,164.2
+Clone 11,5.0,Mast cell,27.78
+Clone 11,5.0,Early Erythroid,1516.47
+Clone 11,5.0,Mid Erythroid,171.7
+Clone 11,5.0,Late Erythroid,21.72
+Clone 11,5.0,NMP,0.0
+Clone 11,5.0,Mono precur,0.0
+Clone 11,5.0,Monocyte,0.0
+Clone 11,5.0,DC precursor,0.58
+Clone 11,5.0,DC,0.1
+BG,5.0,HSC/MPP 1,10810.45
+BG,5.0,HSC/MPP 2,41871.58
+BG,5.0,MEMP,46954.31
+BG,5.0,Mast cell,39854.0
+BG,5.0,Early Erythroid,44612.45
+BG,5.0,Mid Erythroid,10753.34
+BG,5.0,Late Erythroid,191.4
+BG,5.0,NMP,16009.97
+BG,5.0,Mono precur,13021.93
+BG,5.0,Monocyte,4410.85
+BG,5.0,DC precursor,6798.48
+BG,5.0,DC,671.04
+Clone 0,5.5,HSC/MPP 1,256.63
+Clone 0,5.5,HSC/MPP 2,911.23
+Clone 0,5.5,MEMP,3888.04
+Clone 0,5.5,Mast cell,812.11
+Clone 0,5.5,Early Erythroid,1987.61
+Clone 0,5.5,Mid Erythroid,462.02
+Clone 0,5.5,Late Erythroid,14.64
+Clone 0,5.5,NMP,115.27
+Clone 0,5.5,Mono precur,124.34
+Clone 0,5.5,Monocyte,30.55
+Clone 0,5.5,DC precursor,115.42
+Clone 0,5.5,DC,0.0
+Clone 1,5.5,HSC/MPP 1,33.93
+Clone 1,5.5,HSC/MPP 2,2145.26
+Clone 1,5.5,MEMP,3525.34
+Clone 1,5.5,Mast cell,396.75
+Clone 1,5.5,Early Erythroid,6099.23
+Clone 1,5.5,Mid Erythroid,1091.0
+Clone 1,5.5,Late Erythroid,3.23
+Clone 1,5.5,NMP,56.32
+Clone 1,5.5,Mono precur,128.8
+Clone 1,5.5,Monocyte,7.08
+Clone 1,5.5,DC precursor,0.08
+Clone 1,5.5,DC,0.0
+Clone 2,5.5,HSC/MPP 1,164.63
+Clone 2,5.5,HSC/MPP 2,785.52
+Clone 2,5.5,MEMP,70.17
+Clone 2,5.5,Mast cell,105.54
+Clone 2,5.5,Early Erythroid,30.88
+Clone 2,5.5,Mid Erythroid,35.86
+Clone 2,5.5,Late Erythroid,7.89
+Clone 2,5.5,NMP,15.07
+Clone 2,5.5,Mono precur,167.69
+Clone 2,5.5,Monocyte,25.22
+Clone 2,5.5,DC precursor,633.4
+Clone 2,5.5,DC,162.06
+Clone 3,5.5,HSC/MPP 1,39.75
+Clone 3,5.5,HSC/MPP 2,161.06
+Clone 3,5.5,MEMP,2164.95
+Clone 3,5.5,Mast cell,415.82
+Clone 3,5.5,Early Erythroid,1983.73
+Clone 3,5.5,Mid Erythroid,167.18
+Clone 3,5.5,Late Erythroid,1.68
+Clone 3,5.5,NMP,0.0
+Clone 3,5.5,Mono precur,6.37
+Clone 3,5.5,Monocyte,0.38
+Clone 3,5.5,DC precursor,0.03
+Clone 3,5.5,DC,0.0
+Clone 4,5.5,HSC/MPP 1,11.5
+Clone 4,5.5,HSC/MPP 2,785.98
+Clone 4,5.5,MEMP,47.98
+Clone 4,5.5,Mast cell,51.28
+Clone 4,5.5,Early Erythroid,26.38
+Clone 4,5.5,Mid Erythroid,5.02
+Clone 4,5.5,Late Erythroid,0.55
+Clone 4,5.5,NMP,597.71
+Clone 4,5.5,Mono precur,537.15
+Clone 4,5.5,Monocyte,165.09
+Clone 4,5.5,DC precursor,9.92
+Clone 4,5.5,DC,0.87
+Clone 5,5.5,HSC/MPP 1,94.55
+Clone 5,5.5,HSC/MPP 2,1828.96
+Clone 5,5.5,MEMP,15.35
+Clone 5,5.5,Mast cell,3.74
+Clone 5,5.5,Early Erythroid,6.41
+Clone 5,5.5,Mid Erythroid,0.62
+Clone 5,5.5,Late Erythroid,0.0
+Clone 5,5.5,NMP,214.1
+Clone 5,5.5,Mono precur,1612.87
+Clone 5,5.5,Monocyte,178.69
+Clone 5,5.5,DC precursor,285.77
+Clone 5,5.5,DC,20.03
+Clone 6,5.5,HSC/MPP 1,70.91
+Clone 6,5.5,HSC/MPP 2,822.91
+Clone 6,5.5,MEMP,49.03
+Clone 6,5.5,Mast cell,19.63
+Clone 6,5.5,Early Erythroid,0.0
+Clone 6,5.5,Mid Erythroid,0.0
+Clone 6,5.5,Late Erythroid,0.0
+Clone 6,5.5,NMP,282.9
+Clone 6,5.5,Mono precur,438.38
+Clone 6,5.5,Monocyte,101.37
+Clone 6,5.5,DC precursor,3.37
+Clone 6,5.5,DC,0.11
+Clone 7,5.5,HSC/MPP 1,320.45
+Clone 7,5.5,HSC/MPP 2,688.35
+Clone 7,5.5,MEMP,622.31
+Clone 7,5.5,Mast cell,358.15
+Clone 7,5.5,Early Erythroid,25.65
+Clone 7,5.5,Mid Erythroid,19.05
+Clone 7,5.5,Late Erythroid,0.65
+Clone 7,5.5,NMP,446.41
+Clone 7,5.5,Mono precur,503.59
+Clone 7,5.5,Monocyte,212.15
+Clone 7,5.5,DC precursor,13.98
+Clone 7,5.5,DC,4.52
+Clone 8,5.5,HSC/MPP 1,3.4
+Clone 8,5.5,HSC/MPP 2,18.27
+Clone 8,5.5,MEMP,4362.16
+Clone 8,5.5,Mast cell,2666.86
+Clone 8,5.5,Early Erythroid,602.11
+Clone 8,5.5,Mid Erythroid,208.32
+Clone 8,5.5,Late Erythroid,0.0
+Clone 8,5.5,NMP,0.0
+Clone 8,5.5,Mono precur,8.21
+Clone 8,5.5,Monocyte,8.63
+Clone 8,5.5,DC precursor,0.2
+Clone 8,5.5,DC,0.0
+Clone 9,5.5,HSC/MPP 1,9.68
+Clone 9,5.5,HSC/MPP 2,18.04
+Clone 9,5.5,MEMP,17.38
+Clone 9,5.5,Mast cell,579.44
+Clone 9,5.5,Early Erythroid,10.54
+Clone 9,5.5,Mid Erythroid,3.99
+Clone 9,5.5,Late Erythroid,0.14
+Clone 9,5.5,NMP,0.0
+Clone 9,5.5,Mono precur,0.0
+Clone 9,5.5,Monocyte,0.0
+Clone 9,5.5,DC precursor,0.01
+Clone 9,5.5,DC,0.0
+Clone 10,5.5,HSC/MPP 1,0.83
+Clone 10,5.5,HSC/MPP 2,81.72
+Clone 10,5.5,MEMP,0.9
+Clone 10,5.5,Mast cell,0.92
+Clone 10,5.5,Early Erythroid,0.0
+Clone 10,5.5,Mid Erythroid,0.0
+Clone 10,5.5,Late Erythroid,0.0
+Clone 10,5.5,NMP,822.17
+Clone 10,5.5,Mono precur,3014.52
+Clone 10,5.5,Monocyte,2288.1
+Clone 10,5.5,DC precursor,6.76
+Clone 10,5.5,DC,0.0
+Clone 11,5.5,HSC/MPP 1,0.64
+Clone 11,5.5,HSC/MPP 2,0.1
+Clone 11,5.5,MEMP,196.82
+Clone 11,5.5,Mast cell,43.53
+Clone 11,5.5,Early Erythroid,2201.84
+Clone 11,5.5,Mid Erythroid,344.08
+Clone 11,5.5,Late Erythroid,49.33
+Clone 11,5.5,NMP,0.0
+Clone 11,5.5,Mono precur,0.0
+Clone 11,5.5,Monocyte,0.0
+Clone 11,5.5,DC precursor,0.63
+Clone 11,5.5,DC,0.13
+BG,5.5,HSC/MPP 1,11842.18
+BG,5.5,HSC/MPP 2,59163.92
+BG,5.5,MEMP,63198.66
+BG,5.5,Mast cell,60922.23
+BG,5.5,Early Erythroid,80980.2
+BG,5.5,Mid Erythroid,21966.51
+BG,5.5,Late Erythroid,440.78
+BG,5.5,NMP,25991.22
+BG,5.5,Mono precur,21762.05
+BG,5.5,Monocyte,8385.96
+BG,5.5,DC precursor,10302.4
+BG,5.5,DC,1109.42
+Clone 0,6.0,HSC/MPP 1,266.34
+Clone 0,6.0,HSC/MPP 2,1241.34
+Clone 0,6.0,MEMP,6172.44
+Clone 0,6.0,Mast cell,1485.03
+Clone 0,6.0,Early Erythroid,3604.91
+Clone 0,6.0,Mid Erythroid,951.27
+Clone 0,6.0,Late Erythroid,33.95
+Clone 0,6.0,NMP,186.74
+Clone 0,6.0,Mono precur,219.45
+Clone 0,6.0,Monocyte,62.02
+Clone 0,6.0,DC precursor,143.02
+Clone 0,6.0,DC,0.01
+Clone 1,6.0,HSC/MPP 1,29.61
+Clone 1,6.0,HSC/MPP 2,3106.47
+Clone 1,6.0,MEMP,6070.67
+Clone 1,6.0,Mast cell,896.52
+Clone 1,6.0,Early Erythroid,12780.81
+Clone 1,6.0,Mid Erythroid,2936.62
+Clone 1,6.0,Late Erythroid,11.22
+Clone 1,6.0,NMP,110.69
+Clone 1,6.0,Mono precur,250.11
+Clone 1,6.0,Monocyte,17.66
+Clone 1,6.0,DC precursor,0.09
+Clone 1,6.0,DC,0.0
+Clone 2,6.0,HSC/MPP 1,161.83
+Clone 2,6.0,HSC/MPP 2,1084.97
+Clone 2,6.0,MEMP,76.51
+Clone 2,6.0,Mast cell,134.6
+Clone 2,6.0,Early Erythroid,38.33
+Clone 2,6.0,Mid Erythroid,54.54
+Clone 2,6.0,Late Erythroid,13.91
+Clone 2,6.0,NMP,25.71
+Clone 2,6.0,Mono precur,272.03
+Clone 2,6.0,Monocyte,46.28
+Clone 2,6.0,DC precursor,953.88
+Clone 2,6.0,DC,271.76
+Clone 3,6.0,HSC/MPP 1,36.88
+Clone 3,6.0,HSC/MPP 2,238.62
+Clone 3,6.0,MEMP,3683.61
+Clone 3,6.0,Mast cell,876.03
+Clone 3,6.0,Early Erythroid,4182.72
+Clone 3,6.0,Mid Erythroid,421.07
+Clone 3,6.0,Late Erythroid,5.06
+Clone 3,6.0,NMP,0.0
+Clone 3,6.0,Mono precur,11.03
+Clone 3,6.0,Monocyte,0.75
+Clone 3,6.0,DC precursor,0.04
+Clone 3,6.0,DC,0.0
+Clone 4,6.0,HSC/MPP 1,9.82
+Clone 4,6.0,HSC/MPP 2,1191.52
+Clone 4,6.0,MEMP,63.99
+Clone 4,6.0,Mast cell,63.83
+Clone 4,6.0,Early Erythroid,36.82
+Clone 4,6.0,Mid Erythroid,7.61
+Clone 4,6.0,Late Erythroid,0.9
+Clone 4,6.0,NMP,991.35
+Clone 4,6.0,Mono precur,963.48
+Clone 4,6.0,Monocyte,324.07
+Clone 4,6.0,DC precursor,18.23
+Clone 4,6.0,DC,1.72
+Clone 5,6.0,HSC/MPP 1,98.88
+Clone 5,6.0,HSC/MPP 2,3346.81
+Clone 5,6.0,MEMP,18.16
+Clone 5,6.0,Mast cell,4.99
+Clone 5,6.0,Early Erythroid,9.67
+Clone 5,6.0,Mid Erythroid,1.11
+Clone 5,6.0,Late Erythroid,0.01
+Clone 5,6.0,NMP,482.8
+Clone 5,6.0,Mono precur,3721.92
+Clone 5,6.0,Monocyte,494.15
+Clone 5,6.0,DC precursor,627.3
+Clone 5,6.0,DC,51.7
+Clone 6,6.0,HSC/MPP 1,73.83
+Clone 6,6.0,HSC/MPP 2,1297.63
+Clone 6,6.0,MEMP,66.18
+Clone 6,6.0,Mast cell,26.23
+Clone 6,6.0,Early Erythroid,0.0
+Clone 6,6.0,Mid Erythroid,0.0
+Clone 6,6.0,Late Erythroid,0.0
+Clone 6,6.0,NMP,491.94
+Clone 6,6.0,Mono precur,816.63
+Clone 6,6.0,Monocyte,205.95
+Clone 6,6.0,DC precursor,6.25
+Clone 6,6.0,DC,0.21
+Clone 7,6.0,HSC/MPP 1,382.35
+Clone 7,6.0,HSC/MPP 2,948.39
+Clone 7,6.0,MEMP,891.09
+Clone 7,6.0,Mast cell,555.93
+Clone 7,6.0,Early Erythroid,39.93
+Clone 7,6.0,Mid Erythroid,33.37
+Clone 7,6.0,Late Erythroid,1.22
+Clone 7,6.0,NMP,712.3
+Clone 7,6.0,Mono precur,810.36
+Clone 7,6.0,Monocyte,378.9
+Clone 7,6.0,DC precursor,20.43
+Clone 7,6.0,DC,7.11
+Clone 8,6.0,HSC/MPP 1,2.68
+Clone 8,6.0,HSC/MPP 2,18.26
+Clone 8,6.0,MEMP,6197.33
+Clone 8,6.0,Mast cell,4580.73
+Clone 8,6.0,Early Erythroid,1080.78
+Clone 8,6.0,Mid Erythroid,437.11
+Clone 8,6.0,Late Erythroid,0.0
+Clone 8,6.0,NMP,0.0
+Clone 8,6.0,Mono precur,8.22
+Clone 8,6.0,Monocyte,9.49
+Clone 8,6.0,DC precursor,0.25
+Clone 8,6.0,DC,0.0
+Clone 9,6.0,HSC/MPP 1,10.32
+Clone 9,6.0,HSC/MPP 2,17.06
+Clone 9,6.0,MEMP,15.34
+Clone 9,6.0,Mast cell,590.4
+Clone 9,6.0,Early Erythroid,11.13
+Clone 9,6.0,Mid Erythroid,4.58
+Clone 9,6.0,Late Erythroid,0.18
+Clone 9,6.0,NMP,0.0
+Clone 9,6.0,Mono precur,0.0
+Clone 9,6.0,Monocyte,0.0
+Clone 9,6.0,DC precursor,0.01
+Clone 9,6.0,DC,0.0
+Clone 10,6.0,HSC/MPP 1,0.61
+Clone 10,6.0,HSC/MPP 2,71.39
+Clone 10,6.0,MEMP,0.83
+Clone 10,6.0,Mast cell,1.08
+Clone 10,6.0,Early Erythroid,0.0
+Clone 10,6.0,Mid Erythroid,0.0
+Clone 10,6.0,Late Erythroid,0.0
+Clone 10,6.0,NMP,898.8
+Clone 10,6.0,Mono precur,3106.94
+Clone 10,6.0,Monocyte,3292.6
+Clone 10,6.0,DC precursor,8.65
+Clone 10,6.0,DC,0.0
+Clone 11,6.0,HSC/MPP 1,0.5
+Clone 11,6.0,HSC/MPP 2,0.1
+Clone 11,6.0,MEMP,230.24
+Clone 11,6.0,Mast cell,66.05
+Clone 11,6.0,Early Erythroid,3019.22
+Clone 11,6.0,Mid Erythroid,646.86
+Clone 11,6.0,Late Erythroid,104.14
+Clone 11,6.0,NMP,0.0
+Clone 11,6.0,Mono precur,0.0
+Clone 11,6.0,Monocyte,0.0
+Clone 11,6.0,DC precursor,0.68
+Clone 11,6.0,DC,0.16
+BG,6.0,HSC/MPP 1,12527.46
+BG,6.0,HSC/MPP 2,79259.21
+BG,6.0,MEMP,79684.14
+BG,6.0,Mast cell,89540.02
+BG,6.0,Early Erythroid,135473.22
+BG,6.0,Mid Erythroid,42235.66
+BG,6.0,Late Erythroid,979.97
+BG,6.0,NMP,40434.3
+BG,6.0,Mono precur,34459.62
+BG,6.0,Monocyte,15168.89
+BG,6.0,DC precursor,15097.0
+BG,6.0,DC,1802.71
+Clone 0,6.5,HSC/MPP 1,269.15
+Clone 0,6.5,HSC/MPP 2,1631.74
+Clone 0,6.5,MEMP,9432.96
+Clone 0,6.5,Mast cell,2631.44
+Clone 0,6.5,Early Erythroid,6282.57
+Clone 0,6.5,Mid Erythroid,1886.92
+Clone 0,6.5,Late Erythroid,76.04
+Clone 0,6.5,NMP,294.54
+Clone 0,6.5,Mono precur,372.27
+Clone 0,6.5,Monocyte,121.39
+Clone 0,6.5,DC precursor,175.52
+Clone 0,6.5,DC,0.01
+Clone 1,6.5,HSC/MPP 1,25.23
+Clone 1,6.5,HSC/MPP 2,3977.9
+Clone 1,6.5,MEMP,9376.98
+Clone 1,6.5,Mast cell,1853.71
+Clone 1,6.5,Early Erythroid,24087.82
+Clone 1,6.5,Mid Erythroid,7129.56
+Clone 1,6.5,Late Erythroid,35.49
+Clone 1,6.5,NMP,197.65
+Clone 1,6.5,Mono precur,438.65
+Clone 1,6.5,Monocyte,40.5
+Clone 1,6.5,DC precursor,0.1
+Clone 1,6.5,DC,0.0
+Clone 2,6.5,HSC/MPP 1,155.91
+Clone 2,6.5,HSC/MPP 2,1464.21
+Clone 2,6.5,MEMP,82.46
+Clone 2,6.5,Mast cell,167.6
+Clone 2,6.5,Early Erythroid,46.19
+Clone 2,6.5,Mid Erythroid,79.78
+Clone 2,6.5,Late Erythroid,23.34
+Clone 2,6.5,NMP,42.62
+Clone 2,6.5,Mono precur,427.21
+Clone 2,6.5,Monocyte,81.42
+Clone 2,6.5,DC precursor,1398.72
+Clone 2,6.5,DC,440.12
+Clone 3,6.5,HSC/MPP 1,33.87
+Clone 3,6.5,HSC/MPP 2,342.02
+Clone 3,6.5,MEMP,5708.42
+Clone 3,6.5,Mast cell,1724.97
+Clone 3,6.5,Early Erythroid,8215.64
+Clone 3,6.5,Mid Erythroid,1003.11
+Clone 3,6.5,Late Erythroid,14.59
+Clone 3,6.5,NMP,0.0
+Clone 3,6.5,Mono precur,18.68
+Clone 3,6.5,Monocyte,1.49
+Clone 3,6.5,DC precursor,0.04
+Clone 3,6.5,DC,0.0
+Clone 4,6.5,HSC/MPP 1,8.17
+Clone 4,6.5,HSC/MPP 2,1716.25
+Clone 4,6.5,MEMP,88.95
+Clone 4,6.5,Mast cell,82.23
+Clone 4,6.5,Early Erythroid,50.24
+Clone 4,6.5,Mid Erythroid,11.45
+Clone 4,6.5,Late Erythroid,1.46
+Clone 4,6.5,NMP,1612.34
+Clone 4,6.5,Mono precur,1666.24
+Clone 4,6.5,Monocyte,625.03
+Clone 4,6.5,DC precursor,32.64
+Clone 4,6.5,DC,3.37
+Clone 5,6.5,HSC/MPP 1,100.75
+Clone 5,6.5,HSC/MPP 2,5509.33
+Clone 5,6.5,MEMP,21.28
+Clone 5,6.5,Mast cell,6.69
+Clone 5,6.5,Early Erythroid,14.06
+Clone 5,6.5,Mid Erythroid,1.94
+Clone 5,6.5,Late Erythroid,0.02
+Clone 5,6.5,NMP,1020.18
+Clone 5,6.5,Mono precur,7930.03
+Clone 5,6.5,Monocyte,1295.58
+Clone 5,6.5,DC precursor,1290.98
+Clone 5,6.5,DC,129.72
+Clone 6,6.5,HSC/MPP 1,75.67
+Clone 6,6.5,HSC/MPP 2,1996.1
+Clone 6,6.5,MEMP,94.73
+Clone 6,6.5,Mast cell,36.26
+Clone 6,6.5,Early Erythroid,0.0
+Clone 6,6.5,Mid Erythroid,0.0
+Clone 6,6.5,Late Erythroid,0.0
+Clone 6,6.5,NMP,849.22
+Clone 6,6.5,Mono precur,1493.02
+Clone 6,6.5,Monocyte,415.27
+Clone 6,6.5,DC precursor,11.62
+Clone 6,6.5,DC,0.41
+Clone 7,6.5,HSC/MPP 1,449.97
+Clone 7,6.5,HSC/MPP 2,1282.63
+Clone 7,6.5,MEMP,1249.12
+Clone 7,6.5,Mast cell,851.45
+Clone 7,6.5,Early Erythroid,60.87
+Clone 7,6.5,Mid Erythroid,57.18
+Clone 7,6.5,Late Erythroid,2.25
+Clone 7,6.5,NMP,1118.34
+Clone 7,6.5,Mono precur,1274.99
+Clone 7,6.5,Monocyte,662.76
+Clone 7,6.5,DC precursor,29.43
+Clone 7,6.5,DC,11.04
+Clone 8,6.5,HSC/MPP 1,2.09
+Clone 8,6.5,HSC/MPP 2,18.22
+Clone 8,6.5,MEMP,7801.71
+Clone 8,6.5,Mast cell,7352.03
+Clone 8,6.5,Early Erythroid,1745.07
+Clone 8,6.5,Mid Erythroid,852.83
+Clone 8,6.5,Late Erythroid,0.0
+Clone 8,6.5,NMP,0.0
+Clone 8,6.5,Mono precur,8.07
+Clone 8,6.5,Monocyte,10.23
+Clone 8,6.5,DC precursor,0.32
+Clone 8,6.5,DC,0.0
+Clone 9,6.5,HSC/MPP 1,11.03
+Clone 9,6.5,HSC/MPP 2,16.44
+Clone 9,6.5,MEMP,13.94
+Clone 9,6.5,Mast cell,600.09
+Clone 9,6.5,Early Erythroid,11.67
+Clone 9,6.5,Mid Erythroid,5.16
+Clone 9,6.5,Late Erythroid,0.23
+Clone 9,6.5,NMP,0.0
+Clone 9,6.5,Mono precur,0.0
+Clone 9,6.5,Monocyte,0.0
+Clone 9,6.5,DC precursor,0.01
+Clone 9,6.5,DC,0.0
+Clone 10,6.5,HSC/MPP 1,0.48
+Clone 10,6.5,HSC/MPP 2,62.32
+Clone 10,6.5,MEMP,0.76
+Clone 10,6.5,Mast cell,1.2
+Clone 10,6.5,Early Erythroid,0.0
+Clone 10,6.5,Mid Erythroid,0.0
+Clone 10,6.5,Late Erythroid,0.0
+Clone 10,6.5,NMP,950.78
+Clone 10,6.5,Mono precur,2826.23
+Clone 10,6.5,Monocyte,4133.22
+Clone 10,6.5,DC precursor,10.35
+Clone 10,6.5,DC,0.0
+Clone 11,6.5,HSC/MPP 1,0.38
+Clone 11,6.5,HSC/MPP 2,0.1
+Clone 11,6.5,MEMP,260.42
+Clone 11,6.5,Mast cell,98.52
+Clone 11,6.5,Early Erythroid,3828.28
+Clone 11,6.5,Mid Erythroid,1161.73
+Clone 11,6.5,Late Erythroid,209.89
+Clone 11,6.5,NMP,0.0
+Clone 11,6.5,Mono precur,0.0
+Clone 11,6.5,Monocyte,0.0
+Clone 11,6.5,DC precursor,0.72
+Clone 11,6.5,DC,0.2
+BG,6.5,HSC/MPP 1,12781.54
+BG,6.5,HSC/MPP 2,100569.88
+BG,6.5,MEMP,94105.08
+BG,6.5,Mast cell,125836.48
+BG,6.5,Early Erythroid,208493.84
+BG,6.5,Mid Erythroid,75655.84
+BG,6.5,Late Erythroid,2059.94
+BG,6.5,NMP,60191.41
+BG,6.5,Mono precur,51650.09
+BG,6.5,Monocyte,26072.33
+BG,6.5,DC precursor,21288.69
+BG,6.5,DC,2853.72
+Clone 0,7.0,HSC/MPP 1,264.2
+Clone 0,7.0,HSC/MPP 2,2064.96
+Clone 0,7.0,MEMP,13840.46
+Clone 0,7.0,Mast cell,4510.07
+Clone 0,7.0,Early Erythroid,10500.03
+Clone 0,7.0,Mid Erythroid,3600.95
+Clone 0,7.0,Late Erythroid,164.28
+Clone 0,7.0,NMP,451.91
+Clone 0,7.0,Mono precur,606.18
+Clone 0,7.0,Monocyte,228.91
+Clone 0,7.0,DC precursor,213.16
+Clone 0,7.0,DC,0.01
+Clone 1,7.0,HSC/MPP 1,20.94
+Clone 1,7.0,HSC/MPP 2,4468.62
+Clone 1,7.0,MEMP,12842.42
+Clone 1,7.0,Mast cell,3473.65
+Clone 1,7.0,Early Erythroid,40520.96
+Clone 1,7.0,Mid Erythroid,15522.28
+Clone 1,7.0,Late Erythroid,101.2
+Clone 1,7.0,NMP,319.27
+Clone 1,7.0,Mono precur,690.99
+Clone 1,7.0,Monocyte,84.54
+Clone 1,7.0,DC precursor,0.1
+Clone 1,7.0,DC,0.0
+Clone 2,7.0,HSC/MPP 1,147.46
+Clone 2,7.0,HSC/MPP 2,1935.45
+Clone 2,7.0,MEMP,88.36
+Clone 2,7.0,Mast cell,204.51
+Clone 2,7.0,Early Erythroid,54.26
+Clone 2,7.0,Mid Erythroid,112.79
+Clone 2,7.0,Late Erythroid,37.48
+Clone 2,7.0,NMP,68.84
+Clone 2,7.0,Mono precur,651.69
+Clone 2,7.0,Monocyte,137.9
+Clone 2,7.0,DC precursor,2000.54
+Clone 2,7.0,DC,690.19
+Clone 3,7.0,HSC/MPP 1,30.76
+Clone 3,7.0,HSC/MPP 2,472.22
+Clone 3,7.0,MEMP,7942.31
+Clone 3,7.0,Mast cell,3141.77
+Clone 3,7.0,Early Erythroid,14870.79
+Clone 3,7.0,Mid Erythroid,2234.17
+Clone 3,7.0,Late Erythroid,39.84
+Clone 3,7.0,NMP,0.0
+Clone 3,7.0,Mono precur,30.75
+Clone 3,7.0,Monocyte,2.9
+Clone 3,7.0,DC precursor,0.05
+Clone 3,7.0,DC,0.0
+Clone 4,7.0,HSC/MPP 1,6.58
+Clone 4,7.0,HSC/MPP 2,2307.3
+Clone 4,7.0,MEMP,125.1
+Clone 4,7.0,Mast cell,110.18
+Clone 4,7.0,Early Erythroid,66.57
+Clone 4,7.0,Mid Erythroid,17.03
+Clone 4,7.0,Late Erythroid,2.39
+Clone 4,7.0,NMP,2542.3
+Clone 4,7.0,Mono precur,2747.73
+Clone 4,7.0,Monocyte,1176.44
+Clone 4,7.0,DC precursor,56.44
+Clone 4,7.0,DC,6.53
+Clone 5,7.0,HSC/MPP 1,99.32
+Clone 5,7.0,HSC/MPP 2,7912.61
+Clone 5,7.0,MEMP,24.55
+Clone 5,7.0,Mast cell,8.99
+Clone 5,7.0,Early Erythroid,19.56
+Clone 5,7.0,Mid Erythroid,3.32
+Clone 5,7.0,Late Erythroid,0.03
+Clone 5,7.0,NMP,1981.67
+Clone 5,7.0,Mono precur,15270.12
+Clone 5,7.0,Monocyte,3166.76
+Clone 5,7.0,DC precursor,2425.83
+Clone 5,7.0,DC,308.11
+Clone 6,7.0,HSC/MPP 1,75.94
+Clone 6,7.0,HSC/MPP 2,2967.34
+Clone 6,7.0,MEMP,143.34
+Clone 6,7.0,Mast cell,52.63
+Clone 6,7.0,Early Erythroid,0.0
+Clone 6,7.0,Mid Erythroid,0.0
+Clone 6,7.0,Late Erythroid,0.0
+Clone 6,7.0,NMP,1449.37
+Clone 6,7.0,Mono precur,2666.44
+Clone 6,7.0,Monocyte,830.26
+Clone 6,7.0,DC precursor,21.52
+Clone 6,7.0,DC,0.81
+Clone 7,7.0,HSC/MPP 1,520.78
+Clone 7,7.0,HSC/MPP 2,1699.27
+Clone 7,7.0,MEMP,1709.61
+Clone 7,7.0,Mast cell,1285.06
+Clone 7,7.0,Early Erythroid,90.73
+Clone 7,7.0,Mid Erythroid,95.96
+Clone 7,7.0,Late Erythroid,4.07
+Clone 7,7.0,NMP,1727.77
+Clone 7,7.0,Mono precur,1959.36
+Clone 7,7.0,Monocyte,1135.93
+Clone 7,7.0,DC precursor,41.71
+Clone 7,7.0,DC,16.97
+Clone 8,7.0,HSC/MPP 1,1.63
+Clone 8,7.0,HSC/MPP 2,18.2
+Clone 8,7.0,MEMP,8385.12
+Clone 8,7.0,Mast cell,10867.72
+Clone 8,7.0,Early Erythroid,2471.26
+Clone 8,7.0,Mid Erythroid,1531.52
+Clone 8,7.0,Late Erythroid,0.0
+Clone 8,7.0,NMP,0.0
+Clone 8,7.0,Mono precur,7.75
+Clone 8,7.0,Monocyte,10.81
+Clone 8,7.0,DC precursor,0.4
+Clone 8,7.0,DC,0.0
+Clone 9,7.0,HSC/MPP 1,11.82
+Clone 9,7.0,HSC/MPP 2,16.14
+Clone 9,7.0,MEMP,13.01
+Clone 9,7.0,Mast cell,608.94
+Clone 9,7.0,Early Erythroid,12.19
+Clone 9,7.0,Mid Erythroid,5.7
+Clone 9,7.0,Late Erythroid,0.28
+Clone 9,7.0,NMP,0.0
+Clone 9,7.0,Mono precur,0.0
+Clone 9,7.0,Monocyte,0.0
+Clone 9,7.0,DC precursor,0.01
+Clone 9,7.0,DC,0.0
+Clone 10,7.0,HSC/MPP 1,0.39
+Clone 10,7.0,HSC/MPP 2,54.77
+Clone 10,7.0,MEMP,0.71
+Clone 10,7.0,Mast cell,1.3
+Clone 10,7.0,Early Erythroid,0.0
+Clone 10,7.0,Mid Erythroid,0.0
+Clone 10,7.0,Late Erythroid,0.0
+Clone 10,7.0,NMP,985.88
+Clone 10,7.0,Mono precur,2380.8
+Clone 10,7.0,Monocyte,4736.51
+Clone 10,7.0,DC precursor,11.84
+Clone 10,7.0,DC,0.0
+Clone 11,7.0,HSC/MPP 1,0.29
+Clone 11,7.0,HSC/MPP 2,0.1
+Clone 11,7.0,MEMP,278.03
+Clone 11,7.0,Mast cell,147.0
+Clone 11,7.0,Early Erythroid,4239.34
+Clone 11,7.0,Mid Erythroid,2018.84
+Clone 11,7.0,Late Erythroid,415.26
+Clone 11,7.0,NMP,0.0
+Clone 11,7.0,Mono precur,0.0
+Clone 11,7.0,Monocyte,0.0
+Clone 11,7.0,DC precursor,0.76
+Clone 11,7.0,DC,0.24
+BG,7.0,HSC/MPP 1,12598.75
+BG,7.0,HSC/MPP 2,121259.2
+BG,7.0,MEMP,104649.0
+BG,7.0,Mast cell,168900.55
+BG,7.0,Early Erythroid,296587.72
+BG,7.0,Mid Erythroid,125919.34
+BG,7.0,Late Erythroid,4043.72
+BG,7.0,NMP,85878.1
+BG,7.0,Mono precur,73485.48
+BG,7.0,Monocyte,42653.93
+BG,7.0,DC precursor,28850.32
+BG,7.0,DC,4374.09
+Clone 0,7.5,HSC/MPP 1,251.28
+Clone 0,7.5,HSC/MPP 2,2508.79
+Clone 0,7.5,MEMP,19434.6
+Clone 0,7.5,Mast cell,7462.14
+Clone 0,7.5,Early Erythroid,16783.73
+Clone 0,7.5,Mid Erythroid,6599.75
+Clone 0,7.5,Late Erythroid,342.11
+Clone 0,7.5,NMP,673.91
+Clone 0,7.5,Mono precur,945.33
+Clone 0,7.5,Monocyte,415.6
+Clone 0,7.5,DC precursor,255.92
+Clone 0,7.5,DC,0.01
+Clone 1,7.5,HSC/MPP 1,16.88
+Clone 1,7.5,HSC/MPP 2,4362.41
+Clone 1,7.5,MEMP,15419.77
+Clone 1,7.5,Mast cell,5877.51
+Clone 1,7.5,Early Erythroid,60310.84
+Clone 1,7.5,Mid Erythroid,30241.58
+Clone 1,7.5,Late Erythroid,260.44
+Clone 1,7.5,NMP,467.21
+Clone 1,7.5,Mono precur,976.93
+Clone 1,7.5,Monocyte,160.36
+Clone 1,7.5,DC precursor,0.11
+Clone 1,7.5,DC,0.0
+Clone 2,7.5,HSC/MPP 1,137.12
+Clone 2,7.5,HSC/MPP 2,2510.92
+Clone 2,7.5,MEMP,94.67
+Clone 2,7.5,Mast cell,245.44
+Clone 2,7.5,Early Erythroid,62.39
+Clone 2,7.5,Mid Erythroid,154.71
+Clone 2,7.5,Late Erythroid,57.92
+Clone 2,7.5,NMP,108.69
+Clone 2,7.5,Mono precur,968.47
+Clone 2,7.5,Monocyte,225.78
+Clone 2,7.5,DC precursor,2795.69
+Clone 2,7.5,DC,1050.82
+Clone 3,7.5,HSC/MPP 1,27.59
+Clone 3,7.5,HSC/MPP 2,626.34
+Clone 3,7.5,MEMP,9833.12
+Clone 3,7.5,Mast cell,5240.85
+Clone 3,7.5,Early Erythroid,24594.06
+Clone 3,7.5,Mid Erythroid,4589.27
+Clone 3,7.5,Late Erythroid,101.72
+Clone 3,7.5,NMP,0.0
+Clone 3,7.5,Mono precur,48.86
+Clone 3,7.5,Monocyte,5.48
+Clone 3,7.5,DC precursor,0.05
+Clone 3,7.5,DC,0.0
+Clone 4,7.5,HSC/MPP 1,5.1
+Clone 4,7.5,HSC/MPP 2,2835.75
+Clone 4,7.5,MEMP,172.0
+Clone 4,7.5,Mast cell,152.6
+Clone 4,7.5,Early Erythroid,84.8
+Clone 4,7.5,Mid Erythroid,24.87
+Clone 4,7.5,Late Erythroid,3.91
+Clone 4,7.5,NMP,3834.78
+Clone 4,7.5,Mono precur,4259.53
+Clone 4,7.5,Monocyte,2140.46
+Clone 4,7.5,DC precursor,92.86
+Clone 4,7.5,DC,12.32
+Clone 5,7.5,HSC/MPP 1,94.1
+Clone 5,7.5,HSC/MPP 2,9637.03
+Clone 5,7.5,MEMP,27.7
+Clone 5,7.5,Mast cell,12.07
+Clone 5,7.5,Early Erythroid,25.78
+Clone 5,7.5,Mid Erythroid,5.5
+Clone 5,7.5,Late Erythroid,0.07
+Clone 5,7.5,NMP,3465.83
+Clone 5,7.5,Mono precur,26004.39
+Clone 5,7.5,Monocyte,7067.91
+Clone 5,7.5,DC precursor,4046.08
+Clone 5,7.5,DC,673.69
+Clone 6,7.5,HSC/MPP 1,74.11
+Clone 6,7.5,HSC/MPP 2,4203.56
+Clone 6,7.5,MEMP,225.6
+Clone 6,7.5,Mast cell,81.02
+Clone 6,7.5,Early Erythroid,0.0
+Clone 6,7.5,Mid Erythroid,0.0
+Clone 6,7.5,Late Erythroid,0.0
+Clone 6,7.5,NMP,2430.59
+Clone 6,7.5,Mono precur,4614.15
+Clone 6,7.5,Monocyte,1642.43
+Clone 6,7.5,DC precursor,39.31
+Clone 6,7.5,DC,1.65
+Clone 7,7.5,HSC/MPP 1,591.2
+Clone 7,7.5,HSC/MPP 2,2200.95
+Clone 7,7.5,MEMP,2278.72
+Clone 7,7.5,Mast cell,1907.63
+Clone 7,7.5,Early Erythroid,131.97
+Clone 7,7.5,Mid Erythroid,157.65
+Clone 7,7.5,Late Erythroid,7.25
+Clone 7,7.5,NMP,2625.9
+Clone 7,7.5,Mono precur,2937.41
+Clone 7,7.5,Monocyte,1907.41
+Clone 7,7.5,DC precursor,58.06
+Clone 7,7.5,DC,25.76
+Clone 8,7.5,HSC/MPP 1,1.26
+Clone 8,7.5,HSC/MPP 2,18.17
+Clone 8,7.5,MEMP,7569.67
+Clone 8,7.5,Mast cell,14526.63
+Clone 8,7.5,Early Erythroid,3012.09
+Clone 8,7.5,Mid Erythroid,2472.45
+Clone 8,7.5,Late Erythroid,0.0
+Clone 8,7.5,NMP,0.0
+Clone 8,7.5,Mono precur,7.29
+Clone 8,7.5,Monocyte,11.22
+Clone 8,7.5,DC precursor,0.49
+Clone 8,7.5,DC,0.0
+Clone 9,7.5,HSC/MPP 1,12.69
+Clone 9,7.5,HSC/MPP 2,16.1
+Clone 9,7.5,MEMP,12.46
+Clone 9,7.5,Mast cell,617.23
+Clone 9,7.5,Early Erythroid,12.69
+Clone 9,7.5,Mid Erythroid,6.23
+Clone 9,7.5,Late Erythroid,0.34
+Clone 9,7.5,NMP,0.0
+Clone 9,7.5,Mono precur,0.0
+Clone 9,7.5,Monocyte,0.0
+Clone 9,7.5,DC precursor,0.01
+Clone 9,7.5,DC,0.0
+Clone 10,7.5,HSC/MPP 1,0.34
+Clone 10,7.5,HSC/MPP 2,48.54
+Clone 10,7.5,MEMP,0.66
+Clone 10,7.5,Mast cell,1.38
+Clone 10,7.5,Early Erythroid,0.0
+Clone 10,7.5,Mid Erythroid,0.0
+Clone 10,7.5,Late Erythroid,0.0
+Clone 10,7.5,NMP,1011.02
+Clone 10,7.5,Mono precur,1922.78
+Clone 10,7.5,Monocyte,5123.77
+Clone 10,7.5,DC precursor,13.16
+Clone 10,7.5,DC,0.0
+Clone 11,7.5,HSC/MPP 1,0.21
+Clone 11,7.5,HSC/MPP 2,0.11
+Clone 11,7.5,MEMP,262.42
+Clone 11,7.5,Mast cell,223.13
+Clone 11,7.5,Early Erythroid,3497.65
+Clone 11,7.5,Mid Erythroid,3296.09
+Clone 11,7.5,Late Erythroid,826.39
+Clone 11,7.5,NMP,0.0
+Clone 11,7.5,Mono precur,0.0
+Clone 11,7.5,Monocyte,0.0
+Clone 11,7.5,DC precursor,0.8
+Clone 11,7.5,DC,0.31
+BG,7.5,HSC/MPP 1,12029.04
+BG,7.5,HSC/MPP 2,139564.64
+BG,7.5,MEMP,110349.73
+BG,7.5,Mast cell,217031.58
+BG,7.5,Early Erythroid,392717.22
+BG,7.5,Mid Erythroid,195353.31
+BG,7.5,Late Erythroid,7395.92
+BG,7.5,NMP,117818.69
+BG,7.5,Mono precur,99677.27
+BG,7.5,Monocyte,66643.23
+BG,7.5,DC precursor,37618.96
+BG,7.5,DC,6475.81
+Clone 0,8.0,HSC/MPP 1,230.95
+Clone 0,8.0,HSC/MPP 2,2917.36
+Clone 0,8.0,MEMP,26027.88
+Clone 0,8.0,Mast cell,11893.41
+Clone 0,8.0,Early Erythroid,25581.14
+Clone 0,8.0,Mid Erythroid,11587.04
+Clone 0,8.0,Late Erythroid,684.96
+Clone 0,8.0,NMP,975.88
+Clone 0,8.0,Mono precur,1408.3
+Clone 0,8.0,Monocyte,725.21
+Clone 0,8.0,DC precursor,303.46
+Clone 0,8.0,DC,0.01
+Clone 1,8.0,HSC/MPP 1,13.16
+Clone 1,8.0,HSC/MPP 2,3647.92
+Clone 1,8.0,MEMP,16007.91
+Clone 1,8.0,Mast cell,8978.98
+Clone 1,8.0,Early Erythroid,78527.41
+Clone 1,8.0,Mid Erythroid,52566.96
+Clone 1,8.0,Late Erythroid,605.16
+Clone 1,8.0,NMP,622.68
+Clone 1,8.0,Mono precur,1242.0
+Clone 1,8.0,Monocyte,277.44
+Clone 1,8.0,DC precursor,0.12
+Clone 1,8.0,DC,0.0
+Clone 2,8.0,HSC/MPP 1,125.52
+Clone 2,8.0,HSC/MPP 2,3202.4
+Clone 2,8.0,MEMP,101.89
+Clone 2,8.0,Mast cell,290.75
+Clone 2,8.0,Early Erythroid,70.5
+Clone 2,8.0,Mid Erythroid,206.67
+Clone 2,8.0,Late Erythroid,86.51
+Clone 2,8.0,NMP,168.17
+Clone 2,8.0,Mono precur,1405.67
+Clone 2,8.0,Monocyte,358.61
+Clone 2,8.0,DC precursor,3823.51
+Clone 2,8.0,DC,1557.08
+Clone 3,8.0,HSC/MPP 1,24.43
+Clone 3,8.0,HSC/MPP 2,797.96
+Clone 3,8.0,MEMP,10808.47
+Clone 3,8.0,Mast cell,7973.66
+Clone 3,8.0,Early Erythroid,37060.98
+Clone 3,8.0,Mid Erythroid,8598.55
+Clone 3,8.0,Late Erythroid,238.33
+Clone 3,8.0,NMP,0.0
+Clone 3,8.0,Mono precur,74.57
+Clone 3,8.0,Monocyte,10.0
+Clone 3,8.0,DC precursor,0.06
+Clone 3,8.0,DC,0.0
+Clone 4,8.0,HSC/MPP 1,3.77
+Clone 4,8.0,HSC/MPP 2,3121.48
+Clone 4,8.0,MEMP,223.65
+Clone 4,8.0,Mast cell,214.48
+Clone 4,8.0,Early Erythroid,102.82
+Clone 4,8.0,Mid Erythroid,35.31
+Clone 4,8.0,Late Erythroid,6.34
+Clone 4,8.0,NMP,5459.48
+Clone 4,8.0,Mono precur,6115.71
+Clone 4,8.0,Monocyte,3718.49
+Clone 4,8.0,DC precursor,142.79
+Clone 4,8.0,DC,22.37
+Clone 5,8.0,HSC/MPP 1,85.19
+Clone 5,8.0,HSC/MPP 2,9717.17
+Clone 5,8.0,MEMP,30.36
+Clone 5,8.0,Mast cell,16.08
+Clone 5,8.0,Early Erythroid,32.03
+Clone 5,8.0,Mid Erythroid,8.75
+Clone 5,8.0,Late Erythroid,0.14
+Clone 5,8.0,NMP,5385.75
+Clone 5,8.0,Mono precur,38545.04
+Clone 5,8.0,Monocyte,14115.24
+Clone 5,8.0,DC precursor,5862.69
+Clone 5,8.0,DC,1322.76
+Clone 6,8.0,HSC/MPP 1,69.62
+Clone 6,8.0,HSC/MPP 2,5563.26
+Clone 6,8.0,MEMP,359.19
+Clone 6,8.0,Mast cell,132.33
+Clone 6,8.0,Early Erythroid,0.0
+Clone 6,8.0,Mid Erythroid,0.0
+Clone 6,8.0,Late Erythroid,0.0
+Clone 6,8.0,NMP,3967.51
+Clone 6,8.0,Mono precur,7641.67
+Clone 6,8.0,Monocyte,3196.99
+Clone 6,8.0,DC precursor,70.02
+Clone 6,8.0,DC,3.37
+Clone 7,8.0,HSC/MPP 1,656.94
+Clone 7,8.0,HSC/MPP 2,2782.45
+Clone 7,8.0,MEMP,2951.83
+Clone 7,8.0,Mast cell,2779.18
+Clone 7,8.0,Early Erythroid,186.97
+Clone 7,8.0,Mid Erythroid,253.36
+Clone 7,8.0,Late Erythroid,12.7
+Clone 7,8.0,NMP,3924.41
+Clone 7,8.0,Mono precur,4291.16
+Clone 7,8.0,Monocyte,3135.75
+Clone 7,8.0,DC precursor,79.21
+Clone 7,8.0,DC,38.58
+Clone 8,8.0,HSC/MPP 1,0.97
+Clone 8,8.0,HSC/MPP 2,18.13
+Clone 8,8.0,MEMP,5921.76
+Clone 8,8.0,Mast cell,17489.25
+Clone 8,8.0,Early Erythroid,3200.45
+Clone 8,8.0,Mid Erythroid,3525.09
+Clone 8,8.0,Late Erythroid,0.0
+Clone 8,8.0,NMP,0.0
+Clone 8,8.0,Mono precur,6.78
+Clone 8,8.0,Monocyte,11.51
+Clone 8,8.0,DC precursor,0.61
+Clone 8,8.0,DC,0.0
+Clone 9,8.0,HSC/MPP 1,13.64
+Clone 9,8.0,HSC/MPP 2,16.29
+Clone 9,8.0,MEMP,12.19
+Clone 9,8.0,Mast cell,625.22
+Clone 9,8.0,Early Erythroid,13.18
+Clone 9,8.0,Mid Erythroid,6.73
+Clone 9,8.0,Late Erythroid,0.4
+Clone 9,8.0,NMP,0.0
+Clone 9,8.0,Mono precur,0.0
+Clone 9,8.0,Monocyte,0.0
+Clone 9,8.0,DC precursor,0.01
+Clone 9,8.0,DC,0.0
+Clone 10,8.0,HSC/MPP 1,0.3
+Clone 10,8.0,HSC/MPP 2,43.37
+Clone 10,8.0,MEMP,0.62
+Clone 10,8.0,Mast cell,1.45
+Clone 10,8.0,Early Erythroid,0.0
+Clone 10,8.0,Mid Erythroid,0.0
+Clone 10,8.0,Late Erythroid,0.0
+Clone 10,8.0,NMP,1030.72
+Clone 10,8.0,Mono precur,1519.08
+Clone 10,8.0,Monocyte,5347.06
+Clone 10,8.0,DC precursor,14.35
+Clone 10,8.0,DC,0.0
+Clone 11,8.0,HSC/MPP 1,0.15
+Clone 11,8.0,HSC/MPP 2,0.1
+Clone 11,8.0,MEMP,207.27
+Clone 11,8.0,Mast cell,320.25
+Clone 11,8.0,Early Erythroid,1874.35
+Clone 11,8.0,Mid Erythroid,4105.8
+Clone 11,8.0,Late Erythroid,1477.23
+Clone 11,8.0,NMP,0.0
+Clone 11,8.0,Mono precur,0.0
+Clone 11,8.0,Monocyte,0.0
+Clone 11,8.0,DC precursor,0.81
+Clone 11,8.0,DC,0.4
+BG,8.0,HSC/MPP 1,11149.79
+BG,8.0,HSC/MPP 2,153949.89
+BG,8.0,MEMP,111029.41
+BG,8.0,Mast cell,268099.53
+BG,8.0,Early Erythroid,487047.97
+BG,8.0,Mid Erythroid,284149.44
+BG,8.0,Late Erythroid,12655.1
+BG,8.0,NMP,155984.7
+BG,8.0,Mono precur,129441.17
+BG,8.0,Monocyte,99814.06
+BG,8.0,DC precursor,47300.8
+BG,8.0,DC,9262.52
+Clone 0,8.5,HSC/MPP 1,204.7
+Clone 0,8.5,HSC/MPP 2,3238.53
+Clone 0,8.5,MEMP,33145.88
+Clone 0,8.5,Mast cell,18218.63
+Clone 0,8.5,Early Erythroid,37066.18
+Clone 0,8.5,Mid Erythroid,19426.51
+Clone 0,8.5,Late Erythroid,1313.78
+Clone 0,8.5,NMP,1371.18
+Clone 0,8.5,Mono precur,1999.25
+Clone 0,8.5,Monocyte,1213.57
+Clone 0,8.5,DC precursor,355.0
+Clone 0,8.5,DC,0.01
+Clone 1,8.5,HSC/MPP 1,9.9
+Clone 1,8.5,HSC/MPP 2,2584.59
+Clone 1,8.5,MEMP,14200.53
+Clone 1,8.5,Mast cell,12394.02
+Clone 1,8.5,Early Erythroid,88538.66
+Clone 1,8.5,Mid Erythroid,80958.44
+Clone 1,8.5,Late Erythroid,1265.3
+Clone 1,8.5,NMP,761.43
+Clone 1,8.5,Mono precur,1424.32
+Clone 1,8.5,Monocyte,439.05
+Clone 1,8.5,DC precursor,0.12
+Clone 1,8.5,DC,0.0
+Clone 2,8.5,HSC/MPP 1,113.24
+Clone 2,8.5,HSC/MPP 2,4020.86
+Clone 2,8.5,MEMP,110.58
+Clone 2,8.5,Mast cell,341.02
+Clone 2,8.5,Early Erythroid,78.58
+Clone 2,8.5,Mid Erythroid,269.67
+Clone 2,8.5,Late Erythroid,125.35
+Clone 2,8.5,NMP,255.51
+Clone 2,8.5,Mono precur,1996.97
+Clone 2,8.5,Monocyte,554.18
+Clone 2,8.5,DC precursor,5125.12
+Clone 2,8.5,DC,2250.43
+Clone 3,8.5,HSC/MPP 1,21.35
+Clone 3,8.5,HSC/MPP 2,978.4
+Clone 3,8.5,MEMP,10591.13
+Clone 3,8.5,Mast cell,11093.48
+Clone 3,8.5,Early Erythroid,51013.46
+Clone 3,8.5,Mid Erythroid,14645.5
+Clone 3,8.5,Late Erythroid,507.64
+Clone 3,8.5,NMP,0.0
+Clone 3,8.5,Mono precur,109.0
+Clone 3,8.5,Monocyte,17.51
+Clone 3,8.5,DC precursor,0.06
+Clone 3,8.5,DC,0.0
+Clone 4,8.5,HSC/MPP 1,2.66
+Clone 4,8.5,HSC/MPP 2,3036.08
+Clone 4,8.5,MEMP,267.81
+Clone 4,8.5,Mast cell,298.05
+Clone 4,8.5,Early Erythroid,117.75
+Clone 4,8.5,Mid Erythroid,48.1
+Clone 4,8.5,Late Erythroid,10.05
+Clone 4,8.5,NMP,7260.23
+Clone 4,8.5,Mono precur,8040.67
+Clone 4,8.5,Monocyte,6089.83
+Clone 4,8.5,DC precursor,201.84
+Clone 4,8.5,DC,38.41
+Clone 5,8.5,HSC/MPP 1,73.34
+Clone 5,8.5,HSC/MPP 2,7969.36
+Clone 5,8.5,MEMP,32.06
+Clone 5,8.5,Mast cell,21.09
+Clone 5,8.5,Early Erythroid,37.34
+Clone 5,8.5,Mid Erythroid,13.24
+Clone 5,8.5,Late Erythroid,0.27
+Clone 5,8.5,NMP,7419.03
+Clone 5,8.5,Mono precur,49225.18
+Clone 5,8.5,Monocyte,24931.77
+Clone 5,8.5,DC precursor,7286.77
+Clone 5,8.5,DC,2298.04
+Clone 6,8.5,HSC/MPP 1,62.19
+Clone 6,8.5,HSC/MPP 2,6704.78
+Clone 6,8.5,MEMP,557.46
+Clone 6,8.5,Mast cell,225.49
+Clone 6,8.5,Early Erythroid,0.0
+Clone 6,8.5,Mid Erythroid,0.0
+Clone 6,8.5,Late Erythroid,0.0
+Clone 6,8.5,NMP,6217.16
+Clone 6,8.5,Mono precur,11905.07
+Clone 6,8.5,Monocyte,6061.38
+Clone 6,8.5,DC precursor,119.45
+Clone 6,8.5,DC,6.81
+Clone 7,8.5,HSC/MPP 1,713.65
+Clone 7,8.5,HSC/MPP 2,3429.91
+Clone 7,8.5,MEMP,3711.67
+Clone 7,8.5,Mast cell,3964.98
+Clone 7,8.5,Early Erythroid,257.53
+Clone 7,8.5,Mid Erythroid,398.01
+Clone 7,8.5,Late Erythroid,21.79
+Clone 7,8.5,NMP,5765.5
+Clone 7,8.5,Mono precur,6104.68
+Clone 7,8.5,Monocyte,5042.8
+Clone 7,8.5,DC precursor,105.69
+Clone 7,8.5,DC,56.85
+Clone 8,8.5,HSC/MPP 1,0.75
+Clone 8,8.5,HSC/MPP 2,18.06
+Clone 8,8.5,MEMP,4245.36
+Clone 8,8.5,Mast cell,19319.11
+Clone 8,8.5,Early Erythroid,3077.58
+Clone 8,8.5,Mid Erythroid,4477.12
+Clone 8,8.5,Late Erythroid,0.0
+Clone 8,8.5,NMP,0.0
+Clone 8,8.5,Mono precur,6.27
+Clone 8,8.5,Monocyte,11.73
+Clone 8,8.5,DC precursor,0.73
+Clone 8,8.5,DC,0.0
+Clone 9,8.5,HSC/MPP 1,14.68
+Clone 9,8.5,HSC/MPP 2,16.7
+Clone 9,8.5,MEMP,12.17
+Clone 9,8.5,Mast cell,633.1
+Clone 9,8.5,Early Erythroid,13.68
+Clone 9,8.5,Mid Erythroid,7.21
+Clone 9,8.5,Late Erythroid,0.46
+Clone 9,8.5,NMP,0.0
+Clone 9,8.5,Mono precur,0.0
+Clone 9,8.5,Monocyte,0.0
+Clone 9,8.5,DC precursor,0.01
+Clone 9,8.5,DC,0.0
+Clone 10,8.5,HSC/MPP 1,0.27
+Clone 10,8.5,HSC/MPP 2,39.01
+Clone 10,8.5,MEMP,0.58
+Clone 10,8.5,Mast cell,1.5
+Clone 10,8.5,Early Erythroid,0.0
+Clone 10,8.5,Mid Erythroid,0.0
+Clone 10,8.5,Late Erythroid,0.0
+Clone 10,8.5,NMP,1047.59
+Clone 10,8.5,Mono precur,1186.71
+Clone 10,8.5,Monocyte,5454.41
+Clone 10,8.5,DC precursor,15.44
+Clone 10,8.5,DC,0.0
+Clone 11,8.5,HSC/MPP 1,0.11
+Clone 11,8.5,HSC/MPP 2,0.1
+Clone 11,8.5,MEMP,153.65
+Clone 11,8.5,Mast cell,400.02
+Clone 11,8.5,Early Erythroid,864.17
+Clone 11,8.5,Mid Erythroid,3729.78
+Clone 11,8.5,Late Erythroid,2044.02
+Clone 11,8.5,NMP,0.0
+Clone 11,8.5,Mono precur,0.0
+Clone 11,8.5,Monocyte,0.0
+Clone 11,8.5,DC precursor,0.82
+Clone 11,8.5,DC,0.48
+BG,8.5,HSC/MPP 1,10048.7
+BG,8.5,HSC/MPP 2,163221.38
+BG,8.5,MEMP,107122.57
+BG,8.5,Mast cell,319852.59
+BG,8.5,Early Erythroid,568306.38
+BG,8.5,Mid Erythroid,389830.06
+BG,8.5,Late Erythroid,20397.05
+BG,8.5,NMP,199919.97
+BG,8.5,Mono precur,161454.02
+BG,8.5,Monocyte,143775.89
+BG,8.5,DC precursor,57480.21
+BG,8.5,DC,12819.93
+Clone 0,9.0,HSC/MPP 1,174.83
+Clone 0,9.0,HSC/MPP 2,3427.5
+Clone 0,9.0,MEMP,40070.02
+Clone 0,9.0,Mast cell,26766.4
+Clone 0,9.0,Early Erythroid,50946.14
+Clone 0,9.0,Mid Erythroid,30997.46
+Clone 0,9.0,Late Erythroid,2401.8
+Clone 0,9.0,NMP,1868.46
+Clone 0,9.0,Mono precur,2700.67
+Clone 0,9.0,Monocyte,1942.74
+Clone 0,9.0,DC precursor,409.26
+Clone 0,9.0,DC,0.01
+Clone 1,9.0,HSC/MPP 1,7.2
+Clone 1,9.0,HSC/MPP 2,1568.93
+Clone 1,9.0,MEMP,10822.45
+Clone 1,9.0,Mast cell,15535.34
+Clone 1,9.0,Early Erythroid,86833.91
+Clone 1,9.0,Mid Erythroid,109597.27
+Clone 1,9.0,Late Erythroid,2350.33
+Clone 1,9.0,NMP,864.98
+Clone 1,9.0,Mono precur,1487.84
+Clone 1,9.0,Monocyte,636.18
+Clone 1,9.0,DC precursor,0.13
+Clone 1,9.0,DC,0.0
+Clone 2,9.0,HSC/MPP 1,100.79
+Clone 2,9.0,HSC/MPP 2,4976.0
+Clone 2,9.0,MEMP,121.27
+Clone 2,9.0,Mast cell,397.17
+Clone 2,9.0,Early Erythroid,86.69
+Clone 2,9.0,Mid Erythroid,344.65
+Clone 2,9.0,Late Erythroid,176.8
+Clone 2,9.0,NMP,381.95
+Clone 2,9.0,Mono precur,2782.01
+Clone 2,9.0,Monocyte,835.42
+Clone 2,9.0,DC precursor,6742.24
+Clone 2,9.0,DC,3178.56
+Clone 3,9.0,HSC/MPP 1,18.42
+Clone 3,9.0,HSC/MPP 2,1157.74
+Clone 3,9.0,MEMP,9315.42
+Clone 3,9.0,Mast cell,14232.42
+Clone 3,9.0,Early Erythroid,64510.16
+Clone 3,9.0,Mid Erythroid,22753.62
+Clone 3,9.0,Late Erythroid,982.56
+Clone 3,9.0,NMP,0.0
+Clone 3,9.0,Mono precur,152.67
+Clone 3,9.0,Monocyte,29.34
+Clone 3,9.0,DC precursor,0.07
+Clone 3,9.0,DC,0.0
+Clone 4,9.0,HSC/MPP 1,1.79
+Clone 4,9.0,HSC/MPP 2,2609.12
+Clone 4,9.0,MEMP,291.14
+Clone 4,9.0,Mast cell,399.6
+Clone 4,9.0,Early Erythroid,127.16
+Clone 4,9.0,Mid Erythroid,62.2
+Clone 4,9.0,Late Erythroid,15.36
+Clone 4,9.0,NMP,8991.03
+Clone 4,9.0,Mono precur,9651.44
+Clone 4,9.0,Monocyte,9313.46
+Clone 4,9.0,DC precursor,260.0
+Clone 4,9.0,DC,61.5
+Clone 5,9.0,HSC/MPP 1,59.88
+Clone 5,9.0,HSC/MPP 2,5260.06
+Clone 5,9.0,MEMP,32.44
+Clone 5,9.0,Mast cell,27.05
+Clone 5,9.0,Early Erythroid,40.78
+Clone 5,9.0,Mid Erythroid,18.95
+Clone 5,9.0,Late Erythroid,0.49
+Clone 5,9.0,NMP,9149.45
+Clone 5,9.0,Mono precur,53928.53
+Clone 5,9.0,Monocyte,38748.18
+Clone 5,9.0,DC precursor,7750.13
+Clone 5,9.0,DC,3514.74
+Clone 6,9.0,HSC/MPP 1,52.12
+Clone 6,9.0,HSC/MPP 2,7155.2
+Clone 6,9.0,MEMP,808.66
+Clone 6,9.0,Mast cell,387.73
+Clone 6,9.0,Early Erythroid,0.0
+Clone 6,9.0,Mid Erythroid,0.0
+Clone 6,9.0,Late Erythroid,0.0
+Clone 6,9.0,NMP,9192.28
+Clone 6,9.0,Mono precur,17093.67
+Clone 6,9.0,Monocyte,11017.58
+Clone 6,9.0,DC precursor,190.93
+Clone 6,9.0,DC,13.39
+Clone 7,9.0,HSC/MPP 1,757.77
+Clone 7,9.0,HSC/MPP 2,4122.39
+Clone 7,9.0,MEMP,4530.22
+Clone 7,9.0,Mast cell,5529.48
+Clone 7,9.0,Early Erythroid,344.54
+Clone 7,9.0,Mid Erythroid,610.75
+Clone 7,9.0,Late Erythroid,36.55
+Clone 7,9.0,NMP,8326.61
+Clone 7,9.0,Mono precur,8458.11
+Clone 7,9.0,Monocyte,7927.34
+Clone 7,9.0,DC precursor,137.67
+Clone 7,9.0,DC,82.19
+Clone 8,9.0,HSC/MPP 1,0.58
+Clone 8,9.0,HSC/MPP 2,17.96
+Clone 8,9.0,MEMP,2907.25
+Clone 8,9.0,Mast cell,20094.12
+Clone 8,9.0,Early Erythroid,2774.16
+Clone 8,9.0,Mid Erythroid,5191.86
+Clone 8,9.0,Late Erythroid,0.0
+Clone 8,9.0,NMP,0.0
+Clone 8,9.0,Mono precur,5.8
+Clone 8,9.0,Monocyte,11.9
+Clone 8,9.0,DC precursor,0.86
+Clone 8,9.0,DC,0.01
+Clone 9,9.0,HSC/MPP 1,15.79
+Clone 9,9.0,HSC/MPP 2,17.29
+Clone 9,9.0,MEMP,12.35
+Clone 9,9.0,Mast cell,641.03
+Clone 9,9.0,Early Erythroid,14.18
+Clone 9,9.0,Mid Erythroid,7.68
+Clone 9,9.0,Late Erythroid,0.53
+Clone 9,9.0,NMP,0.0
+Clone 9,9.0,Mono precur,0.0
+Clone 9,9.0,Monocyte,0.0
+Clone 9,9.0,DC precursor,0.01
+Clone 9,9.0,DC,0.0
+Clone 10,9.0,HSC/MPP 1,0.25
+Clone 10,9.0,HSC/MPP 2,35.27
+Clone 10,9.0,MEMP,0.55
+Clone 10,9.0,Mast cell,1.55
+Clone 10,9.0,Early Erythroid,0.0
+Clone 10,9.0,Mid Erythroid,0.0
+Clone 10,9.0,Late Erythroid,0.0
+Clone 10,9.0,NMP,1063.08
+Clone 10,9.0,Mono precur,921.95
+Clone 10,9.0,Monocyte,5481.65
+Clone 10,9.0,DC precursor,16.47
+Clone 10,9.0,DC,0.0
+Clone 11,9.0,HSC/MPP 1,0.08
+Clone 11,9.0,HSC/MPP 2,0.1
+Clone 11,9.0,MEMP,115.44
+Clone 11,9.0,Mast cell,456.4
+Clone 11,9.0,Early Erythroid,415.08
+Clone 11,9.0,Mid Erythroid,2929.05
+Clone 11,9.0,Late Erythroid,2353.29
+Clone 11,9.0,NMP,0.0
+Clone 11,9.0,Mono precur,0.0
+Clone 11,9.0,Monocyte,0.0
+Clone 11,9.0,DC precursor,0.82
+Clone 11,9.0,DC,0.56
+BG,9.0,HSC/MPP 1,8815.89
+BG,9.0,HSC/MPP 2,166683.3
+BG,9.0,MEMP,99512.57
+BG,9.0,Mast cell,370150.81
+BG,9.0,Early Erythroid,625915.38
+BG,9.0,Mid Erythroid,507018.0
+BG,9.0,Late Erythroid,31171.45
+BG,9.0,NMP,248698.7
+BG,9.0,Mono precur,193912.5
+BG,9.0,Monocyte,199703.86
+BG,9.0,DC precursor,67645.35
+BG,9.0,DC,17202.28
+Clone 0,9.5,HSC/MPP 1,144.08
+Clone 0,9.5,HSC/MPP 2,3462.18
+Clone 0,9.5,MEMP,46019.48
+Clone 0,9.5,Mast cell,37669.46
+Clone 0,9.5,Early Erythroid,66400.41
+Clone 0,9.5,Mid Erythroid,46938.16
+Clone 0,9.5,Late Erythroid,4160.59
+Clone 0,9.5,NMP,2470.05
+Clone 0,9.5,Mono precur,3473.58
+Clone 0,9.5,Monocyte,2969.26
+Clone 0,9.5,DC precursor,464.54
+Clone 0,9.5,DC,0.01
+Clone 1,9.5,HSC/MPP 1,5.12
+Clone 1,9.5,HSC/MPP 2,851.48
+Clone 1,9.5,MEMP,7322.0
+Clone 1,9.5,Mast cell,17954.65
+Clone 1,9.5,Early Erythroid,76250.98
+Clone 1,9.5,Mid Erythroid,130912.05
+Clone 1,9.5,Late Erythroid,3838.47
+Clone 1,9.5,NMP,930.68
+Clone 1,9.5,Mono precur,1445.59
+Clone 1,9.5,Monocyte,848.49
+Clone 1,9.5,DC precursor,0.13
+Clone 1,9.5,DC,0.0
+Clone 2,9.5,HSC/MPP 1,88.59
+Clone 2,9.5,HSC/MPP 2,6075.88
+Clone 2,9.5,MEMP,134.42
+Clone 2,9.5,Mast cell,460.35
+Clone 2,9.5,Early Erythroid,94.97
+Clone 2,9.5,Mid Erythroid,432.46
+Clone 2,9.5,Late Erythroid,243.45
+Clone 2,9.5,NMP,562.59
+Clone 2,9.5,Mono precur,3806.7
+Clone 2,9.5,Monocyte,1231.23
+Clone 2,9.5,DC precursor,8715.67
+Clone 2,9.5,DC,4394.89
+Clone 3,9.5,HSC/MPP 1,15.68
+Clone 3,9.5,HSC/MPP 2,1325.23
+Clone 3,9.5,MEMP,7405.8
+Clone 3,9.5,Mast cell,17033.79
+Clone 3,9.5,Early Erythroid,75421.27
+Clone 3,9.5,Mid Erythroid,32477.71
+Clone 3,9.5,Late Erythroid,1738.89
+Clone 3,9.5,NMP,0.0
+Clone 3,9.5,Mono precur,205.35
+Clone 3,9.5,Monocyte,47.08
+Clone 3,9.5,DC precursor,0.07
+Clone 3,9.5,DC,0.0
+Clone 4,9.5,HSC/MPP 1,1.16
+Clone 4,9.5,HSC/MPP 2,2012.3
+Clone 4,9.5,MEMP,287.46
+Clone 4,9.5,Mast cell,509.21
+Clone 4,9.5,Early Erythroid,130.23
+Clone 4,9.5,Mid Erythroid,75.95
+Clone 4,9.5,Late Erythroid,22.36
+Clone 4,9.5,NMP,10431.1
+Clone 4,9.5,Mono precur,10657.11
+Clone 4,9.5,Monocyte,13262.56
+Clone 4,9.5,DC precursor,306.33
+Clone 4,9.5,DC,91.26
+Clone 5,9.5,HSC/MPP 1,46.53
+Clone 5,9.5,HSC/MPP 2,2831.54
+Clone 5,9.5,MEMP,31.34
+Clone 5,9.5,Mast cell,33.64
+Clone 5,9.5,Early Erythroid,41.87
+Clone 5,9.5,Mid Erythroid,25.49
+Clone 5,9.5,Late Erythroid,0.83
+Clone 5,9.5,NMP,10313.85
+Clone 5,9.5,Mono precur,51170.93
+Clone 5,9.5,Monocyte,52868.68
+Clone 5,9.5,DC precursor,7134.81
+Clone 5,9.5,DC,4734.02
+Clone 6,9.5,HSC/MPP 1,40.58
+Clone 6,9.5,HSC/MPP 2,6620.01
+Clone 6,9.5,MEMP,1054.42
+Clone 6,9.5,Mast cell,644.51
+Clone 6,9.5,Early Erythroid,0.0
+Clone 6,9.5,Mid Erythroid,0.0
+Clone 6,9.5,Late Erythroid,0.0
+Clone 6,9.5,NMP,12614.15
+Clone 6,9.5,Mono precur,22211.96
+Clone 6,9.5,Monocyte,18819.81
+Clone 6,9.5,DC precursor,280.15
+Clone 6,9.5,DC,24.98
+Clone 7,9.5,HSC/MPP 1,787.2
+Clone 7,9.5,HSC/MPP 2,4835.49
+Clone 7,9.5,MEMP,5373.79
+Clone 7,9.5,Mast cell,7529.77
+Clone 7,9.5,Early Erythroid,447.67
+Clone 7,9.5,Mid Erythroid,915.28
+Clone 7,9.5,Late Erythroid,59.84
+Clone 7,9.5,NMP,11826.9
+Clone 7,9.5,Mono precur,11424.49
+Clone 7,9.5,Monocyte,12178.35
+Clone 7,9.5,DC precursor,174.92
+Clone 7,9.5,DC,116.31
+Clone 8,9.5,HSC/MPP 1,0.45
+Clone 8,9.5,HSC/MPP 2,17.85
+Clone 8,9.5,MEMP,1945.32
+Clone 8,9.5,Mast cell,20089.3
+Clone 8,9.5,Early Erythroid,2399.76
+Clone 8,9.5,Mid Erythroid,5629.25
+Clone 8,9.5,Late Erythroid,0.0
+Clone 8,9.5,NMP,0.0
+Clone 8,9.5,Mono precur,5.36
+Clone 8,9.5,Monocyte,12.06
+Clone 8,9.5,DC precursor,0.99
+Clone 8,9.5,DC,0.01
+Clone 9,9.5,HSC/MPP 1,16.99
+Clone 9,9.5,HSC/MPP 2,18.07
+Clone 9,9.5,MEMP,12.7
+Clone 9,9.5,Mast cell,649.13
+Clone 9,9.5,Early Erythroid,14.7
+Clone 9,9.5,Mid Erythroid,8.14
+Clone 9,9.5,Late Erythroid,0.6
+Clone 9,9.5,NMP,0.0
+Clone 9,9.5,Mono precur,0.0
+Clone 9,9.5,Monocyte,0.0
+Clone 9,9.5,DC precursor,0.01
+Clone 9,9.5,DC,0.0
+Clone 10,9.5,HSC/MPP 1,0.23
+Clone 10,9.5,HSC/MPP 2,32.03
+Clone 10,9.5,MEMP,0.52
+Clone 10,9.5,Mast cell,1.59
+Clone 10,9.5,Early Erythroid,0.0
+Clone 10,9.5,Mid Erythroid,0.0
+Clone 10,9.5,Late Erythroid,0.0
+Clone 10,9.5,NMP,1078.01
+Clone 10,9.5,Mono precur,714.57
+Clone 10,9.5,Monocyte,5453.93
+Clone 10,9.5,DC precursor,17.46
+Clone 10,9.5,DC,0.0
+Clone 11,9.5,HSC/MPP 1,0.06
+Clone 11,9.5,HSC/MPP 2,0.1
+Clone 11,9.5,MEMP,90.16
+Clone 11,9.5,Mast cell,495.53
+Clone 11,9.5,Early Erythroid,220.12
+Clone 11,9.5,Mid Erythroid,2175.86
+Clone 11,9.5,Late Erythroid,2433.19
+Clone 11,9.5,NMP,0.0
+Clone 11,9.5,Mono precur,0.0
+Clone 11,9.5,Monocyte,0.0
+Clone 11,9.5,DC precursor,0.82
+Clone 11,9.5,DC,0.63
+BG,9.5,HSC/MPP 1,7540.09
+BG,9.5,HSC/MPP 2,164325.86
+BG,9.5,MEMP,89392.84
+BG,9.5,Mast cell,417150.12
+BG,9.5,Early Erythroid,652817.56
+BG,9.5,Mid Erythroid,627717.81
+BG,9.5,Late Erythroid,45385.85
+BG,9.5,NMP,300987.5
+BG,9.5,Mono precur,224773.8
+BG,9.5,Monocyte,268075.5
+BG,9.5,DC precursor,77244.53
+BG,9.5,DC,22414.65
+Clone 0,10.0,HSC/MPP 1,115.01
+Clone 0,10.0,HSC/MPP 2,3351.81
+Clone 0,10.0,MEMP,50411.29
+Clone 0,10.0,Mast cell,50797.94
+Clone 0,10.0,Early Erythroid,82260.77
+Clone 0,10.0,Mid Erythroid,67366.2
+Clone 0,10.0,Late Erythroid,6793.23
+Clone 0,10.0,NMP,3172.59
+Clone 0,10.0,Mono precur,4268.67
+Clone 0,10.0,Monocyte,4329.96
+Clone 0,10.0,DC precursor,519.07
+Clone 0,10.0,DC,0.01
+Clone 1,10.0,HSC/MPP 1,3.61
+Clone 1,10.0,HSC/MPP 2,434.44
+Clone 1,10.0,MEMP,4587.02
+Clone 1,10.0,Mast cell,19582.19
+Clone 1,10.0,Early Erythroid,62269.14
+Clone 1,10.0,Mid Erythroid,140935.56
+Clone 1,10.0,Late Erythroid,5558.15
+Clone 1,10.0,NMP,968.47
+Clone 1,10.0,Mono precur,1340.21
+Clone 1,10.0,Monocyte,1056.12
+Clone 1,10.0,DC precursor,0.13
+Clone 1,10.0,DC,0.0
+Clone 2,10.0,HSC/MPP 1,76.98
+Clone 2,10.0,HSC/MPP 2,7326.64
+Clone 2,10.0,MEMP,150.45
+Clone 2,10.0,Mast cell,532.01
+Clone 2,10.0,Early Erythroid,103.61
+Clone 2,10.0,Mid Erythroid,533.82
+Clone 2,10.0,Late Erythroid,328.08
+Clone 2,10.0,NMP,817.7
+Clone 2,10.0,Mono precur,5123.39
+Clone 2,10.0,Monocyte,1777.39
+Clone 2,10.0,DC precursor,11083.77
+Clone 2,10.0,DC,5957.77
+Clone 3,10.0,HSC/MPP 1,13.17
+Clone 3,10.0,HSC/MPP 2,1469.51
+Clone 3,10.0,MEMP,5358.49
+Clone 3,10.0,Mast cell,19259.15
+Clone 3,10.0,Early Erythroid,81945.12
+Clone 3,10.0,Mid Erythroid,42929.72
+Clone 3,10.0,Late Erythroid,2839.25
+Clone 3,10.0,NMP,0.0
+Clone 3,10.0,Mono precur,265.99
+Clone 3,10.0,Monocyte,72.55
+Clone 3,10.0,DC precursor,0.07
+Clone 3,10.0,DC,0.0
+Clone 4,10.0,HSC/MPP 1,0.73
+Clone 4,10.0,HSC/MPP 2,1430.37
+Clone 4,10.0,MEMP,261.13
+Clone 4,10.0,Mast cell,614.72
+Clone 4,10.0,Early Erythroid,127.93
+Clone 4,10.0,Mid Erythroid,87.68
+Clone 4,10.0,Late Erythroid,30.81
+Clone 4,10.0,NMP,11482.68
+Clone 4,10.0,Mono precur,10999.25
+Clone 4,10.0,Monocyte,17663.91
+Clone 4,10.0,DC precursor,334.91
+Clone 4,10.0,DC,125.82
+Clone 5,10.0,HSC/MPP 1,34.94
+Clone 5,10.0,HSC/MPP 2,1318.87
+Clone 5,10.0,MEMP,29.0
+Clone 5,10.0,Mast cell,40.26
+Clone 5,10.0,Early Erythroid,40.99
+Clone 5,10.0,Mid Erythroid,32.06
+Clone 5,10.0,Late Erythroid,1.29
+Clone 5,10.0,NMP,10938.77
+Clone 5,10.0,Mono precur,43561.91
+Clone 5,10.0,Monocyte,63726.75
+Clone 5,10.0,DC precursor,5868.2
+Clone 5,10.0,DC,5662.31
+Clone 6,10.0,HSC/MPP 1,29.4
+Clone 6,10.0,HSC/MPP 2,5312.28
+Clone 6,10.0,MEMP,1207.81
+Clone 6,10.0,Mast cell,996.23
+Clone 6,10.0,Early Erythroid,0.0
+Clone 6,10.0,Mid Erythroid,0.0
+Clone 6,10.0,Late Erythroid,0.0
+Clone 6,10.0,NMP,15937.77
+Clone 6,10.0,Mono precur,25956.06
+Clone 6,10.0,Monocyte,29660.76
+Clone 6,10.0,DC precursor,373.84
+Clone 6,10.0,DC,43.19
+Clone 7,10.0,HSC/MPP 1,801.53
+Clone 7,10.0,HSC/MPP 2,5545.71
+Clone 7,10.0,MEMP,6209.65
+Clone 7,10.0,Mast cell,10010.73
+Clone 7,10.0,Early Erythroid,565.44
+Clone 7,10.0,Mid Erythroid,1340.23
+Clone 7,10.0,Late Erythroid,95.45
+Clone 7,10.0,NMP,16537.17
+Clone 7,10.0,Mono precur,15070.78
+Clone 7,10.0,Monocyte,18289.39
+Clone 7,10.0,DC precursor,216.78
+Clone 7,10.0,DC,160.83
+Clone 8,10.0,HSC/MPP 1,0.35
+Clone 8,10.0,HSC/MPP 2,17.71
+Clone 8,10.0,MEMP,1287.2
+Clone 8,10.0,Mast cell,19572.13
+Clone 8,10.0,Early Erythroid,2021.51
+Clone 8,10.0,Mid Erythroid,5808.46
+Clone 8,10.0,Late Erythroid,0.0
+Clone 8,10.0,NMP,0.0
+Clone 8,10.0,Mono precur,4.95
+Clone 8,10.0,Monocyte,12.19
+Clone 8,10.0,DC precursor,1.12
+Clone 8,10.0,DC,0.01
+Clone 9,10.0,HSC/MPP 1,18.29
+Clone 9,10.0,HSC/MPP 2,19.01
+Clone 9,10.0,MEMP,13.21
+Clone 9,10.0,Mast cell,657.53
+Clone 9,10.0,Early Erythroid,15.24
+Clone 9,10.0,Mid Erythroid,8.59
+Clone 9,10.0,Late Erythroid,0.67
+Clone 9,10.0,NMP,0.0
+Clone 9,10.0,Mono precur,0.0
+Clone 9,10.0,Monocyte,0.0
+Clone 9,10.0,DC precursor,0.01
+Clone 9,10.0,DC,0.0
+Clone 10,10.0,HSC/MPP 1,0.21
+Clone 10,10.0,HSC/MPP 2,29.18
+Clone 10,10.0,MEMP,0.5
+Clone 10,10.0,Mast cell,1.62
+Clone 10,10.0,Early Erythroid,0.0
+Clone 10,10.0,Mid Erythroid,0.0
+Clone 10,10.0,Late Erythroid,0.0
+Clone 10,10.0,NMP,1092.89
+Clone 10,10.0,Mono precur,553.61
+Clone 10,10.0,Monocyte,5388.61
+Clone 10,10.0,DC precursor,18.43
+Clone 10,10.0,DC,0.0
+Clone 11,10.0,HSC/MPP 1,0.05
+Clone 11,10.0,HSC/MPP 2,0.1
+Clone 11,10.0,MEMP,73.84
+Clone 11,10.0,Mast cell,523.02
+Clone 11,10.0,Early Erythroid,132.1
+Clone 11,10.0,Mid Erythroid,1587.94
+Clone 11,10.0,Late Erythroid,2362.04
+Clone 11,10.0,NMP,0.0
+Clone 11,10.0,Mono precur,0.0
+Clone 11,10.0,Monocyte,0.0
+Clone 11,10.0,DC precursor,0.83
+Clone 11,10.0,DC,0.69
+BG,10.0,HSC/MPP 1,6303.14
+BG,10.0,HSC/MPP 2,156923.94
+BG,10.0,MEMP,78090.08
+BG,10.0,Mast cell,459469.97
+BG,10.0,Early Erythroid,647893.88
+BG,10.0,Mid Erythroid,742389.12
+BG,10.0,Late Erythroid,63120.71
+BG,10.0,NMP,355258.72
+BG,10.0,Mono precur,252189.14
+BG,10.0,Monocyte,348557.06
+BG,10.0,DC precursor,85778.25
+BG,10.0,DC,28394.94
+Clone 0,10.5,HSC/MPP 1,89.48
+Clone 0,10.5,HSC/MPP 2,3131.58
+Clone 0,10.5,MEMP,53037.84
+Clone 0,10.5,Mast cell,65791.57
+Clone 0,10.5,Early Erythroid,97377.41
+Clone 0,10.5,Mid Erythroid,91753.19
+Clone 0,10.5,Late Erythroid,10424.38
+Clone 0,10.5,NMP,3970.35
+Clone 0,10.5,Mono precur,5043.24
+Clone 0,10.5,Monocyte,6033.45
+Clone 0,10.5,DC precursor,571.34
+Clone 0,10.5,DC,0.01
+Clone 1,10.5,HSC/MPP 1,2.53
+Clone 1,10.5,HSC/MPP 2,214.95
+Clone 1,10.5,MEMP,2746.44
+Clone 1,10.5,Mast cell,20590.19
+Clone 1,10.5,Early Erythroid,48641.24
+Clone 1,10.5,Mid Erythroid,140426.47
+Clone 1,10.5,Late Erythroid,7298.58
+Clone 1,10.5,NMP,989.89
+Clone 1,10.5,Mono precur,1209.82
+Clone 1,10.5,Monocyte,1247.87
+Clone 1,10.5,DC precursor,0.13
+Clone 1,10.5,DC,0.0
+Clone 2,10.5,HSC/MPP 1,66.18
+Clone 2,10.5,HSC/MPP 2,8732.26
+Clone 2,10.5,MEMP,169.7
+Clone 2,10.5,Mast cell,613.79
+Clone 2,10.5,Early Erythroid,112.83
+Clone 2,10.5,Mid Erythroid,649.41
+Clone 2,10.5,Late Erythroid,433.64
+Clone 2,10.5,NMP,1174.13
+Clone 2,10.5,Mono precur,6790.89
+Clone 2,10.5,Monocyte,2517.45
+Clone 2,10.5,DC precursor,13881.06
+Clone 2,10.5,DC,7929.32
+Clone 3,10.5,HSC/MPP 1,10.91
+Clone 3,10.5,HSC/MPP 2,1579.37
+Clone 3,10.5,MEMP,3562.43
+Clone 3,10.5,Mast cell,20829.01
+Clone 3,10.5,Early Erythroid,83025.69
+Clone 3,10.5,Mid Erythroid,52907.27
+Clone 3,10.5,Late Erythroid,4315.64
+Clone 3,10.5,NMP,0.0
+Clone 3,10.5,Mono precur,332.59
+Clone 3,10.5,Monocyte,107.73
+Clone 3,10.5,DC precursor,0.08
+Clone 3,10.5,DC,0.0
+Clone 4,10.5,HSC/MPP 1,0.46
+Clone 4,10.5,HSC/MPP 2,964.18
+Clone 4,10.5,MEMP,222.43
+Clone 4,10.5,Mast cell,706.96
+Clone 4,10.5,Early Erythroid,122.05
+Clone 4,10.5,Mid Erythroid,96.39
+Clone 4,10.5,Late Erythroid,40.21
+Clone 4,10.5,NMP,12171.07
+Clone 4,10.5,Mono precur,10811.41
+Clone 4,10.5,Monocyte,22217.7
+Clone 4,10.5,DC precursor,346.3
+Clone 4,10.5,DC,162.74
+Clone 5,10.5,HSC/MPP 1,25.85
+Clone 5,10.5,HSC/MPP 2,572.04
+Clone 5,10.5,MEMP,25.95
+Clone 5,10.5,Mast cell,46.34
+Clone 5,10.5,Early Erythroid,39.03
+Clone 5,10.5,Mid Erythroid,37.91
+Clone 5,10.5,Late Erythroid,1.87
+Clone 5,10.5,NMP,11224.94
+Clone 5,10.5,Mono precur,34881.28
+Clone 5,10.5,Monocyte,69380.13
+Clone 5,10.5,DC precursor,4506.2
+Clone 5,10.5,DC,6143.34
+Clone 6,10.5,HSC/MPP 1,20.13
+Clone 6,10.5,HSC/MPP 2,3802.65
+Clone 6,10.5,MEMP,1220.94
+Clone 6,10.5,Mast cell,1403.73
+Clone 6,10.5,Early Erythroid,0.0
+Clone 6,10.5,Mid Erythroid,0.0
+Clone 6,10.5,Late Erythroid,0.0
+Clone 6,10.5,NMP,18663.4
+Clone 6,10.5,Mono precur,27625.59
+Clone 6,10.5,Monocyte,42797.57
+Clone 6,10.5,DC precursor,457.87
+Clone 6,10.5,DC,68.33
+Clone 7,10.5,HSC/MPP 1,801.91
+Clone 7,10.5,HSC/MPP 2,6233.99
+Clone 7,10.5,MEMP,7011.51
+Clone 7,10.5,Mast cell,13003.49
+Clone 7,10.5,Early Erythroid,695.53
+Clone 7,10.5,Mid Erythroid,1919.59
+Clone 7,10.5,Late Erythroid,148.29
+Clone 7,10.5,NMP,22794.72
+Clone 7,10.5,Mono precur,19462.88
+Clone 7,10.5,Monocyte,26876.73
+Clone 7,10.5,DC precursor,262.3
+Clone 7,10.5,DC,217.15
+Clone 8,10.5,HSC/MPP 1,0.27
+Clone 8,10.5,HSC/MPP 2,17.57
+Clone 8,10.5,MEMP,847.95
+Clone 8,10.5,Mast cell,18745.85
+Clone 8,10.5,Early Erythroid,1673.96
+Clone 8,10.5,Mid Erythroid,5774.75
+Clone 8,10.5,Late Erythroid,0.0
+Clone 8,10.5,NMP,0.0
+Clone 8,10.5,Mono precur,4.58
+Clone 8,10.5,Monocyte,12.31
+Clone 8,10.5,DC precursor,1.25
+Clone 8,10.5,DC,0.01
+Clone 9,10.5,HSC/MPP 1,19.67
+Clone 9,10.5,HSC/MPP 2,20.12
+Clone 9,10.5,MEMP,13.86
+Clone 9,10.5,Mast cell,666.35
+Clone 9,10.5,Early Erythroid,15.81
+Clone 9,10.5,Mid Erythroid,9.03
+Clone 9,10.5,Late Erythroid,0.74
+Clone 9,10.5,NMP,0.0
+Clone 9,10.5,Mono precur,0.0
+Clone 9,10.5,Monocyte,0.0
+Clone 9,10.5,DC precursor,0.01
+Clone 9,10.5,DC,0.0
+Clone 10,10.5,HSC/MPP 1,0.2
+Clone 10,10.5,HSC/MPP 2,26.67
+Clone 10,10.5,MEMP,0.48
+Clone 10,10.5,Mast cell,1.66
+Clone 10,10.5,Early Erythroid,0.0
+Clone 10,10.5,Mid Erythroid,0.0
+Clone 10,10.5,Late Erythroid,0.0
+Clone 10,10.5,NMP,1108.03
+Clone 10,10.5,Mono precur,429.26
+Clone 10,10.5,Monocyte,5297.77
+Clone 10,10.5,DC precursor,19.38
+Clone 10,10.5,DC,0.0
+Clone 11,10.5,HSC/MPP 1,0.04
+Clone 11,10.5,HSC/MPP 2,0.09
+Clone 11,10.5,MEMP,63.25
+Clone 11,10.5,Mast cell,542.94
+Clone 11,10.5,Early Erythroid,89.06
+Clone 11,10.5,Mid Erythroid,1157.68
+Clone 11,10.5,Late Erythroid,2208.28
+Clone 11,10.5,NMP,0.0
+Clone 11,10.5,Mono precur,0.0
+Clone 11,10.5,Monocyte,0.0
+Clone 11,10.5,DC precursor,0.84
+Clone 11,10.5,DC,0.74
+BG,10.5,HSC/MPP 1,5170.61
+BG,10.5,HSC/MPP 2,145878.84
+BG,10.5,MEMP,66816.46
+BG,10.5,Mast cell,496328.0
+BG,10.5,Early Erythroid,616228.94
+BG,10.5,Mid Erythroid,841893.19
+BG,10.5,Late Erythroid,83941.91
+BG,10.5,NMP,410112.94
+BG,10.5,Mono precur,274959.66
+BG,10.5,Monocyte,440159.03
+BG,10.5,DC precursor,92899.27
+BG,10.5,DC,35009.25
+Clone 0,11.0,HSC/MPP 1,68.31
+Clone 0,11.0,HSC/MPP 2,2846.98
+Clone 0,11.0,MEMP,54050.22
+Clone 0,11.0,Mast cell,82179.54
+Clone 0,11.0,Early Erythroid,110935.51
+Clone 0,11.0,Mid Erythroid,119058.84
+Clone 0,11.0,Late Erythroid,15047.97
+Clone 0,11.0,NMP,4859.59
+Clone 0,11.0,Mono precur,5772.87
+Clone 0,11.0,Monocyte,8062.9
+Clone 0,11.0,DC precursor,620.39
+Clone 0,11.0,DC,0.01
+Clone 1,11.0,HSC/MPP 1,1.77
+Clone 1,11.0,HSC/MPP 2,104.76
+Clone 1,11.0,MEMP,1597.38
+Clone 1,11.0,Mast cell,21187.53
+Clone 1,11.0,Early Erythroid,36918.77
+Clone 1,11.0,Mid Erythroid,132366.03
+Clone 1,11.0,Late Erythroid,8897.79
+Clone 1,11.0,NMP,1002.69
+Clone 1,11.0,Mono precur,1076.3
+Clone 1,11.0,Monocyte,1420.07
+Clone 1,11.0,DC precursor,0.14
+Clone 1,11.0,DC,0.0
+Clone 2,11.0,HSC/MPP 1,56.34
+Clone 2,11.0,HSC/MPP 2,10294.39
+Clone 2,11.0,MEMP,192.39
+Clone 2,11.0,Mast cell,707.53
+Clone 2,11.0,Early Erythroid,122.88
+Clone 2,11.0,Mid Erythroid,779.81
+Clone 2,11.0,Late Erythroid,563.22
+Clone 2,11.0,NMP,1667.29
+Clone 2,11.0,Mono precur,8874.54
+Clone 2,11.0,Monocyte,3503.54
+Clone 2,11.0,DC precursor,17136.77
+Clone 2,11.0,DC,10373.9
+Clone 3,11.0,HSC/MPP 1,8.91
+Clone 3,11.0,HSC/MPP 2,1645.36
+Clone 3,11.0,MEMP,2217.17
+Clone 3,11.0,Mast cell,21801.14
+Clone 3,11.0,Early Erythroid,78622.67
+Clone 3,11.0,Mid Erythroid,61084.65
+Clone 3,11.0,Late Erythroid,6150.09
+Clone 3,11.0,NMP,0.0
+Clone 3,11.0,Mono precur,402.04
+Clone 3,11.0,Monocyte,154.56
+Clone 3,11.0,DC precursor,0.08
+Clone 3,11.0,DC,0.0
+Clone 4,11.0,HSC/MPP 1,0.28
+Clone 4,11.0,HSC/MPP 2,630.68
+Clone 4,11.0,MEMP,180.93
+Clone 4,11.0,Mast cell,781.93
+Clone 4,11.0,Early Erythroid,114.3
+Clone 4,11.0,Mid Erythroid,101.83
+Clone 4,11.0,Late Erythroid,50.02
+Clone 4,11.0,NMP,12580.77
+Clone 4,11.0,Mono precur,10287.46
+Clone 4,11.0,Monocyte,26695.58
+Clone 4,11.0,DC precursor,344.73
+Clone 4,11.0,DC,199.91
+Clone 5,11.0,HSC/MPP 1,19.07
+Clone 5,11.0,HSC/MPP 2,243.01
+Clone 5,11.0,MEMP,22.68
+Clone 5,11.0,Mast cell,51.6
+Clone 5,11.0,Early Erythroid,36.66
+Clone 5,11.0,Mid Erythroid,42.68
+Clone 5,11.0,Late Erythroid,2.5
+Clone 5,11.0,NMP,11345.47
+Clone 5,11.0,Mono precur,27151.47
+Clone 5,11.0,Monocyte,70235.28
+Clone 5,11.0,DC precursor,3339.66
+Clone 5,11.0,DC,6217.81
+Clone 6,11.0,HSC/MPP 1,13.32
+Clone 6,11.0,HSC/MPP 2,2532.74
+Clone 6,11.0,MEMP,1118.42
+Clone 6,11.0,Mast cell,1809.84
+Clone 6,11.0,Early Erythroid,0.01
+Clone 6,11.0,Mid Erythroid,0.0
+Clone 6,11.0,Late Erythroid,0.0
+Clone 6,11.0,NMP,20619.84
+Clone 6,11.0,Mono precur,27469.62
+Clone 6,11.0,Monocyte,56942.54
+Clone 6,11.0,DC precursor,526.32
+Clone 6,11.0,DC,99.3
+Clone 7,11.0,HSC/MPP 1,790.39
+Clone 7,11.0,HSC/MPP 2,6887.12
+Clone 7,11.0,MEMP,7761.72
+Clone 7,11.0,Mast cell,16527.18
+Clone 7,11.0,Early Erythroid,835.2
+Clone 7,11.0,Mid Erythroid,2693.66
+Clone 7,11.0,Late Erythroid,224.46
+Clone 7,11.0,NMP,31023.29
+Clone 7,11.0,Mono precur,24671.7
+Clone 7,11.0,Monocyte,38703.55
+Clone 7,11.0,DC precursor,310.37
+Clone 7,11.0,DC,286.29
+Clone 8,11.0,HSC/MPP 1,0.21
+Clone 8,11.0,HSC/MPP 2,17.41
+Clone 8,11.0,MEMP,558.46
+Clone 8,11.0,Mast cell,17750.11
+Clone 8,11.0,Early Erythroid,1371.21
+Clone 8,11.0,Mid Erythroid,5580.24
+Clone 8,11.0,Late Erythroid,0.0
+Clone 8,11.0,NMP,0.0
+Clone 8,11.0,Mono precur,4.24
+Clone 8,11.0,Monocyte,12.43
+Clone 8,11.0,DC precursor,1.39
+Clone 8,11.0,DC,0.01
+Clone 9,11.0,HSC/MPP 1,21.15
+Clone 9,11.0,HSC/MPP 2,21.39
+Clone 9,11.0,MEMP,14.64
+Clone 9,11.0,Mast cell,675.67
+Clone 9,11.0,Early Erythroid,16.41
+Clone 9,11.0,Mid Erythroid,9.46
+Clone 9,11.0,Late Erythroid,0.81
+Clone 9,11.0,NMP,0.0
+Clone 9,11.0,Mono precur,0.0
+Clone 9,11.0,Monocyte,0.0
+Clone 9,11.0,DC precursor,0.01
+Clone 9,11.0,DC,0.0
+Clone 10,11.0,HSC/MPP 1,0.19
+Clone 10,11.0,HSC/MPP 2,24.42
+Clone 10,11.0,MEMP,0.45
+Clone 10,11.0,Mast cell,1.68
+Clone 10,11.0,Early Erythroid,0.0
+Clone 10,11.0,Mid Erythroid,0.0
+Clone 10,11.0,Late Erythroid,0.0
+Clone 10,11.0,NMP,1123.65
+Clone 10,11.0,Mono precur,333.41
+Clone 10,11.0,Monocyte,5189.87
+Clone 10,11.0,DC precursor,20.32
+Clone 10,11.0,DC,0.0
+Clone 11,11.0,HSC/MPP 1,0.03
+Clone 11,11.0,HSC/MPP 2,0.09
+Clone 11,11.0,MEMP,56.25
+Clone 11,11.0,Mast cell,557.93
+Clone 11,11.0,Early Erythroid,66.29
+Clone 11,11.0,Mid Erythroid,848.64
+Clone 11,11.0,Late Erythroid,2017.51
+Clone 11,11.0,NMP,0.0
+Clone 11,11.0,Mono precur,0.0
+Clone 11,11.0,Monocyte,0.0
+Clone 11,11.0,DC precursor,0.85
+Clone 11,11.0,DC,0.79
+BG,11.0,HSC/MPP 1,4183.1
+BG,11.0,HSC/MPP 2,132818.25
+BG,11.0,MEMP,56441.6
+BG,11.0,Mast cell,527566.44
+BG,11.0,Early Erythroid,566695.31
+BG,11.0,Mid Erythroid,919603.5
+BG,11.0,Late Erythroid,106860.85
+BG,11.0,NMP,464560.97
+BG,11.0,Mono precur,292732.41
+BG,11.0,Monocyte,541603.94
+BG,11.0,DC precursor,98469.87
+BG,11.0,DC,42069.99
+Clone 0,11.5,HSC/MPP 1,51.52
+Clone 0,11.5,HSC/MPP 2,2538.49
+Clone 0,11.5,MEMP,53798.34
+Clone 0,11.5,Mast cell,99513.4
+Clone 0,11.5,Early Erythroid,122556.56
+Clone 0,11.5,Mid Erythroid,148034.64
+Clone 0,11.5,Late Erythroid,20525.54
+Clone 0,11.5,NMP,5841.44
+Clone 0,11.5,Mono precur,6452.16
+Clone 0,11.5,Monocyte,10387.51
+Clone 0,11.5,DC precursor,665.91
+Clone 0,11.5,DC,0.01
+Clone 1,11.5,HSC/MPP 1,1.24
+Clone 1,11.5,HSC/MPP 2,50.61
+Clone 1,11.5,MEMP,909.64
+Clone 1,11.5,Mast cell,21532.54
+Clone 1,11.5,Early Erythroid,27439.77
+Clone 1,11.5,Mid Erythroid,119853.96
+Clone 1,11.5,Late Erythroid,10262.06
+Clone 1,11.5,NMP,1011.17
+Clone 1,11.5,Mono precur,949.87
+Clone 1,11.5,Monocyte,1572.74
+Clone 1,11.5,DC precursor,0.14
+Clone 1,11.5,DC,0.0
+Clone 2,11.5,HSC/MPP 1,47.53
+Clone 2,11.5,HSC/MPP 2,12012.52
+Clone 2,11.5,MEMP,218.7
+Clone 2,11.5,Mast cell,815.18
+Clone 2,11.5,Early Erythroid,134.0
+Clone 2,11.5,Mid Erythroid,925.52
+Clone 2,11.5,Late Erythroid,720.03
+Clone 2,11.5,NMP,2343.58
+Clone 2,11.5,Mono precur,11445.94
+Clone 2,11.5,Monocyte,4797.15
+Clone 2,11.5,DC precursor,20873.82
+Clone 2,11.5,DC,13356.38
+Clone 3,11.5,HSC/MPP 1,7.16
+Clone 3,11.5,HSC/MPP 2,1662.42
+Clone 3,11.5,MEMP,1340.53
+Clone 3,11.5,Mast cell,22314.01
+Clone 3,11.5,Early Erythroid,69769.38
+Clone 3,11.5,Mid Erythroid,66260.83
+Clone 3,11.5,Late Erythroid,8253.15
+Clone 3,11.5,NMP,0.0
+Clone 3,11.5,Mono precur,470.19
+Clone 3,11.5,Monocyte,214.57
+Clone 3,11.5,DC precursor,0.08
+Clone 3,11.5,DC,0.0
+Clone 4,11.5,HSC/MPP 1,0.18
+Clone 4,11.5,HSC/MPP 2,406.41
+Clone 4,11.5,MEMP,142.58
+Clone 4,11.5,Mast cell,839.77
+Clone 4,11.5,Early Erythroid,105.84
+Clone 4,11.5,Mid Erythroid,104.32
+Clone 4,11.5,Late Erythroid,59.75
+Clone 4,11.5,NMP,12799.33
+Clone 4,11.5,Mono precur,9589.52
+Clone 4,11.5,Monocyte,30965.62
+Clone 4,11.5,DC precursor,334.86
+Clone 4,11.5,DC,235.97
+Clone 5,11.5,HSC/MPP 1,14.08
+Clone 5,11.5,HSC/MPP 2,103.4
+Clone 5,11.5,MEMP,19.5
+Clone 5,11.5,Mast cell,56.0
+Clone 5,11.5,Early Erythroid,34.18
+Clone 5,11.5,Mid Erythroid,46.39
+Clone 5,11.5,Late Erythroid,3.17
+Clone 5,11.5,NMP,11393.93
+Clone 5,11.5,Mono precur,20862.45
+Clone 5,11.5,Monocyte,67675.54
+Clone 5,11.5,DC precursor,2433.11
+Clone 5,11.5,DC,6004.9
+Clone 6,11.5,HSC/MPP 1,8.68
+Clone 6,11.5,HSC/MPP 2,1626.47
+Clone 6,11.5,MEMP,957.7
+Clone 6,11.5,Mast cell,2172.67
+Clone 6,11.5,Early Erythroid,0.01
+Clone 6,11.5,Mid Erythroid,0.0
+Clone 6,11.5,Late Erythroid,0.0
+Clone 6,11.5,NMP,21915.04
+Clone 6,11.5,Mono precur,26168.67
+Clone 6,11.5,Monocyte,70981.69
+Clone 6,11.5,DC precursor,580.94
+Clone 6,11.5,DC,134.59
+Clone 7,11.5,HSC/MPP 1,769.49
+Clone 7,11.5,HSC/MPP 2,7497.81
+Clone 7,11.5,MEMP,8451.34
+Clone 7,11.5,Mast cell,20592.44
+Clone 7,11.5,Early Erythroid,981.67
+Clone 7,11.5,Mid Erythroid,3710.42
+Clone 7,11.5,Late Erythroid,331.49
+Clone 7,11.5,NMP,41759.98
+Clone 7,11.5,Mono precur,30779.79
+Clone 7,11.5,Monocyte,54713.12
+Clone 7,11.5,DC precursor,359.89
+Clone 7,11.5,DC,368.93
+Clone 8,11.5,HSC/MPP 1,0.17
+Clone 8,11.5,HSC/MPP 2,17.24
+Clone 8,11.5,MEMP,368.74
+Clone 8,11.5,Mast cell,16676.4
+Clone 8,11.5,Early Erythroid,1116.03
+Clone 8,11.5,Mid Erythroid,5273.8
+Clone 8,11.5,Late Erythroid,0.0
+Clone 8,11.5,NMP,0.0
+Clone 8,11.5,Mono precur,3.93
+Clone 8,11.5,Monocyte,12.53
+Clone 8,11.5,DC precursor,1.52
+Clone 8,11.5,DC,0.01
+Clone 9,11.5,HSC/MPP 1,22.72
+Clone 9,11.5,HSC/MPP 2,22.81
+Clone 9,11.5,MEMP,15.55
+Clone 9,11.5,Mast cell,685.6
+Clone 9,11.5,Early Erythroid,17.05
+Clone 9,11.5,Mid Erythroid,9.9
+Clone 9,11.5,Late Erythroid,0.88
+Clone 9,11.5,NMP,0.0
+Clone 9,11.5,Mono precur,0.0
+Clone 9,11.5,Monocyte,0.0
+Clone 9,11.5,DC precursor,0.01
+Clone 9,11.5,DC,0.0
+Clone 10,11.5,HSC/MPP 1,0.18
+Clone 10,11.5,HSC/MPP 2,22.42
+Clone 10,11.5,MEMP,0.43
+Clone 10,11.5,Mast cell,1.71
+Clone 10,11.5,Early Erythroid,0.0
+Clone 10,11.5,Mid Erythroid,0.0
+Clone 10,11.5,Late Erythroid,0.0
+Clone 10,11.5,NMP,1139.93
+Clone 10,11.5,Mono precur,259.59
+Clone 10,11.5,Monocyte,5070.89
+Clone 10,11.5,DC precursor,21.26
+Clone 10,11.5,DC,0.0
+Clone 11,11.5,HSC/MPP 1,0.03
+Clone 11,11.5,HSC/MPP 2,0.09
+Clone 11,11.5,MEMP,51.54
+Clone 11,11.5,Mast cell,569.58
+Clone 11,11.5,Early Erythroid,53.4
+Clone 11,11.5,Mid Erythroid,627.16
+Clone 11,11.5,Late Erythroid,1816.53
+Clone 11,11.5,NMP,0.0
+Clone 11,11.5,Mono precur,0.0
+Clone 11,11.5,Monocyte,0.0
+Clone 11,11.5,DC precursor,0.87
+Clone 11,11.5,DC,0.83
+BG,11.5,HSC/MPP 1,3354.59
+BG,11.5,HSC/MPP 2,119172.54
+BG,11.5,MEMP,47413.71
+BG,11.5,Mast cell,553532.38
+BG,11.5,Early Erythroid,508515.97
+BG,11.5,Mid Erythroid,972580.62
+BG,11.5,Late Erythroid,130511.07
+BG,11.5,NMP,518108.5
+BG,11.5,Mono precur,305867.84
+BG,11.5,Monocyte,651714.44
+BG,11.5,DC precursor,102543.45
+BG,11.5,DC,49372.41
+Clone 0,12.0,HSC/MPP 1,38.57
+Clone 0,12.0,HSC/MPP 2,2234.35
+Clone 0,12.0,MEMP,52664.89
+Clone 0,12.0,Mast cell,117445.76
+Clone 0,12.0,Early Erythroid,132203.8
+Clone 0,12.0,Mid Erythroid,177508.7
+Clone 0,12.0,Late Erythroid,26631.77
+Clone 0,12.0,NMP,6922.68
+Clone 0,12.0,Mono precur,7087.99
+Clone 0,12.0,Monocyte,12974.56
+Clone 0,12.0,DC precursor,708.05
+Clone 0,12.0,DC,0.01
+Clone 1,12.0,HSC/MPP 1,0.87
+Clone 1,12.0,HSC/MPP 2,24.28
+Clone 1,12.0,MEMP,509.02
+Clone 1,12.0,Mast cell,21728.6
+Clone 1,12.0,Early Erythroid,20046.29
+Clone 1,12.0,Mid Erythroid,105328.63
+Clone 1,12.0,Late Erythroid,11352.37
+Clone 1,12.0,NMP,1017.52
+Clone 1,12.0,Mono precur,834.44
+Clone 1,12.0,Monocyte,1707.34
+Clone 1,12.0,DC precursor,0.14
+Clone 1,12.0,DC,0.0
+Clone 2,12.0,HSC/MPP 1,39.77
+Clone 2,12.0,HSC/MPP 2,13884.07
+Clone 2,12.0,MEMP,248.67
+Clone 2,12.0,Mast cell,938.74
+Clone 2,12.0,Early Erythroid,146.41
+Clone 2,12.0,Mid Erythroid,1086.98
+Clone 2,12.0,Late Erythroid,907.34
+Clone 2,12.0,NMP,3263.36
+Clone 2,12.0,Mono precur,14582.83
+Clone 2,12.0,Monocyte,6469.76
+Clone 2,12.0,DC precursor,25108.09
+Clone 2,12.0,DC,16940.26
+Clone 3,12.0,HSC/MPP 1,5.68
+Clone 3,12.0,HSC/MPP 2,1632.22
+Clone 3,12.0,MEMP,834.77
+Clone 3,12.0,Mast cell,22524.02
+Clone 3,12.0,Early Erythroid,58300.01
+Clone 3,12.0,Mid Erythroid,67666.56
+Clone 3,12.0,Late Erythroid,10450.62
+Clone 3,12.0,NMP,0.0
+Clone 3,12.0,Mono precur,532.27
+Clone 3,12.0,Monocyte,288.37
+Clone 3,12.0,DC precursor,0.09
+Clone 3,12.0,DC,0.0
+Clone 4,12.0,HSC/MPP 1,0.11
+Clone 4,12.0,HSC/MPP 2,260.28
+Clone 4,12.0,MEMP,109.94
+Clone 4,12.0,Mast cell,882.67
+Clone 4,12.0,Early Erythroid,97.34
+Clone 4,12.0,Mid Erythroid,104.38
+Clone 4,12.0,Late Erythroid,69.04
+Clone 4,12.0,NMP,12894.44
+Clone 4,12.0,Mono precur,8824.9
+Clone 4,12.0,Monocyte,34970.2
+Clone 4,12.0,DC precursor,320.29
+Clone 4,12.0,DC,270.21
+Clone 5,12.0,HSC/MPP 1,10.42
+Clone 5,12.0,HSC/MPP 2,44.43
+Clone 5,12.0,MEMP,16.57
+Clone 5,12.0,Mast cell,59.6
+Clone 5,12.0,Early Erythroid,31.71
+Clone 5,12.0,Mid Erythroid,49.13
+Clone 5,12.0,Late Erythroid,3.85
+Clone 5,12.0,NMP,11412.04
+Clone 5,12.0,Mono precur,15912.07
+Clone 5,12.0,Monocyte,63037.93
+Clone 5,12.0,DC precursor,1757.95
+Clone 5,12.0,DC,5618.55
+Clone 6,12.0,HSC/MPP 1,5.62
+Clone 6,12.0,HSC/MPP 2,1028.82
+Clone 6,12.0,MEMP,785.28
+Clone 6,12.0,Mast cell,2475.4
+Clone 6,12.0,Early Erythroid,0.01
+Clone 6,12.0,Mid Erythroid,0.0
+Clone 6,12.0,Late Erythroid,0.0
+Clone 6,12.0,NMP,22740.58
+Clone 6,12.0,Mono precur,24308.86
+Clone 6,12.0,Monocyte,84272.61
+Clone 6,12.0,DC precursor,625.99
+Clone 6,12.0,DC,173.0
+Clone 7,12.0,HSC/MPP 1,741.72
+Clone 7,12.0,HSC/MPP 2,8063.58
+Clone 7,12.0,MEMP,9078.36
+Clone 7,12.0,Mast cell,25205.33
+Clone 7,12.0,Early Erythroid,1132.43
+Clone 7,12.0,Mid Erythroid,5027.49
+Clone 7,12.0,Late Erythroid,478.5
+Clone 7,12.0,NMP,55688.54
+Clone 7,12.0,Mono precur,37886.51
+Clone 7,12.0,Monocyte,76070.92
+Clone 7,12.0,DC precursor,409.86
+Clone 7,12.0,DC,465.37
+Clone 8,12.0,HSC/MPP 1,0.13
+Clone 8,12.0,HSC/MPP 2,17.07
+Clone 8,12.0,MEMP,244.57
+Clone 8,12.0,Mast cell,15582.62
+Clone 8,12.0,Early Erythroid,905.41
+Clone 8,12.0,Mid Erythroid,4896.91
+Clone 8,12.0,Late Erythroid,0.0
+Clone 8,12.0,NMP,0.0
+Clone 8,12.0,Mono precur,3.65
+Clone 8,12.0,Monocyte,12.63
+Clone 8,12.0,DC precursor,1.66
+Clone 8,12.0,DC,0.01
+Clone 9,12.0,HSC/MPP 1,24.4
+Clone 9,12.0,HSC/MPP 2,24.39
+Clone 9,12.0,MEMP,16.59
+Clone 9,12.0,Mast cell,696.24
+Clone 9,12.0,Early Erythroid,17.73
+Clone 9,12.0,Mid Erythroid,10.35
+Clone 9,12.0,Late Erythroid,0.96
+Clone 9,12.0,NMP,0.0
+Clone 9,12.0,Mono precur,0.0
+Clone 9,12.0,Monocyte,0.0
+Clone 9,12.0,DC precursor,0.01
+Clone 9,12.0,DC,0.0
+Clone 10,12.0,HSC/MPP 1,0.17
+Clone 10,12.0,HSC/MPP 2,20.61
+Clone 10,12.0,MEMP,0.41
+Clone 10,12.0,Mast cell,1.73
+Clone 10,12.0,Early Erythroid,0.0
+Clone 10,12.0,Mid Erythroid,0.0
+Clone 10,12.0,Late Erythroid,0.0
+Clone 10,12.0,NMP,1157.04
+Clone 10,12.0,Mono precur,202.72
+Clone 10,12.0,Monocyte,4945.14
+Clone 10,12.0,DC precursor,22.2
+Clone 10,12.0,DC,0.0
+Clone 11,12.0,HSC/MPP 1,0.02
+Clone 11,12.0,HSC/MPP 2,0.09
+Clone 11,12.0,MEMP,48.35
+Clone 11,12.0,Mast cell,578.89
+Clone 11,12.0,Early Erythroid,45.77
+Clone 11,12.0,Mid Erythroid,467.76
+Clone 11,12.0,Late Erythroid,1620.1
+Clone 11,12.0,NMP,0.0
+Clone 11,12.0,Mono precur,0.0
+Clone 11,12.0,Monocyte,0.0
+Clone 11,12.0,DC precursor,0.89
+Clone 11,12.0,DC,0.86
+BG,12.0,HSC/MPP 1,2678.76
+BG,12.0,HSC/MPP 2,105963.21
+BG,12.0,MEMP,39839.19
+BG,12.0,Mast cell,574866.25
+BG,12.0,Early Erythroid,448975.91
+BG,12.0,Mid Erythroid,1001301.19
+BG,12.0,Late Erythroid,153430.59
+BG,12.0,NMP,570697.0
+BG,12.0,Mono precur,315143.88
+BG,12.0,Monocyte,769676.81
+BG,12.0,DC precursor,105301.0
+BG,12.0,DC,56726.2
+Clone 0,12.5,HSC/MPP 1,28.77
+Clone 0,12.5,HSC/MPP 2,1950.61
+Clone 0,12.5,MEMP,50971.89
+Clone 0,12.5,Mast cell,135746.53
+Clone 0,12.5,Early Erythroid,140030.53
+Clone 0,12.5,Mid Erythroid,206537.64
+Clone 0,12.5,Late Erythroid,33112.99
+Clone 0,12.5,NMP,8115.06
+Clone 0,12.5,Mono precur,7692.45
+Clone 0,12.5,Monocyte,15796.75
+Clone 0,12.5,DC precursor,747.21
+Clone 0,12.5,DC,0.01
+Clone 1,12.5,HSC/MPP 1,0.61
+Clone 1,12.5,HSC/MPP 2,11.58
+Clone 1,12.5,MEMP,280.38
+Clone 1,12.5,Mast cell,21838.85
+Clone 1,12.5,Early Erythroid,14422.34
+Clone 1,12.5,Mid Erythroid,90468.79
+Clone 1,12.5,Late Erythroid,12165.94
+Clone 1,12.5,NMP,1022.82
+Clone 1,12.5,Mono precur,730.95
+Clone 1,12.5,Monocyte,1825.71
+Clone 1,12.5,DC precursor,0.14
+Clone 1,12.5,DC,0.0
+Clone 2,12.5,HSC/MPP 1,33.03
+Clone 2,12.5,HSC/MPP 2,15904.83
+Clone 2,12.5,MEMP,282.32
+Clone 2,12.5,Mast cell,1080.23
+Clone 2,12.5,Early Erythroid,160.31
+Clone 2,12.5,Mid Erythroid,1264.58
+Clone 2,12.5,Late Erythroid,1128.48
+Clone 2,12.5,NMP,4504.75
+Clone 2,12.5,Mono precur,18368.88
+Clone 2,12.5,Monocyte,8603.27
+Clone 2,12.5,DC precursor,29848.22
+Clone 2,12.5,DC,21185.52
+Clone 3,12.5,HSC/MPP 1,4.45
+Clone 3,12.5,HSC/MPP 2,1563.16
+Clone 3,12.5,MEMP,567.41
+Clone 3,12.5,Mast cell,22560.06
+Clone 3,12.5,Early Erythroid,46238.48
+Clone 3,12.5,Mid Erythroid,65239.59
+Clone 3,12.5,Late Erythroid,12502.83
+Clone 3,12.5,NMP,0.0
+Clone 3,12.5,Mono precur,583.85
+Clone 3,12.5,Monocyte,375.22
+Clone 3,12.5,DC precursor,0.09
+Clone 3,12.5,DC,0.0
+Clone 4,12.5,HSC/MPP 1,0.07
+Clone 4,12.5,HSC/MPP 2,166.44
+Clone 4,12.5,MEMP,83.51
+Clone 4,12.5,Mast cell,913.45
+Clone 4,12.5,Early Erythroid,89.15
+Clone 4,12.5,Mid Erythroid,102.59
+Clone 4,12.5,Late Erythroid,77.68
+Clone 4,12.5,NMP,12912.18
+Clone 4,12.5,Mono precur,8056.29
+Clone 4,12.5,Monocyte,38695.94
+Clone 4,12.5,DC precursor,303.42
+Clone 4,12.5,DC,302.32
+Clone 5,12.5,HSC/MPP 1,7.71
+Clone 5,12.5,HSC/MPP 2,19.38
+Clone 5,12.5,MEMP,13.94
+Clone 5,12.5,Mast cell,62.51
+Clone 5,12.5,Early Erythroid,29.29
+Clone 5,12.5,Mid Erythroid,51.03
+Clone 5,12.5,Late Erythroid,4.52
+Clone 5,12.5,NMP,11417.2
+Clone 5,12.5,Mono precur,12063.29
+Clone 5,12.5,Monocyte,57325.17
+Clone 5,12.5,DC precursor,1264.46
+Clone 5,12.5,DC,5143.64
+Clone 6,12.5,HSC/MPP 1,3.65
+Clone 6,12.5,HSC/MPP 2,647.9
+Clone 6,12.5,MEMP,626.29
+Clone 6,12.5,Mast cell,2717.93
+Clone 6,12.5,Early Erythroid,0.01
+Clone 6,12.5,Mid Erythroid,0.0
+Clone 6,12.5,Late Erythroid,0.0
+Clone 6,12.5,NMP,23260.09
+Clone 6,12.5,Mono precur,22253.63
+Clone 6,12.5,Monocyte,96545.18
+Clone 6,12.5,DC precursor,665.17
+Clone 6,12.5,DC,213.78
+Clone 7,12.5,HSC/MPP 1,709.3
+Clone 7,12.5,HSC/MPP 2,8585.35
+Clone 7,12.5,MEMP,9645.5
+Clone 7,12.5,Mast cell,30370.92
+Clone 7,12.5,Early Erythroid,1285.39
+Clone 7,12.5,Mid Erythroid,6714.55
+Clone 7,12.5,Late Erythroid,676.54
+Clone 7,12.5,NMP,73681.8
+Clone 7,12.5,Mono precur,46112.14
+Clone 7,12.5,Monocyte,104219.08
+Clone 7,12.5,DC precursor,459.47
+Clone 7,12.5,DC,575.59
+Clone 8,12.5,HSC/MPP 1,0.1
+Clone 8,12.5,HSC/MPP 2,16.9
+Clone 8,12.5,MEMP,163.18
+Clone 8,12.5,Mast cell,14504.25
+Clone 8,12.5,Early Erythroid,733.91
+Clone 8,12.5,Mid Erythroid,4482.56
+Clone 8,12.5,Late Erythroid,0.0
+Clone 8,12.5,NMP,0.0
+Clone 8,12.5,Mono precur,3.4
+Clone 8,12.5,Monocyte,12.72
+Clone 8,12.5,DC precursor,1.79
+Clone 8,12.5,DC,0.01
+Clone 9,12.5,HSC/MPP 1,26.17
+Clone 9,12.5,HSC/MPP 2,26.12
+Clone 9,12.5,MEMP,17.74
+Clone 9,12.5,Mast cell,707.67
+Clone 9,12.5,Early Erythroid,18.46
+Clone 9,12.5,Mid Erythroid,10.8
+Clone 9,12.5,Late Erythroid,1.04
+Clone 9,12.5,NMP,0.0
+Clone 9,12.5,Mono precur,0.0
+Clone 9,12.5,Monocyte,0.0
+Clone 9,12.5,DC precursor,0.01
+Clone 9,12.5,DC,0.0
+Clone 10,12.5,HSC/MPP 1,0.16
+Clone 10,12.5,HSC/MPP 2,18.99
+Clone 10,12.5,MEMP,0.4
+Clone 10,12.5,Mast cell,1.75
+Clone 10,12.5,Early Erythroid,0.0
+Clone 10,12.5,Mid Erythroid,0.0
+Clone 10,12.5,Late Erythroid,0.0
+Clone 10,12.5,NMP,1175.1
+Clone 10,12.5,Mono precur,158.88
+Clone 10,12.5,Monocyte,4815.7
+Clone 10,12.5,DC precursor,23.15
+Clone 10,12.5,DC,0.0
+Clone 11,12.5,HSC/MPP 1,0.02
+Clone 11,12.5,HSC/MPP 2,0.09
+Clone 11,12.5,MEMP,46.24
+Clone 11,12.5,Mast cell,586.44
+Clone 11,12.5,Early Erythroid,41.21
+Clone 11,12.5,Mid Erythroid,352.34
+Clone 11,12.5,Late Erythroid,1435.84
+Clone 11,12.5,NMP,0.0
+Clone 11,12.5,Mono precur,0.0
+Clone 11,12.5,Monocyte,0.0
+Clone 11,12.5,DC precursor,0.91
+Clone 11,12.5,DC,0.9
+BG,12.5,HSC/MPP 1,2137.97
+BG,12.5,HSC/MPP 2,93798.78
+BG,12.5,MEMP,33624.0
+BG,12.5,Mast cell,592302.38
+BG,12.5,Early Erythroid,392789.84
+BG,12.5,Mid Erythroid,1008526.44
+BG,12.5,Late Erythroid,174295.52
+BG,12.5,NMP,622587.69
+BG,12.5,Mono precur,321500.66
+BG,12.5,Monocyte,895162.56
+BG,12.5,DC precursor,106983.38
+BG,12.5,DC,63973.67
+Clone 0,13.0,HSC/MPP 1,21.43
+Clone 0,13.0,HSC/MPP 2,1694.53
+Clone 0,13.0,MEMP,48956.26
+Clone 0,13.0,Mast cell,154282.88
+Clone 0,13.0,Early Erythroid,146262.73
+Clone 0,13.0,Mid Erythroid,234437.31
+Clone 0,13.0,Late Erythroid,39731.52
+Clone 0,13.0,NMP,9434.21
+Clone 0,13.0,Mono precur,8278.26
+Clone 0,13.0,Monocyte,18834.72
+Clone 0,13.0,DC precursor,783.89
+Clone 0,13.0,DC,0.01
+Clone 1,13.0,HSC/MPP 1,0.43
+Clone 1,13.0,HSC/MPP 2,5.49
+Clone 1,13.0,MEMP,152.23
+Clone 1,13.0,Mast cell,21900.57
+Clone 1,13.0,Early Erythroid,10232.61
+Clone 1,13.0,Mid Erythroid,76319.7
+Clone 1,13.0,Late Erythroid,12720.98
+Clone 1,13.0,NMP,1027.6
+Clone 1,13.0,Mono precur,639.08
+Clone 1,13.0,Monocyte,1929.64
+Clone 1,13.0,DC precursor,0.14
+Clone 1,13.0,DC,0.0
+Clone 2,13.0,HSC/MPP 1,27.25
+Clone 2,13.0,HSC/MPP 2,18069.6
+Clone 2,13.0,MEMP,319.58
+Clone 2,13.0,Mast cell,1241.58
+Clone 2,13.0,Early Erythroid,175.87
+Clone 2,13.0,Mid Erythroid,1458.68
+Clone 2,13.0,Late Erythroid,1386.75
+Clone 2,13.0,NMP,6168.29
+Clone 2,13.0,Mono precur,22893.69
+Clone 2,13.0,Monocyte,11290.35
+Clone 2,13.0,DC precursor,35095.96
+Clone 2,13.0,DC,26146.6
+Clone 3,13.0,HSC/MPP 1,3.46
+Clone 3,13.0,HSC/MPP 2,1467.43
+Clone 3,13.0,MEMP,429.16
+Clone 3,13.0,Mast cell,22505.81
+Clone 3,13.0,Early Erythroid,35159.52
+Clone 3,13.0,Mid Erythroid,59659.02
+Clone 3,13.0,Late Erythroid,14165.44
+Clone 3,13.0,NMP,0.0
+Clone 3,13.0,Mono precur,621.96
+Clone 3,13.0,Monocyte,473.11
+Clone 3,13.0,DC precursor,0.09
+Clone 3,13.0,DC,0.0
+Clone 4,13.0,HSC/MPP 1,0.04
+Clone 4,13.0,HSC/MPP 2,106.52
+Clone 4,13.0,MEMP,62.75
+Clone 4,13.0,Mast cell,934.79
+Clone 4,13.0,Early Erythroid,81.44
+Clone 4,13.0,Mid Erythroid,99.45
+Clone 4,13.0,Late Erythroid,85.51
+Clone 4,13.0,NMP,12882.14
+Clone 4,13.0,Mono precur,7317.3
+Clone 4,13.0,Monocyte,42152.18
+Clone 4,13.0,DC precursor,285.72
+Clone 4,13.0,DC,332.23
+Clone 5,13.0,HSC/MPP 1,5.7
+Clone 5,13.0,HSC/MPP 2,8.64
+Clone 5,13.0,MEMP,11.62
+Clone 5,13.0,Mast cell,64.82
+Clone 5,13.0,Early Erythroid,26.95
+Clone 5,13.0,Mid Erythroid,52.24
+Clone 5,13.0,Late Erythroid,5.18
+Clone 5,13.0,NMP,11416.58
+Clone 5,13.0,Mono precur,9087.07
+Clone 5,13.0,Monocyte,51217.65
+Clone 5,13.0,DC precursor,906.8
+Clone 5,13.0,DC,4637.06
+Clone 6,13.0,HSC/MPP 1,2.37
+Clone 6,13.0,HSC/MPP 2,408.18
+Clone 6,13.0,MEMP,490.49
+Clone 6,13.0,Mast cell,2907.63
+Clone 6,13.0,Early Erythroid,0.01
+Clone 6,13.0,Mid Erythroid,0.0
+Clone 6,13.0,Late Erythroid,0.0
+Clone 6,13.0,NMP,23586.91
+Clone 6,13.0,Mono precur,20198.11
+Clone 6,13.0,Monocyte,107735.91
+Clone 6,13.0,DC precursor,701.04
+Clone 6,13.0,DC,256.56
+Clone 7,13.0,HSC/MPP 1,674.07
+Clone 7,13.0,HSC/MPP 2,9066.14
+Clone 7,13.0,MEMP,10158.2
+Clone 7,13.0,Mast cell,36095.77
+Clone 7,13.0,Early Erythroid,1438.88
+Clone 7,13.0,Mid Erythroid,8856.49
+Clone 7,13.0,Late Erythroid,938.96
+Clone 7,13.0,NMP,96855.35
+Clone 7,13.0,Mono precur,55601.13
+Clone 7,13.0,Monocyte,140943.23
+Clone 7,13.0,DC precursor,508.1
+Clone 7,13.0,DC,699.36
+Clone 8,13.0,HSC/MPP 1,0.08
+Clone 8,13.0,HSC/MPP 2,16.72
+Clone 8,13.0,MEMP,109.64
+Clone 8,13.0,Mast cell,13462.33
+Clone 8,13.0,Early Erythroid,595.44
+Clone 8,13.0,Mid Erythroid,4055.67
+Clone 8,13.0,Late Erythroid,0.0
+Clone 8,13.0,NMP,0.0
+Clone 8,13.0,Mono precur,3.16
+Clone 8,13.0,Monocyte,12.81
+Clone 8,13.0,DC precursor,1.93
+Clone 8,13.0,DC,0.02
+Clone 9,13.0,HSC/MPP 1,28.04
+Clone 9,13.0,HSC/MPP 2,28.01
+Clone 9,13.0,MEMP,19.02
+Clone 9,13.0,Mast cell,719.99
+Clone 9,13.0,Early Erythroid,19.24
+Clone 9,13.0,Mid Erythroid,11.27
+Clone 9,13.0,Late Erythroid,1.11
+Clone 9,13.0,NMP,0.0
+Clone 9,13.0,Mono precur,0.0
+Clone 9,13.0,Monocyte,0.0
+Clone 9,13.0,DC precursor,0.01
+Clone 9,13.0,DC,0.0
+Clone 10,13.0,HSC/MPP 1,0.15
+Clone 10,13.0,HSC/MPP 2,17.52
+Clone 10,13.0,MEMP,0.38
+Clone 10,13.0,Mast cell,1.77
+Clone 10,13.0,Early Erythroid,0.0
+Clone 10,13.0,Mid Erythroid,0.0
+Clone 10,13.0,Late Erythroid,0.0
+Clone 10,13.0,NMP,1194.29
+Clone 10,13.0,Mono precur,125.01
+Clone 10,13.0,Monocyte,4684.82
+Clone 10,13.0,DC precursor,24.11
+Clone 10,13.0,DC,0.0
+Clone 11,13.0,HSC/MPP 1,0.02
+Clone 11,13.0,HSC/MPP 2,0.09
+Clone 11,13.0,MEMP,44.92
+Clone 11,13.0,Mast cell,592.62
+Clone 11,13.0,Early Erythroid,38.59
+Clone 11,13.0,Mid Erythroid,268.21
+Clone 11,13.0,Late Erythroid,1267.18
+Clone 11,13.0,NMP,0.0
+Clone 11,13.0,Mono precur,0.0
+Clone 11,13.0,Monocyte,0.0
+Clone 11,13.0,DC precursor,0.93
+Clone 11,13.0,DC,0.93
+BG,13.0,HSC/MPP 1,1710.49
+BG,13.0,HSC/MPP 2,82968.91
+BG,13.0,MEMP,28588.41
+BG,13.0,Mast cell,606547.81
+BG,13.0,Early Erythroid,342464.97
+BG,13.0,Mid Erythroid,998089.5
+BG,13.0,Late Erythroid,192051.09
+BG,13.0,NMP,674263.44
+BG,13.0,Mono precur,325882.31
+BG,13.0,Monocyte,1028384.88
+BG,13.0,DC precursor,107842.41
+BG,13.0,DC,70994.7
+Clone 0,13.5,HSC/MPP 1,15.96
+Clone 0,13.5,HSC/MPP 2,1467.98
+Clone 0,13.5,MEMP,46779.78
+Clone 0,13.5,Mast cell,172991.02
+Clone 0,13.5,Early Erythroid,151133.23
+Clone 0,13.5,Mid Erythroid,260753.27
+Clone 0,13.5,Late Erythroid,46289.12
+Clone 0,13.5,NMP,10899.0
+Clone 0,13.5,Mono precur,8856.76
+Clone 0,13.5,Monocyte,22076.76
+Clone 0,13.5,DC precursor,818.57
+Clone 0,13.5,DC,0.01
+Clone 1,13.5,HSC/MPP 1,0.3
+Clone 1,13.5,HSC/MPP 2,2.6
+Clone 1,13.5,MEMP,81.63
+Clone 1,13.5,Mast cell,21935.29
+Clone 1,13.5,Early Erythroid,7173.53
+Clone 1,13.5,Mid Erythroid,63460.84
+Clone 1,13.5,Late Erythroid,13045.8
+Clone 1,13.5,NMP,1032.13
+Clone 1,13.5,Mono precur,558.08
+Clone 1,13.5,Monocyte,2020.68
+Clone 1,13.5,DC precursor,0.14
+Clone 1,13.5,DC,0.0
+Clone 2,13.5,HSC/MPP 1,22.35
+Clone 2,13.5,HSC/MPP 2,20373.16
+Clone 2,13.5,MEMP,360.35
+Clone 2,13.5,Mast cell,1424.62
+Clone 2,13.5,Early Erythroid,193.19
+Clone 2,13.5,Mid Erythroid,1669.61
+Clone 2,13.5,Late Erythroid,1685.41
+Clone 2,13.5,NMP,8382.76
+Clone 2,13.5,Mono precur,28252.93
+Clone 2,13.5,Monocyte,14634.52
+Clone 2,13.5,DC precursor,40847.32
+Clone 2,13.5,DC,31870.37
+Clone 3,13.5,HSC/MPP 1,2.67
+Clone 3,13.5,HSC/MPP 2,1357.55
+Clone 3,13.5,MEMP,352.73
+Clone 3,13.5,Mast cell,22404.97
+Clone 3,13.5,Early Erythroid,25910.49
+Clone 3,13.5,Mid Erythroid,52055.84
+Clone 3,13.5,Late Erythroid,15256.46
+Clone 3,13.5,NMP,0.0
+Clone 3,13.5,Mono precur,645.48
+Clone 3,13.5,Monocyte,579.14
+Clone 3,13.5,DC precursor,0.09
+Clone 3,13.5,DC,0.0
+Clone 4,13.5,HSC/MPP 1,0.03
+Clone 4,13.5,HSC/MPP 2,68.29
+Clone 4,13.5,MEMP,46.79
+Clone 4,13.5,Mast cell,948.97
+Clone 4,13.5,Early Erythroid,74.27
+Clone 4,13.5,Mid Erythroid,95.36
+Clone 4,13.5,Late Erythroid,92.48
+Clone 4,13.5,NMP,12822.8
+Clone 4,13.5,Mono precur,6624.43
+Clone 4,13.5,Monocyte,45358.48
+Clone 4,13.5,DC precursor,268.04
+Clone 4,13.5,DC,360.01
+Clone 5,13.5,HSC/MPP 1,4.21
+Clone 5,13.5,HSC/MPP 2,3.98
+Clone 5,13.5,MEMP,9.62
+Clone 5,13.5,Mast cell,66.62
+Clone 5,13.5,Early Erythroid,24.67
+Clone 5,13.5,Mid Erythroid,52.84
+Clone 5,13.5,Late Erythroid,5.82
+Clone 5,13.5,NMP,11413.28
+Clone 5,13.5,Mono precur,6794.36
+Clone 5,13.5,Monocyte,45150.11
+Clone 5,13.5,DC precursor,648.62
+Clone 5,13.5,DC,4134.58
+Clone 6,13.5,HSC/MPP 1,1.54
+Clone 6,13.5,HSC/MPP 2,257.75
+Clone 6,13.5,MEMP,379.44
+Clone 6,13.5,Mast cell,3053.81
+Clone 6,13.5,Early Erythroid,0.01
+Clone 6,13.5,Mid Erythroid,0.0
+Clone 6,13.5,Late Erythroid,0.0
+Clone 6,13.5,NMP,23793.88
+Clone 6,13.5,Mono precur,18238.41
+Clone 6,13.5,Monocyte,117879.46
+Clone 6,13.5,DC precursor,735.25
+Clone 6,13.5,DC,301.14
+Clone 7,13.5,HSC/MPP 1,637.47
+Clone 7,13.5,HSC/MPP 2,9509.9
+Clone 7,13.5,MEMP,10623.1
+Clone 7,13.5,Mast cell,42389.5
+Clone 7,13.5,Early Erythroid,1591.68
+Clone 7,13.5,Mid Erythroid,11557.15
+Clone 7,13.5,Late Erythroid,1281.94
+Clone 7,13.5,NMP,126634.87
+Clone 7,13.5,Mono precur,66525.12
+Clone 7,13.5,Monocyte,188455.14
+Clone 7,13.5,DC precursor,555.31
+Clone 7,13.5,DC,836.26
+Clone 8,13.5,HSC/MPP 1,0.06
+Clone 8,13.5,HSC/MPP 2,16.54
+Clone 8,13.5,MEMP,74.24
+Clone 8,13.5,Mast cell,12468.69
+Clone 8,13.5,Early Erythroid,484.2
+Clone 8,13.5,Mid Erythroid,3634.17
+Clone 8,13.5,Late Erythroid,0.0
+Clone 8,13.5,NMP,0.0
+Clone 8,13.5,Mono precur,2.95
+Clone 8,13.5,Monocyte,12.89
+Clone 8,13.5,DC precursor,2.07
+Clone 8,13.5,DC,0.02
+Clone 9,13.5,HSC/MPP 1,30.01
+Clone 9,13.5,HSC/MPP 2,30.05
+Clone 9,13.5,MEMP,20.42
+Clone 9,13.5,Mast cell,733.3
+Clone 9,13.5,Early Erythroid,20.07
+Clone 9,13.5,Mid Erythroid,11.75
+Clone 9,13.5,Late Erythroid,1.19
+Clone 9,13.5,NMP,0.0
+Clone 9,13.5,Mono precur,0.0
+Clone 9,13.5,Monocyte,0.0
+Clone 9,13.5,DC precursor,0.01
+Clone 9,13.5,DC,0.0
+Clone 10,13.5,HSC/MPP 1,0.14
+Clone 10,13.5,HSC/MPP 2,16.19
+Clone 10,13.5,MEMP,0.36
+Clone 10,13.5,Mast cell,1.79
+Clone 10,13.5,Early Erythroid,0.0
+Clone 10,13.5,Mid Erythroid,0.0
+Clone 10,13.5,Late Erythroid,0.0
+Clone 10,13.5,NMP,1214.75
+Clone 10,13.5,Mono precur,98.82
+Clone 10,13.5,Monocyte,4554.09
+Clone 10,13.5,DC precursor,25.07
+Clone 10,13.5,DC,0.0
+Clone 11,13.5,HSC/MPP 1,0.01
+Clone 11,13.5,HSC/MPP 2,0.09
+Clone 11,13.5,MEMP,44.22
+Clone 11,13.5,Mast cell,597.69
+Clone 11,13.5,Early Erythroid,37.32
+Clone 11,13.5,Mid Erythroid,206.49
+Clone 11,13.5,Late Erythroid,1115.24
+Clone 11,13.5,NMP,0.0
+Clone 11,13.5,Mono precur,0.0
+Clone 11,13.5,Monocyte,0.0
+Clone 11,13.5,DC precursor,0.96
+Clone 11,13.5,DC,0.96
+BG,13.5,HSC/MPP 1,1374.87
+BG,13.5,HSC/MPP 2,73547.98
+BG,13.5,MEMP,24534.66
+BG,13.5,Mast cell,618226.06
+BG,13.5,Early Erythroid,298942.62
+BG,13.5,Mid Erythroid,974005.5
+BG,13.5,Late Erythroid,205967.44
+BG,13.5,NMP,726348.75
+BG,13.5,Mono precur,329148.22
+BG,13.5,Monocyte,1170115.75
+BG,13.5,DC precursor,108112.24
+BG,13.5,DC,77704.67
+Clone 0,14.0,HSC/MPP 1,11.9
+Clone 0,14.0,HSC/MPP 2,1269.94
+Clone 0,14.0,MEMP,44548.0
+Clone 0,14.0,Mast cell,191852.27
+Clone 0,14.0,Early Erythroid,154855.83
+Clone 0,14.0,Mid Erythroid,285204.25
+Clone 0,14.0,Late Erythroid,52631.78
+Clone 0,14.0,NMP,12531.09
+Clone 0,14.0,Mono precur,9437.62
+Clone 0,14.0,Monocyte,25517.12
+Clone 0,14.0,DC precursor,851.71
+Clone 0,14.0,DC,0.01
+Clone 1,14.0,HSC/MPP 1,0.21
+Clone 1,14.0,HSC/MPP 2,1.24
+Clone 1,14.0,MEMP,43.43
+Clone 1,14.0,Mast cell,21955.15
+Clone 1,14.0,Early Erythroid,4987.14
+Clone 1,14.0,Mid Erythroid,52150.92
+Clone 1,14.0,Late Erythroid,13171.7
+Clone 1,14.0,NMP,1036.53
+Clone 1,14.0,Mono precur,487.14
+Clone 1,14.0,Monocyte,2100.14
+Clone 1,14.0,DC precursor,0.14
+Clone 1,14.0,DC,0.0
+Clone 2,14.0,HSC/MPP 1,18.24
+Clone 2,14.0,HSC/MPP 2,22811.14
+Clone 2,14.0,MEMP,404.48
+Clone 2,14.0,Mast cell,1631.03
+Clone 2,14.0,Early Erythroid,212.36
+Clone 2,14.0,Mid Erythroid,1897.73
+Clone 2,14.0,Late Erythroid,2027.64
+Clone 2,14.0,NMP,11312.29
+Clone 2,14.0,Mono precur,34549.0
+Clone 2,14.0,Monocyte,18749.83
+Clone 2,14.0,DC precursor,47094.64
+Clone 2,14.0,DC,38394.49
+Clone 3,14.0,HSC/MPP 1,2.05
+Clone 3,14.0,HSC/MPP 2,1244.7
+Clone 3,14.0,MEMP,304.73
+Clone 3,14.0,Mast cell,22276.01
+Clone 3,14.0,Early Erythroid,18719.7
+Clone 3,14.0,Mid Erythroid,43606.48
+Clone 3,14.0,Late Erythroid,15687.75
+Clone 3,14.0,NMP,0.0
+Clone 3,14.0,Mono precur,655.03
+Clone 3,14.0,Monocyte,689.94
+Clone 3,14.0,DC precursor,0.09
+Clone 3,14.0,DC,0.0
+Clone 4,14.0,HSC/MPP 1,0.02
+Clone 4,14.0,HSC/MPP 2,43.89
+Clone 4,14.0,MEMP,34.68
+Clone 4,14.0,Mast cell,957.78
+Clone 4,14.0,Early Erythroid,67.66
+Clone 4,14.0,Mid Erythroid,90.66
+Clone 4,14.0,Late Erythroid,98.56
+Clone 4,14.0,NMP,12745.72
+Clone 4,14.0,Mono precur,5984.34
+Clone 4,14.0,Monocyte,48337.75
+Clone 4,14.0,DC precursor,250.86
+Clone 4,14.0,DC,385.76
+Clone 5,14.0,HSC/MPP 1,3.1
+Clone 5,14.0,HSC/MPP 2,1.93
+Clone 5,14.0,MEMP,7.91
+Clone 5,14.0,Mast cell,67.99
+Clone 5,14.0,Early Erythroid,22.47
+Clone 5,14.0,Mid Erythroid,52.94
+Clone 5,14.0,Late Erythroid,6.44
+Clone 5,14.0,NMP,11408.48
+Clone 5,14.0,Mono precur,5036.16
+Clone 5,14.0,Monocyte,39384.85
+Clone 5,14.0,DC precursor,462.68
+Clone 5,14.0,DC,3657.24
+Clone 6,14.0,HSC/MPP 1,1.01
+Clone 6,14.0,HSC/MPP 2,163.26
+Clone 6,14.0,MEMP,291.0
+Clone 6,14.0,Mast cell,3165.41
+Clone 6,14.0,Early Erythroid,0.01
+Clone 6,14.0,Mid Erythroid,0.0
+Clone 6,14.0,Late Erythroid,0.0
+Clone 6,14.0,NMP,23926.02
+Clone 6,14.0,Mono precur,16417.13
+Clone 6,14.0,Monocyte,127050.09
+Clone 6,14.0,DC precursor,768.81
+Clone 6,14.0,DC,347.46
+Clone 7,14.0,HSC/MPP 1,600.57
+Clone 7,14.0,HSC/MPP 2,9921.11
+Clone 7,14.0,MEMP,11047.0
+Clone 7,14.0,Mast cell,49265.67
+Clone 7,14.0,Early Erythroid,1742.92
+Clone 7,14.0,Mid Erythroid,14943.87
+Clone 7,14.0,Late Erythroid,1725.15
+Clone 7,14.0,NMP,164842.12
+Clone 7,14.0,Mono precur,79086.3
+Clone 7,14.0,Monocyte,249493.53
+Clone 7,14.0,DC precursor,600.81
+Clone 7,14.0,DC,985.76
+Clone 8,14.0,HSC/MPP 1,0.05
+Clone 8,14.0,HSC/MPP 2,16.36
+Clone 8,14.0,MEMP,50.69
+Clone 8,14.0,Mast cell,11529.28
+Clone 8,14.0,Early Erythroid,395.04
+Clone 8,14.0,Mid Erythroid,3230.35
+Clone 8,14.0,Late Erythroid,0.0
+Clone 8,14.0,NMP,0.0
+Clone 8,14.0,Mono precur,2.76
+Clone 8,14.0,Monocyte,12.97
+Clone 8,14.0,DC precursor,2.2
+Clone 8,14.0,DC,0.02
+Clone 9,14.0,HSC/MPP 1,32.08
+Clone 9,14.0,HSC/MPP 2,32.25
+Clone 9,14.0,MEMP,21.95
+Clone 9,14.0,Mast cell,747.69
+Clone 9,14.0,Early Erythroid,20.98
+Clone 9,14.0,Mid Erythroid,12.25
+Clone 9,14.0,Late Erythroid,1.27
+Clone 9,14.0,NMP,0.0
+Clone 9,14.0,Mono precur,0.0
+Clone 9,14.0,Monocyte,0.0
+Clone 9,14.0,DC precursor,0.01
+Clone 9,14.0,DC,0.0
+Clone 10,14.0,HSC/MPP 1,0.13
+Clone 10,14.0,HSC/MPP 2,14.99
+Clone 10,14.0,MEMP,0.35
+Clone 10,14.0,Mast cell,1.81
+Clone 10,14.0,Early Erythroid,0.0
+Clone 10,14.0,Mid Erythroid,0.0
+Clone 10,14.0,Late Erythroid,0.0
+Clone 10,14.0,NMP,1236.67
+Clone 10,14.0,Mono precur,78.51
+Clone 10,14.0,Monocyte,4424.72
+Clone 10,14.0,DC precursor,26.05
+Clone 10,14.0,DC,0.0
+Clone 11,14.0,HSC/MPP 1,0.01
+Clone 11,14.0,HSC/MPP 2,0.09
+Clone 11,14.0,MEMP,44.04
+Clone 11,14.0,Mast cell,601.81
+Clone 11,14.0,Early Erythroid,37.09
+Clone 11,14.0,Mid Erythroid,160.93
+Clone 11,14.0,Late Erythroid,979.8
+Clone 11,14.0,NMP,0.0
+Clone 11,14.0,Mono precur,0.0
+Clone 11,14.0,Monocyte,0.0
+Clone 11,14.0,DC precursor,0.98
+Clone 11,14.0,DC,0.98
+BG,14.0,HSC/MPP 1,1112.03
+BG,14.0,HSC/MPP 2,65481.79
+BG,14.0,MEMP,21278.61
+BG,14.0,Mast cell,627857.0
+BG,14.0,Early Erythroid,262189.75
+BG,14.0,Mid Erythroid,939981.31
+BG,14.0,Late Erythroid,215651.14
+BG,14.0,NMP,779570.44
+BG,14.0,Mono precur,332035.31
+BG,14.0,Monocyte,1321646.12
+BG,14.0,DC precursor,107992.05
+BG,14.0,DC,84051.12
+Clone 0,14.5,HSC/MPP 1,8.88
+Clone 0,14.5,HSC/MPP 2,1098.09
+Clone 0,14.5,MEMP,42328.88
+Clone 0,14.5,Mast cell,210874.89
+Clone 0,14.5,Early Erythroid,157614.45
+Clone 0,14.5,Mid Erythroid,307641.72
+Clone 0,14.5,Late Erythroid,58648.21
+Clone 0,14.5,NMP,14354.92
+Clone 0,14.5,Mono precur,10029.01
+Clone 0,14.5,Monocyte,29155.15
+Clone 0,14.5,DC precursor,883.66
+Clone 0,14.5,DC,0.01
+Clone 1,14.5,HSC/MPP 1,0.15
+Clone 1,14.5,HSC/MPP 2,0.6
+Clone 1,14.5,MEMP,23.1
+Clone 1,14.5,Mast cell,21967.02
+Clone 1,14.5,Early Erythroid,3460.83
+Clone 1,14.5,Mid Erythroid,42442.43
+Clone 1,14.5,Late Erythroid,13128.49
+Clone 1,14.5,NMP,1040.88
+Clone 1,14.5,Mono precur,425.55
+Clone 1,14.5,Monocyte,2169.07
+Clone 1,14.5,DC precursor,0.14
+Clone 1,14.5,DC,0.0
+Clone 2,14.5,HSC/MPP 1,14.82
+Clone 2,14.5,HSC/MPP 2,25381.93
+Clone 2,14.5,MEMP,451.85
+Clone 2,14.5,Mast cell,1862.28
+Clone 2,14.5,Early Erythroid,233.43
+Clone 2,14.5,Mid Erythroid,2143.49
+Clone 2,14.5,Late Erythroid,2416.45
+Clone 2,14.5,NMP,15165.34
+Clone 2,14.5,Mono precur,41892.68
+Clone 2,14.5,Monocyte,23760.67
+Clone 2,14.5,DC precursor,53829.3
+Clone 2,14.5,DC,45745.7
+Clone 3,14.5,HSC/MPP 1,1.58
+Clone 3,14.5,HSC/MPP 2,1138.77
+Clone 3,14.5,MEMP,271.13
+Clone 3,14.5,Mast cell,22124.49
+Clone 3,14.5,Early Erythroid,13443.32
+Clone 3,14.5,Mid Erythroid,35260.05
+Clone 3,14.5,Late Erythroid,15457.01
+Clone 3,14.5,NMP,0.0
+Clone 3,14.5,Mono precur,652.56
+Clone 3,14.5,Monocyte,801.83
+Clone 3,14.5,DC precursor,0.09
+Clone 3,14.5,DC,0.0
+Clone 4,14.5,HSC/MPP 1,0.01
+Clone 4,14.5,HSC/MPP 2,28.27
+Clone 4,14.5,MEMP,25.59
+Clone 4,14.5,Mast cell,962.63
+Clone 4,14.5,Early Erythroid,61.6
+Clone 4,14.5,Mid Erythroid,85.61
+Clone 4,14.5,Late Erythroid,103.76
+Clone 4,14.5,NMP,12657.97
+Clone 4,14.5,Mono precur,5398.46
+Clone 4,14.5,Monocyte,51113.64
+Clone 4,14.5,DC precursor,234.45
+Clone 4,14.5,DC,409.62
+Clone 5,14.5,HSC/MPP 1,2.27
+Clone 5,14.5,HSC/MPP 2,1.0
+Clone 5,14.5,MEMP,6.46
+Clone 5,14.5,Mast cell,69.0
+Clone 5,14.5,Early Erythroid,20.36
+Clone 5,14.5,Mid Erythroid,52.61
+Clone 5,14.5,Late Erythroid,7.02
+Clone 5,14.5,NMP,11402.67
+Clone 5,14.5,Mono precur,3696.43
+Clone 5,14.5,Monocyte,34066.66
+Clone 5,14.5,DC precursor,329.03
+Clone 5,14.5,DC,3216.24
+Clone 6,14.5,HSC/MPP 1,0.66
+Clone 6,14.5,HSC/MPP 2,103.73
+Clone 6,14.5,MEMP,221.79
+Clone 6,14.5,Mast cell,3250.04
+Clone 6,14.5,Early Erythroid,0.01
+Clone 6,14.5,Mid Erythroid,0.0
+Clone 6,14.5,Late Erythroid,0.0
+Clone 6,14.5,NMP,24011.36
+Clone 6,14.5,Mono precur,14748.85
+Clone 6,14.5,Monocyte,135336.2
+Clone 6,14.5,DC precursor,802.39
+Clone 6,14.5,DC,395.5
+Clone 7,14.5,HSC/MPP 1,564.13
+Clone 7,14.5,HSC/MPP 2,10304.08
+Clone 7,14.5,MEMP,11436.45
+Clone 7,14.5,Mast cell,56742.37
+Clone 7,14.5,Early Erythroid,1892.03
+Clone 7,14.5,Mid Erythroid,19173.22
+Clone 7,14.5,Late Erythroid,2292.59
+Clone 7,14.5,NMP,213805.8
+Clone 7,14.5,Mono precur,93520.28
+Clone 7,14.5,Monocyte,327448.38
+Clone 7,14.5,DC precursor,644.45
+Clone 7,14.5,DC,1147.3
+Clone 8,14.5,HSC/MPP 1,0.04
+Clone 8,14.5,HSC/MPP 2,16.18
+Clone 8,14.5,MEMP,34.92
+Clone 8,14.5,Mast cell,10646.43
+Clone 8,14.5,Early Erythroid,323.62
+Clone 8,14.5,Mid Erythroid,2852.02
+Clone 8,14.5,Late Erythroid,0.0
+Clone 8,14.5,NMP,0.0
+Clone 8,14.5,Mono precur,2.59
+Clone 8,14.5,Monocyte,13.05
+Clone 8,14.5,DC precursor,2.35
+Clone 8,14.5,DC,0.02
+Clone 9,14.5,HSC/MPP 1,34.24
+Clone 9,14.5,HSC/MPP 2,34.61
+Clone 9,14.5,MEMP,23.6
+Clone 9,14.5,Mast cell,763.26
+Clone 9,14.5,Early Erythroid,21.94
+Clone 9,14.5,Mid Erythroid,12.77
+Clone 9,14.5,Late Erythroid,1.36
+Clone 9,14.5,NMP,0.0
+Clone 9,14.5,Mono precur,0.0
+Clone 9,14.5,Monocyte,0.0
+Clone 9,14.5,DC precursor,0.01
+Clone 9,14.5,DC,0.0
+Clone 10,14.5,HSC/MPP 1,0.13
+Clone 10,14.5,HSC/MPP 2,13.9
+Clone 10,14.5,MEMP,0.33
+Clone 10,14.5,Mast cell,1.82
+Clone 10,14.5,Early Erythroid,0.0
+Clone 10,14.5,Mid Erythroid,0.0
+Clone 10,14.5,Late Erythroid,0.0
+Clone 10,14.5,NMP,1260.24
+Clone 10,14.5,Mono precur,62.73
+Clone 10,14.5,Monocyte,4297.56
+Clone 10,14.5,DC precursor,27.04
+Clone 10,14.5,DC,0.0
+Clone 11,14.5,HSC/MPP 1,0.01
+Clone 11,14.5,HSC/MPP 2,0.09
+Clone 11,14.5,MEMP,44.31
+Clone 11,14.5,Mast cell,605.1
+Clone 11,14.5,Early Erythroid,37.73
+Clone 11,14.5,Mid Erythroid,127.09
+Clone 11,14.5,Late Erythroid,859.9
+Clone 11,14.5,NMP,0.0
+Clone 11,14.5,Mono precur,0.0
+Clone 11,14.5,Monocyte,0.0
+Clone 11,14.5,DC precursor,1.0
+Clone 11,14.5,DC,1.01
+BG,14.5,HSC/MPP 1,906.02
+BG,14.5,HSC/MPP 2,58645.25
+BG,14.5,MEMP,18661.18
+BG,14.5,Mast cell,635864.94
+BG,14.5,Early Erythroid,231641.27
+BG,14.5,Mid Erythroid,899176.31
+BG,14.5,Late Erythroid,221028.34
+BG,14.5,NMP,834697.56
+BG,14.5,Mono precur,335134.69
+BG,14.5,Monocyte,1484762.62
+BG,14.5,DC precursor,107642.0
+BG,14.5,DC,90008.3
+Clone 0,15.0,HSC/MPP 1,6.64
+Clone 0,15.0,HSC/MPP 2,949.61
+Clone 0,15.0,MEMP,40164.91
+Clone 0,15.0,Mast cell,230085.06
+Clone 0,15.0,Early Erythroid,159568.7
+Clone 0,15.0,Mid Erythroid,328007.34
+Clone 0,15.0,Late Erythroid,64262.01
+Clone 0,15.0,NMP,16397.94
+Clone 0,15.0,Mono precur,10638.03
+Clone 0,15.0,Monocyte,32993.64
+Clone 0,15.0,DC precursor,914.76
+Clone 0,15.0,DC,0.01
+Clone 1,15.0,HSC/MPP 1,0.1
+Clone 1,15.0,HSC/MPP 2,0.3
+Clone 1,15.0,MEMP,12.44
+Clone 1,15.0,Mast cell,21974.56
+Clone 1,15.0,Early Erythroid,2422.27
+Clone 1,15.0,Mid Erythroid,34262.6
+Clone 1,15.0,Late Erythroid,12942.54
+Clone 1,15.0,NMP,1045.24
+Clone 1,15.0,Mono precur,372.67
+Clone 1,15.0,Monocyte,2228.32
+Clone 1,15.0,DC precursor,0.14
+Clone 1,15.0,DC,0.0
+Clone 2,15.0,HSC/MPP 1,12.01
+Clone 2,15.0,HSC/MPP 2,28088.19
+Clone 2,15.0,MEMP,502.38
+Clone 2,15.0,Mast cell,2119.61
+Clone 2,15.0,Early Erythroid,256.44
+Clone 2,15.0,Mid Erythroid,2407.55
+Clone 2,15.0,Late Erythroid,2854.68
+Clone 2,15.0,NMP,20205.69
+Clone 2,15.0,Mono precur,50405.28
+Clone 2,15.0,Monocyte,29801.01
+Clone 2,15.0,DC precursor,61046.1
+Clone 2,15.0,DC,53938.88
+Clone 3,15.0,HSC/MPP 1,1.22
+Clone 3,15.0,HSC/MPP 2,1048.73
+Clone 3,15.0,MEMP,247.29
+Clone 3,15.0,Mast cell,21950.38
+Clone 3,15.0,Early Erythroid,9769.38
+Clone 3,15.0,Mid Erythroid,27653.17
+Clone 3,15.0,Late Erythroid,14626.24
+Clone 3,15.0,NMP,0.0
+Clone 3,15.0,Mono precur,640.99
+Clone 3,15.0,Monocyte,910.98
+Clone 3,15.0,DC precursor,0.1
+Clone 3,15.0,DC,0.0
+Clone 4,15.0,HSC/MPP 1,0.01
+Clone 4,15.0,HSC/MPP 2,18.25
+Clone 4,15.0,MEMP,18.82
+Clone 4,15.0,Mast cell,964.56
+Clone 4,15.0,Early Erythroid,56.05
+Clone 4,15.0,Mid Erythroid,80.38
+Clone 4,15.0,Late Erythroid,108.11
+Clone 4,15.0,NMP,12563.99
+Clone 4,15.0,Mono precur,4865.33
+Clone 4,15.0,Monocyte,53708.31
+Clone 4,15.0,DC precursor,218.92
+Clone 4,15.0,DC,431.73
+Clone 5,15.0,HSC/MPP 1,1.66
+Clone 5,15.0,HSC/MPP 2,0.56
+Clone 5,15.0,MEMP,5.24
+Clone 5,15.0,Mast cell,69.71
+Clone 5,15.0,Early Erythroid,18.33
+Clone 5,15.0,Mid Erythroid,51.91
+Clone 5,15.0,Late Erythroid,7.57
+Clone 5,15.0,NMP,11396.1
+Clone 5,15.0,Mono precur,2684.4
+Clone 5,15.0,Monocyte,29262.68
+Clone 5,15.0,DC precursor,233.19
+Clone 5,15.0,DC,2816.42
+Clone 6,15.0,HSC/MPP 1,0.43
+Clone 6,15.0,HSC/MPP 2,66.1
+Clone 6,15.0,MEMP,168.26
+Clone 6,15.0,Mast cell,3313.95
+Clone 6,15.0,Early Erythroid,0.01
+Clone 6,15.0,Mid Erythroid,0.0
+Clone 6,15.0,Late Erythroid,0.0
+Clone 6,15.0,NMP,24067.28
+Clone 6,15.0,Mono precur,13233.84
+Clone 6,15.0,Monocyte,142825.94
+Clone 6,15.0,DC precursor,836.41
+Clone 6,15.0,DC,445.31
+Clone 7,15.0,HSC/MPP 1,528.7
+Clone 7,15.0,HSC/MPP 2,10662.83
+Clone 7,15.0,MEMP,11797.29
+Clone 7,15.0,Mast cell,64841.95
+Clone 7,15.0,Early Erythroid,2038.63
+Clone 7,15.0,Mid Erythroid,24437.69
+Clone 7,15.0,Late Erythroid,3013.54
+Clone 7,15.0,NMP,276499.0
+Clone 7,15.0,Mono precur,110101.2
+Clone 7,15.0,Monocyte,426512.09
+Clone 7,15.0,DC precursor,686.17
+Clone 7,15.0,DC,1320.27
+Clone 8,15.0,HSC/MPP 1,0.03
+Clone 8,15.0,HSC/MPP 2,16.0
+Clone 8,15.0,MEMP,24.28
+Clone 8,15.0,Mast cell,9820.32
+Clone 8,15.0,Early Erythroid,266.35
+Clone 8,15.0,Mid Erythroid,2503.62
+Clone 8,15.0,Late Erythroid,0.0
+Clone 8,15.0,NMP,0.0
+Clone 8,15.0,Mono precur,2.44
+Clone 8,15.0,Monocyte,13.12
+Clone 8,15.0,DC precursor,2.49
+Clone 8,15.0,DC,0.02
+Clone 9,15.0,HSC/MPP 1,36.5
+Clone 9,15.0,HSC/MPP 2,37.12
+Clone 9,15.0,MEMP,25.37
+Clone 9,15.0,Mast cell,780.1
+Clone 9,15.0,Early Erythroid,22.99
+Clone 9,15.0,Mid Erythroid,13.32
+Clone 9,15.0,Late Erythroid,1.44
+Clone 9,15.0,NMP,0.0
+Clone 9,15.0,Mono precur,0.0
+Clone 9,15.0,Monocyte,0.0
+Clone 9,15.0,DC precursor,0.02
+Clone 9,15.0,DC,0.0
+Clone 10,15.0,HSC/MPP 1,0.12
+Clone 10,15.0,HSC/MPP 2,12.91
+Clone 10,15.0,MEMP,0.32
+Clone 10,15.0,Mast cell,1.84
+Clone 10,15.0,Early Erythroid,0.0
+Clone 10,15.0,Mid Erythroid,0.0
+Clone 10,15.0,Late Erythroid,0.0
+Clone 10,15.0,NMP,1285.7
+Clone 10,15.0,Mono precur,50.43
+Clone 10,15.0,Monocyte,4173.21
+Clone 10,15.0,DC precursor,28.04
+Clone 10,15.0,DC,0.0
+Clone 11,15.0,HSC/MPP 1,0.01
+Clone 11,15.0,HSC/MPP 2,0.09
+Clone 11,15.0,MEMP,45.0
+Clone 11,15.0,Mast cell,607.65
+Clone 11,15.0,Early Erythroid,39.19
+Clone 11,15.0,Mid Erythroid,101.79
+Clone 11,15.0,Late Erythroid,754.27
+Clone 11,15.0,NMP,0.0
+Clone 11,15.0,Mono precur,0.0
+Clone 11,15.0,Monocyte,0.0
+Clone 11,15.0,DC precursor,1.03
+Clone 11,15.0,DC,1.03
+BG,15.0,HSC/MPP 1,743.96
+BG,15.0,HSC/MPP 2,52884.55
+BG,15.0,MEMP,16550.72
+BG,15.0,Mast cell,642588.5
+BG,15.0,Early Erythroid,206501.8
+BG,15.0,Mid Erythroid,854158.12
+BG,15.0,Late Erythroid,222305.17
+BG,15.0,NMP,892516.5
+BG,15.0,Mono precur,338900.19
+BG,15.0,Monocyte,1661665.25
+BG,15.0,DC precursor,107183.06
+BG,15.0,DC,95570.95
+Clone 0,15.5,HSC/MPP 1,4.97
+Clone 0,15.5,HSC/MPP 2,821.65
+Clone 0,15.5,MEMP,38082.75
+Clone 0,15.5,Mast cell,249518.0
+Clone 0,15.5,Early Erythroid,160855.38
+Clone 0,15.5,Mid Erythroid,346308.69
+Clone 0,15.5,Late Erythroid,69424.41
+Clone 0,15.5,NMP,18690.89
+Clone 0,15.5,Mono precur,11271.26
+Clone 0,15.5,Monocyte,37038.35
+Clone 0,15.5,DC precursor,945.25
+Clone 0,15.5,DC,0.01
+Clone 1,15.5,HSC/MPP 1,0.07
+Clone 1,15.5,HSC/MPP 2,0.16
+Clone 1,15.5,MEMP,6.9
+Clone 1,15.5,Mast cell,21979.71
+Clone 1,15.5,Early Erythroid,1734.21
+Clone 1,15.5,Mid Erythroid,27470.35
+Clone 1,15.5,Late Erythroid,12636.79
+Clone 1,15.5,NMP,1049.65
+Clone 1,15.5,Mono precur,327.95
+Clone 1,15.5,Monocyte,2278.64
+Clone 1,15.5,DC precursor,0.14
+Clone 1,15.5,DC,0.0
+Clone 2,15.5,HSC/MPP 1,9.71
+Clone 2,15.5,HSC/MPP 2,30939.29
+Clone 2,15.5,MEMP,556.02
+Clone 2,15.5,Mast cell,2404.02
+Clone 2,15.5,Early Erythroid,281.41
+Clone 2,15.5,Mid Erythroid,2690.84
+Clone 2,15.5,Late Erythroid,3344.91
+Clone 2,15.5,NMP,26766.47
+Clone 2,15.5,Mono precur,60223.02
+Clone 2,15.5,Monocyte,37013.56
+Clone 2,15.5,DC precursor,68748.27
+Clone 2,15.5,DC,62976.55
+Clone 3,15.5,HSC/MPP 1,0.95
+Clone 3,15.5,HSC/MPP 2,982.67
+Clone 3,15.5,MEMP,232.64
+Clone 3,15.5,Mast cell,21751.71
+Clone 3,15.5,Early Erythroid,7342.76
+Clone 3,15.5,Mid Erythroid,21135.76
+Clone 3,15.5,Late Erythroid,13307.97
+Clone 3,15.5,NMP,0.0
+Clone 3,15.5,Mono precur,623.85
+Clone 3,15.5,Monocyte,1013.68
+Clone 3,15.5,DC precursor,0.1
+Clone 3,15.5,DC,0.0
+Clone 4,15.5,HSC/MPP 1,0.0
+Clone 4,15.5,HSC/MPP 2,11.81
+Clone 4,15.5,MEMP,13.8
+Clone 4,15.5,Mast cell,964.38
+Clone 4,15.5,Early Erythroid,50.99
+Clone 4,15.5,Mid Erythroid,75.12
+Clone 4,15.5,Late Erythroid,111.66
+Clone 4,15.5,NMP,12466.49
+Clone 4,15.5,Mono precur,4382.03
+Clone 4,15.5,Monocyte,56142.38
+Clone 4,15.5,DC precursor,204.3
+Clone 4,15.5,DC,452.23
+Clone 5,15.5,HSC/MPP 1,1.21
+Clone 5,15.5,HSC/MPP 2,0.34
+Clone 5,15.5,MEMP,4.23
+Clone 5,15.5,Mast cell,70.17
+Clone 5,15.5,Early Erythroid,16.41
+Clone 5,15.5,Mid Erythroid,50.88
+Clone 5,15.5,Late Erythroid,8.09
+Clone 5,15.5,NMP,11388.87
+Clone 5,15.5,Mono precur,1928.6
+Clone 5,15.5,Monocyte,24989.54
+Clone 5,15.5,DC precursor,164.69
+Clone 5,15.5,DC,2458.59
+Clone 6,15.5,HSC/MPP 1,0.29
+Clone 6,15.5,HSC/MPP 2,42.23
+Clone 6,15.5,MEMP,127.2
+Clone 6,15.5,Mast cell,3362.03
+Clone 6,15.5,Early Erythroid,0.01
+Clone 6,15.5,Mid Erythroid,0.0
+Clone 6,15.5,Late Erythroid,0.0
+Clone 6,15.5,NMP,24104.5
+Clone 6,15.5,Mono precur,11865.28
+Clone 6,15.5,Monocyte,149603.23
+Clone 6,15.5,DC precursor,871.17
+Clone 6,15.5,DC,496.92
+Clone 7,15.5,HSC/MPP 1,494.61
+Clone 7,15.5,HSC/MPP 2,11001.02
+Clone 7,15.5,MEMP,12134.68
+Clone 7,15.5,Mast cell,73591.23
+Clone 7,15.5,Early Erythroid,2182.56
+Clone 7,15.5,Mid Erythroid,30974.15
+Clone 7,15.5,Late Erythroid,3923.89
+Clone 7,15.5,NMP,356719.78
+Clone 7,15.5,Mono precur,129146.18
+Clone 7,15.5,Monocyte,551865.62
+Clone 7,15.5,DC precursor,725.98
+Clone 7,15.5,DC,1504.08
+Clone 8,15.5,HSC/MPP 1,0.02
+Clone 8,15.5,HSC/MPP 2,15.82
+Clone 8,15.5,MEMP,17.04
+Clone 8,15.5,Mast cell,9049.72
+Clone 8,15.5,Early Erythroid,220.32
+Clone 8,15.5,Mid Erythroid,2187.14
+Clone 8,15.5,Late Erythroid,0.0
+Clone 8,15.5,NMP,0.0
+Clone 8,15.5,Mono precur,2.3
+Clone 8,15.5,Monocyte,13.19
+Clone 8,15.5,DC precursor,2.63
+Clone 8,15.5,DC,0.02
+Clone 9,15.5,HSC/MPP 1,38.86
+Clone 9,15.5,HSC/MPP 2,39.79
+Clone 9,15.5,MEMP,27.27
+Clone 9,15.5,Mast cell,798.32
+Clone 9,15.5,Early Erythroid,24.11
+Clone 9,15.5,Mid Erythroid,13.9
+Clone 9,15.5,Late Erythroid,1.53
+Clone 9,15.5,NMP,0.0
+Clone 9,15.5,Mono precur,0.0
+Clone 9,15.5,Monocyte,0.0
+Clone 9,15.5,DC precursor,0.02
+Clone 9,15.5,DC,0.0
+Clone 10,15.5,HSC/MPP 1,0.11
+Clone 10,15.5,HSC/MPP 2,12.01
+Clone 10,15.5,MEMP,0.31
+Clone 10,15.5,Mast cell,1.85
+Clone 10,15.5,Early Erythroid,0.0
+Clone 10,15.5,Mid Erythroid,0.0
+Clone 10,15.5,Late Erythroid,0.0
+Clone 10,15.5,NMP,1313.32
+Clone 10,15.5,Mono precur,40.83
+Clone 10,15.5,Monocyte,4052.11
+Clone 10,15.5,DC precursor,29.06
+Clone 10,15.5,DC,0.0
+Clone 11,15.5,HSC/MPP 1,0.01
+Clone 11,15.5,HSC/MPP 2,0.09
+Clone 11,15.5,MEMP,46.1
+Clone 11,15.5,Mast cell,609.54
+Clone 11,15.5,Early Erythroid,41.47
+Clone 11,15.5,Mid Erythroid,82.78
+Clone 11,15.5,Late Erythroid,661.49
+Clone 11,15.5,NMP,0.0
+Clone 11,15.5,Mono precur,0.0
+Clone 11,15.5,Monocyte,0.0
+Clone 11,15.5,DC precursor,1.06
+Clone 11,15.5,DC,1.05
+BG,15.5,HSC/MPP 1,615.74
+BG,15.5,HSC/MPP 2,48041.45
+BG,15.5,MEMP,14840.86
+BG,15.5,Mast cell,648294.75
+BG,15.5,Early Erythroid,185929.62
+BG,15.5,Mid Erythroid,806939.94
+BG,15.5,Late Erythroid,219904.39
+BG,15.5,NMP,953806.5
+BG,15.5,Mono precur,343663.62
+BG,15.5,Monocyte,1854909.12
+BG,15.5,DC precursor,106701.35
+BG,15.5,DC,100749.31
+Clone 0,16.0,HSC/MPP 1,3.73
+Clone 0,16.0,HSC/MPP 2,711.56
+Clone 0,16.0,MEMP,36098.74
+Clone 0,16.0,Mast cell,269215.69
+Clone 0,16.0,Early Erythroid,161594.48
+Clone 0,16.0,Mid Erythroid,362598.88
+Clone 0,16.0,Late Erythroid,74107.72
+Clone 0,16.0,NMP,21268.32
+Clone 0,16.0,Mono precur,11935.11
+Clone 0,16.0,Monocyte,41297.43
+Clone 0,16.0,DC precursor,975.36
+Clone 0,16.0,DC,0.01
+Clone 1,16.0,HSC/MPP 1,0.05
+Clone 1,16.0,HSC/MPP 2,0.09
+Clone 1,16.0,MEMP,4.02
+Clone 1,16.0,Mast cell,21983.44
+Clone 1,16.0,Early Erythroid,1290.36
+Clone 1,16.0,Mid Erythroid,21895.22
+Clone 1,16.0,Late Erythroid,12232.1
+Clone 1,16.0,NMP,1054.15
+Clone 1,16.0,Mono precur,290.74
+Clone 1,16.0,Monocyte,2320.82
+Clone 1,16.0,DC precursor,0.14
+Clone 1,16.0,DC,0.0
+Clone 2,16.0,HSC/MPP 1,7.84
+Clone 2,16.0,HSC/MPP 2,33954.11
+Clone 2,16.0,MEMP,612.87
+Clone 2,16.0,Mast cell,2716.26
+Clone 2,16.0,Early Erythroid,308.39
+Clone 2,16.0,Mid Erythroid,2994.82
+Clone 2,16.0,Late Erythroid,3889.48
+Clone 2,16.0,NMP,35267.8
+Clone 2,16.0,Mono precur,71503.24
+Clone 2,16.0,Monocyte,45549.0
+Clone 2,16.0,DC precursor,76954.37
+Clone 2,16.0,DC,72848.8
+Clone 3,16.0,HSC/MPP 1,0.75
+Clone 3,16.0,HSC/MPP 2,947.2
+Clone 3,16.0,MEMP,228.05
+Clone 3,16.0,Mast cell,21527.01
+Clone 3,16.0,Early Erythroid,5836.01
+Clone 3,16.0,Mid Erythroid,15837.42
+Clone 3,16.0,Late Erythroid,11656.54
+Clone 3,16.0,NMP,0.0
+Clone 3,16.0,Mono precur,604.77
+Clone 3,16.0,Monocyte,1107.06
+Clone 3,16.0,DC precursor,0.1
+Clone 3,16.0,DC,0.0
+Clone 4,16.0,HSC/MPP 1,0.0
+Clone 4,16.0,HSC/MPP 2,7.66
+Clone 4,16.0,MEMP,10.1
+Clone 4,16.0,Mast cell,962.65
+Clone 4,16.0,Early Erythroid,46.39
+Clone 4,16.0,Mid Erythroid,69.94
+Clone 4,16.0,Late Erythroid,114.45
+Clone 4,16.0,NMP,12367.18
+Clone 4,16.0,Mono precur,3945.02
+Clone 4,16.0,Monocyte,58434.53
+Clone 4,16.0,DC precursor,190.61
+Clone 4,16.0,DC,471.24
+Clone 5,16.0,HSC/MPP 1,0.87
+Clone 5,16.0,HSC/MPP 2,0.22
+Clone 5,16.0,MEMP,3.39
+Clone 5,16.0,Mast cell,70.43
+Clone 5,16.0,Early Erythroid,14.62
+Clone 5,16.0,Mid Erythroid,49.59
+Clone 5,16.0,Late Erythroid,8.57
+Clone 5,16.0,NMP,11381.04
+Clone 5,16.0,Mono precur,1372.02
+Clone 5,16.0,Monocyte,21232.48
+Clone 5,16.0,DC precursor,115.94
+Clone 5,16.0,DC,2141.09
+Clone 6,16.0,HSC/MPP 1,0.19
+Clone 6,16.0,HSC/MPP 2,27.05
+Clone 6,16.0,MEMP,95.9
+Clone 6,16.0,Mast cell,3398.13
+Clone 6,16.0,Early Erythroid,0.01
+Clone 6,16.0,Mid Erythroid,0.0
+Clone 6,16.0,Late Erythroid,0.0
+Clone 6,16.0,NMP,24129.74
+Clone 6,16.0,Mono precur,10633.08
+Clone 6,16.0,Monocyte,155744.52
+Clone 6,16.0,DC precursor,906.85
+Clone 6,16.0,DC,550.43
+Clone 7,16.0,HSC/MPP 1,462.1
+Clone 7,16.0,HSC/MPP 2,11321.88
+Clone 7,16.0,MEMP,12453.06
+Clone 7,16.0,Mast cell,83021.4
+Clone 7,16.0,Early Erythroid,2323.74
+Clone 7,16.0,Mid Erythroid,39074.15
+Clone 7,16.0,Late Erythroid,5067.59
+Clone 7,16.0,NMP,459319.19
+Clone 7,16.0,Mono precur,151021.81
+Clone 7,16.0,Monocyte,709906.25
+Clone 7,16.0,DC precursor,763.93
+Clone 7,16.0,DC,1698.17
+Clone 8,16.0,HSC/MPP 1,0.02
+Clone 8,16.0,HSC/MPP 2,15.63
+Clone 8,16.0,MEMP,12.07
+Clone 8,16.0,Mast cell,8332.64
+Clone 8,16.0,Early Erythroid,183.22
+Clone 8,16.0,Mid Erythroid,1902.81
+Clone 8,16.0,Late Erythroid,0.0
+Clone 8,16.0,NMP,0.0
+Clone 8,16.0,Mono precur,2.18
+Clone 8,16.0,Monocyte,13.25
+Clone 8,16.0,DC precursor,2.77
+Clone 8,16.0,DC,0.03
+Clone 9,16.0,HSC/MPP 1,41.31
+Clone 9,16.0,HSC/MPP 2,42.62
+Clone 9,16.0,MEMP,29.29
+Clone 9,16.0,Mast cell,818.01
+Clone 9,16.0,Early Erythroid,25.32
+Clone 9,16.0,Mid Erythroid,14.51
+Clone 9,16.0,Late Erythroid,1.61
+Clone 9,16.0,NMP,0.0
+Clone 9,16.0,Mono precur,0.0
+Clone 9,16.0,Monocyte,0.0
+Clone 9,16.0,DC precursor,0.02
+Clone 9,16.0,DC,0.0
+Clone 10,16.0,HSC/MPP 1,0.11
+Clone 10,16.0,HSC/MPP 2,11.2
+Clone 10,16.0,MEMP,0.29
+Clone 10,16.0,Mast cell,1.86
+Clone 10,16.0,Early Erythroid,0.0
+Clone 10,16.0,Mid Erythroid,0.0
+Clone 10,16.0,Late Erythroid,0.0
+Clone 10,16.0,NMP,1343.41
+Clone 10,16.0,Mono precur,33.3
+Clone 10,16.0,Monocyte,3934.58
+Clone 10,16.0,DC precursor,30.09
+Clone 10,16.0,DC,0.0
+Clone 11,16.0,HSC/MPP 1,0.01
+Clone 11,16.0,HSC/MPP 2,0.09
+Clone 11,16.0,MEMP,47.61
+Clone 11,16.0,Mast cell,610.83
+Clone 11,16.0,Early Erythroid,44.64
+Clone 11,16.0,Mid Erythroid,68.41
+Clone 11,16.0,Late Erythroid,580.13
+Clone 11,16.0,NMP,0.0
+Clone 11,16.0,Mono precur,0.0
+Clone 11,16.0,Monocyte,0.0
+Clone 11,16.0,DC precursor,1.08
+Clone 11,16.0,DC,1.07
+BG,16.0,HSC/MPP 1,513.56
+BG,16.0,HSC/MPP 2,43967.87
+BG,16.0,MEMP,13447.0
+BG,16.0,Mast cell,653193.31
+BG,16.0,Early Erythroid,169135.98
+BG,16.0,Mid Erythroid,759062.62
+BG,16.0,Late Erythroid,214393.44
+BG,16.0,NMP,1019325.44
+BG,16.0,Mono precur,349657.41
+BG,16.0,Monocyte,2067360.5
+BG,16.0,DC precursor,106254.38
+BG,16.0,DC,105563.66
+Clone 0,16.5,HSC/MPP 1,2.8
+Clone 0,16.5,HSC/MPP 2,616.93
+Clone 0,16.5,MEMP,34222.87
+Clone 0,16.5,Mast cell,289224.0
+Clone 0,16.5,Early Erythroid,161892.75
+Clone 0,16.5,Mid Erythroid,376964.66
+Clone 0,16.5,Late Erythroid,78299.71
+Clone 0,16.5,NMP,24169.02
+Clone 0,16.5,Mono precur,12636.16
+Clone 0,16.5,Monocyte,45781.0
+Clone 0,16.5,DC precursor,1005.27
+Clone 0,16.5,DC,0.01
+Clone 1,16.5,HSC/MPP 1,0.04
+Clone 1,16.5,HSC/MPP 2,0.06
+Clone 1,16.5,MEMP,2.49
+Clone 1,16.5,Mast cell,21986.21
+Clone 1,16.5,Early Erythroid,1011.86
+Clone 1,16.5,Mid Erythroid,17362.63
+Clone 1,16.5,Late Erythroid,11748.98
+Clone 1,16.5,NMP,1058.82
+Clone 1,16.5,Mono precur,260.21
+Clone 1,16.5,Monocyte,2355.8
+Clone 1,16.5,DC precursor,0.14
+Clone 1,16.5,DC,0.0
+Clone 2,16.5,HSC/MPP 1,6.33
+Clone 2,16.5,HSC/MPP 2,37164.57
+Clone 2,16.5,MEMP,673.17
+Clone 2,16.5,Mast cell,3056.87
+Clone 2,16.5,Early Erythroid,337.47
+Clone 2,16.5,Mid Erythroid,3321.66
+Clone 2,16.5,Late Erythroid,4490.43
+Clone 2,16.5,NMP,46239.72
+Clone 2,16.5,Mono precur,84433.3
+Clone 2,16.5,Monocyte,55564.73
+Clone 2,16.5,DC precursor,85705.98
+Clone 2,16.5,DC,83534.54
+Clone 3,16.5,HSC/MPP 1,0.61
+Clone 3,16.5,HSC/MPP 2,946.91
+Clone 3,16.5,MEMP,234.91
+Clone 3,16.5,Mast cell,21276.97
+Clone 3,16.5,Early Erythroid,4984.44
+Clone 3,16.5,Mid Erythroid,11732.99
+Clone 3,16.5,Late Erythroid,9852.54
+Clone 3,16.5,NMP,0.0
+Clone 3,16.5,Mono precur,586.86
+Clone 3,16.5,Monocyte,1189.75
+Clone 3,16.5,DC precursor,0.1
+Clone 3,16.5,DC,0.0
+Clone 4,16.5,HSC/MPP 1,0.0
+Clone 4,16.5,HSC/MPP 2,4.97
+Clone 4,16.5,MEMP,7.37
+Clone 4,16.5,Mast cell,959.81
+Clone 4,16.5,Early Erythroid,42.19
+Clone 4,16.5,Mid Erythroid,64.92
+Clone 4,16.5,Late Erythroid,116.55
+Clone 4,16.5,NMP,12267.09
+Clone 4,16.5,Mono precur,3550.53
+Clone 4,16.5,Monocyte,60601.62
+Clone 4,16.5,DC precursor,177.81
+Clone 4,16.5,DC,488.88
+Clone 5,16.5,HSC/MPP 1,0.63
+Clone 5,16.5,HSC/MPP 2,0.15
+Clone 5,16.5,MEMP,2.71
+Clone 5,16.5,Mast cell,70.52
+Clone 5,16.5,Early Erythroid,12.96
+Clone 5,16.5,Mid Erythroid,48.06
+Clone 5,16.5,Late Erythroid,9.0
+Clone 5,16.5,NMP,11372.7
+Clone 5,16.5,Mono precur,968.78
+Clone 5,16.5,Monocyte,17958.2
+Clone 5,16.5,DC precursor,81.43
+Clone 5,16.5,DC,1860.92
+Clone 6,16.5,HSC/MPP 1,0.12
+Clone 6,16.5,HSC/MPP 2,17.36
+Clone 6,16.5,MEMP,72.14
+Clone 6,16.5,Mast cell,3425.17
+Clone 6,16.5,Early Erythroid,0.01
+Clone 6,16.5,Mid Erythroid,0.0
+Clone 6,16.5,Late Erythroid,0.0
+Clone 6,16.5,NMP,24147.35
+Clone 6,16.5,Mono precur,9525.96
+Clone 6,16.5,Monocyte,161319.45
+Clone 6,16.5,DC precursor,943.61
+Clone 6,16.5,DC,605.89
+Clone 7,16.5,HSC/MPP 1,431.27
+Clone 7,16.5,HSC/MPP 2,11628.26
+Clone 7,16.5,MEMP,12756.23
+Clone 7,16.5,Mast cell,93167.34
+Clone 7,16.5,Early Erythroid,2462.21
+Clone 7,16.5,Mid Erythroid,49096.81
+Clone 7,16.5,Late Erythroid,6498.67
+Clone 7,16.5,NMP,590492.44
+Clone 7,16.5,Mono precur,176151.52
+Clone 7,16.5,Monocyte,908530.06
+Clone 7,16.5,DC precursor,800.12
+Clone 7,16.5,DC,1901.99
+Clone 8,16.5,HSC/MPP 1,0.02
+Clone 8,16.5,HSC/MPP 2,15.45
+Clone 8,16.5,MEMP,8.63
+Clone 8,16.5,Mast cell,7666.64
+Clone 8,16.5,Early Erythroid,153.2
+Clone 8,16.5,Mid Erythroid,1649.68
+Clone 8,16.5,Late Erythroid,0.0
+Clone 8,16.5,NMP,0.0
+Clone 8,16.5,Mono precur,2.06
+Clone 8,16.5,Monocyte,13.32
+Clone 8,16.5,DC precursor,2.92
+Clone 8,16.5,DC,0.03
+Clone 9,16.5,HSC/MPP 1,43.84
+Clone 9,16.5,HSC/MPP 2,45.59
+Clone 9,16.5,MEMP,31.44
+Clone 9,16.5,Mast cell,839.28
+Clone 9,16.5,Early Erythroid,26.61
+Clone 9,16.5,Mid Erythroid,15.17
+Clone 9,16.5,Late Erythroid,1.7
+Clone 9,16.5,NMP,0.0
+Clone 9,16.5,Mono precur,0.0
+Clone 9,16.5,Monocyte,0.0
+Clone 9,16.5,DC precursor,0.02
+Clone 9,16.5,DC,0.0
+Clone 10,16.5,HSC/MPP 1,0.1
+Clone 10,16.5,HSC/MPP 2,10.46
+Clone 10,16.5,MEMP,0.28
+Clone 10,16.5,Mast cell,1.87
+Clone 10,16.5,Early Erythroid,0.0
+Clone 10,16.5,Mid Erythroid,0.0
+Clone 10,16.5,Late Erythroid,0.0
+Clone 10,16.5,NMP,1376.33
+Clone 10,16.5,Mono precur,27.4
+Clone 10,16.5,Monocyte,3820.82
+Clone 10,16.5,DC precursor,31.13
+Clone 10,16.5,DC,0.0
+Clone 11,16.5,HSC/MPP 1,0.01
+Clone 11,16.5,HSC/MPP 2,0.09
+Clone 11,16.5,MEMP,49.54
+Clone 11,16.5,Mast cell,611.6
+Clone 11,16.5,Early Erythroid,48.81
+Clone 11,16.5,Mid Erythroid,57.49
+Clone 11,16.5,Late Erythroid,508.83
+Clone 11,16.5,NMP,0.0
+Clone 11,16.5,Mono precur,0.0
+Clone 11,16.5,Monocyte,0.0
+Clone 11,16.5,DC precursor,1.11
+Clone 11,16.5,DC,1.09
+BG,16.5,HSC/MPP 1,431.46
+BG,16.5,HSC/MPP 2,40532.59
+BG,16.5,MEMP,12302.52
+BG,16.5,Mast cell,657446.25
+BG,16.5,Early Erythroid,155428.92
+BG,16.5,Mid Erythroid,711677.69
+BG,16.5,Late Erythroid,206411.56
+BG,16.5,NMP,1089803.12
+BG,16.5,Mono precur,357038.81
+BG,16.5,Monocyte,2302165.75
+BG,16.5,DC precursor,105877.77
+BG,16.5,DC,110040.91
+Clone 0,17.0,HSC/MPP 1,2.11
+Clone 0,17.0,HSC/MPP 2,535.63
+Clone 0,17.0,MEMP,32460.84
+Clone 0,17.0,Mast cell,309591.03
+Clone 0,17.0,Early Erythroid,161846.97
+Clone 0,17.0,Mid Erythroid,389515.12
+Clone 0,17.0,Late Erythroid,81999.96
+Clone 0,17.0,NMP,27436.79
+Clone 0,17.0,Mono precur,13381.62
+Clone 0,17.0,Monocyte,50501.43
+Clone 0,17.0,DC precursor,1035.12
+Clone 0,17.0,DC,0.01
+Clone 1,17.0,HSC/MPP 1,0.03
+Clone 1,17.0,HSC/MPP 2,0.04
+Clone 1,17.0,MEMP,1.66
+Clone 1,17.0,Mast cell,21988.2
+Clone 1,17.0,Early Erythroid,843.49
+Clone 1,17.0,Mid Erythroid,13709.33
+Clone 1,17.0,Late Erythroid,11208.17
+Clone 1,17.0,NMP,1063.67
+Clone 1,17.0,Mono precur,235.4
+Clone 1,17.0,Monocyte,2384.66
+Clone 1,17.0,DC precursor,0.14
+Clone 1,17.0,DC,0.0
+Clone 2,17.0,HSC/MPP 1,5.12
+Clone 2,17.0,HSC/MPP 2,40619.13
+Clone 2,17.0,MEMP,737.37
+Clone 2,17.0,Mast cell,3426.17
+Clone 2,17.0,Early Erythroid,368.81
+Clone 2,17.0,Mid Erythroid,3674.52
+Clone 2,17.0,Late Erythroid,5149.55
+Clone 2,17.0,NMP,60351.65
+Clone 2,17.0,Mono precur,99243.66
+Clone 2,17.0,Monocyte,67225.17
+Clone 2,17.0,DC precursor,95077.8
+Clone 2,17.0,DC,95002.9
+Clone 3,17.0,HSC/MPP 1,0.5
+Clone 3,17.0,HSC/MPP 2,984.56
+Clone 3,17.0,MEMP,254.76
+Clone 3,17.0,Mast cell,21005.61
+Clone 3,17.0,Early Erythroid,4598.34
+Clone 3,17.0,Mid Erythroid,8702.21
+Clone 3,17.0,Late Erythroid,8070.0
+Clone 3,17.0,NMP,0.0
+Clone 3,17.0,Mono precur,572.33
+Clone 3,17.0,Monocyte,1262.16
+Clone 3,17.0,DC precursor,0.1
+Clone 3,17.0,DC,0.0
+Clone 4,17.0,HSC/MPP 1,0.0
+Clone 4,17.0,HSC/MPP 2,3.23
+Clone 4,17.0,MEMP,5.37
+Clone 4,17.0,Mast cell,956.18
+Clone 4,17.0,Early Erythroid,38.38
+Clone 4,17.0,Mid Erythroid,60.09
+Clone 4,17.0,Late Erythroid,118.01
+Clone 4,17.0,NMP,12166.88
+Clone 4,17.0,Mono precur,3194.84
+Clone 4,17.0,Monocyte,62658.62
+Clone 4,17.0,DC precursor,165.86
+Clone 4,17.0,DC,505.26
+Clone 5,17.0,HSC/MPP 1,0.46
+Clone 5,17.0,HSC/MPP 2,0.1
+Clone 5,17.0,MEMP,2.15
+Clone 5,17.0,Mast cell,70.47
+Clone 5,17.0,Early Erythroid,11.47
+Clone 5,17.0,Mid Erythroid,46.33
+Clone 5,17.0,Late Erythroid,9.38
+Clone 5,17.0,NMP,11363.96
+Clone 5,17.0,Mono precur,681.88
+Clone 5,17.0,Monocyte,15123.23
+Clone 5,17.0,DC precursor,57.18
+Clone 5,17.0,DC,1614.4
+Clone 6,17.0,HSC/MPP 1,0.08
+Clone 6,17.0,HSC/MPP 2,11.16
+Clone 6,17.0,MEMP,54.18
+Clone 6,17.0,Mast cell,3445.38
+Clone 6,17.0,Early Erythroid,0.01
+Clone 6,17.0,Mid Erythroid,0.0
+Clone 6,17.0,Late Erythroid,0.0
+Clone 6,17.0,NMP,24159.91
+Clone 6,17.0,Mono precur,8532.54
+Clone 6,17.0,Monocyte,166389.67
+Clone 6,17.0,DC precursor,981.57
+Clone 6,17.0,DC,663.39
+Clone 7,17.0,HSC/MPP 1,402.18
+Clone 7,17.0,HSC/MPP 2,11922.68
+Clone 7,17.0,MEMP,13047.5
+Clone 7,17.0,Mast cell,104068.79
+Clone 7,17.0,Early Erythroid,2598.05
+Clone 7,17.0,Mid Erythroid,61483.96
+Clone 7,17.0,Late Erythroid,8283.33
+Clone 7,17.0,NMP,758149.94
+Clone 7,17.0,Mono precur,205023.42
+Clone 7,17.0,Monocyte,1157467.38
+Clone 7,17.0,DC precursor,834.68
+Clone 7,17.0,DC,2115.04
+Clone 8,17.0,HSC/MPP 1,0.01
+Clone 8,17.0,HSC/MPP 2,15.27
+Clone 8,17.0,MEMP,6.24
+Clone 8,17.0,Mast cell,7049.07
+Clone 8,17.0,Early Erythroid,128.81
+Clone 8,17.0,Mid Erythroid,1426.03
+Clone 8,17.0,Late Erythroid,0.0
+Clone 8,17.0,NMP,0.0
+Clone 8,17.0,Mono precur,1.97
+Clone 8,17.0,Monocyte,13.38
+Clone 8,17.0,DC precursor,3.07
+Clone 8,17.0,DC,0.03
+Clone 9,17.0,HSC/MPP 1,46.46
+Clone 9,17.0,HSC/MPP 2,48.72
+Clone 9,17.0,MEMP,33.72
+Clone 9,17.0,Mast cell,862.21
+Clone 9,17.0,Early Erythroid,28.01
+Clone 9,17.0,Mid Erythroid,15.86
+Clone 9,17.0,Late Erythroid,1.79
+Clone 9,17.0,NMP,0.0
+Clone 9,17.0,Mono precur,0.0
+Clone 9,17.0,Monocyte,0.0
+Clone 9,17.0,DC precursor,0.02
+Clone 9,17.0,DC,0.0
+Clone 10,17.0,HSC/MPP 1,0.1
+Clone 10,17.0,HSC/MPP 2,9.8
+Clone 10,17.0,MEMP,0.27
+Clone 10,17.0,Mast cell,1.88
+Clone 10,17.0,Early Erythroid,0.0
+Clone 10,17.0,Mid Erythroid,0.0
+Clone 10,17.0,Late Erythroid,0.0
+Clone 10,17.0,NMP,1412.53
+Clone 10,17.0,Mono precur,22.75
+Clone 10,17.0,Monocyte,3710.99
+Clone 10,17.0,DC precursor,32.19
+Clone 10,17.0,DC,0.0
+Clone 11,17.0,HSC/MPP 1,0.01
+Clone 11,17.0,HSC/MPP 2,0.09
+Clone 11,17.0,MEMP,51.91
+Clone 11,17.0,Mast cell,611.89
+Clone 11,17.0,Early Erythroid,54.15
+Clone 11,17.0,Mid Erythroid,49.16
+Clone 11,17.0,Late Erythroid,446.34
+Clone 11,17.0,NMP,0.0
+Clone 11,17.0,Mono precur,0.0
+Clone 11,17.0,Monocyte,0.0
+Clone 11,17.0,DC precursor,1.14
+Clone 11,17.0,DC,1.11
+BG,17.0,HSC/MPP 1,364.94
+BG,17.0,HSC/MPP 2,37623.32
+BG,17.0,MEMP,11355.32
+BG,17.0,Mast cell,661181.0
+BG,17.0,Early Erythroid,144227.56
+BG,17.0,Mid Erythroid,665624.94
+BG,17.0,Late Erythroid,196605.06
+BG,17.0,NMP,1165952.38
+BG,17.0,Mono precur,365911.69
+BG,17.0,Monocyte,2562747.75
+BG,17.0,DC precursor,105591.1
+BG,17.0,DC,114209.8

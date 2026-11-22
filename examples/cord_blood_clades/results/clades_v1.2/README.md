@@ -1,4 +1,4 @@
-# CLADES v1.2.0 fit of the example (`config_v1.2.yaml`)
+# CLADES v1.2.0 fit of the example (`config.yaml`)
 
 Run with CLADES v1.2.0 (github.com/StatBiomed/clonaltrans, release v1.2.0, commit a0442270), the published version.
 

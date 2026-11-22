@@ -1,0 +1,12 @@
+row,day,source,rate,check,trust
+Clone 0,3,Mast cell,0.1411,no-proliferation population grows,use
+Clone 7,3,Mast cell,0.1646,no-proliferation population grows,use
+Clone 7,3,Monocyte,0.5322,no-proliferation population grows,use
+BG,3,Monocyte,0.8006,no-proliferation population grows,use
+Clone 0,10,Mast cell,0.1067,no-proliferation population grows,use
+Clone 7,10,Mast cell,0.1449,no-proliferation population grows,use
+Clone 7,10,Monocyte,0.4569,no-proliferation population grows,use
+BG,10,Monocyte,0.2907,no-proliferation population grows,use
+Clone 7,17,Mast cell,0.1257,no-proliferation population grows,use
+Clone 7,17,Monocyte,0.3995,no-proliferation population grows,use
+BG,17,Monocyte,0.1838,no-proliferation population grows,use

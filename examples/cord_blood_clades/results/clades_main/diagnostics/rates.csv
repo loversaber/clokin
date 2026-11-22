@@ -1,0 +1,976 @@
+row,day,source,target,kind,rate
+Clone 0,3,HSC/MPP 1,HSC/MPP 1,net growth,0.5768
+Clone 0,3,HSC/MPP 1,HSC/MPP 2,differentiation,0.1141
+Clone 0,3,HSC/MPP 1,MEMP,differentiation,0.0984
+Clone 0,3,HSC/MPP 1,DC precursor,differentiation,0.0909
+Clone 0,3,HSC/MPP 2,HSC/MPP 2,net growth,1.0834
+Clone 0,3,HSC/MPP 2,MEMP,differentiation,0.2293
+Clone 0,3,HSC/MPP 2,NMP,differentiation,0.0458
+Clone 0,3,HSC/MPP 2,Mono precur,differentiation,0.0115
+Clone 0,3,HSC/MPP 2,DC precursor,differentiation,0.0036
+Clone 0,3,MEMP,MEMP,net growth,1.3778
+Clone 0,3,MEMP,Mast cell,differentiation,0.1498
+Clone 0,3,MEMP,Early Erythroid,differentiation,0.1632
+Clone 0,3,Mast cell,Mast cell,net growth,0.1411
+Clone 0,3,Early Erythroid,Early Erythroid,net growth,1.1595
+Clone 0,3,Early Erythroid,Mid Erythroid,differentiation,0.2509
+Clone 0,3,Mid Erythroid,Mid Erythroid,net growth,-0.066
+Clone 0,3,Mid Erythroid,Late Erythroid,differentiation,0.0681
+Clone 0,3,Late Erythroid,Late Erythroid,net growth,-1.6415
+Clone 0,3,NMP,NMP,net growth,0.431
+Clone 0,3,Mono precur,Mono precur,net growth,1.4304
+Clone 0,3,Mono precur,Monocyte,differentiation,0.2312
+Clone 0,3,Monocyte,Monocyte,net growth,-0.0036
+Clone 0,3,DC precursor,DC precursor,net growth,0.0823
+Clone 0,3,DC precursor,DC,differentiation,0.0
+Clone 0,3,DC,DC,net growth,-0.004
+Clone 1,3,HSC/MPP 1,HSC/MPP 1,net growth,0.0006
+Clone 1,3,HSC/MPP 1,HSC/MPP 2,differentiation,0.0691
+Clone 1,3,HSC/MPP 1,MEMP,differentiation,0.0358
+Clone 1,3,HSC/MPP 1,DC precursor,differentiation,0.0002
+Clone 1,3,HSC/MPP 2,HSC/MPP 2,net growth,1.7657
+Clone 1,3,HSC/MPP 2,MEMP,differentiation,0.2923
+Clone 1,3,HSC/MPP 2,NMP,differentiation,0.0158
+Clone 1,3,HSC/MPP 2,Mono precur,differentiation,0.0362
+Clone 1,3,HSC/MPP 2,DC precursor,differentiation,0.0
+Clone 1,3,MEMP,MEMP,net growth,1.5281
+Clone 1,3,MEMP,Mast cell,differentiation,0.0797
+Clone 1,3,MEMP,Early Erythroid,differentiation,0.2157
+Clone 1,3,Mast cell,Mast cell,net growth,-0.0014
+Clone 1,3,Early Erythroid,Early Erythroid,net growth,1.9319
+Clone 1,3,Early Erythroid,Mid Erythroid,differentiation,0.2382
+Clone 1,3,Mid Erythroid,Mid Erythroid,net growth,-1.1352
+Clone 1,3,Mid Erythroid,Late Erythroid,differentiation,0.0038
+Clone 1,3,Late Erythroid,Late Erythroid,net growth,-0.2972
+Clone 1,3,NMP,NMP,net growth,0.022
+Clone 1,3,Mono precur,Mono precur,net growth,0.0636
+Clone 1,3,Mono precur,Monocyte,differentiation,0.0439
+Clone 1,3,Monocyte,Monocyte,net growth,-0.003
+Clone 1,3,DC precursor,DC precursor,net growth,0.0023
+Clone 1,3,DC precursor,DC,differentiation,0.0002
+Clone 1,3,DC,DC,net growth,-0.0013
+Clone 2,3,HSC/MPP 1,HSC/MPP 1,net growth,0.6251
+Clone 2,3,HSC/MPP 1,HSC/MPP 2,differentiation,0.1375
+Clone 2,3,HSC/MPP 1,MEMP,differentiation,0.2166
+Clone 2,3,HSC/MPP 1,DC precursor,differentiation,0.0575
+Clone 2,3,HSC/MPP 2,HSC/MPP 2,net growth,1.0639
+Clone 2,3,HSC/MPP 2,MEMP,differentiation,0.0101
+Clone 2,3,HSC/MPP 2,NMP,differentiation,0.0041
+Clone 2,3,HSC/MPP 2,Mono precur,differentiation,0.0613
+Clone 2,3,HSC/MPP 2,DC precursor,differentiation,0.2088
+Clone 2,3,MEMP,MEMP,net growth,0.1492
+Clone 2,3,MEMP,Mast cell,differentiation,0.4854
+Clone 2,3,MEMP,Early Erythroid,differentiation,0.1091
+Clone 2,3,Mast cell,Mast cell,net growth,0.0002
+Clone 2,3,Early Erythroid,Early Erythroid,net growth,0.5456
+Clone 2,3,Early Erythroid,Mid Erythroid,differentiation,0.2977
+Clone 2,3,Mid Erythroid,Mid Erythroid,net growth,0.7244
+Clone 2,3,Mid Erythroid,Late Erythroid,differentiation,0.1618
+Clone 2,3,Late Erythroid,Late Erythroid,net growth,-0.0002
+Clone 2,3,NMP,NMP,net growth,0.7471
+Clone 2,3,Mono precur,Mono precur,net growth,0.7514
+Clone 2,3,Mono precur,Monocyte,differentiation,0.1206
+Clone 2,3,Monocyte,Monocyte,net growth,-0.0004
+Clone 2,3,DC precursor,DC precursor,net growth,0.7781
+Clone 2,3,DC precursor,DC,differentiation,0.2327
+Clone 2,3,DC,DC,net growth,-0.3741
+Clone 3,3,HSC/MPP 1,HSC/MPP 1,net growth,0.0001
+Clone 3,3,HSC/MPP 1,HSC/MPP 2,differentiation,0.0272
+Clone 3,3,HSC/MPP 1,MEMP,differentiation,0.0479
+Clone 3,3,HSC/MPP 1,DC precursor,differentiation,0.0001
+Clone 3,3,HSC/MPP 2,HSC/MPP 2,net growth,0.9401
+Clone 3,3,HSC/MPP 2,MEMP,differentiation,0.0623
+Clone 3,3,HSC/MPP 2,NMP,differentiation,0.0
+Clone 3,3,HSC/MPP 2,Mono precur,differentiation,0.0254
+Clone 3,3,HSC/MPP 2,DC precursor,differentiation,0.0
+Clone 3,3,MEMP,MEMP,net growth,1.826
+Clone 3,3,MEMP,Mast cell,differentiation,0.1561
+Clone 3,3,MEMP,Early Erythroid,differentiation,0.2365
+Clone 3,3,Mast cell,Mast cell,net growth,-0.0541
+Clone 3,3,Early Erythroid,Early Erythroid,net growth,1.2948
+Clone 3,3,Early Erythroid,Mid Erythroid,differentiation,0.1517
+Clone 3,3,Mid Erythroid,Mid Erythroid,net growth,-1.5195
+Clone 3,3,Mid Erythroid,Late Erythroid,differentiation,0.0155
+Clone 3,3,Late Erythroid,Late Erythroid,net growth,-0.8121
+Clone 3,3,NMP,NMP,net growth,0.0007
+Clone 3,3,Mono precur,Mono precur,net growth,-0.0734
+Clone 3,3,Mono precur,Monocyte,differentiation,0.0412
+Clone 3,3,Monocyte,Monocyte,net growth,-0.0015
+Clone 3,3,DC precursor,DC precursor,net growth,0.0254
+Clone 3,3,DC precursor,DC,differentiation,0.0002
+Clone 3,3,DC,DC,net growth,-0.0035
+Clone 4,3,HSC/MPP 1,HSC/MPP 1,net growth,0.3218
+Clone 4,3,HSC/MPP 1,HSC/MPP 2,differentiation,0.2095
+Clone 4,3,HSC/MPP 1,MEMP,differentiation,0.3293
+Clone 4,3,HSC/MPP 1,DC precursor,differentiation,0.0
+Clone 4,3,HSC/MPP 2,HSC/MPP 2,net growth,1.7042
+Clone 4,3,HSC/MPP 2,MEMP,differentiation,0.0336
+Clone 4,3,HSC/MPP 2,NMP,differentiation,0.5939
+Clone 4,3,HSC/MPP 2,Mono precur,differentiation,0.1297
+Clone 4,3,HSC/MPP 2,DC precursor,differentiation,0.0065
+Clone 4,3,MEMP,MEMP,net growth,0.1764
+Clone 4,3,MEMP,Mast cell,differentiation,0.376
+Clone 4,3,MEMP,Early Erythroid,differentiation,0.0313
+Clone 4,3,Mast cell,Mast cell,net growth,-0.0004
+Clone 4,3,Early Erythroid,Early Erythroid,net growth,0.887
+Clone 4,3,Early Erythroid,Mid Erythroid,differentiation,0.2173
+Clone 4,3,Mid Erythroid,Mid Erythroid,net growth,-0.4441
+Clone 4,3,Mid Erythroid,Late Erythroid,differentiation,0.1069
+Clone 4,3,Late Erythroid,Late Erythroid,net growth,-0.217
+Clone 4,3,NMP,NMP,net growth,0.1282
+Clone 4,3,Mono precur,Mono precur,net growth,1.3157
+Clone 4,3,Mono precur,Monocyte,differentiation,0.3583
+Clone 4,3,Monocyte,Monocyte,net growth,-0.0401
+Clone 4,3,DC precursor,DC precursor,net growth,0.2323
+Clone 4,3,DC precursor,DC,differentiation,0.1003
+Clone 4,3,DC,DC,net growth,0.0004
+Clone 5,3,HSC/MPP 1,HSC/MPP 1,net growth,0.2872
+Clone 5,3,HSC/MPP 1,HSC/MPP 2,differentiation,0.0495
+Clone 5,3,HSC/MPP 1,MEMP,differentiation,0.0432
+Clone 5,3,HSC/MPP 1,DC precursor,differentiation,0.0354
+Clone 5,3,HSC/MPP 2,HSC/MPP 2,net growth,1.6964
+Clone 5,3,HSC/MPP 2,MEMP,differentiation,0.0
+Clone 5,3,HSC/MPP 2,NMP,differentiation,0.1097
+Clone 5,3,HSC/MPP 2,Mono precur,differentiation,0.1561
+Clone 5,3,HSC/MPP 2,DC precursor,differentiation,0.1534
+Clone 5,3,MEMP,MEMP,net growth,0.0327
+Clone 5,3,MEMP,Mast cell,differentiation,0.0895
+Clone 5,3,MEMP,Early Erythroid,differentiation,0.0284
+Clone 5,3,Mast cell,Mast cell,net growth,-0.0435
+Clone 5,3,Early Erythroid,Early Erythroid,net growth,0.7672
+Clone 5,3,Early Erythroid,Mid Erythroid,differentiation,0.0888
+Clone 5,3,Mid Erythroid,Mid Erythroid,net growth,-0.3466
+Clone 5,3,Mid Erythroid,Late Erythroid,differentiation,0.0064
+Clone 5,3,Late Erythroid,Late Erythroid,net growth,-0.3351
+Clone 5,3,NMP,NMP,net growth,0.0116
+Clone 5,3,Mono precur,Mono precur,net growth,1.465
+Clone 5,3,Mono precur,Monocyte,differentiation,0.2069
+Clone 5,3,Monocyte,Monocyte,net growth,-1.03
+Clone 5,3,DC precursor,DC precursor,net growth,-0.0489
+Clone 5,3,DC precursor,DC,differentiation,0.1105
+Clone 5,3,DC,DC,net growth,-0.8083
+Clone 6,3,HSC/MPP 1,HSC/MPP 1,net growth,0.4126
+Clone 6,3,HSC/MPP 1,HSC/MPP 2,differentiation,0.1365
+Clone 6,3,HSC/MPP 1,MEMP,differentiation,0.1414
+Clone 6,3,HSC/MPP 1,DC precursor,differentiation,0.0005
+Clone 6,3,HSC/MPP 2,HSC/MPP 2,net growth,1.2812
+Clone 6,3,HSC/MPP 2,MEMP,differentiation,0.009
+Clone 6,3,HSC/MPP 2,NMP,differentiation,0.2729
+Clone 6,3,HSC/MPP 2,Mono precur,differentiation,0.1039
+Clone 6,3,HSC/MPP 2,DC precursor,differentiation,0.0015
+Clone 6,3,MEMP,MEMP,net growth,0.0671
+Clone 6,3,MEMP,Mast cell,differentiation,0.1647
+Clone 6,3,MEMP,Early Erythroid,differentiation,0.0
+Clone 6,3,Mast cell,Mast cell,net growth,0.0001
+Clone 6,3,Early Erythroid,Early Erythroid,net growth,0.0047
+Clone 6,3,Early Erythroid,Mid Erythroid,differentiation,0.0001
+Clone 6,3,Mid Erythroid,Mid Erythroid,net growth,-0.0003
+Clone 6,3,Mid Erythroid,Late Erythroid,differentiation,0.0
+Clone 6,3,Late Erythroid,Late Erythroid,net growth,-0.005
+Clone 6,3,NMP,NMP,net growth,0.0158
+Clone 6,3,Mono precur,Mono precur,net growth,1.1712
+Clone 6,3,Mono precur,Monocyte,differentiation,0.2536
+Clone 6,3,Monocyte,Monocyte,net growth,-0.0028
+Clone 6,3,DC precursor,DC precursor,net growth,0.3054
+Clone 6,3,DC precursor,DC,differentiation,0.0306
+Clone 6,3,DC,DC,net growth,-0.0029
+Clone 7,3,HSC/MPP 1,HSC/MPP 1,net growth,0.7704
+Clone 7,3,HSC/MPP 1,HSC/MPP 2,differentiation,0.2365
+Clone 7,3,HSC/MPP 1,MEMP,differentiation,0.1412
+Clone 7,3,HSC/MPP 1,DC precursor,differentiation,0.0004
+Clone 7,3,HSC/MPP 2,HSC/MPP 2,net growth,0.8823
+Clone 7,3,HSC/MPP 2,MEMP,differentiation,0.012
+Clone 7,3,HSC/MPP 2,NMP,differentiation,0.1566
+Clone 7,3,HSC/MPP 2,Mono precur,differentiation,0.1468
+Clone 7,3,HSC/MPP 2,DC precursor,differentiation,0.014
+Clone 7,3,MEMP,MEMP,net growth,1.0501
+Clone 7,3,MEMP,Mast cell,differentiation,0.3635
+Clone 7,3,MEMP,Early Erythroid,differentiation,0.0196
+Clone 7,3,Mast cell,Mast cell,net growth,0.1646
+Clone 7,3,Early Erythroid,Early Erythroid,net growth,0.7074
+Clone 7,3,Early Erythroid,Mid Erythroid,differentiation,0.3278
+Clone 7,3,Mid Erythroid,Mid Erythroid,net growth,0.6788
+Clone 7,3,Mid Erythroid,Late Erythroid,differentiation,0.0461
+Clone 7,3,Late Erythroid,Late Erythroid,net growth,-0.2413
+Clone 7,3,NMP,NMP,net growth,0.6627
+Clone 7,3,Mono precur,Mono precur,net growth,0.9912
+Clone 7,3,Mono precur,Monocyte,differentiation,0.2379
+Clone 7,3,Monocyte,Monocyte,net growth,0.5322
+Clone 7,3,DC precursor,DC precursor,net growth,0.2735
+Clone 7,3,DC precursor,DC,differentiation,0.2591
+Clone 7,3,DC,DC,net growth,-0.0006
+Clone 8,3,HSC/MPP 1,HSC/MPP 1,net growth,-0.0004
+Clone 8,3,HSC/MPP 1,HSC/MPP 2,differentiation,0.3275
+Clone 8,3,HSC/MPP 1,MEMP,differentiation,0.1096
+Clone 8,3,HSC/MPP 1,DC precursor,differentiation,0.001
+Clone 8,3,HSC/MPP 2,HSC/MPP 2,net growth,0.0595
+Clone 8,3,HSC/MPP 2,MEMP,differentiation,0.0108
+Clone 8,3,HSC/MPP 2,NMP,differentiation,0.0
+Clone 8,3,HSC/MPP 2,Mono precur,differentiation,0.1536
+Clone 8,3,HSC/MPP 2,DC precursor,differentiation,0.0011
+Clone 8,3,MEMP,MEMP,net growth,2.2006
+Clone 8,3,MEMP,Mast cell,differentiation,0.6434
+Clone 8,3,MEMP,Early Erythroid,differentiation,0.0355
+Clone 8,3,Mast cell,Mast cell,net growth,-0.4069
+Clone 8,3,Early Erythroid,Early Erythroid,net growth,1.8744
+Clone 8,3,Early Erythroid,Mid Erythroid,differentiation,0.5889
+Clone 8,3,Mid Erythroid,Mid Erythroid,net growth,-0.8431
+Clone 8,3,Mid Erythroid,Late Erythroid,differentiation,0.0
+Clone 8,3,Late Erythroid,Late Erythroid,net growth,-0.0083
+Clone 8,3,NMP,NMP,net growth,0.0017
+Clone 8,3,Mono precur,Mono precur,net growth,0.1743
+Clone 8,3,Mono precur,Monocyte,differentiation,0.335
+Clone 8,3,Monocyte,Monocyte,net growth,-0.0
+Clone 8,3,DC precursor,DC precursor,net growth,0.1366
+Clone 8,3,DC precursor,DC,differentiation,0.013
+Clone 8,3,DC,DC,net growth,-0.0121
+Clone 9,3,HSC/MPP 1,HSC/MPP 1,net growth,1.0254
+Clone 9,3,HSC/MPP 1,HSC/MPP 2,differentiation,0.7849
+Clone 9,3,HSC/MPP 1,MEMP,differentiation,0.2695
+Clone 9,3,HSC/MPP 1,DC precursor,differentiation,0.0
+Clone 9,3,HSC/MPP 2,HSC/MPP 2,net growth,0.0277
+Clone 9,3,HSC/MPP 2,MEMP,differentiation,0.5848
+Clone 9,3,HSC/MPP 2,NMP,differentiation,0.0
+Clone 9,3,HSC/MPP 2,Mono precur,differentiation,0.0
+Clone 9,3,HSC/MPP 2,DC precursor,differentiation,0.0
+Clone 9,3,MEMP,MEMP,net growth,0.3612
+Clone 9,3,MEMP,Mast cell,differentiation,1.3003
+Clone 9,3,MEMP,Early Erythroid,differentiation,0.0511
+Clone 9,3,Mast cell,Mast cell,net growth,0.026
+Clone 9,3,Early Erythroid,Early Erythroid,net growth,0.2793
+Clone 9,3,Early Erythroid,Mid Erythroid,differentiation,0.2293
+Clone 9,3,Mid Erythroid,Mid Erythroid,net growth,-0.2978
+Clone 9,3,Mid Erythroid,Late Erythroid,differentiation,0.0222
+Clone 9,3,Late Erythroid,Late Erythroid,net growth,-0.1037
+Clone 9,3,NMP,NMP,net growth,0.0079
+Clone 9,3,Mono precur,Mono precur,net growth,-0.0007
+Clone 9,3,Mono precur,Monocyte,differentiation,0.0002
+Clone 9,3,Monocyte,Monocyte,net growth,-0.0036
+Clone 9,3,DC precursor,DC precursor,net growth,-0.0283
+Clone 9,3,DC precursor,DC,differentiation,0.0001
+Clone 9,3,DC,DC,net growth,-0.0075
+Clone 10,3,HSC/MPP 1,HSC/MPP 1,net growth,0.0481
+Clone 10,3,HSC/MPP 1,HSC/MPP 2,differentiation,0.6173
+Clone 10,3,HSC/MPP 1,MEMP,differentiation,0.0469
+Clone 10,3,HSC/MPP 1,DC precursor,differentiation,0.0005
+Clone 10,3,HSC/MPP 2,HSC/MPP 2,net growth,1.245
+Clone 10,3,HSC/MPP 2,MEMP,differentiation,0.0
+Clone 10,3,HSC/MPP 2,NMP,differentiation,0.5921
+Clone 10,3,HSC/MPP 2,Mono precur,differentiation,0.0179
+Clone 10,3,HSC/MPP 2,DC precursor,differentiation,0.0023
+Clone 10,3,MEMP,MEMP,net growth,0.1601
+Clone 10,3,MEMP,Mast cell,differentiation,0.1806
+Clone 10,3,MEMP,Early Erythroid,differentiation,0.0
+Clone 10,3,Mast cell,Mast cell,net growth,-0.0012
+Clone 10,3,Early Erythroid,Early Erythroid,net growth,0.0062
+Clone 10,3,Early Erythroid,Mid Erythroid,differentiation,0.0
+Clone 10,3,Mid Erythroid,Mid Erythroid,net growth,-0.0006
+Clone 10,3,Mid Erythroid,Late Erythroid,differentiation,0.0
+Clone 10,3,Late Erythroid,Late Erythroid,net growth,-0.002
+Clone 10,3,NMP,NMP,net growth,1.0083
+Clone 10,3,Mono precur,Mono precur,net growth,3.5994
+Clone 10,3,Mono precur,Monocyte,differentiation,0.3098
+Clone 10,3,Monocyte,Monocyte,net growth,-0.0027
+Clone 10,3,DC precursor,DC precursor,net growth,-0.0028
+Clone 10,3,DC precursor,DC,differentiation,0.0003
+Clone 10,3,DC,DC,net growth,-0.0053
+Clone 11,3,HSC/MPP 1,HSC/MPP 1,net growth,0.2729
+Clone 11,3,HSC/MPP 1,HSC/MPP 2,differentiation,0.0001
+Clone 11,3,HSC/MPP 1,MEMP,differentiation,0.7707
+Clone 11,3,HSC/MPP 1,DC precursor,differentiation,0.0384
+Clone 11,3,HSC/MPP 2,HSC/MPP 2,net growth,0.0058
+Clone 11,3,HSC/MPP 2,MEMP,differentiation,0.0282
+Clone 11,3,HSC/MPP 2,NMP,differentiation,0.0
+Clone 11,3,HSC/MPP 2,Mono precur,differentiation,0.0001
+Clone 11,3,HSC/MPP 2,DC precursor,differentiation,0.0131
+Clone 11,3,MEMP,MEMP,net growth,1.0007
+Clone 11,3,MEMP,Mast cell,differentiation,0.0631
+Clone 11,3,MEMP,Early Erythroid,differentiation,0.3971
+Clone 11,3,Mast cell,Mast cell,net growth,-0.0015
+Clone 11,3,Early Erythroid,Early Erythroid,net growth,1.1875
+Clone 11,3,Early Erythroid,Mid Erythroid,differentiation,0.0454
+Clone 11,3,Mid Erythroid,Mid Erythroid,net growth,-0.4493
+Clone 11,3,Mid Erythroid,Late Erythroid,differentiation,0.259
+Clone 11,3,Late Erythroid,Late Erythroid,net growth,-0.4768
+Clone 11,3,NMP,NMP,net growth,-0.0001
+Clone 11,3,Mono precur,Mono precur,net growth,0.0055
+Clone 11,3,Mono precur,Monocyte,differentiation,0.0001
+Clone 11,3,Monocyte,Monocyte,net growth,-0.0091
+Clone 11,3,DC precursor,DC precursor,net growth,0.179
+Clone 11,3,DC precursor,DC,differentiation,0.0702
+Clone 11,3,DC,DC,net growth,-0.0367
+BG,3,HSC/MPP 1,HSC/MPP 1,net growth,0.7721
+BG,3,HSC/MPP 1,HSC/MPP 2,differentiation,0.1725
+BG,3,HSC/MPP 1,MEMP,differentiation,0.2532
+BG,3,HSC/MPP 1,DC precursor,differentiation,0.0226
+BG,3,HSC/MPP 2,HSC/MPP 2,net growth,1.2402
+BG,3,HSC/MPP 2,MEMP,differentiation,0.0946
+BG,3,HSC/MPP 2,NMP,differentiation,0.1457
+BG,3,HSC/MPP 2,Mono precur,differentiation,0.0739
+BG,3,HSC/MPP 2,DC precursor,differentiation,0.0796
+BG,3,MEMP,MEMP,net growth,1.4571
+BG,3,MEMP,Mast cell,differentiation,0.678
+BG,3,MEMP,Early Erythroid,differentiation,0.069
+BG,3,Mast cell,Mast cell,net growth,0.0029
+BG,3,Early Erythroid,Early Erythroid,net growth,1.8633
+BG,3,Early Erythroid,Mid Erythroid,differentiation,0.4599
+BG,3,Mid Erythroid,Mid Erythroid,net growth,-0.6473
+BG,3,Mid Erythroid,Late Erythroid,differentiation,0.0515
+BG,3,Late Erythroid,Late Erythroid,net growth,-1.7911
+BG,3,NMP,NMP,net growth,0.6558
+BG,3,Mono precur,Mono precur,net growth,1.1098
+BG,3,Mono precur,Monocyte,differentiation,0.1856
+BG,3,Monocyte,Monocyte,net growth,0.8006
+BG,3,DC precursor,DC precursor,net growth,0.4245
+BG,3,DC precursor,DC,differentiation,0.0994
+BG,3,DC,DC,net growth,-0.1568
+Clone 0,10,HSC/MPP 1,HSC/MPP 1,net growth,0.4261
+Clone 0,10,HSC/MPP 1,HSC/MPP 2,differentiation,0.3483
+Clone 0,10,HSC/MPP 1,MEMP,differentiation,0.286
+Clone 0,10,HSC/MPP 1,DC precursor,differentiation,0.2705
+Clone 0,10,HSC/MPP 2,HSC/MPP 2,net growth,0.8015
+Clone 0,10,HSC/MPP 2,MEMP,differentiation,0.7175
+Clone 0,10,HSC/MPP 2,NMP,differentiation,0.1476
+Clone 0,10,HSC/MPP 2,Mono precur,differentiation,0.0385
+Clone 0,10,HSC/MPP 2,DC precursor,differentiation,0.0129
+Clone 0,10,MEMP,MEMP,net growth,1.0177
+Clone 0,10,MEMP,Mast cell,differentiation,0.4532
+Clone 0,10,MEMP,Early Erythroid,differentiation,0.4735
+Clone 0,10,Mast cell,Mast cell,net growth,0.1067
+Clone 0,10,Early Erythroid,Early Erythroid,net growth,0.8566
+Clone 0,10,Early Erythroid,Mid Erythroid,differentiation,0.766
+Clone 0,10,Mid Erythroid,Mid Erythroid,net growth,-0.0506
+Clone 0,10,Mid Erythroid,Late Erythroid,differentiation,0.2155
+Clone 0,10,Late Erythroid,Late Erythroid,net growth,-1.2178
+Clone 0,10,NMP,NMP,net growth,0.3175
+Clone 0,10,Mono precur,Mono precur,net growth,1.0591
+Clone 0,10,Mono precur,Monocyte,differentiation,0.7189
+Clone 0,10,Monocyte,Monocyte,net growth,-0.0006
+Clone 0,10,DC precursor,DC precursor,net growth,0.0635
+Clone 0,10,DC precursor,DC,differentiation,0.0
+Clone 0,10,DC,DC,net growth,-0.0029
+Clone 1,10,HSC/MPP 1,HSC/MPP 1,net growth,-0.0003
+Clone 1,10,HSC/MPP 1,HSC/MPP 2,differentiation,0.4666
+Clone 1,10,HSC/MPP 1,MEMP,differentiation,0.2393
+Clone 1,10,HSC/MPP 1,DC precursor,differentiation,0.0011
+Clone 1,10,HSC/MPP 2,HSC/MPP 2,net growth,0.9606
+Clone 1,10,HSC/MPP 2,MEMP,differentiation,1.9912
+Clone 1,10,HSC/MPP 2,NMP,differentiation,0.1081
+Clone 1,10,HSC/MPP 2,Mono precur,differentiation,0.2498
+Clone 1,10,HSC/MPP 2,DC precursor,differentiation,0.0
+Clone 1,10,MEMP,MEMP,net growth,0.8289
+Clone 1,10,MEMP,Mast cell,differentiation,0.5593
+Clone 1,10,MEMP,Early Erythroid,differentiation,1.4461
+Clone 1,10,Mast cell,Mast cell,net growth,-0.0002
+Clone 1,10,Early Erythroid,Early Erythroid,net growth,1.0512
+Clone 1,10,Early Erythroid,Mid Erythroid,differentiation,1.6143
+Clone 1,10,Mid Erythroid,Mid Erythroid,net growth,-0.6201
+Clone 1,10,Mid Erythroid,Late Erythroid,differentiation,0.0314
+Clone 1,10,Late Erythroid,Late Erythroid,net growth,-0.1629
+Clone 1,10,NMP,NMP,net growth,0.0093
+Clone 1,10,Mono precur,Mono precur,net growth,0.0354
+Clone 1,10,Mono precur,Monocyte,differentiation,0.2997
+Clone 1,10,Monocyte,Monocyte,net growth,-0.0001
+Clone 1,10,DC precursor,DC precursor,net growth,0.0024
+Clone 1,10,DC precursor,DC,differentiation,0.0011
+Clone 1,10,DC,DC,net growth,-0.0017
+Clone 2,10,HSC/MPP 1,HSC/MPP 1,net growth,0.5452
+Clone 2,10,HSC/MPP 1,HSC/MPP 2,differentiation,0.2782
+Clone 2,10,HSC/MPP 1,MEMP,differentiation,0.4434
+Clone 2,10,HSC/MPP 1,DC precursor,differentiation,0.1156
+Clone 2,10,HSC/MPP 2,HSC/MPP 2,net growth,0.9317
+Clone 2,10,HSC/MPP 2,MEMP,differentiation,0.0228
+Clone 2,10,HSC/MPP 2,NMP,differentiation,0.0091
+Clone 2,10,HSC/MPP 2,Mono precur,differentiation,0.1184
+Clone 2,10,HSC/MPP 2,DC precursor,differentiation,0.4219
+Clone 2,10,MEMP,MEMP,net growth,0.1308
+Clone 2,10,MEMP,Mast cell,differentiation,1.0157
+Clone 2,10,MEMP,Early Erythroid,differentiation,0.2191
+Clone 2,10,Mast cell,Mast cell,net growth,0.0001
+Clone 2,10,Early Erythroid,Early Erythroid,net growth,0.4776
+Clone 2,10,Early Erythroid,Mid Erythroid,differentiation,0.6241
+Clone 2,10,Mid Erythroid,Mid Erythroid,net growth,0.6394
+Clone 2,10,Mid Erythroid,Late Erythroid,differentiation,0.3545
+Clone 2,10,Late Erythroid,Late Erythroid,net growth,-0.0002
+Clone 2,10,NMP,NMP,net growth,0.6541
+Clone 2,10,Mono precur,Mono precur,net growth,0.6574
+Clone 2,10,Mono precur,Monocyte,differentiation,0.2483
+Clone 2,10,Monocyte,Monocyte,net growth,-0.0012
+Clone 2,10,DC precursor,DC precursor,net growth,0.6789
+Clone 2,10,DC precursor,DC,differentiation,0.4936
+Clone 2,10,DC,DC,net growth,-0.3286
+Clone 3,10,HSC/MPP 1,HSC/MPP 1,net growth,0.0039
+Clone 3,10,HSC/MPP 1,HSC/MPP 2,differentiation,0.1362
+Clone 3,10,HSC/MPP 1,MEMP,differentiation,0.2296
+Clone 3,10,HSC/MPP 1,DC precursor,differentiation,0.0006
+Clone 3,10,HSC/MPP 2,HSC/MPP 2,net growth,0.627
+Clone 3,10,HSC/MPP 2,MEMP,differentiation,0.3151
+Clone 3,10,HSC/MPP 2,NMP,differentiation,0.0
+Clone 3,10,HSC/MPP 2,Mono precur,differentiation,0.1377
+Clone 3,10,HSC/MPP 2,DC precursor,differentiation,0.0
+Clone 3,10,MEMP,MEMP,net growth,1.2208
+Clone 3,10,MEMP,Mast cell,differentiation,0.8461
+Clone 3,10,MEMP,Early Erythroid,differentiation,1.1976
+Clone 3,10,Mast cell,Mast cell,net growth,-0.0383
+Clone 3,10,Early Erythroid,Early Erythroid,net growth,0.8676
+Clone 3,10,Early Erythroid,Mid Erythroid,differentiation,0.8508
+Clone 3,10,Mid Erythroid,Mid Erythroid,net growth,-1.0398
+Clone 3,10,Mid Erythroid,Late Erythroid,differentiation,0.0982
+Clone 3,10,Late Erythroid,Late Erythroid,net growth,-0.5782
+Clone 3,10,NMP,NMP,net growth,0.0048
+Clone 3,10,Mono precur,Mono precur,net growth,-0.0536
+Clone 3,10,Mono precur,Monocyte,differentiation,0.2255
+Clone 3,10,Monocyte,Monocyte,net growth,0.0
+Clone 3,10,DC precursor,DC precursor,net growth,-0.0009
+Clone 3,10,DC precursor,DC,differentiation,0.0005
+Clone 3,10,DC,DC,net growth,-0.002
+Clone 4,10,HSC/MPP 1,HSC/MPP 1,net growth,0.1843
+Clone 4,10,HSC/MPP 1,HSC/MPP 2,differentiation,0.4219
+Clone 4,10,HSC/MPP 1,MEMP,differentiation,0.6985
+Clone 4,10,HSC/MPP 1,DC precursor,differentiation,0.0
+Clone 4,10,HSC/MPP 2,HSC/MPP 2,net growth,0.9479
+Clone 4,10,HSC/MPP 2,MEMP,differentiation,0.0851
+Clone 4,10,HSC/MPP 2,NMP,differentiation,1.2687
+Clone 4,10,HSC/MPP 2,Mono precur,differentiation,0.283
+Clone 4,10,HSC/MPP 2,DC precursor,differentiation,0.056
+Clone 4,10,MEMP,MEMP,net growth,0.0896
+Clone 4,10,MEMP,Mast cell,differentiation,0.8024
+Clone 4,10,MEMP,Early Erythroid,differentiation,0.0185
+Clone 4,10,Mast cell,Mast cell,net growth,-0.0156
+Clone 4,10,Early Erythroid,Early Erythroid,net growth,0.4739
+Clone 4,10,Early Erythroid,Mid Erythroid,differentiation,0.5806
+Clone 4,10,Mid Erythroid,Mid Erythroid,net growth,-0.3571
+Clone 4,10,Mid Erythroid,Late Erythroid,differentiation,0.2546
+Clone 4,10,Late Erythroid,Late Erythroid,net growth,-0.1389
+Clone 4,10,NMP,NMP,net growth,-0.0085
+Clone 4,10,Mono precur,Mono precur,net growth,0.7506
+Clone 4,10,Mono precur,Monocyte,differentiation,0.7792
+Clone 4,10,Monocyte,Monocyte,net growth,0.027
+Clone 4,10,DC precursor,DC precursor,net growth,0.0929
+Clone 4,10,DC precursor,DC,differentiation,0.2158
+Clone 4,10,DC,DC,net growth,0.0001
+Clone 5,10,HSC/MPP 1,HSC/MPP 1,net growth,0.1542
+Clone 5,10,HSC/MPP 1,HSC/MPP 2,differentiation,0.2752
+Clone 5,10,HSC/MPP 1,MEMP,differentiation,0.2643
+Clone 5,10,HSC/MPP 1,DC precursor,differentiation,0.208
+Clone 5,10,HSC/MPP 2,HSC/MPP 2,net growth,0.9137
+Clone 5,10,HSC/MPP 2,MEMP,differentiation,0.0
+Clone 5,10,HSC/MPP 2,NMP,differentiation,0.6363
+Clone 5,10,HSC/MPP 2,Mono precur,differentiation,0.9014
+Clone 5,10,HSC/MPP 2,DC precursor,differentiation,1.0064
+Clone 5,10,MEMP,MEMP,net growth,0.0176
+Clone 5,10,MEMP,Mast cell,differentiation,0.4808
+Clone 5,10,MEMP,Early Erythroid,differentiation,0.048
+Clone 5,10,Mast cell,Mast cell,net growth,-0.0271
+Clone 5,10,Early Erythroid,Early Erythroid,net growth,0.4163
+Clone 5,10,Early Erythroid,Mid Erythroid,differentiation,0.5265
+Clone 5,10,Mid Erythroid,Mid Erythroid,net growth,-0.2396
+Clone 5,10,Mid Erythroid,Late Erythroid,differentiation,0.0404
+Clone 5,10,Late Erythroid,Late Erythroid,net growth,-0.1864
+Clone 5,10,NMP,NMP,net growth,0.0002
+Clone 5,10,Mono precur,Mono precur,net growth,0.7954
+Clone 5,10,Mono precur,Monocyte,differentiation,1.2203
+Clone 5,10,Monocyte,Monocyte,net growth,-0.5722
+Clone 5,10,DC precursor,DC precursor,net growth,-0.031
+Clone 5,10,DC precursor,DC,differentiation,0.6693
+Clone 5,10,DC,DC,net growth,-0.4427
+Clone 6,10,HSC/MPP 1,HSC/MPP 1,net growth,0.3737
+Clone 6,10,HSC/MPP 1,HSC/MPP 2,differentiation,0.517
+Clone 6,10,HSC/MPP 1,MEMP,differentiation,0.5609
+Clone 6,10,HSC/MPP 1,DC precursor,differentiation,0.004
+Clone 6,10,HSC/MPP 2,HSC/MPP 2,net growth,1.1555
+Clone 6,10,HSC/MPP 2,MEMP,differentiation,0.1608
+Clone 6,10,HSC/MPP 2,NMP,differentiation,1.142
+Clone 6,10,HSC/MPP 2,Mono precur,differentiation,0.4003
+Clone 6,10,HSC/MPP 2,DC precursor,differentiation,0.0227
+Clone 6,10,MEMP,MEMP,net growth,0.0634
+Clone 6,10,MEMP,Mast cell,differentiation,0.6439
+Clone 6,10,MEMP,Early Erythroid,differentiation,0.0
+Clone 6,10,Mast cell,Mast cell,net growth,0.0001
+Clone 6,10,Early Erythroid,Early Erythroid,net growth,0.0028
+Clone 6,10,Early Erythroid,Mid Erythroid,differentiation,0.0001
+Clone 6,10,Mid Erythroid,Mid Erythroid,net growth,0.0012
+Clone 6,10,Mid Erythroid,Late Erythroid,differentiation,0.0
+Clone 6,10,Late Erythroid,Late Erythroid,net growth,-0.0026
+Clone 6,10,NMP,NMP,net growth,0.0064
+Clone 6,10,Mono precur,Mono precur,net growth,1.0603
+Clone 6,10,Mono precur,Monocyte,differentiation,0.9313
+Clone 6,10,Monocyte,Monocyte,net growth,0.0065
+Clone 6,10,DC precursor,DC precursor,net growth,0.2786
+Clone 6,10,DC precursor,DC,differentiation,0.1166
+Clone 6,10,DC,DC,net growth,-0.0018
+Clone 7,10,HSC/MPP 1,HSC/MPP 1,net growth,0.6578
+Clone 7,10,HSC/MPP 1,HSC/MPP 2,differentiation,0.3937
+Clone 7,10,HSC/MPP 1,MEMP,differentiation,0.2455
+Clone 7,10,HSC/MPP 1,DC precursor,differentiation,0.001
+Clone 7,10,HSC/MPP 2,HSC/MPP 2,net growth,0.7529
+Clone 7,10,HSC/MPP 2,MEMP,differentiation,0.0203
+Clone 7,10,HSC/MPP 2,NMP,differentiation,0.2699
+Clone 7,10,HSC/MPP 2,Mono precur,differentiation,0.2419
+Clone 7,10,HSC/MPP 2,DC precursor,differentiation,0.0246
+Clone 7,10,MEMP,MEMP,net growth,0.8978
+Clone 7,10,MEMP,Mast cell,differentiation,0.6465
+Clone 7,10,MEMP,Early Erythroid,differentiation,0.0361
+Clone 7,10,Mast cell,Mast cell,net growth,0.1449
+Clone 7,10,Early Erythroid,Early Erythroid,net growth,0.6055
+Clone 7,10,Early Erythroid,Mid Erythroid,differentiation,0.5622
+Clone 7,10,Mid Erythroid,Mid Erythroid,net growth,0.5823
+Clone 7,10,Mid Erythroid,Late Erythroid,differentiation,0.0794
+Clone 7,10,Late Erythroid,Late Erythroid,net growth,-0.2069
+Clone 7,10,NMP,NMP,net growth,0.5651
+Clone 7,10,Mono precur,Mono precur,net growth,0.8486
+Clone 7,10,Mono precur,Monocyte,differentiation,0.4057
+Clone 7,10,Monocyte,Monocyte,net growth,0.4569
+Clone 7,10,DC precursor,DC precursor,net growth,0.2356
+Clone 7,10,DC precursor,DC,differentiation,0.4637
+Clone 7,10,DC,DC,net growth,-0.0006
+Clone 8,10,HSC/MPP 1,HSC/MPP 1,net growth,0.0021
+Clone 8,10,HSC/MPP 1,HSC/MPP 2,differentiation,0.3043
+Clone 8,10,HSC/MPP 1,MEMP,differentiation,0.1927
+Clone 8,10,HSC/MPP 1,DC precursor,differentiation,0.0044
+Clone 8,10,HSC/MPP 2,HSC/MPP 2,net growth,-0.0003
+Clone 8,10,HSC/MPP 2,MEMP,differentiation,0.0024
+Clone 8,10,HSC/MPP 2,NMP,differentiation,0.0
+Clone 8,10,HSC/MPP 2,Mono precur,differentiation,0.0075
+Clone 8,10,HSC/MPP 2,DC precursor,differentiation,0.0119
+Clone 8,10,MEMP,MEMP,net growth,0.7792
+Clone 8,10,MEMP,Mast cell,differentiation,1.4407
+Clone 8,10,MEMP,Early Erythroid,differentiation,0.1706
+Clone 8,10,Mast cell,Mast cell,net growth,-0.1663
+Clone 8,10,Early Erythroid,Early Erythroid,net growth,0.6948
+Clone 8,10,Early Erythroid,Mid Erythroid,differentiation,1.1661
+Clone 8,10,Mid Erythroid,Mid Erythroid,net growth,-0.3838
+Clone 8,10,Mid Erythroid,Late Erythroid,differentiation,0.0
+Clone 8,10,Late Erythroid,Late Erythroid,net growth,-0.0074
+Clone 8,10,NMP,NMP,net growth,0.0004
+Clone 8,10,Mono precur,Mono precur,net growth,-0.1317
+Clone 8,10,Mono precur,Monocyte,differentiation,0.0515
+Clone 8,10,Monocyte,Monocyte,net growth,0.0001
+Clone 8,10,DC precursor,DC precursor,net growth,0.0488
+Clone 8,10,DC precursor,DC,differentiation,0.0022
+Clone 8,10,DC,DC,net growth,-0.0065
+Clone 9,10,HSC/MPP 1,HSC/MPP 1,net growth,0.9353
+Clone 9,10,HSC/MPP 1,HSC/MPP 2,differentiation,0.5603
+Clone 9,10,HSC/MPP 1,MEMP,differentiation,0.2286
+Clone 9,10,HSC/MPP 1,DC precursor,differentiation,0.0
+Clone 9,10,HSC/MPP 2,HSC/MPP 2,net growth,0.0172
+Clone 9,10,HSC/MPP 2,MEMP,differentiation,0.4482
+Clone 9,10,HSC/MPP 2,NMP,differentiation,0.0
+Clone 9,10,HSC/MPP 2,Mono precur,differentiation,0.0
+Clone 9,10,HSC/MPP 2,DC precursor,differentiation,0.0
+Clone 9,10,MEMP,MEMP,net growth,0.3089
+Clone 9,10,MEMP,Mast cell,differentiation,1.1256
+Clone 9,10,MEMP,Early Erythroid,differentiation,0.0568
+Clone 9,10,Mast cell,Mast cell,net growth,0.0035
+Clone 9,10,Early Erythroid,Early Erythroid,net growth,0.2535
+Clone 9,10,Early Erythroid,Mid Erythroid,differentiation,0.2301
+Clone 9,10,Mid Erythroid,Mid Erythroid,net growth,-0.2814
+Clone 9,10,Mid Erythroid,Late Erythroid,differentiation,0.0238
+Clone 9,10,Late Erythroid,Late Erythroid,net growth,-0.0949
+Clone 9,10,NMP,NMP,net growth,0.0076
+Clone 9,10,Mono precur,Mono precur,net growth,-0.0005
+Clone 9,10,Mono precur,Monocyte,differentiation,0.0002
+Clone 9,10,Monocyte,Monocyte,net growth,-0.0025
+Clone 9,10,DC precursor,DC precursor,net growth,-0.0213
+Clone 9,10,DC precursor,DC,differentiation,0.0
+Clone 9,10,DC,DC,net growth,-0.0059
+Clone 10,10,HSC/MPP 1,HSC/MPP 1,net growth,0.1674
+Clone 10,10,HSC/MPP 1,HSC/MPP 2,differentiation,0.2181
+Clone 10,10,HSC/MPP 1,MEMP,differentiation,0.0845
+Clone 10,10,HSC/MPP 1,DC precursor,differentiation,0.0012
+Clone 10,10,HSC/MPP 2,HSC/MPP 2,net growth,0.0463
+Clone 10,10,HSC/MPP 2,MEMP,differentiation,0.0
+Clone 10,10,HSC/MPP 2,NMP,differentiation,0.1823
+Clone 10,10,HSC/MPP 2,Mono precur,differentiation,0.0232
+Clone 10,10,HSC/MPP 2,DC precursor,differentiation,0.0254
+Clone 10,10,MEMP,MEMP,net growth,0.039
+Clone 10,10,MEMP,Mast cell,differentiation,0.1718
+Clone 10,10,MEMP,Early Erythroid,differentiation,0.0
+Clone 10,10,Mast cell,Mast cell,net growth,-0.012
+Clone 10,10,Early Erythroid,Early Erythroid,net growth,0.002
+Clone 10,10,Early Erythroid,Mid Erythroid,differentiation,0.0
+Clone 10,10,Mid Erythroid,Mid Erythroid,net growth,-0.0022
+Clone 10,10,Mid Erythroid,Late Erythroid,differentiation,0.0
+Clone 10,10,Late Erythroid,Late Erythroid,net growth,-0.001
+Clone 10,10,NMP,NMP,net growth,0.0225
+Clone 10,10,Mono precur,Mono precur,net growth,-0.185
+Clone 10,10,Mono precur,Monocyte,differentiation,0.3262
+Clone 10,10,Monocyte,Monocyte,net growth,-0.0631
+Clone 10,10,DC precursor,DC precursor,net growth,0.0635
+Clone 10,10,DC precursor,DC,differentiation,0.0
+Clone 10,10,DC,DC,net growth,-0.0031
+Clone 11,10,HSC/MPP 1,HSC/MPP 1,net growth,0.0662
+Clone 11,10,HSC/MPP 1,HSC/MPP 2,differentiation,0.0312
+Clone 11,10,HSC/MPP 1,MEMP,differentiation,0.3474
+Clone 11,10,HSC/MPP 1,DC precursor,differentiation,0.1479
+Clone 11,10,HSC/MPP 2,HSC/MPP 2,net growth,0.0021
+Clone 11,10,HSC/MPP 2,MEMP,differentiation,0.0002
+Clone 11,10,HSC/MPP 2,NMP,differentiation,0.0
+Clone 11,10,HSC/MPP 2,Mono precur,differentiation,0.0054
+Clone 11,10,HSC/MPP 2,DC precursor,differentiation,0.0536
+Clone 11,10,MEMP,MEMP,net growth,0.3709
+Clone 11,10,MEMP,Mast cell,differentiation,0.5706
+Clone 11,10,MEMP,Early Erythroid,differentiation,0.1528
+Clone 11,10,Mast cell,Mast cell,net growth,0.008
+Clone 11,10,Early Erythroid,Early Erythroid,net growth,0.3961
+Clone 11,10,Early Erythroid,Mid Erythroid,differentiation,1.3829
+Clone 11,10,Mid Erythroid,Mid Erythroid,net growth,-0.4633
+Clone 11,10,Mid Erythroid,Late Erythroid,differentiation,0.2858
+Clone 11,10,Late Erythroid,Late Erythroid,net growth,-0.2954
+Clone 11,10,NMP,NMP,net growth,0.0017
+Clone 11,10,Mono precur,Mono precur,net growth,-0.0082
+Clone 11,10,Mono precur,Monocyte,differentiation,0.0
+Clone 11,10,Monocyte,Monocyte,net growth,-0.0166
+Clone 11,10,DC precursor,DC precursor,net growth,0.1462
+Clone 11,10,DC precursor,DC,differentiation,0.1382
+Clone 11,10,DC,DC,net growth,-0.0059
+BG,10,HSC/MPP 1,HSC/MPP 1,net growth,0.2839
+BG,10,HSC/MPP 1,HSC/MPP 2,differentiation,0.2545
+BG,10,HSC/MPP 1,MEMP,differentiation,0.3751
+BG,10,HSC/MPP 1,DC precursor,differentiation,0.0331
+BG,10,HSC/MPP 2,HSC/MPP 2,net growth,0.4518
+BG,10,HSC/MPP 2,MEMP,differentiation,0.1458
+BG,10,HSC/MPP 2,NMP,differentiation,0.2042
+BG,10,HSC/MPP 2,Mono precur,differentiation,0.1236
+BG,10,HSC/MPP 2,DC precursor,differentiation,0.1095
+BG,10,MEMP,MEMP,net growth,0.5255
+BG,10,MEMP,Mast cell,differentiation,1.0365
+BG,10,MEMP,Early Erythroid,differentiation,0.1059
+BG,10,Mast cell,Mast cell,net growth,-0.0035
+BG,10,Early Erythroid,Early Erythroid,net growth,0.6686
+BG,10,Early Erythroid,Mid Erythroid,differentiation,0.7418
+BG,10,Mid Erythroid,Mid Erythroid,net growth,-0.2464
+BG,10,Mid Erythroid,Late Erythroid,differentiation,0.1088
+BG,10,Late Erythroid,Late Erythroid,net growth,-0.6645
+BG,10,NMP,NMP,net growth,0.2181
+BG,10,Mono precur,Mono precur,net growth,0.4054
+BG,10,Mono precur,Monocyte,differentiation,0.2822
+BG,10,Monocyte,Monocyte,net growth,0.2907
+BG,10,DC precursor,DC precursor,net growth,0.1496
+BG,10,DC precursor,DC,differentiation,0.1689
+BG,10,DC,DC,net growth,-0.0646
+Clone 0,17,HSC/MPP 1,HSC/MPP 1,net growth,0.3378
+Clone 0,17,HSC/MPP 1,HSC/MPP 2,differentiation,0.3477
+Clone 0,17,HSC/MPP 1,MEMP,differentiation,0.2862
+Clone 0,17,HSC/MPP 1,DC precursor,differentiation,0.2688
+Clone 0,17,HSC/MPP 2,HSC/MPP 2,net growth,0.6319
+Clone 0,17,HSC/MPP 2,MEMP,differentiation,0.7146
+Clone 0,17,HSC/MPP 2,NMP,differentiation,0.1484
+Clone 0,17,HSC/MPP 2,Mono precur,differentiation,0.0385
+Clone 0,17,HSC/MPP 2,DC precursor,differentiation,0.0128
+Clone 0,17,MEMP,MEMP,net growth,0.8027
+Clone 0,17,MEMP,Mast cell,differentiation,0.4518
+Clone 0,17,MEMP,Early Erythroid,differentiation,0.4677
+Clone 0,17,Mast cell,Mast cell,net growth,0.0855
+Clone 0,17,Early Erythroid,Early Erythroid,net growth,0.6748
+Clone 0,17,Early Erythroid,Mid Erythroid,differentiation,0.7709
+Clone 0,17,Mid Erythroid,Mid Erythroid,net growth,-0.0399
+Clone 0,17,Mid Erythroid,Late Erythroid,differentiation,0.2204
+Clone 0,17,Late Erythroid,Late Erythroid,net growth,-0.9628
+Clone 0,17,NMP,NMP,net growth,0.2498
+Clone 0,17,Mono precur,Mono precur,net growth,0.836
+Clone 0,17,Mono precur,Monocyte,differentiation,0.7224
+Clone 0,17,Monocyte,Monocyte,net growth,0.0004
+Clone 0,17,DC precursor,DC precursor,net growth,0.0505
+Clone 0,17,DC precursor,DC,differentiation,0.0
+Clone 0,17,DC,DC,net growth,-0.0021
+Clone 1,17,HSC/MPP 1,HSC/MPP 1,net growth,0.0006
+Clone 1,17,HSC/MPP 1,HSC/MPP 2,differentiation,0.3403
+Clone 1,17,HSC/MPP 1,MEMP,differentiation,0.1751
+Clone 1,17,HSC/MPP 1,DC precursor,differentiation,0.0008
+Clone 1,17,HSC/MPP 2,HSC/MPP 2,net growth,0.8038
+Clone 1,17,HSC/MPP 2,MEMP,differentiation,1.4442
+Clone 1,17,HSC/MPP 2,NMP,differentiation,0.0795
+Clone 1,17,HSC/MPP 2,Mono precur,differentiation,0.1821
+Clone 1,17,HSC/MPP 2,DC precursor,differentiation,0.0
+Clone 1,17,MEMP,MEMP,net growth,0.6915
+Clone 1,17,MEMP,Mast cell,differentiation,0.4155
+Clone 1,17,MEMP,Early Erythroid,differentiation,1.0491
+Clone 1,17,Mast cell,Mast cell,net growth,0.0001
+Clone 1,17,Early Erythroid,Early Erythroid,net growth,0.8761
+Clone 1,17,Early Erythroid,Mid Erythroid,differentiation,1.179
+Clone 1,17,Mid Erythroid,Mid Erythroid,net growth,-0.52
+Clone 1,17,Mid Erythroid,Late Erythroid,differentiation,0.0286
+Clone 1,17,Late Erythroid,Late Erythroid,net growth,-0.1354
+Clone 1,17,NMP,NMP,net growth,0.0093
+Clone 1,17,Mono precur,Mono precur,net growth,0.0303
+Clone 1,17,Mono precur,Monocyte,differentiation,0.2199
+Clone 1,17,Monocyte,Monocyte,net growth,0.0002
+Clone 1,17,DC precursor,DC precursor,net growth,-0.0009
+Clone 1,17,DC precursor,DC,differentiation,0.0006
+Clone 1,17,DC,DC,net growth,-0.0019
+Clone 2,17,HSC/MPP 1,HSC/MPP 1,net growth,0.4351
+Clone 2,17,HSC/MPP 1,HSC/MPP 2,differentiation,0.2818
+Clone 2,17,HSC/MPP 1,MEMP,differentiation,0.4569
+Clone 2,17,HSC/MPP 1,DC precursor,differentiation,0.1171
+Clone 2,17,HSC/MPP 2,HSC/MPP 2,net growth,0.7437
+Clone 2,17,HSC/MPP 2,MEMP,differentiation,0.0242
+Clone 2,17,HSC/MPP 2,NMP,differentiation,0.0096
+Clone 2,17,HSC/MPP 2,Mono precur,differentiation,0.1198
+Clone 2,17,HSC/MPP 2,DC precursor,differentiation,0.413
+Clone 2,17,MEMP,MEMP,net growth,0.1047
+Clone 2,17,MEMP,Mast cell,differentiation,1.0419
+Clone 2,17,MEMP,Early Erythroid,differentiation,0.2181
+Clone 2,17,Mast cell,Mast cell,net growth,-0.0002
+Clone 2,17,Early Erythroid,Early Erythroid,net growth,0.3807
+Clone 2,17,Early Erythroid,Mid Erythroid,differentiation,0.6401
+Clone 2,17,Mid Erythroid,Mid Erythroid,net growth,0.5106
+Clone 2,17,Mid Erythroid,Late Erythroid,differentiation,0.375
+Clone 2,17,Late Erythroid,Late Erythroid,net growth,-0.0001
+Clone 2,17,NMP,NMP,net growth,0.522
+Clone 2,17,Mono precur,Mono precur,net growth,0.5236
+Clone 2,17,Mono precur,Monocyte,differentiation,0.2534
+Clone 2,17,Monocyte,Monocyte,net growth,-0.0011
+Clone 2,17,DC precursor,DC precursor,net growth,0.5397
+Clone 2,17,DC precursor,DC,differentiation,0.5117
+Clone 2,17,DC,DC,net growth,-0.2627
+Clone 3,17,HSC/MPP 1,HSC/MPP 1,net growth,0.0085
+Clone 3,17,HSC/MPP 1,HSC/MPP 2,differentiation,0.136
+Clone 3,17,HSC/MPP 1,MEMP,differentiation,0.2344
+Clone 3,17,HSC/MPP 1,DC precursor,differentiation,0.0008
+Clone 3,17,HSC/MPP 2,HSC/MPP 2,net growth,0.5698
+Clone 3,17,HSC/MPP 2,MEMP,differentiation,0.31
+Clone 3,17,HSC/MPP 2,NMP,differentiation,0.0
+Clone 3,17,HSC/MPP 2,Mono precur,differentiation,0.1435
+Clone 3,17,HSC/MPP 2,DC precursor,differentiation,0.0
+Clone 3,17,MEMP,MEMP,net growth,1.111
+Clone 3,17,MEMP,Mast cell,differentiation,0.8901
+Clone 3,17,MEMP,Early Erythroid,differentiation,1.2081
+Clone 3,17,Mast cell,Mast cell,net growth,-0.0374
+Clone 3,17,Early Erythroid,Early Erythroid,net growth,0.7879
+Clone 3,17,Early Erythroid,Mid Erythroid,differentiation,0.9414
+Clone 3,17,Mid Erythroid,Mid Erythroid,net growth,-0.9644
+Clone 3,17,Mid Erythroid,Late Erythroid,differentiation,0.1186
+Clone 3,17,Late Erythroid,Late Erythroid,net growth,-0.5548
+Clone 3,17,NMP,NMP,net growth,0.0075
+Clone 3,17,Mono precur,Mono precur,net growth,-0.0533
+Clone 3,17,Mono precur,Monocyte,differentiation,0.2366
+Clone 3,17,Monocyte,Monocyte,net growth,0.0001
+Clone 3,17,DC precursor,DC precursor,net growth,-0.0195
+Clone 3,17,DC precursor,DC,differentiation,0.0001
+Clone 3,17,DC,DC,net growth,-0.0018
+Clone 4,17,HSC/MPP 1,HSC/MPP 1,net growth,0.1227
+Clone 4,17,HSC/MPP 1,HSC/MPP 2,differentiation,0.3766
+Clone 4,17,HSC/MPP 1,MEMP,differentiation,0.6202
+Clone 4,17,HSC/MPP 1,DC precursor,differentiation,0.0
+Clone 4,17,HSC/MPP 2,HSC/MPP 2,net growth,0.6233
+Clone 4,17,HSC/MPP 2,MEMP,differentiation,0.0712
+Clone 4,17,HSC/MPP 2,NMP,differentiation,1.1153
+Clone 4,17,HSC/MPP 2,Mono precur,differentiation,0.2483
+Clone 4,17,HSC/MPP 2,DC precursor,differentiation,0.0475
+Clone 4,17,MEMP,MEMP,net growth,0.0539
+Clone 4,17,MEMP,Mast cell,differentiation,0.7109
+Clone 4,17,MEMP,Early Erythroid,differentiation,0.0195
+Clone 4,17,Mast cell,Mast cell,net growth,-0.0123
+Clone 4,17,Early Erythroid,Early Erythroid,net growth,0.3052
+Clone 4,17,Early Erythroid,Mid Erythroid,differentiation,0.4974
+Clone 4,17,Mid Erythroid,Mid Erythroid,net growth,-0.2515
+Clone 4,17,Mid Erythroid,Late Erythroid,differentiation,0.2232
+Clone 4,17,Late Erythroid,Late Erythroid,net growth,-0.094
+Clone 4,17,NMP,NMP,net growth,-0.0168
+Clone 4,17,Mono precur,Mono precur,net growth,0.4947
+Clone 4,17,Mono precur,Monocyte,differentiation,0.7062
+Clone 4,17,Monocyte,Monocyte,net growth,0.028
+Clone 4,17,DC precursor,DC precursor,net growth,0.0503
+Clone 4,17,DC precursor,DC,differentiation,0.1904
+Clone 4,17,DC,DC,net growth,-0.0
+Clone 5,17,HSC/MPP 1,HSC/MPP 1,net growth,0.1093
+Clone 5,17,HSC/MPP 1,HSC/MPP 2,differentiation,0.278
+Clone 5,17,HSC/MPP 1,MEMP,differentiation,0.2716
+Clone 5,17,HSC/MPP 1,DC precursor,differentiation,0.2133
+Clone 5,17,HSC/MPP 2,HSC/MPP 2,net growth,0.6384
+Clone 5,17,HSC/MPP 2,MEMP,differentiation,0.0
+Clone 5,17,HSC/MPP 2,NMP,differentiation,0.6507
+Clone 5,17,HSC/MPP 2,Mono precur,differentiation,0.9177
+Clone 5,17,HSC/MPP 2,DC precursor,differentiation,1.0436
+Clone 5,17,MEMP,MEMP,net growth,0.0127
+Clone 5,17,MEMP,Mast cell,differentiation,0.4914
+Clone 5,17,MEMP,Early Erythroid,differentiation,0.037
+Clone 5,17,Mast cell,Mast cell,net growth,-0.0182
+Clone 5,17,Early Erythroid,Early Erythroid,net growth,0.29
+Clone 5,17,Early Erythroid,Mid Erythroid,differentiation,0.5422
+Clone 5,17,Mid Erythroid,Mid Erythroid,net growth,-0.1709
+Clone 5,17,Mid Erythroid,Late Erythroid,differentiation,0.0419
+Clone 5,17,Late Erythroid,Late Erythroid,net growth,-0.1325
+Clone 5,17,NMP,NMP,net growth,-0.0016
+Clone 5,17,Mono precur,Mono precur,net growth,0.5542
+Clone 5,17,Mono precur,Monocyte,differentiation,1.2564
+Clone 5,17,Monocyte,Monocyte,net growth,-0.4045
+Clone 5,17,DC precursor,DC precursor,net growth,-0.0221
+Clone 5,17,DC precursor,DC,differentiation,0.6879
+Clone 5,17,DC,DC,net growth,-0.3105
+Clone 6,17,HSC/MPP 1,HSC/MPP 1,net growth,0.2673
+Clone 6,17,HSC/MPP 1,HSC/MPP 2,differentiation,0.5196
+Clone 6,17,HSC/MPP 1,MEMP,differentiation,0.5693
+Clone 6,17,HSC/MPP 1,DC precursor,differentiation,0.0035
+Clone 6,17,HSC/MPP 2,HSC/MPP 2,net growth,0.8189
+Clone 6,17,HSC/MPP 2,MEMP,differentiation,0.135
+Clone 6,17,HSC/MPP 2,NMP,differentiation,1.1383
+Clone 6,17,HSC/MPP 2,Mono precur,differentiation,0.4108
+Clone 6,17,HSC/MPP 2,DC precursor,differentiation,0.0201
+Clone 6,17,MEMP,MEMP,net growth,0.0447
+Clone 6,17,MEMP,Mast cell,differentiation,0.6474
+Clone 6,17,MEMP,Early Erythroid,differentiation,0.0
+Clone 6,17,Mast cell,Mast cell,net growth,-0.0001
+Clone 6,17,Early Erythroid,Early Erythroid,net growth,0.001
+Clone 6,17,Early Erythroid,Mid Erythroid,differentiation,0.0001
+Clone 6,17,Mid Erythroid,Mid Erythroid,net growth,0.0022
+Clone 6,17,Mid Erythroid,Late Erythroid,differentiation,0.0
+Clone 6,17,Late Erythroid,Late Erythroid,net growth,-0.0004
+Clone 6,17,NMP,NMP,net growth,0.0004
+Clone 6,17,Mono precur,Mono precur,net growth,0.7527
+Clone 6,17,Mono precur,Monocyte,differentiation,0.9737
+Clone 6,17,Monocyte,Monocyte,net growth,0.0082
+Clone 6,17,DC precursor,DC precursor,net growth,0.1982
+Clone 6,17,DC precursor,DC,differentiation,0.1198
+Clone 6,17,DC,DC,net growth,-0.0007
+Clone 7,17,HSC/MPP 1,HSC/MPP 1,net growth,0.5759
+Clone 7,17,HSC/MPP 1,HSC/MPP 2,differentiation,0.4397
+Clone 7,17,HSC/MPP 1,MEMP,differentiation,0.2752
+Clone 7,17,HSC/MPP 1,DC precursor,differentiation,0.0012
+Clone 7,17,HSC/MPP 2,HSC/MPP 2,net growth,0.6583
+Clone 7,17,HSC/MPP 2,MEMP,differentiation,0.0228
+Clone 7,17,HSC/MPP 2,NMP,differentiation,0.3033
+Clone 7,17,HSC/MPP 2,Mono precur,differentiation,0.2708
+Clone 7,17,HSC/MPP 2,DC precursor,differentiation,0.0277
+Clone 7,17,MEMP,MEMP,net growth,0.7843
+Clone 7,17,MEMP,Mast cell,differentiation,0.7288
+Clone 7,17,MEMP,Early Erythroid,differentiation,0.0409
+Clone 7,17,Mast cell,Mast cell,net growth,0.1257
+Clone 7,17,Early Erythroid,Early Erythroid,net growth,0.5294
+Clone 7,17,Early Erythroid,Mid Erythroid,differentiation,0.6312
+Clone 7,17,Mid Erythroid,Mid Erythroid,net growth,0.5093
+Clone 7,17,Mid Erythroid,Late Erythroid,differentiation,0.089
+Clone 7,17,Late Erythroid,Late Erythroid,net growth,-0.1809
+Clone 7,17,NMP,NMP,net growth,0.494
+Clone 7,17,Mono precur,Mono precur,net growth,0.7414
+Clone 7,17,Mono precur,Monocyte,differentiation,0.4555
+Clone 7,17,Monocyte,Monocyte,net growth,0.3995
+Clone 7,17,DC precursor,DC precursor,net growth,0.2067
+Clone 7,17,DC precursor,DC,differentiation,0.5227
+Clone 7,17,DC,DC,net growth,-0.0006
+Clone 8,17,HSC/MPP 1,HSC/MPP 1,net growth,0.0024
+Clone 8,17,HSC/MPP 1,HSC/MPP 2,differentiation,0.2931
+Clone 8,17,HSC/MPP 1,MEMP,differentiation,0.1764
+Clone 8,17,HSC/MPP 1,DC precursor,differentiation,0.0038
+Clone 8,17,HSC/MPP 2,HSC/MPP 2,net growth,0.0006
+Clone 8,17,HSC/MPP 2,MEMP,differentiation,0.0028
+Clone 8,17,HSC/MPP 2,NMP,differentiation,0.0
+Clone 8,17,HSC/MPP 2,Mono precur,differentiation,0.0123
+Clone 8,17,HSC/MPP 2,DC precursor,differentiation,0.0098
+Clone 8,17,MEMP,MEMP,net growth,0.7982
+Clone 8,17,MEMP,Mast cell,differentiation,1.2985
+Clone 8,17,MEMP,Early Erythroid,differentiation,0.1479
+Clone 8,17,Mast cell,Mast cell,net growth,-0.1698
+Clone 8,17,Early Erythroid,Early Erythroid,net growth,0.7101
+Clone 8,17,Early Erythroid,Mid Erythroid,differentiation,1.0587
+Clone 8,17,Mid Erythroid,Mid Erythroid,net growth,-0.3896
+Clone 8,17,Mid Erythroid,Late Erythroid,differentiation,0.0
+Clone 8,17,Late Erythroid,Late Erythroid,net growth,-0.0074
+Clone 8,17,NMP,NMP,net growth,0.0004
+Clone 8,17,Mono precur,Mono precur,net growth,-0.1284
+Clone 8,17,Mono precur,Monocyte,differentiation,0.0618
+Clone 8,17,Monocyte,Monocyte,net growth,-0.0
+Clone 8,17,DC precursor,DC precursor,net growth,0.0499
+Clone 8,17,DC precursor,DC,differentiation,0.001
+Clone 8,17,DC,DC,net growth,-0.0065
+Clone 9,17,HSC/MPP 1,HSC/MPP 1,net growth,0.9838
+Clone 9,17,HSC/MPP 1,HSC/MPP 2,differentiation,0.6286
+Clone 9,17,HSC/MPP 1,MEMP,differentiation,0.2406
+Clone 9,17,HSC/MPP 1,DC precursor,differentiation,0.0
+Clone 9,17,HSC/MPP 2,HSC/MPP 2,net growth,0.0209
+Clone 9,17,HSC/MPP 2,MEMP,differentiation,0.4891
+Clone 9,17,HSC/MPP 2,NMP,differentiation,0.0
+Clone 9,17,HSC/MPP 2,Mono precur,differentiation,0.0
+Clone 9,17,HSC/MPP 2,DC precursor,differentiation,0.0
+Clone 9,17,MEMP,MEMP,net growth,0.3297
+Clone 9,17,MEMP,Mast cell,differentiation,1.1752
+Clone 9,17,MEMP,Early Erythroid,differentiation,0.0544
+Clone 9,17,Mast cell,Mast cell,net growth,0.0093
+Clone 9,17,Early Erythroid,Early Erythroid,net growth,0.2658
+Clone 9,17,Early Erythroid,Mid Erythroid,differentiation,0.228
+Clone 9,17,Mid Erythroid,Mid Erythroid,net growth,-0.2892
+Clone 9,17,Mid Erythroid,Late Erythroid,differentiation,0.023
+Clone 9,17,Late Erythroid,Late Erythroid,net growth,-0.0995
+Clone 9,17,NMP,NMP,net growth,0.0078
+Clone 9,17,Mono precur,Mono precur,net growth,-0.0006
+Clone 9,17,Mono precur,Monocyte,differentiation,0.0002
+Clone 9,17,Monocyte,Monocyte,net growth,-0.0029
+Clone 9,17,DC precursor,DC precursor,net growth,-0.0231
+Clone 9,17,DC precursor,DC,differentiation,0.0
+Clone 9,17,DC,DC,net growth,-0.0065
+Clone 10,17,HSC/MPP 1,HSC/MPP 1,net growth,0.1592
+Clone 10,17,HSC/MPP 1,HSC/MPP 2,differentiation,0.1971
+Clone 10,17,HSC/MPP 1,MEMP,differentiation,0.0767
+Clone 10,17,HSC/MPP 1,DC precursor,differentiation,0.001
+Clone 10,17,HSC/MPP 2,HSC/MPP 2,net growth,0.0784
+Clone 10,17,HSC/MPP 2,MEMP,differentiation,0.0
+Clone 10,17,HSC/MPP 2,NMP,differentiation,0.166
+Clone 10,17,HSC/MPP 2,Mono precur,differentiation,0.0209
+Clone 10,17,HSC/MPP 2,DC precursor,differentiation,0.0223
+Clone 10,17,MEMP,MEMP,net growth,0.0405
+Clone 10,17,MEMP,Mast cell,differentiation,0.1544
+Clone 10,17,MEMP,Early Erythroid,differentiation,0.0
+Clone 10,17,Mast cell,Mast cell,net growth,-0.0118
+Clone 10,17,Early Erythroid,Early Erythroid,net growth,0.0022
+Clone 10,17,Early Erythroid,Mid Erythroid,differentiation,0.0
+Clone 10,17,Mid Erythroid,Mid Erythroid,net growth,-0.0017
+Clone 10,17,Mid Erythroid,Late Erythroid,differentiation,0.0
+Clone 10,17,Late Erythroid,Late Erythroid,net growth,-0.0008
+Clone 10,17,NMP,NMP,net growth,0.0527
+Clone 10,17,Mono precur,Mono precur,net growth,-0.0773
+Clone 10,17,Mono precur,Monocyte,differentiation,0.2934
+Clone 10,17,Monocyte,Monocyte,net growth,-0.0599
+Clone 10,17,DC precursor,DC precursor,net growth,0.0594
+Clone 10,17,DC precursor,DC,differentiation,0.0
+Clone 10,17,DC,DC,net growth,-0.0033
+Clone 11,17,HSC/MPP 1,HSC/MPP 1,net growth,0.0648
+Clone 11,17,HSC/MPP 1,HSC/MPP 2,differentiation,0.0047
+Clone 11,17,HSC/MPP 1,MEMP,differentiation,0.1922
+Clone 11,17,HSC/MPP 1,DC precursor,differentiation,0.0365
+Clone 11,17,HSC/MPP 2,HSC/MPP 2,net growth,0.0043
+Clone 11,17,HSC/MPP 2,MEMP,differentiation,0.0013
+Clone 11,17,HSC/MPP 2,NMP,differentiation,0.0
+Clone 11,17,HSC/MPP 2,Mono precur,differentiation,0.0004
+Clone 11,17,HSC/MPP 2,DC precursor,differentiation,0.0033
+Clone 11,17,MEMP,MEMP,net growth,0.3004
+Clone 11,17,MEMP,Mast cell,differentiation,0.106
+Clone 11,17,MEMP,Early Erythroid,differentiation,0.0943
+Clone 11,17,Mast cell,Mast cell,net growth,-0.0087
+Clone 11,17,Early Erythroid,Early Erythroid,net growth,0.3431
+Clone 11,17,Early Erythroid,Mid Erythroid,differentiation,0.2125
+Clone 11,17,Mid Erythroid,Mid Erythroid,net growth,-0.4308
+Clone 11,17,Mid Erythroid,Late Erythroid,differentiation,0.0983
+Clone 11,17,Late Erythroid,Late Erythroid,net growth,-0.2728
+Clone 11,17,NMP,NMP,net growth,-0.0001
+Clone 11,17,Mono precur,Mono precur,net growth,-0.0095
+Clone 11,17,Mono precur,Monocyte,differentiation,0.0
+Clone 11,17,Monocyte,Monocyte,net growth,-0.0141
+Clone 11,17,DC precursor,DC precursor,net growth,0.0778
+Clone 11,17,DC precursor,DC,differentiation,0.0308
+Clone 11,17,DC,DC,net growth,-0.0001
+BG,17,HSC/MPP 1,HSC/MPP 1,net growth,0.1811
+BG,17,HSC/MPP 1,HSC/MPP 2,differentiation,0.1957
+BG,17,HSC/MPP 1,MEMP,differentiation,0.2893
+BG,17,HSC/MPP 1,DC precursor,differentiation,0.0246
+BG,17,HSC/MPP 2,HSC/MPP 2,net growth,0.2871
+BG,17,HSC/MPP 2,MEMP,differentiation,0.1108
+BG,17,HSC/MPP 2,NMP,differentiation,0.1528
+BG,17,HSC/MPP 2,Mono precur,differentiation,0.0927
+BG,17,HSC/MPP 2,DC precursor,differentiation,0.075
+BG,17,MEMP,MEMP,net growth,0.333
+BG,17,MEMP,Mast cell,differentiation,0.7824
+BG,17,MEMP,Early Erythroid,differentiation,0.0792
+BG,17,Mast cell,Mast cell,net growth,-0.0028
+BG,17,Early Erythroid,Early Erythroid,net growth,0.4186
+BG,17,Early Erythroid,Mid Erythroid,differentiation,0.5651
+BG,17,Mid Erythroid,Mid Erythroid,net growth,-0.1633
+BG,17,Mid Erythroid,Late Erythroid,differentiation,0.0948
+BG,17,Late Erythroid,Late Erythroid,net growth,-0.4279
+BG,17,NMP,NMP,net growth,0.131
+BG,17,Mono precur,Mono precur,net growth,0.2569
+BG,17,Mono precur,Monocyte,differentiation,0.2138
+BG,17,Monocyte,Monocyte,net growth,0.1838
+BG,17,DC precursor,DC precursor,net growth,0.0929
+BG,17,DC precursor,DC,differentiation,0.1243
+BG,17,DC,DC,net growth,-0.0444
