@@ -129,7 +129,7 @@ clokin organises the steps; the methods are those of the original authors.
 | step | method | reference |
 |---|---|---|
 | meta-clones (input) | clomet | github.com/loversaber/clomet |
-| 2–4 | CARTA, cell differentiation maps from lineage tracing | Sashittal et al., Raphael lab (full reference: TODO) |
+| 2–4 | CARTA, cell differentiation maps from lineage tracing | Sashittal P et al. Inferring cell differentiation maps from lineage tracing data. Nat Methods 23, 532-541 (2026). https://doi.org/10.1038/s41592-025-02903-z |
 | 5a | PAGA | Wolf et al., Genome Biology 2019 |
 | 5b | CoSpar | Wang et al., Nature Biotechnology 2022 |
 | 7–8 | CLADES | Gao, Barile et al., Nature Communications 2025 (full reference: TODO) |
